@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Year Calendar with Gold Payday</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body style="margin:0;background:#141414;">
+<canvas id="c"></canvas>
+
+<script src="data/holiday-content.js"></script>
+<script src="data/holiday-intros.js"></script>
+<script src="data/holiday-cache.js"></script>
+<script src="theme-palettes.js"></script>
+<script src="theme-motifs.js"></script>
+<script src="theme-ranking-rules.js"></script>
+<script src="theme-engine.js"></script>
+<script src="theme-selector.js"></script>
+<script src="theme-renderers.js"></script>
+<script src="motif-renderers.js"></script>
+<script src="ornament-renderers.js"></script>
+<script src="calendar-rules.js"></script>
+<script src="calendar-layout.js"></script>
+<script src="calendar-renderer.js"></script>
+<script>
+/* ================== 画布 ================== */
+const canvas = document.getElementById("c");
+const ctx = canvas.getContext("2d");
+
+const { width: WIDTH, height: HEIGHT } = YearCalendarLayout.RENDER_SURFACE;
+canvas.width = WIDTH;
+canvas.height = HEIGHT;
+
+/* ================== 日期 ================== */
+function shanghaiNow() {
+  return new Date(new Date().toLocaleString("en-US", { timeZone: "Asia/Shanghai" }));
+}
+
+function parseDateParam(value) {
+  if (!value) return shanghaiNow();
+  const match = value.match(/^(\d{4})-(\d{2})-(\d{2})$/);
+  if (!match) return shanghaiNow();
+  return new Date(Number(match[1]), Number(match[2]) - 1, Number(match[3]));
+}
+
+function parseRecentThemesParam(value) {
+  if (!value) return [];
+  try {
+    const parsed = JSON.parse(value);
+    return Array.isArray(parsed) ? parsed : [];
+  } catch {
+    return [];
+  }
+}
+
+const params = new URLSearchParams(window.location.search);
+const today = parseDateParam(params.get("date"));
+const requestedThemeRank = Math.max(0, Number(params.get("themeRank") || 0));
+const avoidMotifs = (params.get("avoidMotifs") || "")
+  .split(",")
+  .map((value) => value.trim())
+  .filter(Boolean);
+const recentThemes = parseRecentThemesParam(params.get("recentThemes"));
+
+const calendarModel = YearCalendarLayout.createYearCalendarModel(today);
+
+/* ================== 每日主题背景 ================== */
+const rankedThemes = ThemeEngine.rankDailyThemes(today, { avoidMotifs, recentThemes });
+const selectedThemeEntry = rankedThemes[Math.min(requestedThemeRank, rankedThemes.length - 1)];
+const dailyTheme = selectedThemeEntry.theme;
+window.__YEAR_CALENDAR_RENDER_INFO = {
+  date: params.get("date"),
+  selectedRank: selectedThemeEntry.rank,
+  selectedTheme: selectedThemeEntry.theme,
+  candidates: rankedThemes
+};
+drawDailyThemeBackground(ctx, dailyTheme, WIDTH, HEIGHT);
+
+/* ================== 绘制日历 ================== */
+YearCalendarRenderer.drawYearCalendar(ctx, calendarModel);
+
+/* ================== 年度进度条 ================== */
+YearCalendarRenderer.drawYearProgress(ctx, calendarModel);
+
+/* ================== 每日主题文字 ================== */
+drawThemeCaption(ctx, dailyTheme, WIDTH / 2, calendarModel.progress.barY + 116);
+
+/* ================== 导出 ================== */
+setTimeout(() => {
+  const imgURL = canvas.toDataURL("image/png");
+  document.body.innerHTML = `<img src="${imgURL}" style="width:100%;display:block;">`;
+}, 300);
+
+</script>
+</body>
+</html>

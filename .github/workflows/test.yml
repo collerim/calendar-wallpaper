@@ -1,0 +1,38 @@
+name: Test
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v6
+
+      - name: Setup Node
+        uses: actions/setup-node@v6
+        with:
+          node-version: 24
+          cache: npm
+
+      - name: Install dependencies
+        run: PUPPETEER_SKIP_DOWNLOAD=true npm ci
+
+      - name: Run tests
+        run: npm test
+
+      - name: Validate holiday content
+        run: |
+          npm run content:validate
+          npm run content:gaps:check

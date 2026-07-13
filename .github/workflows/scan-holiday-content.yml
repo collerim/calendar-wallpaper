@@ -1,0 +1,80 @@
+name: Scan Holiday Content Coverage
+
+on:
+  schedule:
+    # Every two months, shortly after the holiday data refresh.
+    - cron: "51 16 1 */2 *"
+  workflow_dispatch:
+    inputs:
+      start:
+        description: "First scan window start date, YYYY-MM-DD. Leave empty for today."
+        required: false
+        type: string
+      windows:
+        description: "Number of 90-day windows to scan."
+        required: false
+        default: "4"
+        type: string
+
+permissions:
+  contents: read
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+concurrency:
+  group: scan-holiday-content-coverage
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v6
+
+      - name: Setup Node
+        uses: actions/setup-node@v6
+        with:
+          node-version: 24
+          cache: npm
+
+      - name: Install dependencies
+        run: PUPPETEER_SKIP_DOWNLOAD=true npm ci
+
+      - name: Validate holiday content
+        run: |
+          npm test
+          npm run content:validate
+
+      - name: Scan holiday content coverage
+        run: |
+          set -o pipefail
+          start_arg=()
+          if [ -n "${{ inputs.start }}" ]; then
+            start_arg=(--start "${{ inputs.start }}")
+          fi
+          windows="${{ inputs.windows || '4' }}"
+          npm run content:scan -- "${start_arg[@]}" --windows "$windows" --days 90 --limit 80 --report-json holiday-content-coverage.json --stubs-file holiday-content-stubs.js | tee holiday-content-coverage.txt
+
+      - name: Audit cached scan coverage
+        run: |
+          npm run content:audit -- --require-openholidays-complete
+
+      - name: Collect failure diagnostics
+        if: failure()
+        run: npm run diagnostics
+
+      - name: Upload coverage report
+        if: always()
+        uses: actions/upload-artifact@v5
+        with:
+          name: holiday-content-coverage
+          path: |
+            holiday-content-coverage.txt
+            holiday-content-coverage.json
+            holiday-content-stubs.js
+            tmp/holiday-content-scan/*.js
+            debug-action
+          if-no-files-found: error

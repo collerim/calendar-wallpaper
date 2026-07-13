@@ -1,0 +1,9 @@
+.DS_Store
+node_modules/
+data/theme-history.json
+output/**
+!output/
+drafts/
+debug-render/
+debug-action/
+tmp/
