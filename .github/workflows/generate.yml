@@ -1,6 +1,15 @@
 name: Generate Daily Wallpaper
 
 on:
+  push:
+    branches:
+      - main
+    paths:
+      - "*.js"
+      - "*.html"
+      - "*.css"
+      - "*.json"
+      - ".github/workflows/generate.yml"
   schedule:
     # 中国时间 00:01 = UTC 16:01
     - cron: "1 16 * * *"
