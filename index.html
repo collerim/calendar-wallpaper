@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Daily calendar wallpapers sized for iPhone and ready for Shortcuts automation.">
+  <title>Calendar Wallpaper</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="app-header">
+    <div class="brand-block">
+      <p class="brand">Calendar Wallpaper</p>
+      <p class="tagline">A fresh year-at-a-glance wallpaper, every day.</p>
+    </div>
+    <p class="status"><span aria-hidden="true"></span> Updated daily</p>
+  </header>
+
+  <main class="workspace">
+    <section class="preview-region" aria-labelledby="preview-title">
+      <div class="section-heading">
+        <div>
+          <p class="step-label">Preview</p>
+          <h1 id="preview-title">Today's calendar</h1>
+        </div>
+        <p id="dimensions" class="dimensions">Loading sizes...</p>
+      </div>
+
+      <div id="phone-preview" class="phone-preview" aria-live="polite">
+        <img id="wallpaper-preview" alt="Today's generated calendar wallpaper">
+        <p id="preview-message" class="preview-message">Preparing today's wallpaper...</p>
+      </div>
+    </section>
+
+    <section class="controls-region" aria-labelledby="setup-title">
+      <div class="section-heading">
+        <div>
+          <p class="step-label">Setup</p>
+          <h2 id="setup-title">Choose your iPhone</h2>
+        </div>
+      </div>
+
+      <div class="control-group">
+        <label for="device-model">iPhone model</label>
+        <select id="device-model" disabled>
+          <option>Loading device list...</option>
+        </select>
+      </div>
+
+      <div class="url-section">
+        <label for="wallpaper-url">Daily wallpaper URL</label>
+        <div class="url-row">
+          <input id="wallpaper-url" type="url" readonly aria-describedby="url-note">
+          <button id="copy-url" type="button" disabled>Copy URL</button>
+        </div>
+        <p id="url-note" class="field-note">This address stays the same while the image updates each day.</p>
+      </div>
+
+      <div class="actions">
+        <a id="open-wallpaper" class="button secondary" href="#" target="_blank" rel="noopener" aria-disabled="true">Open image</a>
+        <a id="download-wallpaper" class="button primary" href="#" download aria-disabled="true">Download</a>
+      </div>
+
+      <div class="shortcut-guide">
+        <div class="section-heading compact">
+          <div>
+            <p class="step-label">Shortcuts</p>
+            <h2>Automate your wallpaper</h2>
+          </div>
+        </div>
+        <ol>
+          <li><span>1</span><p>Add <strong>Get Contents of URL</strong> and paste the URL above.</p></li>
+          <li><span>2</span><p>Add <strong>Set Wallpaper</strong> and choose your Lock Screen or Home Screen.</p></li>
+          <li><span>3</span><p>Create a daily personal automation and run this shortcut at your preferred time.</p></li>
+        </ol>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Generated automatically on GitHub.</p>
+    <a href="https://github.com/collerim/calendar-wallpaper">Source</a>
+  </footer>
+</body>
+</html>
