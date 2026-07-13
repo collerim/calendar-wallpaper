@@ -33,7 +33,7 @@ fs.writeFileSync(path.join(outputDir, "summary.json"), `${JSON.stringify(summary
 copyIfExists(path.join("data", "holiday-cache.js"), path.join(outputDir, "holiday-cache.js"));
 copyIfExists(path.join("data", "theme-history.json"), path.join(outputDir, "theme-history.json"));
 copyIfExists(path.join("output", "render-summary.json"), path.join(outputDir, "render-summary.json"));
-copyIfExists("index.html", path.join(outputDir, "index.html"));
+copyIfExists("renderer.html", path.join(outputDir, "renderer.html"));
 copyIfExists("package.json", path.join(outputDir, "package.json"));
 copyIfExists("holiday-content-coverage.txt", path.join(outputDir, "holiday-content-coverage.txt"));
 copyIfExists("holiday-content-coverage.json", path.join(outputDir, "holiday-content-coverage.json"));

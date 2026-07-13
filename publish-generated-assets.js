@@ -5,6 +5,7 @@ import { spawnSync } from "child_process";
 const ASSET_BRANCH = process.env.ASSET_BRANCH || "generated-wallpapers";
 const ASSET_WORKTREE = process.env.ASSET_WORKTREE || "../generated-wallpapers";
 const THEME_HISTORY_FILE = path.join("data", "theme-history.json");
+const SITE_FILES = ["index.html", "app.js", "styles.css", "device-presets.json", ".nojekyll"];
 
 function run(command, args, options = {}) {
   const result = spawnSync(command, args, {
@@ -89,6 +90,12 @@ function copyDirectoryContents(source, target) {
   fs.cpSync(source, target, { recursive: true, force: true });
 }
 
+function copySiteFiles() {
+  for (const file of SITE_FILES) {
+    fs.copyFileSync(file, path.join(ASSET_WORKTREE, file));
+  }
+}
+
 function removeDraftMetadata() {
   const draftRoot = path.join(ASSET_WORKTREE, "drafts");
   if (!fs.existsSync(draftRoot)) return;
@@ -116,17 +123,14 @@ function publishArchive() {
   ensureAssetWorktree();
   restoreLegacyArchiveIfNeeded();
 
+  copySiteFiles();
   copyDirectoryContents("output", path.join(ASSET_WORKTREE, "output"));
   fs.mkdirSync(path.join(ASSET_WORKTREE, "data"), { recursive: true });
   fs.copyFileSync(THEME_HISTORY_FILE, path.join(ASSET_WORKTREE, THEME_HISTORY_FILE));
   copyDirectoryContents("drafts", path.join(ASSET_WORKTREE, "drafts"));
   removeDraftMetadata();
 
-  git(["-C", ASSET_WORKTREE, "add", "-A", "output"]);
-  git(["-C", ASSET_WORKTREE, "add", "-A", THEME_HISTORY_FILE]);
-  if (fs.existsSync(path.join(ASSET_WORKTREE, "drafts"))) {
-    git(["-C", ASSET_WORKTREE, "add", "-A", "drafts"]);
-  }
+  git(["-C", ASSET_WORKTREE, "add", "-A"]);
   git(["-C", ASSET_WORKTREE, "commit", "-m", "chore: update generated wallpapers"], { allowFailure: true });
   git(["-C", ASSET_WORKTREE, "push", "origin", ASSET_BRANCH]);
 }

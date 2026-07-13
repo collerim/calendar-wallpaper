@@ -9,10 +9,13 @@ import { pathToFileURL } from "url";
 const OUTPUT_ROOT = "output";
 const DRAFT_ROOT = "drafts";
 const DATA_ROOT = "data";
+const DEVICE_PRESETS_FILE = "device-presets.json";
+const DEVICE_OUTPUT_ROOT = path.join(OUTPUT_ROOT, "devices");
+const DEVICE_MANIFEST_FILE = path.join(OUTPUT_ROOT, "devices.json");
 const THEME_HISTORY_FILE = process.env.THEME_HISTORY_FILE || path.join(DATA_ROOT, "theme-history.json");
 const TODAY_OUTPUT = path.join(OUTPUT_ROOT, "today.png");
 const RENDER_SUMMARY_FILE = path.join(OUTPUT_ROOT, "render-summary.json");
-const HTML_ENTRY = path.resolve("index.html");
+const HTML_ENTRY = path.resolve("renderer.html");
 const HTML_URL = pathToFileURL(HTML_ENTRY).href;
 const PUPPETEER_PROFILE = path.join(os.tmpdir(), "calendar-wallpaper-puppeteer-profile");
 const LOOKAHEAD_DAYS = 7;
@@ -23,7 +26,7 @@ const VIEWPORT = {
   height: 2532,
   deviceScaleFactor: 2
 };
-const EXPECTED_PNG = {
+const MASTER_PNG = {
   width: VIEWPORT.width * VIEWPORT.deviceScaleFactor,
   height: VIEWPORT.height * VIEWPORT.deviceScaleFactor,
   minBytes: 200000
@@ -200,20 +203,34 @@ function readPngSize(filePath) {
   };
 }
 
-function assertWallpaperOutput(filePath, label) {
+function assertWallpaperOutput(filePath, label, expected = MASTER_PNG) {
   if (!fs.existsSync(filePath)) {
     throw new Error(`${label} was not created: ${filePath}`);
   }
 
   const stats = fs.statSync(filePath);
-  if (stats.size < EXPECTED_PNG.minBytes) {
+  if (stats.size < expected.minBytes) {
     throw new Error(`${label} is unexpectedly small: ${stats.size} bytes`);
   }
 
   const size = readPngSize(filePath);
-  if (size.width !== EXPECTED_PNG.width || size.height !== EXPECTED_PNG.height) {
-    throw new Error(`${label} has wrong dimensions: ${size.width}x${size.height}, expected ${EXPECTED_PNG.width}x${EXPECTED_PNG.height}`);
+  if (size.width !== expected.width || size.height !== expected.height) {
+    throw new Error(`${label} has wrong dimensions: ${size.width}x${size.height}, expected ${expected.width}x${expected.height}`);
   }
+}
+
+function readDevicePresets() {
+  const data = JSON.parse(fs.readFileSync(DEVICE_PRESETS_FILE, "utf8"));
+  if (!Array.isArray(data.presets) || data.presets.length === 0) {
+    throw new Error(`${DEVICE_PRESETS_FILE} does not contain device presets`);
+  }
+
+  for (const preset of data.presets) {
+    if (preset.id !== `${preset.width}x${preset.height}` || !Array.isArray(preset.models)) {
+      throw new Error(`Invalid device preset: ${JSON.stringify(preset)}`);
+    }
+  }
+  return data.presets;
 }
 
 function assertRenderInfo(info, label) {
@@ -278,7 +295,7 @@ async function renderWallpaper(page, date, themeRank, outputPath, avoidMotifs = 
     const ctx = canvas.getContext("2d");
     ctx.drawImage(img, 0, 0, expected.width, expected.height);
     return canvas.toDataURL("image/png");
-  }, EXPECTED_PNG);
+  }, MASTER_PNG);
   const match = dataUrl.match(/^data:image\/png;base64,(.+)$/);
   if (!match) {
     throw new Error(`Rendered ${key} wallpaper did not expose a PNG data URL`);
@@ -296,6 +313,65 @@ async function renderWallpaper(page, date, themeRank, outputPath, avoidMotifs = 
     throw error;
   }
   return info;
+}
+
+async function renderDeviceVariants(page, date, presets) {
+  const outputs = [];
+  for (const preset of presets) {
+    const expected = {
+      width: preset.width,
+      height: preset.height,
+      minBytes: 50000
+    };
+    const dataUrl = await page.$eval("img", (img, target) => {
+      const canvas = document.createElement("canvas");
+      canvas.width = target.width;
+      canvas.height = target.height;
+      const ctx = canvas.getContext("2d");
+      const sourceRatio = img.naturalWidth / img.naturalHeight;
+      const targetRatio = target.width / target.height;
+      let sourceX = 0;
+      let sourceY = 0;
+      let sourceWidth = img.naturalWidth;
+      let sourceHeight = img.naturalHeight;
+
+      if (sourceRatio > targetRatio) {
+        sourceWidth = img.naturalHeight * targetRatio;
+        sourceX = (img.naturalWidth - sourceWidth) / 2;
+      } else if (sourceRatio < targetRatio) {
+        sourceHeight = img.naturalWidth / targetRatio;
+        sourceY = (img.naturalHeight - sourceHeight) / 2;
+      }
+
+      ctx.drawImage(
+        img,
+        sourceX,
+        sourceY,
+        sourceWidth,
+        sourceHeight,
+        0,
+        0,
+        target.width,
+        target.height
+      );
+      return canvas.toDataURL("image/png");
+    }, expected);
+    const match = dataUrl.match(/^data:image\/png;base64,(.+)$/);
+    if (!match) throw new Error(`Device preset ${preset.id} did not render a PNG`);
+
+    const outputPath = path.join(DEVICE_OUTPUT_ROOT, preset.id, "today.png");
+    fs.mkdirSync(path.dirname(outputPath), { recursive: true });
+    fs.writeFileSync(outputPath, Buffer.from(match[1], "base64"));
+    assertWallpaperOutput(outputPath, `${preset.id} wallpaper`, expected);
+    outputs.push({
+      id: preset.id,
+      width: preset.width,
+      height: preset.height,
+      models: preset.models,
+      path: outputPath.split(path.sep).join("/")
+    });
+  }
+  return outputs;
 }
 
 async function renderDiscardedCandidates(page, date, info, options, avoidMotifs, recentThemes) {
@@ -324,6 +400,7 @@ function isSameDate(left, right) {
 const options = parseArgs(process.argv.slice(2));
 const baseDate = getBaseDate(options);
 const dates = datesToEnsure(baseDate);
+const devicePresets = readDevicePresets();
 
 fs.mkdirSync(OUTPUT_ROOT, { recursive: true });
 fs.mkdirSync(PUPPETEER_PROFILE, { recursive: true });
@@ -343,6 +420,7 @@ const browser = await puppeteer.launch({
 
 const generated = [];
 const skipped = [];
+const deviceOutputs = [];
 const themeHistory = readThemeHistory();
 
 try {
@@ -362,6 +440,9 @@ try {
     const recentThemes = recentThemeEntriesForDate(themeHistory, date);
     const avoidMotifs = recentThemes.map((entry) => entry.motif).filter(Boolean);
     const info = await renderWallpaper(page, date, 0, archivePath, avoidMotifs, recentThemes);
+    if (isSameDate(date, baseDate)) {
+      deviceOutputs.push(...await renderDeviceVariants(page, date, devicePresets));
+    }
     await renderDiscardedCandidates(page, date, info, options, avoidMotifs, recentThemes);
     rememberTheme(themeHistory, date, info.selectedTheme);
     generated.push({
@@ -385,11 +466,18 @@ if (fs.existsSync(todayArchive)) {
 writeThemeHistory(themeHistory, baseDate);
 assertWallpaperOutput(TODAY_OUTPUT, "today wallpaper");
 
+fs.writeFileSync(DEVICE_MANIFEST_FILE, `${JSON.stringify({
+  generatedAt: new Date().toISOString(),
+  date: dateKey(baseDate),
+  devices: deviceOutputs
+}, null, 2)}\n`);
+
 const renderSummary = {
   generatedAt: new Date().toISOString(),
   baseDate: dateKey(baseDate),
   ensuredThrough: dateKey(addDays(baseDate, LOOKAHEAD_DAYS)),
   today: TODAY_OUTPUT,
+  devices: deviceOutputs,
   generated,
   skipped
 };
@@ -403,4 +491,5 @@ for (const item of generated) {
   console.log(`   -> ${item.date}: ${item.selectedTheme} / ${item.selectedMotif} (${item.discardedCount} discarded)`);
 }
 console.log(`   skipped existing: ${skipped.length}`);
+console.log(`   device sizes: ${deviceOutputs.length}`);
 console.log(`   today: ${TODAY_OUTPUT}`);
