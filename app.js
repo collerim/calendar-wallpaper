@@ -271,14 +271,22 @@ function updateSelection() {
 
 function populateDevices() {
   deviceSelect.innerHTML = "";
-  for (const preset of presets) {
-    for (const model of preset.models) {
-      const option = document.createElement("option");
-      option.value = preset.id;
-      option.textContent = model;
-      if (model === "iPhone 17 Pro") option.selected = true;
-      deviceSelect.append(option);
-    }
+  const deviceModels = presets.flatMap((preset) => (
+    preset.models.map((model) => ({ model, presetId: preset.id }))
+  ));
+  const featuredModels = ["iPhone 17 Pro Max", "iPhone 17 Pro", "iPhone Air", "iPhone 17"];
+  const modelsByName = new Map(deviceModels.map((entry) => [entry.model, entry]));
+  const orderedModels = [
+    ...featuredModels.map((model) => modelsByName.get(model)).filter(Boolean),
+    ...deviceModels.filter(({ model }) => !featuredModels.includes(model))
+  ];
+
+  for (const { model, presetId } of orderedModels) {
+    const option = document.createElement("option");
+    option.value = presetId;
+    option.textContent = model;
+    if (model === "iPhone 17 Pro") option.selected = true;
+    deviceSelect.append(option);
   }
   deviceSelect.disabled = false;
   updateSelection();
