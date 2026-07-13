@@ -226,7 +226,11 @@ function readDevicePresets() {
   }
 
   for (const preset of data.presets) {
-    if (preset.id !== `${preset.width}x${preset.height}` || !Array.isArray(preset.models)) {
+    if (
+      preset.id !== `${preset.width}x${preset.height}` ||
+      !Array.isArray(preset.models) ||
+      !["dynamic-island", "notch", "none"].includes(preset.cutout)
+    ) {
       throw new Error(`Invalid device preset: ${JSON.stringify(preset)}`);
     }
   }
@@ -367,6 +371,7 @@ async function renderDeviceVariants(page, date, presets) {
       id: preset.id,
       width: preset.width,
       height: preset.height,
+      cutout: preset.cutout,
       models: preset.models,
       path: outputPath.split(path.sep).join("/")
     });

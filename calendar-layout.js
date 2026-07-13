@@ -94,8 +94,6 @@ function createYearCalendarModel(date, options = {}) {
         const y = yStart + Math.floor(index / layout.cols) * (layout.dotSize + layout.dotGap);
         const isToday = dayCounter === dayOfYear;
         const isPast = dayCounter < dayOfYear;
-        const isPayday = YearCalendarRules.isPayday(year, monthIndex, day);
-
         daySlots.push({
           year,
           monthIndex,
@@ -106,7 +104,6 @@ function createYearCalendarModel(date, options = {}) {
           isPast,
           isToday,
           isFuture: dayCounter > dayOfYear,
-          isPayday,
           x,
           y,
           centerX: x + layout.dotSize / 2,

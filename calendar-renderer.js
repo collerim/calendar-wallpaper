@@ -6,7 +6,6 @@ const YEAR_CALENDAR_RENDER_STYLE = Object.freeze({
   pastDayColor: "#8e8e93",
   todayColor: "#ff453a",
   futureDayColor: "#2c2c2e",
-  paydayGold: "#d4af37",
   fontStack: "-apple-system"
 });
 
@@ -34,7 +33,6 @@ function drawYearCalendar(ctx, model, styleOverrides = {}) {
     ctx.fill();
 
     if (day.isToday) drawTodayRing(ctx, day, layout, style);
-    if (day.isPayday) drawPaydayGlyph(ctx, day, layout, style);
   }
 
   ctx.restore();
@@ -58,7 +56,6 @@ function drawYearProgress(ctx, model, styleOverrides = {}) {
 }
 
 function colorForDay(day, style = YEAR_CALENDAR_RENDER_STYLE) {
-  if (day.isPayday) return style.paydayGold;
   if (day.isPast) return style.pastDayColor;
   if (day.isToday) return style.todayColor;
   return style.futureDayColor;
@@ -69,23 +66,6 @@ function drawTodayRing(ctx, day, layout, style) {
   ctx.lineWidth = 2;
   ctx.beginPath();
   ctx.arc(day.centerX, day.centerY, layout.dotSize / 2 + 3, 0, Math.PI * 2);
-  ctx.stroke();
-}
-
-function drawPaydayGlyph(ctx, day, layout, style) {
-  ctx.fillStyle = style.backgroundColor;
-  ctx.font = `14px ${style.fontStack}`;
-  ctx.textAlign = "center";
-  ctx.textBaseline = "middle";
-  ctx.fillText("¥", day.centerX, day.centerY + 1);
-
-  if (!day.isPast) return;
-
-  ctx.strokeStyle = style.backgroundColor;
-  ctx.lineWidth = 2;
-  ctx.beginPath();
-  ctx.moveTo(day.x + 4, day.y + layout.dotSize - 4);
-  ctx.lineTo(day.x + layout.dotSize - 4, day.y + 4);
   ctx.stroke();
 }
 
