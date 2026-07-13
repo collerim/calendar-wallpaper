@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-13T12:58:08.452Z",
-  "baseDate": "2026-07-13",
-  "ensuredThrough": "2026-07-20",
+  "generatedAt": "2026-07-13T17:57:15.155Z",
+  "baseDate": "2026-07-14",
+  "ensuredThrough": "2026-07-21",
   "today": "output/today.png",
   "devices": [
     {
@@ -141,23 +141,6 @@
   ],
   "generated": [
     {
-      "date": "2026-07-13",
-      "output": "output/2026/2026.07/2026.07.13.png",
-      "selectedTheme": "Battle of the Boyne",
-      "selectedMotif": "wovenPattern",
-      "selectedScoreBreakdown": {
-        "basePriority": 64,
-        "popularity": 18,
-        "jitter": 2.655,
-        "motifPenalty": 0,
-        "culturalPenalty": 0,
-        "holidayFamilyPenalty": 0,
-        "colorPenalty": 0,
-        "finalScore": 84.655
-      },
-      "discardedCount": 4
-    },
-    {
       "date": "2026-07-14",
       "output": "output/2026/2026.07/2026.07.14.png",
       "selectedTheme": "National Day",
@@ -275,6 +258,23 @@
         "finalScore": -2.792
       },
       "discardedCount": 5
+    },
+    {
+      "date": "2026-07-21",
+      "output": "output/2026/2026.07/2026.07.21.png",
+      "selectedTheme": "National Day",
+      "selectedMotif": "cityParade",
+      "selectedScoreBreakdown": {
+        "basePriority": 72,
+        "popularity": 26,
+        "jitter": 5.272,
+        "motifPenalty": 24,
+        "culturalPenalty": 42,
+        "holidayFamilyPenalty": 0,
+        "colorPenalty": 42,
+        "finalScore": -4.728
+      },
+      "discardedCount": 2
     }
   ],
   "skipped": []
