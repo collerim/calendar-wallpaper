@@ -91,7 +91,8 @@ footer p {
   white-space: nowrap;
 }
 
-.status span {
+.status > span[aria-hidden="true"] {
+  flex: 0 0 auto;
   width: 8px;
   height: 8px;
   border-radius: 50%;
