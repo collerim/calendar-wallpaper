@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-13T09:55:02.375Z",
+  "generatedAt": "2026-07-13T11:43:43.560Z",
   "baseDate": "2026-07-13",
   "ensuredThrough": "2026-07-20",
   "today": "output/today.png",
@@ -8,7 +8,9 @@
       "id": "1320x2868",
       "width": 1320,
       "height": 2868,
+      "cutout": "dynamic-island",
       "models": [
+        "iPhone 17 Pro Max",
         "iPhone 16 Pro Max"
       ],
       "path": "output/devices/1320x2868/today.png"
@@ -17,15 +19,29 @@
       "id": "1206x2622",
       "width": 1206,
       "height": 2622,
+      "cutout": "dynamic-island",
       "models": [
+        "iPhone 17 Pro",
+        "iPhone 17",
         "iPhone 16 Pro"
       ],
       "path": "output/devices/1206x2622/today.png"
     },
     {
+      "id": "1260x2736",
+      "width": 1260,
+      "height": 2736,
+      "cutout": "dynamic-island",
+      "models": [
+        "iPhone Air"
+      ],
+      "path": "output/devices/1260x2736/today.png"
+    },
+    {
       "id": "1290x2796",
       "width": 1290,
       "height": 2796,
+      "cutout": "dynamic-island",
       "models": [
         "iPhone 16 Plus",
         "iPhone 15 Pro Max",
@@ -38,6 +54,7 @@
       "id": "1179x2556",
       "width": 1179,
       "height": 2556,
+      "cutout": "dynamic-island",
       "models": [
         "iPhone 16",
         "iPhone 15 Pro",
@@ -50,6 +67,7 @@
       "id": "1284x2778",
       "width": 1284,
       "height": 2778,
+      "cutout": "notch",
       "models": [
         "iPhone 14 Plus",
         "iPhone 13 Pro Max",
@@ -61,6 +79,7 @@
       "id": "1170x2532",
       "width": 1170,
       "height": 2532,
+      "cutout": "notch",
       "models": [
         "iPhone 14",
         "iPhone 13 Pro",
@@ -74,6 +93,7 @@
       "id": "1125x2436",
       "width": 1125,
       "height": 2436,
+      "cutout": "notch",
       "models": [
         "iPhone 13 mini",
         "iPhone 12 mini",
@@ -87,6 +107,7 @@
       "id": "1242x2688",
       "width": 1242,
       "height": 2688,
+      "cutout": "notch",
       "models": [
         "iPhone 11 Pro Max",
         "iPhone XS Max"
@@ -97,6 +118,7 @@
       "id": "828x1792",
       "width": 828,
       "height": 1792,
+      "cutout": "notch",
       "models": [
         "iPhone 11",
         "iPhone XR"
@@ -107,6 +129,7 @@
       "id": "750x1334",
       "width": 750,
       "height": 1334,
+      "cutout": "none",
       "models": [
         "iPhone SE (2nd or 3rd generation)",
         "iPhone 8",

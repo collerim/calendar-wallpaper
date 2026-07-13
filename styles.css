@@ -40,6 +40,26 @@ select {
   border-bottom: 1px solid var(--line);
 }
 
+.header-tools {
+  display: flex;
+  align-items: flex-end;
+  gap: 18px;
+}
+
+.language-control label {
+  margin-bottom: 4px;
+  color: var(--muted);
+  font-size: 11px;
+}
+
+.language-control select {
+  width: auto;
+  min-width: 112px;
+  min-height: 36px;
+  padding: 6px 30px 6px 9px;
+  font-size: 13px;
+}
+
 .brand,
 .tagline,
 .status,
@@ -143,8 +163,46 @@ footer p {
   overflow: hidden;
   background: #151719;
   border: 8px solid #26282b;
-  border-radius: 28px;
+  border-radius: 32px;
   box-shadow: 0 18px 38px rgb(28 31 34 / 18%);
+}
+
+.phone-preview::after {
+  content: "";
+  position: absolute;
+  z-index: 2;
+  top: 8px;
+  left: 50%;
+  background: #050505;
+  transform: translateX(-50%);
+  pointer-events: none;
+}
+
+.phone-preview[data-cutout="dynamic-island"]::after {
+  width: 27%;
+  height: 4.2%;
+  max-height: 22px;
+  border-radius: 999px;
+}
+
+.phone-preview[data-cutout="notch"] {
+  border-radius: 27px;
+}
+
+.phone-preview[data-cutout="notch"]::after {
+  top: 0;
+  width: 48%;
+  height: 5.2%;
+  max-height: 28px;
+  border-radius: 0 0 12px 12px;
+}
+
+.phone-preview[data-cutout="none"] {
+  border-radius: 18px;
+}
+
+.phone-preview[data-cutout="none"]::after {
+  display: none;
 }
 
 .phone-preview img {
@@ -329,6 +387,10 @@ footer a {
     align-items: flex-start;
   }
 
+  .header-tools {
+    align-items: flex-end;
+  }
+
   .tagline {
     max-width: 230px;
   }
@@ -356,6 +418,18 @@ footer a {
 
   .brand {
     font-size: 18px;
+  }
+
+  .header-tools {
+    gap: 10px;
+  }
+
+  .status {
+    display: none;
+  }
+
+  .language-control select {
+    min-width: 104px;
   }
 
   .tagline {
