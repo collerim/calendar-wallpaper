@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-13T17:57:15.155Z",
-  "baseDate": "2026-07-14",
-  "ensuredThrough": "2026-07-21",
+  "generatedAt": "2026-07-14T17:16:57.282Z",
+  "baseDate": "2026-07-15",
+  "ensuredThrough": "2026-07-22",
   "today": "output/today.png",
   "devices": [
     {
@@ -141,23 +141,6 @@
   ],
   "generated": [
     {
-      "date": "2026-07-14",
-      "output": "output/2026/2026.07/2026.07.14.png",
-      "selectedTheme": "National Day",
-      "selectedMotif": "cityParade",
-      "selectedScoreBreakdown": {
-        "basePriority": 78,
-        "popularity": 30,
-        "jitter": 1.872,
-        "motifPenalty": 0,
-        "culturalPenalty": 18,
-        "holidayFamilyPenalty": 0,
-        "colorPenalty": 34,
-        "finalScore": 57.872
-      },
-      "discardedCount": 8
-    },
-    {
       "date": "2026-07-15",
       "output": "output/2026/2026.07/2026.07.15.png",
       "selectedTheme": "Democracy and National Unity Day",
@@ -275,6 +258,23 @@
         "finalScore": -4.728
       },
       "discardedCount": 2
+    },
+    {
+      "date": "2026-07-22",
+      "output": "output/2026/2026.07/2026.07.22.png",
+      "selectedTheme": "Revolution Day",
+      "selectedMotif": "wovenPattern",
+      "selectedScoreBreakdown": {
+        "basePriority": 65,
+        "popularity": 14,
+        "jitter": 3.059,
+        "motifPenalty": 7,
+        "culturalPenalty": 42,
+        "holidayFamilyPenalty": 0,
+        "colorPenalty": 42,
+        "finalScore": -8.941
+      },
+      "discardedCount": 1
     }
   ],
   "skipped": []
