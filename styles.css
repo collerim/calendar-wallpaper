@@ -227,9 +227,8 @@ footer p {
 
 .phone-preview {
   position: relative;
-  width: auto;
-  height: clamp(500px, 64vh, 680px);
-  max-width: 100%;
+  width: min(294px, 100%);
+  height: auto;
   aspect-ratio: var(--preview-ratio, 1170 / 2532);
   margin: 22px auto 0;
   overflow: hidden;
@@ -272,7 +271,7 @@ footer p {
 }
 
 .phone-preview[data-cutout="none"] {
-  border-radius: 20px;
+  border-radius: 8px;
 }
 
 .phone-preview[data-cutout="none"]::after {
@@ -577,7 +576,8 @@ footer a {
   }
 
   .phone-preview {
-    height: min(52vh, 460px);
+    width: min(47.2vw, 212px);
+    height: auto;
   }
 
   .lock-time {
@@ -632,7 +632,8 @@ footer a {
   }
 
   .phone-preview {
-    height: min(48vh, 400px);
+    width: min(47.2vw, 184px);
+    height: auto;
     margin-top: 16px;
     border-width: 7px;
     border-radius: 30px;
