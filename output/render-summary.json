@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-15T09:58:24.926Z",
-  "baseDate": "2026-07-15",
-  "ensuredThrough": "2026-07-22",
+  "generatedAt": "2026-07-15T17:20:09.829Z",
+  "baseDate": "2026-07-16",
+  "ensuredThrough": "2026-07-23",
   "today": "output/today.png",
   "devices": [
     {
@@ -137,23 +137,6 @@
   ],
   "generated": [
     {
-      "date": "2026-07-15",
-      "output": "output/2026/2026.07/2026.07.15.png",
-      "selectedTheme": "Democracy and National Unity Day",
-      "selectedMotif": "sportsMedals",
-      "selectedScoreBreakdown": {
-        "basePriority": 69,
-        "popularity": 26,
-        "jitter": 0.389,
-        "motifPenalty": 0,
-        "culturalPenalty": 33,
-        "holidayFamilyPenalty": 0,
-        "colorPenalty": 42,
-        "finalScore": 20.389
-      },
-      "discardedCount": 3
-    },
-    {
       "date": "2026-07-16",
       "output": "output/2026/2026.07/2026.07.16.png",
       "selectedTheme": "Our Lady of Mount Carmel",
@@ -269,6 +252,23 @@
         "holidayFamilyPenalty": 0,
         "colorPenalty": 42,
         "finalScore": -8.941
+      },
+      "discardedCount": 1
+    },
+    {
+      "date": "2026-07-23",
+      "output": "output/2026/2026.07/2026.07.23.png",
+      "selectedTheme": "Remembrance Day",
+      "selectedMotif": "doveGarland",
+      "selectedScoreBreakdown": {
+        "basePriority": 67,
+        "popularity": 14,
+        "jitter": 2.487,
+        "motifPenalty": 0,
+        "culturalPenalty": 42,
+        "holidayFamilyPenalty": 8,
+        "colorPenalty": 42,
+        "finalScore": -8.513
       },
       "discardedCount": 1
     }
