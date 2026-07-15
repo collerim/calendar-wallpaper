@@ -225,6 +225,62 @@ footer p {
   box-shadow: 0 1px 2px rgb(0 0 0 / 28%);
 }
 
+.lock-controls-toggle {
+  width: fit-content;
+  margin: 10px auto 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 650;
+  cursor: pointer;
+}
+
+.lock-controls-toggle[hidden] {
+  display: none;
+}
+
+.lock-controls-toggle input {
+  position: relative;
+  flex: 0 0 auto;
+  width: 32px;
+  min-height: 18px;
+  height: 18px;
+  padding: 0;
+  appearance: none;
+  background: #303034;
+  border: 1px solid #55545a;
+  border-radius: 999px;
+  cursor: pointer;
+}
+
+.lock-controls-toggle input::before {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 12px;
+  height: 12px;
+  background: #b5b2b7;
+  border-radius: 50%;
+  transition: transform 160ms ease, background 160ms ease;
+}
+
+.lock-controls-toggle input:checked {
+  background: var(--accent);
+  border-color: var(--accent);
+}
+
+.lock-controls-toggle input:checked::before {
+  background: #171719;
+  transform: translateX(14px);
+}
+
+.lock-controls-toggle input:disabled + span {
+  opacity: 0.5;
+}
+
 .phone-preview {
   position: relative;
   width: min(294px, 100%);
@@ -359,6 +415,90 @@ footer p {
 
 .phone-preview.is-lockscreen .lockscreen-overlay {
   opacity: 1;
+}
+
+.lockscreen-controls {
+  position: absolute;
+  z-index: 3;
+  bottom: 2.8%;
+  left: 50%;
+  width: 78%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  opacity: 0;
+  transform: translateX(-50%);
+  transition: opacity 180ms ease;
+  pointer-events: none;
+}
+
+.phone-preview.is-lockscreen.show-lock-controls:not([data-cutout="none"]) .lockscreen-controls {
+  opacity: 1;
+}
+
+.lockscreen-control {
+  width: 14%;
+  max-width: 38px;
+  aspect-ratio: 1;
+  display: grid;
+  place-items: center;
+  color: rgb(247 247 248 / 88%);
+  background: rgb(28 28 30 / 58%);
+  border: 1px solid rgb(255 255 255 / 8%);
+  border-radius: 50%;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 20%);
+  backdrop-filter: blur(8px);
+}
+
+.flashlight-icon {
+  position: relative;
+  width: 22%;
+  height: 34%;
+  border: 1.5px solid currentColor;
+  border-radius: 1px 1px 3px 3px;
+  transform: rotate(180deg);
+}
+
+.flashlight-icon::before {
+  content: "";
+  position: absolute;
+  top: -34%;
+  left: -32%;
+  width: 164%;
+  height: 34%;
+  background: currentColor;
+  clip-path: polygon(18% 0, 82% 0, 100% 100%, 0 100%);
+}
+
+.camera-icon {
+  position: relative;
+  width: 42%;
+  aspect-ratio: 1.35;
+  border: 1.5px solid currentColor;
+  border-radius: 2px;
+}
+
+.camera-icon::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 36%;
+  aspect-ratio: 1;
+  border: 1.5px solid currentColor;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.camera-icon::after {
+  content: "";
+  position: absolute;
+  top: -22%;
+  left: 18%;
+  width: 34%;
+  height: 22%;
+  background: currentColor;
+  border-radius: 1px 1px 0 0;
 }
 
 .lock-date {

@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta id="meta-description" name="description" content="Daily calendar wallpapers sized for iPhone and ready for Shortcuts automation.">
   <title>Calendar Wallpaper</title>
-  <link rel="stylesheet" href="styles.css?v=20260715-3">
-  <script src="app.js?v=20260715-2" defer></script>
+  <link rel="stylesheet" href="styles.css?v=20260715-4">
+  <script src="app.js?v=20260715-3" defer></script>
 </head>
 <body>
   <header class="app-header">
@@ -42,15 +42,24 @@
 
         <div class="preview-mode" role="group" aria-label="Preview mode" data-i18n-aria-label="previewMode">
           <button class="preview-mode-button" type="button" data-preview-mode="wallpaper" aria-pressed="false" data-i18n="wallpaperOnly">Wallpaper</button>
-          <button class="preview-mode-button is-active" type="button" data-preview-mode="lockscreen" aria-pressed="true" data-i18n="lockScreen">Lock Screen</button>
+          <button class="preview-mode-button is-active" type="button" data-preview-mode="lockscreen" aria-pressed="true" data-i18n="lockScreen">Lock Screen Preview</button>
         </div>
 
-        <div id="phone-preview" class="phone-preview is-lockscreen" aria-live="polite">
+        <label class="lock-controls-toggle" for="lock-controls-toggle">
+          <input id="lock-controls-toggle" type="checkbox" role="switch" checked>
+          <span data-i18n="showLockControls">Show bottom controls</span>
+        </label>
+
+        <div id="phone-preview" class="phone-preview is-lockscreen show-lock-controls" aria-live="polite">
           <div class="phone-screen">
             <img id="wallpaper-preview" alt="Today's generated calendar wallpaper">
             <div class="lockscreen-overlay" aria-hidden="true">
               <p id="lock-date" class="lock-date"></p>
               <p id="lock-time" class="lock-time"></p>
+            </div>
+            <div class="lockscreen-controls" aria-hidden="true">
+              <span class="lockscreen-control"><span class="flashlight-icon"></span></span>
+              <span class="lockscreen-control"><span class="camera-icon"></span></span>
             </div>
             <p id="preview-message" class="preview-message">Preparing today's wallpaper...</p>
           </div>

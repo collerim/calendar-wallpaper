@@ -9,7 +9,8 @@ const translations = {
     previewTitle: "Today's calendar",
     previewMode: "Preview mode",
     wallpaperOnly: "Wallpaper",
-    lockScreen: "Lock Screen",
+    lockScreen: "Lock Screen Preview",
+    showLockControls: "Show bottom controls",
     setupLabel: "Setup",
     setupTitle: "Set up your wallpaper",
     chooseDeviceTitle: "Choose your iPhone",
@@ -53,7 +54,8 @@ const translations = {
     previewTitle: "今日壁纸",
     previewMode: "预览模式",
     wallpaperOnly: "壁纸原图",
-    lockScreen: "锁屏效果",
+    lockScreen: "锁屏效果预览",
+    showLockControls: "显示底部快捷按钮",
     setupLabel: "设置",
     setupTitle: "设置你的壁纸",
     chooseDeviceTitle: "选择你的 iPhone",
@@ -97,7 +99,8 @@ const translations = {
     previewTitle: "今日桌布",
     previewMode: "預覽模式",
     wallpaperOnly: "桌布原圖",
-    lockScreen: "鎖定畫面",
+    lockScreen: "鎖定畫面效果預覽",
+    showLockControls: "顯示底部快捷按鈕",
     setupLabel: "設定",
     setupTitle: "設定你的桌布",
     chooseDeviceTitle: "選擇你的 iPhone",
@@ -141,7 +144,8 @@ const translations = {
     previewTitle: "今日のカレンダー",
     previewMode: "プレビューモード",
     wallpaperOnly: "壁紙",
-    lockScreen: "ロック画面",
+    lockScreen: "ロック画面プレビュー",
+    showLockControls: "下部のショートカットを表示",
     setupLabel: "設定",
     setupTitle: "壁紙を設定",
     chooseDeviceTitle: "iPhone を選択",
@@ -185,7 +189,8 @@ const translations = {
     previewTitle: "Calendario de hoy",
     previewMode: "Modo de vista previa",
     wallpaperOnly: "Fondo",
-    lockScreen: "Pantalla bloqueada",
+    lockScreen: "Vista de pantalla bloqueada",
+    showLockControls: "Mostrar controles inferiores",
     setupLabel: "Configuración",
     setupTitle: "Configura tu fondo",
     chooseDeviceTitle: "Elige tu iPhone",
@@ -229,6 +234,8 @@ const previewFrame = document.querySelector("#phone-preview");
 const previewImage = document.querySelector("#wallpaper-preview");
 const previewMessage = document.querySelector("#preview-message");
 const previewModeButtons = document.querySelectorAll("[data-preview-mode]");
+const lockControlsToggle = document.querySelector("#lock-controls-toggle");
+const lockControlsToggleLabel = document.querySelector(".lock-controls-toggle");
 const lockDate = document.querySelector("#lock-date");
 const lockTime = document.querySelector("#lock-time");
 const urlInput = document.querySelector("#wallpaper-url");
@@ -350,6 +357,7 @@ function updateSelection() {
   updateDeviceMeta(preset);
   previewFrame.style.setProperty("--preview-ratio", `${preset.width} / ${preset.height}`);
   previewFrame.dataset.cutout = preset.cutout;
+  syncLockControls();
   previewImage.classList.remove("is-ready");
   previewMessage.hidden = false;
   setPreviewMessage("loadingWallpaper");
@@ -359,6 +367,18 @@ function updateSelection() {
   enableLink(openLink, stableUrl);
   enableLink(downloadLink, stableUrl);
   downloadLink.download = `calendar-wallpaper-${preset.id}.png`;
+}
+
+function syncLockControls() {
+  const preset = selectedPreset();
+  const supportsBottomControls = preset?.cutout !== "none";
+  const isLockScreen = previewFrame.classList.contains("is-lockscreen");
+  lockControlsToggleLabel.hidden = !supportsBottomControls;
+  lockControlsToggle.disabled = !isLockScreen;
+  previewFrame.classList.toggle(
+    "show-lock-controls",
+    supportsBottomControls && isLockScreen && lockControlsToggle.checked
+  );
 }
 
 function populateDevices() {
@@ -429,8 +449,11 @@ for (const button of previewModeButtons) {
       modeButton.classList.toggle("is-active", isActive);
       modeButton.setAttribute("aria-pressed", String(isActive));
     }
+    syncLockControls();
   });
 }
+
+lockControlsToggle.addEventListener("change", syncLockControls);
 
 languageSelect.addEventListener("change", () => {
   locale = languageSelect.value;
