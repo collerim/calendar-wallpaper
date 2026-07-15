@@ -4,6 +4,9 @@ A public GitHub Pages site that serves a fresh calendar wallpaper every day.
 Visitors choose their iPhone model, preview the correctly sized image, and copy
 a stable URL for use in Shortcuts automation.
 
+The supported automation flow requires iOS 16.2 or later. The device list only
+includes iPhones that can run that version.
+
 The generator publishes twelve output resolutions covering iPhone X through
 the iPhone 17 family, including iPhone Air. Models with the same screen
 resolution share one generated image.

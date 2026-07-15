@@ -271,11 +271,60 @@ footer p {
 }
 
 .phone-preview[data-cutout="none"] {
-  border-radius: 8px;
+  aspect-ratio: 67.3 / 138.4;
+  background: #1c1c1f;
+  border-width: 5px;
+  border-radius: 32px;
+}
+
+.phone-preview[data-cutout="none"]::before {
+  content: "";
+  position: absolute;
+  z-index: 5;
+  top: 5.8%;
+  left: 50%;
+  width: 17%;
+  height: 4px;
+  background: #070708;
+  border-radius: 999px;
+  transform: translateX(-50%);
+  pointer-events: none;
 }
 
 .phone-preview[data-cutout="none"]::after {
-  display: none;
+  top: auto;
+  bottom: 4.2%;
+  width: 10.5%;
+  height: auto;
+  aspect-ratio: 1;
+  display: block;
+  background: #171719;
+  border: 1px solid #5a5a5f;
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 2px #202023;
+}
+
+.phone-screen {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  background: #09090a;
+  border-radius: 30px;
+}
+
+.phone-preview[data-cutout="notch"] .phone-screen {
+  border-radius: 24px;
+}
+
+.phone-preview[data-cutout="none"] .phone-screen {
+  inset: auto;
+  top: 50%;
+  left: 50%;
+  width: 88%;
+  aspect-ratio: var(--preview-ratio, 750 / 1334);
+  border-radius: 1px;
+  box-shadow: 0 0 0 1px #080809;
+  transform: translate(-50%, -50%);
 }
 
 .phone-preview img {

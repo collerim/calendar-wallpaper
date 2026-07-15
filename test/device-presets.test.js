@@ -37,13 +37,11 @@ const expectedResolutionByModel = new Map(Object.entries({
   "iPhone 11": "828x1792",
   "iPhone XR": "828x1792",
   "iPhone SE (2nd or 3rd generation)": "750x1334",
-  "iPhone 8": "750x1334",
-  "iPhone 7": "750x1334",
-  "iPhone 6s": "750x1334"
+  "iPhone 8": "750x1334"
 }));
 
 test("device presets cover unique output sizes and model names", () => {
-  assert.equal(config.version, 3);
+  assert.equal(config.version, 4);
   assert.equal(config.presets.length, 12);
 
   const ids = new Set();
@@ -66,5 +64,7 @@ test("device presets cover unique output sizes and model names", () => {
   }
 
   assert.deepEqual(models, new Set(expectedResolutionByModel.keys()));
+  assert.equal(models.has("iPhone 7"), false);
+  assert.equal(models.has("iPhone 6s"), false);
   assert.equal(ids.has("1080x2340"), true);
 });
