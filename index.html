@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta id="meta-description" name="description" content="Daily calendar wallpapers sized for iPhone and ready for Shortcuts automation.">
   <title>Calendar Wallpaper</title>
-  <link rel="stylesheet" href="styles.css?v=20260713-2">
-  <script src="app.js?v=20260713-2" defer></script>
+  <link rel="stylesheet" href="styles.css?v=20260715-1">
+  <script src="app.js?v=20260715-1" defer></script>
 </head>
 <body>
   <header class="app-header">
@@ -31,17 +31,28 @@
 
   <main class="workspace">
     <section class="preview-region" aria-labelledby="preview-title">
-      <div class="section-heading">
-        <div>
-          <p class="step-label" data-i18n="previewLabel">Preview</p>
-          <h1 id="preview-title" data-i18n="previewTitle">Today's calendar</h1>
+      <div class="preview-sticky">
+        <div class="section-heading preview-heading">
+          <div>
+            <p class="step-label" data-i18n="previewLabel">Preview</p>
+            <h1 id="preview-title" data-i18n="previewTitle">Today's calendar</h1>
+          </div>
+          <p id="dimensions" class="dimensions">Loading sizes...</p>
         </div>
-        <p id="dimensions" class="dimensions">Loading sizes...</p>
-      </div>
 
-      <div id="phone-preview" class="phone-preview" aria-live="polite">
-        <img id="wallpaper-preview" alt="Today's generated calendar wallpaper">
-        <p id="preview-message" class="preview-message">Preparing today's wallpaper...</p>
+        <div class="preview-mode" role="group" aria-label="Preview mode" data-i18n-aria-label="previewMode">
+          <button class="preview-mode-button" type="button" data-preview-mode="wallpaper" aria-pressed="false" data-i18n="wallpaperOnly">Wallpaper</button>
+          <button class="preview-mode-button is-active" type="button" data-preview-mode="lockscreen" aria-pressed="true" data-i18n="lockScreen">Lock Screen</button>
+        </div>
+
+        <div id="phone-preview" class="phone-preview is-lockscreen" aria-live="polite">
+          <img id="wallpaper-preview" alt="Today's generated calendar wallpaper">
+          <div class="lockscreen-overlay" aria-hidden="true">
+            <p id="lock-date" class="lock-date"></p>
+            <p id="lock-time" class="lock-time"></p>
+          </div>
+          <p id="preview-message" class="preview-message">Preparing today's wallpaper...</p>
+        </div>
       </div>
     </section>
 
@@ -49,43 +60,63 @@
       <div class="section-heading">
         <div>
           <p class="step-label" data-i18n="setupLabel">Setup</p>
-          <h2 id="setup-title" data-i18n="setupTitle">Choose your iPhone</h2>
+          <h2 id="setup-title" data-i18n="setupTitle">Set up your wallpaper</h2>
         </div>
       </div>
 
-      <div class="control-group">
-        <label for="device-model" data-i18n="deviceModel">iPhone model</label>
-        <select id="device-model" disabled>
-          <option data-i18n="loadingDevices">Loading device list...</option>
-        </select>
-      </div>
-
-      <div class="url-section">
-        <label for="wallpaper-url" data-i18n="wallpaperUrl">Daily wallpaper URL</label>
-        <div class="url-row">
-          <input id="wallpaper-url" type="url" readonly aria-describedby="url-note">
-          <button id="copy-url" type="button" disabled data-i18n="copyUrl">Copy URL</button>
-        </div>
-        <p id="url-note" class="field-note" data-i18n="urlNote">This address stays the same while the image updates each day.</p>
-      </div>
-
-      <div class="actions">
-        <a id="open-wallpaper" class="button secondary" href="#" target="_blank" rel="noopener" aria-disabled="true" data-i18n="openImage">Open image</a>
-        <a id="download-wallpaper" class="button primary" href="#" download aria-disabled="true" data-i18n="download">Download</a>
-      </div>
-
-      <div class="shortcut-guide">
-        <div class="section-heading compact">
+      <div class="setup-step control-group">
+        <div class="step-heading">
+          <span class="step-number">1</span>
           <div>
-            <p class="step-label" data-i18n="shortcutsLabel">Shortcuts</p>
-            <h2 data-i18n="shortcutsTitle">Automate your wallpaper</h2>
+            <h3 data-i18n="chooseDeviceTitle">Choose your iPhone</h3>
+            <p id="selected-device-meta" class="step-meta"></p>
           </div>
         </div>
-        <ol>
-          <li><span>1</span><p data-i18n-html="shortcutStep1">Add <strong>Get Contents of URL</strong> and paste the URL above.</p></li>
-          <li><span>2</span><p data-i18n-html="shortcutStep2">Add <strong>Set Wallpaper</strong> and choose your Lock Screen or Home Screen.</p></li>
-          <li><span>3</span><p data-i18n-html="shortcutStep3">Create a daily personal automation and run this shortcut at your preferred time.</p></li>
-        </ol>
+        <div class="step-content">
+          <label for="device-model" data-i18n="deviceModel">iPhone model</label>
+          <select id="device-model" disabled>
+            <option data-i18n="loadingDevices">Loading device list...</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="setup-step url-section">
+        <div class="step-heading">
+          <span class="step-number">2</span>
+          <h3 data-i18n="getWallpaperTitle">Get your wallpaper</h3>
+        </div>
+        <div class="step-content">
+          <label for="wallpaper-url" data-i18n="wallpaperUrl">Daily wallpaper URL</label>
+          <div class="url-row">
+            <input id="wallpaper-url" type="url" readonly aria-describedby="url-note">
+            <button id="copy-url" type="button" disabled data-i18n="copyUrl">Copy URL</button>
+          </div>
+          <p id="url-note" class="field-note" data-i18n="urlNote">This address stays the same while the image updates each day.</p>
+          <div class="actions">
+            <a id="open-wallpaper" class="button secondary" href="#" target="_blank" rel="noopener" aria-disabled="true" data-i18n="openImage">Open image</a>
+            <a id="download-wallpaper" class="button primary" href="#" download aria-disabled="true" data-i18n="download">Download</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="setup-step shortcut-guide">
+        <div class="step-heading">
+          <span class="step-number">3</span>
+          <div>
+            <h3 data-i18n="shortcutsTitle">Automate your wallpaper</h3>
+            <p class="step-meta" data-i18n="shortcutsMeta">Use the same URL in a daily automation.</p>
+          </div>
+        </div>
+        <div class="step-content">
+          <details>
+            <summary data-i18n="showInstructions">View Shortcuts instructions</summary>
+            <ol>
+              <li><span>1</span><p data-i18n-html="shortcutStep1">Add <strong>Get Contents of URL</strong> and paste the URL above.</p></li>
+              <li><span>2</span><p data-i18n-html="shortcutStep2">Add <strong>Set Wallpaper</strong> and choose your Lock Screen or Home Screen.</p></li>
+              <li><span>3</span><p data-i18n-html="shortcutStep3">Create a daily personal automation and run this shortcut at your preferred time.</p></li>
+            </ol>
+          </details>
+        </div>
       </div>
     </section>
   </main>
