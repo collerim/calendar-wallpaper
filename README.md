@@ -4,7 +4,7 @@ A public GitHub Pages site that serves a fresh calendar wallpaper every day.
 Visitors choose their iPhone model, preview the correctly sized image, and copy
 a stable URL for use in Shortcuts automation.
 
-The generator publishes eleven output resolutions covering iPhone X through
+The generator publishes twelve output resolutions covering iPhone X through
 the iPhone 17 family, including iPhone Air. Models with the same screen
 resolution share one generated image.
 
