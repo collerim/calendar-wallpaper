@@ -124,6 +124,7 @@ function publishArchive() {
   restoreLegacyArchiveIfNeeded();
 
   copySiteFiles();
+  fs.rmSync(path.join(ASSET_WORKTREE, "output", "devices"), { recursive: true, force: true });
   copyDirectoryContents("output", path.join(ASSET_WORKTREE, "output"));
   fs.mkdirSync(path.join(ASSET_WORKTREE, "data"), { recursive: true });
   fs.copyFileSync(THEME_HISTORY_FILE, path.join(ASSET_WORKTREE, THEME_HISTORY_FILE));
