@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta id="meta-description" name="description" content="Daily calendar wallpapers sized for iPhone and ready for Shortcuts automation.">
   <title>Calendar Wallpaper</title>
-  <link rel="stylesheet" href="styles.css?v=20260715-2">
-  <script src="app.js?v=20260715-1" defer></script>
+  <link rel="stylesheet" href="styles.css?v=20260715-3">
+  <script src="app.js?v=20260715-2" defer></script>
 </head>
 <body>
   <header class="app-header">
@@ -46,12 +46,14 @@
         </div>
 
         <div id="phone-preview" class="phone-preview is-lockscreen" aria-live="polite">
-          <img id="wallpaper-preview" alt="Today's generated calendar wallpaper">
-          <div class="lockscreen-overlay" aria-hidden="true">
-            <p id="lock-date" class="lock-date"></p>
-            <p id="lock-time" class="lock-time"></p>
+          <div class="phone-screen">
+            <img id="wallpaper-preview" alt="Today's generated calendar wallpaper">
+            <div class="lockscreen-overlay" aria-hidden="true">
+              <p id="lock-date" class="lock-date"></p>
+              <p id="lock-time" class="lock-time"></p>
+            </div>
+            <p id="preview-message" class="preview-message">Preparing today's wallpaper...</p>
           </div>
-          <p id="preview-message" class="preview-message">Preparing today's wallpaper...</p>
         </div>
       </div>
     </section>
@@ -104,7 +106,7 @@
           <span class="step-number">3</span>
           <div>
             <h3 data-i18n="shortcutsTitle">Automate your wallpaper</h3>
-            <p class="step-meta" data-i18n="shortcutsMeta">Use the same URL in a daily automation.</p>
+            <p class="step-meta" data-i18n="shortcutsMeta">Requires iOS 16.2 or later. Use the same URL in a daily automation.</p>
           </div>
         </div>
         <div class="step-content">

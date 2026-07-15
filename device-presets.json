@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "presets": [
     {
       "id": "1320x2868",
@@ -83,7 +83,7 @@
       "width": 750,
       "height": 1334,
       "cutout": "none",
-      "models": ["iPhone SE (2nd or 3rd generation)", "iPhone 8", "iPhone 7", "iPhone 6s"]
+      "models": ["iPhone SE (2nd or 3rd generation)", "iPhone 8"]
     }
   ]
 }
