@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T09:19:04.675Z",
+  "generatedAt": "2026-07-15T09:40:00.776Z",
   "baseDate": "2026-07-15",
   "ensuredThrough": "2026-07-22",
   "today": "output/today.png",
@@ -133,17 +133,6 @@
         "iPhone XR"
       ],
       "path": "output/devices/828x1792/today.png"
-    },
-    {
-      "id": "750x1334",
-      "width": 750,
-      "height": 1334,
-      "cutout": "none",
-      "models": [
-        "iPhone SE (2nd or 3rd generation)",
-        "iPhone 8"
-      ],
-      "path": "output/devices/750x1334/today.png"
     }
   ],
   "generated": [

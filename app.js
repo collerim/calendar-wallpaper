@@ -41,8 +41,7 @@ const translations = {
     deviceLoadError: "The device list could not be loaded. Please refresh the page.",
     earlierModels: "Earlier models",
     dynamicIsland: "Dynamic Island",
-    notch: "Notch",
-    noCutout: "No display cutout"
+    notch: "Notch"
   },
   "zh-Hans": {
     pageTitle: "日历壁纸",
@@ -86,8 +85,7 @@ const translations = {
     deviceLoadError: "无法加载机型列表，请刷新页面。",
     earlierModels: "更早机型",
     dynamicIsland: "灵动岛",
-    notch: "刘海",
-    noCutout: "无屏幕开孔"
+    notch: "刘海"
   },
   "zh-Hant": {
     pageTitle: "日曆桌布",
@@ -131,8 +129,7 @@ const translations = {
     deviceLoadError: "無法載入機型清單，請重新整理頁面。",
     earlierModels: "較早機型",
     dynamicIsland: "動態島",
-    notch: "瀏海",
-    noCutout: "無螢幕開孔"
+    notch: "瀏海"
   },
   ja: {
     pageTitle: "カレンダー壁紙",
@@ -176,8 +173,7 @@ const translations = {
     deviceLoadError: "モデル一覧を読み込めませんでした。ページを再読み込みしてください。",
     earlierModels: "以前のモデル",
     dynamicIsland: "Dynamic Island",
-    notch: "ノッチ",
-    noCutout: "画面上部の切り欠きなし"
+    notch: "ノッチ"
   },
   es: {
     pageTitle: "Fondo de calendario",
@@ -221,8 +217,7 @@ const translations = {
     deviceLoadError: "No se pudo cargar la lista de modelos. Actualiza la página.",
     earlierModels: "Modelos anteriores",
     dynamicIsland: "Dynamic Island",
-    notch: "Notch",
-    noCutout: "Sin recorte de pantalla"
+    notch: "Notch"
   }
 };
 
@@ -235,7 +230,6 @@ const previewImage = document.querySelector("#wallpaper-preview");
 const previewMessage = document.querySelector("#preview-message");
 const previewModeButtons = document.querySelectorAll("[data-preview-mode]");
 const lockControlsToggle = document.querySelector("#lock-controls-toggle");
-const lockControlsToggleLabel = document.querySelector(".lock-controls-toggle");
 const lockDate = document.querySelector("#lock-date");
 const lockTime = document.querySelector("#lock-time");
 const urlInput = document.querySelector("#wallpaper-url");
@@ -333,8 +327,7 @@ function selectedPreset() {
 
 function cutoutLabel(cutout) {
   if (cutout === "dynamic-island") return text("dynamicIsland");
-  if (cutout === "notch") return text("notch");
-  return text("noCutout");
+  return text("notch");
 }
 
 function updateDeviceMeta(preset) {
@@ -370,14 +363,11 @@ function updateSelection() {
 }
 
 function syncLockControls() {
-  const preset = selectedPreset();
-  const supportsBottomControls = preset?.cutout !== "none";
   const isLockScreen = previewFrame.classList.contains("is-lockscreen");
-  lockControlsToggleLabel.hidden = !supportsBottomControls;
   lockControlsToggle.disabled = !isLockScreen;
   previewFrame.classList.toggle(
     "show-lock-controls",
-    supportsBottomControls && isLockScreen && lockControlsToggle.checked
+    isLockScreen && lockControlsToggle.checked
   );
 }
 

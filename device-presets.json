@@ -1,5 +1,5 @@
 {
-  "version": 4,
+  "version": 5,
   "presets": [
     {
       "id": "1320x2868",
@@ -77,13 +77,6 @@
       "height": 1792,
       "cutout": "notch",
       "models": ["iPhone 11", "iPhone XR"]
-    },
-    {
-      "id": "750x1334",
-      "width": 750,
-      "height": 1334,
-      "cutout": "none",
-      "models": ["iPhone SE (2nd or 3rd generation)", "iPhone 8"]
     }
   ]
 }
