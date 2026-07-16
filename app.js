@@ -4,7 +4,13 @@ const translations = {
     description: "Daily calendar wallpapers sized for iPhone and ready for Shortcuts automation.",
     tagline: "A fresh year-at-a-glance wallpaper, every day.",
     language: "Language",
-    updatedDaily: "Updated daily",
+    mobileWorkspace: "Wallpaper workspace",
+    mobilePreview: "Preview",
+    mobileSetup: "Setup",
+    statusChecking: "Checking today's wallpaper...",
+    statusFresh: "Today's wallpaper · {date} {time} updated",
+    statusStale: "Today isn't ready · showing {date}",
+    statusUnavailable: "Update status unavailable",
     previewLabel: "Preview",
     previewTitle: "Today's calendar",
     previewMode: "Preview mode",
@@ -23,7 +29,6 @@ const translations = {
     urlNote: "This address stays the same while the image updates each day.",
     openImage: "Open image",
     download: "Download",
-    shortcutsLabel: "Shortcuts",
     shortcutsTitle: "Automate your wallpaper",
     shortcutsMeta: "Requires iOS 16.2 or later. Use the same URL in a daily automation.",
     showInstructions: "View Shortcuts instructions",
@@ -35,7 +40,11 @@ const translations = {
     previewAlt: "Today's generated calendar wallpaper",
     preparing: "Preparing today's wallpaper...",
     loadingWallpaper: "Loading today's wallpaper...",
-    wallpaperPending: "Today's wallpaper is still being generated. Please try again shortly.",
+    wallpaperLoadError: "The wallpaper could not be loaded.",
+    retryWallpaper: "Reload",
+    staleWallpaperNotice: "Today's wallpaper is still being generated. Showing the wallpaper from {date}.",
+    statusUnknownNotice: "The wallpaper date could not be verified. The image may not be today's.",
+    copyManual: "Copy failed. The URL is selected so you can copy it manually.",
     devicesUnavailable: "Device list unavailable",
     unavailable: "Unavailable",
     deviceLoadError: "The device list could not be loaded. Please refresh the page.",
@@ -48,7 +57,13 @@ const translations = {
     description: "每天自动更新、适配不同 iPhone 尺寸并可用于快捷指令的日历壁纸。",
     tagline: "每天一张全新年度日历壁纸。",
     language: "语言",
-    updatedDaily: "每日更新",
+    mobileWorkspace: "壁纸工作区",
+    mobilePreview: "预览",
+    mobileSetup: "设置",
+    statusChecking: "正在检查今日壁纸...",
+    statusFresh: "今日壁纸 · {date} {time} 更新",
+    statusStale: "今日尚未完成 · 正在显示 {date}",
+    statusUnavailable: "无法确认更新状态",
     previewLabel: "预览",
     previewTitle: "今日壁纸",
     previewMode: "预览模式",
@@ -67,7 +82,6 @@ const translations = {
     urlNote: "图片每天更新，但这个地址始终不变。",
     openImage: "打开图片",
     download: "下载",
-    shortcutsLabel: "快捷指令",
     shortcutsTitle: "自动更换壁纸",
     shortcutsMeta: "需要 iOS 16.2 或更高版本。在每日自动化中使用同一个 URL。",
     showInstructions: "查看快捷指令教程",
@@ -79,7 +93,11 @@ const translations = {
     previewAlt: "今天自动生成的日历壁纸",
     preparing: "正在准备今日壁纸...",
     loadingWallpaper: "正在加载今日壁纸...",
-    wallpaperPending: "今日壁纸仍在生成，请稍后再试。",
+    wallpaperLoadError: "壁纸加载失败。",
+    retryWallpaper: "重新加载",
+    staleWallpaperNotice: "今日壁纸仍在生成，当前显示的是 {date} 的壁纸。",
+    statusUnknownNotice: "无法确认壁纸日期，当前图片可能不是今日版本。",
+    copyManual: "复制失败，URL 已经选中，请手动复制。",
     devicesUnavailable: "机型列表不可用",
     unavailable: "不可用",
     deviceLoadError: "无法加载机型列表，请刷新页面。",
@@ -92,7 +110,13 @@ const translations = {
     description: "每天自動更新、符合不同 iPhone 尺寸並可用於捷徑的日曆桌布。",
     tagline: "每天一張全新的年度日曆桌布。",
     language: "語言",
-    updatedDaily: "每日更新",
+    mobileWorkspace: "桌布工作區",
+    mobilePreview: "預覽",
+    mobileSetup: "設定",
+    statusChecking: "正在檢查今日桌布...",
+    statusFresh: "今日桌布 · {date} {time} 更新",
+    statusStale: "今日尚未完成 · 正在顯示 {date}",
+    statusUnavailable: "無法確認更新狀態",
     previewLabel: "預覽",
     previewTitle: "今日桌布",
     previewMode: "預覽模式",
@@ -111,7 +135,6 @@ const translations = {
     urlNote: "圖片每天更新，但這個網址始終不變。",
     openImage: "開啟圖片",
     download: "下載",
-    shortcutsLabel: "捷徑",
     shortcutsTitle: "自動更換桌布",
     shortcutsMeta: "需要 iOS 16.2 或更新版本。在每日自動化中使用同一個網址。",
     showInstructions: "查看捷徑教學",
@@ -123,7 +146,11 @@ const translations = {
     previewAlt: "今天自動產生的日曆桌布",
     preparing: "正在準備今日桌布...",
     loadingWallpaper: "正在載入今日桌布...",
-    wallpaperPending: "今日桌布仍在產生，請稍後再試。",
+    wallpaperLoadError: "桌布載入失敗。",
+    retryWallpaper: "重新載入",
+    staleWallpaperNotice: "今日桌布仍在產生，目前顯示的是 {date} 的桌布。",
+    statusUnknownNotice: "無法確認桌布日期，目前圖片可能不是今日版本。",
+    copyManual: "複製失敗，網址已選取，請手動複製。",
     devicesUnavailable: "機型清單無法使用",
     unavailable: "無法使用",
     deviceLoadError: "無法載入機型清單，請重新整理頁面。",
@@ -136,7 +163,13 @@ const translations = {
     description: "iPhone の各サイズに対応し、ショートカットで使える日替わりカレンダー壁紙。",
     tagline: "一年を見渡せる壁紙を毎日更新。",
     language: "言語",
-    updatedDaily: "毎日更新",
+    mobileWorkspace: "壁紙ワークスペース",
+    mobilePreview: "プレビュー",
+    mobileSetup: "設定",
+    statusChecking: "今日の壁紙を確認中...",
+    statusFresh: "今日の壁紙 · {date} {time} 更新",
+    statusStale: "今日は準備中 · {date} を表示",
+    statusUnavailable: "更新状況を確認できません",
     previewLabel: "プレビュー",
     previewTitle: "今日のカレンダー",
     previewMode: "プレビューモード",
@@ -155,7 +188,6 @@ const translations = {
     urlNote: "画像は毎日更新されますが、この URL は変わりません。",
     openImage: "画像を開く",
     download: "ダウンロード",
-    shortcutsLabel: "ショートカット",
     shortcutsTitle: "壁紙を自動更新",
     shortcutsMeta: "iOS 16.2以降が必要です。同じ URL を毎日のオートメーションで使用します。",
     showInstructions: "ショートカットの手順を見る",
@@ -167,7 +199,11 @@ const translations = {
     previewAlt: "今日生成されたカレンダー壁紙",
     preparing: "今日の壁紙を準備中...",
     loadingWallpaper: "今日の壁紙を読み込み中...",
-    wallpaperPending: "今日の壁紙はまだ生成中です。しばらくしてからお試しください。",
+    wallpaperLoadError: "壁紙を読み込めませんでした。",
+    retryWallpaper: "再読み込み",
+    staleWallpaperNotice: "今日の壁紙はまだ生成中です。{date} の壁紙を表示しています。",
+    statusUnknownNotice: "壁紙の日付を確認できません。今日の画像ではない可能性があります。",
+    copyManual: "コピーできませんでした。URL を選択したので、手動でコピーしてください。",
     devicesUnavailable: "モデル一覧を利用できません",
     unavailable: "利用不可",
     deviceLoadError: "モデル一覧を読み込めませんでした。ページを再読み込みしてください。",
@@ -180,7 +216,13 @@ const translations = {
     description: "Fondos de calendario diarios para cada tamaño de iPhone y listos para Atajos.",
     tagline: "Un nuevo calendario anual para tu fondo cada día.",
     language: "Idioma",
-    updatedDaily: "Actualización diaria",
+    mobileWorkspace: "Área de fondos",
+    mobilePreview: "Vista previa",
+    mobileSetup: "Configuración",
+    statusChecking: "Comprobando el fondo de hoy...",
+    statusFresh: "Fondo de hoy · actualizado el {date} a las {time}",
+    statusStale: "El de hoy no está listo · mostrando {date}",
+    statusUnavailable: "Estado de actualización no disponible",
     previewLabel: "Vista previa",
     previewTitle: "Calendario de hoy",
     previewMode: "Modo de vista previa",
@@ -199,7 +241,6 @@ const translations = {
     urlNote: "La imagen cambia cada día, pero esta dirección permanece igual.",
     openImage: "Abrir imagen",
     download: "Descargar",
-    shortcutsLabel: "Atajos",
     shortcutsTitle: "Automatiza tu fondo",
     shortcutsMeta: "Requiere iOS 16.2 o posterior. Usa la misma URL en una automatización diaria.",
     showInstructions: "Ver instrucciones de Atajos",
@@ -211,7 +252,11 @@ const translations = {
     previewAlt: "Fondo de calendario generado hoy",
     preparing: "Preparando el fondo de hoy...",
     loadingWallpaper: "Cargando el fondo de hoy...",
-    wallpaperPending: "El fondo de hoy aún se está generando. Inténtalo de nuevo en unos minutos.",
+    wallpaperLoadError: "No se pudo cargar el fondo.",
+    retryWallpaper: "Volver a cargar",
+    staleWallpaperNotice: "El fondo de hoy aún se está generando. Se muestra el fondo del {date}.",
+    statusUnknownNotice: "No se pudo verificar la fecha del fondo. Puede que la imagen no sea la de hoy.",
+    copyManual: "No se pudo copiar. La URL está seleccionada para que puedas copiarla manualmente.",
     devicesUnavailable: "Lista de modelos no disponible",
     unavailable: "No disponible",
     deviceLoadError: "No se pudo cargar la lista de modelos. Actualiza la página.",
@@ -225,22 +270,34 @@ const deviceSelect = document.querySelector("#device-model");
 const languageSelect = document.querySelector("#language-select");
 const dimensions = document.querySelector("#dimensions");
 const selectedDeviceMeta = document.querySelector("#selected-device-meta");
+const updateStatus = document.querySelector(".status");
+const updateStatusText = document.querySelector("#update-status-text");
 const previewFrame = document.querySelector("#phone-preview");
 const previewImage = document.querySelector("#wallpaper-preview");
+const previewFeedback = document.querySelector("#preview-feedback");
 const previewMessage = document.querySelector("#preview-message");
+const previewRetry = document.querySelector("#retry-preview");
+const previewNotice = document.querySelector("#preview-notice");
 const previewModeButtons = document.querySelectorAll("[data-preview-mode]");
 const lockControlsToggle = document.querySelector("#lock-controls-toggle");
 const lockDate = document.querySelector("#lock-date");
 const lockTime = document.querySelector("#lock-time");
 const urlInput = document.querySelector("#wallpaper-url");
 const copyButton = document.querySelector("#copy-url");
+const copyFeedback = document.querySelector("#copy-feedback");
 const openLink = document.querySelector("#open-wallpaper");
 const downloadLink = document.querySelector("#download-wallpaper");
 const metaDescription = document.querySelector("#meta-description");
+const mobileWorkspaceTabs = document.querySelector(".mobile-workspace-tabs");
+const mobilePanelButtons = document.querySelectorAll(".mobile-workspace-tabs [data-mobile-panel]");
 
 let presets = [];
 let locale = preferredLocale();
 let previewMessageKey = "preparing";
+let generationManifest = null;
+let generationState = "loading";
+let currentWallpaperPath = "";
+let copyFeedbackKey = null;
 let copyResetTimer;
 
 function preferredLocale() {
@@ -261,6 +318,10 @@ function preferredLocale() {
 
 function text(key) {
   return translations[locale][key] || translations.en[key] || key;
+}
+
+function message(key, values = {}) {
+  return text(key).replace(/\{(\w+)\}/g, (_, name) => values[name] ?? `{${name}}`);
 }
 
 function setPreviewMessage(key) {
@@ -289,7 +350,9 @@ function applyLanguage() {
   if (earlierGroup) earlierGroup.label = text("earlierModels");
   updateLockScreenClock();
   updateDeviceMeta(selectedPreset());
-  if (!previewMessage.hidden) setPreviewMessage(previewMessageKey);
+  updateGenerationStatus();
+  if (!previewFeedback.hidden) setPreviewMessage(previewMessageKey);
+  if (copyFeedbackKey) copyFeedback.textContent = text(copyFeedbackKey);
 }
 
 function updateLockScreenClock() {
@@ -317,6 +380,61 @@ function shanghaiDateKey() {
   return `${values.year}-${values.month}-${values.day}`;
 }
 
+function formatManifestDate(key) {
+  const match = key?.match(/^(\d{4})-(\d{2})-(\d{2})$/);
+  if (!match) return key || text("unavailable");
+  const date = new Date(Date.UTC(Number(match[1]), Number(match[2]) - 1, Number(match[3])));
+  return new Intl.DateTimeFormat(locale, {
+    month: "short",
+    day: "numeric",
+    timeZone: "UTC"
+  }).format(date);
+}
+
+function formatGenerationTime(value) {
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) return "--:--";
+  return new Intl.DateTimeFormat(locale, {
+    hour: "2-digit",
+    minute: "2-digit",
+    hour12: false,
+    timeZone: "Asia/Shanghai"
+  }).format(date);
+}
+
+function updateGenerationStatus() {
+  previewNotice.hidden = true;
+
+  if (generationState === "loading") {
+    updateStatus.dataset.state = "loading";
+    updateStatusText.textContent = text("statusChecking");
+    return;
+  }
+
+  if (generationState === "unavailable" || !generationManifest) {
+    updateStatus.dataset.state = "warning";
+    updateStatusText.textContent = text("statusUnavailable");
+    previewNotice.textContent = text("statusUnknownNotice");
+    previewNotice.hidden = false;
+    return;
+  }
+
+  const date = formatManifestDate(generationManifest.date);
+  if (generationManifest.date === shanghaiDateKey()) {
+    updateStatus.dataset.state = "fresh";
+    updateStatusText.textContent = message("statusFresh", {
+      date,
+      time: formatGenerationTime(generationManifest.generatedAt)
+    });
+    return;
+  }
+
+  updateStatus.dataset.state = "warning";
+  updateStatusText.textContent = message("statusStale", { date });
+  previewNotice.textContent = message("staleWallpaperNotice", { date });
+  previewNotice.hidden = false;
+}
+
 function wallpaperPath(preset) {
   return `output/devices/${preset.id}/today.png`;
 }
@@ -340,21 +458,33 @@ function enableLink(link, href) {
   link.removeAttribute("aria-disabled");
 }
 
+function loadPreviewImage({ reload = false } = {}) {
+  if (!currentWallpaperPath) return;
+  previewFrame.classList.add("is-loading");
+  previewFrame.classList.remove("is-error");
+  previewImage.classList.remove("is-ready");
+  previewFeedback.hidden = false;
+  previewRetry.hidden = true;
+  setPreviewMessage("loadingWallpaper");
+
+  const requestUrl = new URL(currentWallpaperPath, document.baseURI);
+  requestUrl.searchParams.set("date", shanghaiDateKey());
+  if (reload) requestUrl.searchParams.set("reload", Date.now());
+  previewImage.src = requestUrl.href;
+}
+
 function updateSelection() {
   const preset = selectedPreset();
   if (!preset) return;
 
-  const path = wallpaperPath(preset);
-  const stableUrl = new URL(path, document.baseURI).href;
+  currentWallpaperPath = wallpaperPath(preset);
+  const stableUrl = new URL(currentWallpaperPath, document.baseURI).href;
   dimensions.textContent = `${preset.width} × ${preset.height}`;
   updateDeviceMeta(preset);
   previewFrame.style.setProperty("--preview-ratio", `${preset.width} / ${preset.height}`);
   previewFrame.dataset.cutout = preset.cutout;
   syncLockControls();
-  previewImage.classList.remove("is-ready");
-  previewMessage.hidden = false;
-  setPreviewMessage("loadingWallpaper");
-  previewImage.src = `${path}?date=${shanghaiDateKey()}`;
+  loadPreviewImage();
   urlInput.value = stableUrl;
   copyButton.disabled = false;
   enableLink(openLink, stableUrl);
@@ -418,15 +548,22 @@ function modelRank(model) {
 }
 
 previewImage.addEventListener("load", () => {
+  previewFrame.classList.remove("is-loading", "is-error");
   previewImage.classList.add("is-ready");
-  previewMessage.hidden = true;
+  previewFeedback.hidden = true;
+  previewRetry.hidden = true;
 });
 
 previewImage.addEventListener("error", () => {
+  previewFrame.classList.remove("is-loading");
+  previewFrame.classList.add("is-error");
   previewImage.classList.remove("is-ready");
-  previewMessage.hidden = false;
-  setPreviewMessage("wallpaperPending");
+  previewFeedback.hidden = false;
+  previewRetry.hidden = false;
+  setPreviewMessage("wallpaperLoadError");
 });
+
+previewRetry.addEventListener("click", () => loadPreviewImage({ reload: true }));
 
 deviceSelect.addEventListener("change", updateSelection);
 
@@ -445,6 +582,33 @@ for (const button of previewModeButtons) {
 
 lockControlsToggle.addEventListener("change", syncLockControls);
 
+function selectMobilePanel(panel, { moveFocus = false } = {}) {
+  document.body.dataset.mobilePanel = panel;
+  for (const button of mobilePanelButtons) {
+    const isActive = button.dataset.mobilePanel === panel;
+    button.classList.toggle("is-active", isActive);
+    button.setAttribute("aria-selected", String(isActive));
+    button.tabIndex = isActive ? 0 : -1;
+    if (isActive && moveFocus) button.focus();
+  }
+}
+
+for (const button of mobilePanelButtons) {
+  button.addEventListener("click", () => {
+    selectMobilePanel(button.dataset.mobilePanel);
+    if (matchMedia("(max-width: 860px)").matches) {
+      window.scrollTo({ top: mobileWorkspaceTabs.offsetTop, behavior: "smooth" });
+    }
+  });
+}
+
+mobileWorkspaceTabs.addEventListener("keydown", (event) => {
+  if (!["ArrowLeft", "ArrowRight"].includes(event.key)) return;
+  event.preventDefault();
+  const panel = document.body.dataset.mobilePanel === "preview" ? "setup" : "preview";
+  selectMobilePanel(panel, { moveFocus: true });
+});
+
 languageSelect.addEventListener("change", () => {
   locale = languageSelect.value;
   try {
@@ -456,13 +620,30 @@ languageSelect.addEventListener("change", () => {
 });
 
 copyButton.addEventListener("click", async () => {
+  let copied = false;
   try {
     await navigator.clipboard.writeText(urlInput.value);
+    copied = true;
   } catch {
-    urlInput.select();
-    document.execCommand("copy");
-    urlInput.setSelectionRange(0, 0);
+    // Use the legacy command where the Clipboard API is unavailable.
   }
+
+  if (!copied) {
+    urlInput.focus();
+    urlInput.select();
+    try {
+      copied = document.execCommand("copy");
+    } catch {
+      copied = false;
+    }
+  }
+
+  copyFeedbackKey = copied ? null : "copyManual";
+  copyFeedback.hidden = copied;
+  copyFeedback.textContent = copied ? "" : text(copyFeedbackKey);
+  if (!copied) return;
+
+  urlInput.setSelectionRange(0, 0);
   clearTimeout(copyResetTimer);
   copyButton.textContent = text("copied");
   copyResetTimer = setTimeout(() => {
@@ -471,7 +652,33 @@ copyButton.addEventListener("click", async () => {
 });
 
 applyLanguage();
-setInterval(updateLockScreenClock, 60_000);
+selectMobilePanel("preview");
+setInterval(() => {
+  updateLockScreenClock();
+  updateGenerationStatus();
+}, 60_000);
+
+async function refreshGenerationStatus() {
+  try {
+    const response = await fetch("output/devices.json", { cache: "no-store" });
+    if (!response.ok) throw new Error(`Wallpaper status request failed: ${response.status}`);
+    const data = await response.json();
+    if (!data || typeof data.date !== "string" || typeof data.generatedAt !== "string") {
+      throw new Error("Wallpaper status is invalid");
+    }
+    const previousDate = generationManifest?.date;
+    generationManifest = data;
+    generationState = "ready";
+    updateGenerationStatus();
+    if (previousDate && previousDate !== data.date) loadPreviewImage({ reload: true });
+  } catch {
+    generationState = "unavailable";
+    updateGenerationStatus();
+  }
+}
+
+refreshGenerationStatus();
+setInterval(refreshGenerationStatus, 5 * 60_000);
 
 fetch("device-presets.json")
   .then((response) => {
@@ -486,5 +693,9 @@ fetch("device-presets.json")
   .catch(() => {
     deviceSelect.innerHTML = `<option>${text("devicesUnavailable")}</option>`;
     dimensions.textContent = text("unavailable");
+    previewFrame.classList.remove("is-loading");
+    previewFrame.classList.add("is-error");
+    previewFeedback.hidden = false;
+    previewRetry.hidden = true;
     setPreviewMessage("deviceLoadError");
   });
