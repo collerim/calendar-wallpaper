@@ -678,7 +678,6 @@ async function refreshGenerationStatus() {
 }
 
 refreshGenerationStatus();
-setInterval(refreshGenerationStatus, 5 * 60_000);
 
 fetch("device-presets.json")
   .then((response) => {
