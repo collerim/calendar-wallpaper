@@ -5,10 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta id="meta-description" name="description" content="Daily calendar wallpapers sized for iPhone and ready for Shortcuts automation.">
   <title>Calendar Wallpaper</title>
-  <link rel="stylesheet" href="styles.css?v=20260715-6">
-  <script src="app.js?v=20260715-4" defer></script>
+  <link rel="stylesheet" href="styles.css?v=20260716-1">
+  <script src="app.js?v=20260716-1" defer></script>
 </head>
-<body>
+<body data-mobile-panel="preview">
   <header class="app-header">
     <div class="brand-block">
       <p class="brand">Calendar Wallpaper</p>
@@ -25,12 +25,17 @@
           <option value="es">Español</option>
         </select>
       </div>
-      <p class="status"><span aria-hidden="true"></span><span data-i18n="updatedDaily">Updated daily</span></p>
     </div>
+    <p class="status" data-state="loading" aria-live="polite"><span aria-hidden="true"></span><span id="update-status-text">Checking today's wallpaper...</span></p>
   </header>
 
+  <nav class="mobile-workspace-tabs" role="tablist" aria-label="Workspace" data-i18n-aria-label="mobileWorkspace">
+    <button id="mobile-preview-tab" class="is-active" type="button" role="tab" aria-selected="true" aria-controls="preview-region" data-mobile-panel="preview" data-i18n="mobilePreview">Preview</button>
+    <button id="mobile-setup-tab" type="button" role="tab" aria-selected="false" aria-controls="controls-region" data-mobile-panel="setup" data-i18n="mobileSetup">Setup</button>
+  </nav>
+
   <main class="workspace">
-    <section class="preview-region" aria-labelledby="preview-title">
+    <section id="preview-region" class="preview-region" aria-labelledby="preview-title">
       <div class="preview-sticky">
         <div class="section-heading preview-heading">
           <div>
@@ -50,9 +55,10 @@
           <span data-i18n="showLockControls">Show bottom controls</span>
         </label>
 
-        <div id="phone-preview" class="phone-preview is-lockscreen show-lock-controls" aria-live="polite">
+        <div id="phone-preview" class="phone-preview is-lockscreen show-lock-controls is-loading" aria-live="polite">
           <div class="phone-screen">
             <img id="wallpaper-preview" alt="Today's generated calendar wallpaper">
+            <div class="preview-skeleton" aria-hidden="true"></div>
             <div class="lockscreen-overlay" aria-hidden="true">
               <p id="lock-date" class="lock-date"></p>
               <p id="lock-time" class="lock-time"></p>
@@ -61,13 +67,19 @@
               <span class="lockscreen-control"><span class="flashlight-icon"></span></span>
               <span class="lockscreen-control"><span class="camera-icon"></span></span>
             </div>
-            <p id="preview-message" class="preview-message">Preparing today's wallpaper...</p>
+            <div id="preview-feedback" class="preview-feedback" aria-live="polite">
+              <p id="preview-message" class="preview-message">Preparing today's wallpaper...</p>
+              <button id="retry-preview" class="preview-retry" type="button" hidden>
+                <span aria-hidden="true">&#8635;</span><span data-i18n="retryWallpaper">Reload</span>
+              </button>
+            </div>
           </div>
         </div>
+        <p id="preview-notice" class="preview-notice" aria-live="polite" hidden></p>
       </div>
     </section>
 
-    <section class="controls-region" aria-labelledby="setup-title">
+    <section id="controls-region" class="controls-region" aria-labelledby="setup-title">
       <div class="section-heading">
         <div>
           <p class="step-label" data-i18n="setupLabel">Setup</p>
@@ -75,7 +87,8 @@
         </div>
       </div>
 
-      <div class="setup-step control-group">
+      <div class="settings-flow">
+      <div class="setup-step control-group settings-section" data-settings-section="device">
         <div class="step-heading">
           <span class="step-number">1</span>
           <div>
@@ -91,7 +104,7 @@
         </div>
       </div>
 
-      <div class="setup-step url-section">
+      <div class="setup-step url-section settings-section" data-settings-section="delivery">
         <div class="step-heading">
           <span class="step-number">2</span>
           <h3 data-i18n="getWallpaperTitle">Get your wallpaper</h3>
@@ -99,10 +112,11 @@
         <div class="step-content">
           <label for="wallpaper-url" data-i18n="wallpaperUrl">Daily wallpaper URL</label>
           <div class="url-row">
-            <input id="wallpaper-url" type="url" readonly aria-describedby="url-note">
+            <input id="wallpaper-url" type="url" readonly aria-describedby="url-note copy-feedback">
             <button id="copy-url" type="button" disabled data-i18n="copyUrl">Copy URL</button>
           </div>
           <p id="url-note" class="field-note" data-i18n="urlNote">This address stays the same while the image updates each day.</p>
+          <p id="copy-feedback" class="field-feedback" aria-live="polite" hidden></p>
           <div class="actions">
             <a id="open-wallpaper" class="button secondary" href="#" target="_blank" rel="noopener" aria-disabled="true" data-i18n="openImage">Open image</a>
             <a id="download-wallpaper" class="button primary" href="#" download aria-disabled="true" data-i18n="download">Download</a>
@@ -110,7 +124,7 @@
         </div>
       </div>
 
-      <div class="setup-step shortcut-guide">
+      <div class="setup-step shortcut-guide settings-section" data-settings-section="automation">
         <div class="step-heading">
           <span class="step-number">3</span>
           <div>
@@ -128,6 +142,7 @@
             </ol>
           </details>
         </div>
+      </div>
       </div>
     </section>
   </main>
