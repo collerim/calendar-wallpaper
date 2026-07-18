@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-18T07:39:31.085Z",
+  "updatedAt": "2026-07-18T17:00:16.012Z",
   "days": {
     "2026-07-13": {
       "title": "Battle of the Boyne",
@@ -376,6 +376,37 @@
         "typeLabels": [
           "公众节日"
         ],
+        "subdivisions": []
+      }
+    },
+    "2026-07-26": {
+      "title": "Maldives Independence Day",
+      "motif": "waterFlowers",
+      "gradient": [
+        "#0e2c2f",
+        "#246159",
+        "#131516"
+      ],
+      "accent": "#67c0bf",
+      "secondary": "#cb5055",
+      "holidayFamily": "independence-day",
+      "popularityTier": "common",
+      "scopeTier": "national",
+      "tags": [
+        "water",
+        "botanical",
+        "island",
+        "civic",
+        "celebration"
+      ],
+      "source": {
+        "provider": "Fixed Holidays",
+        "countryCode": "MV",
+        "countryName": "Maldives",
+        "typeLabels": [
+          "公众节日"
+        ],
+        "nationwide": true,
         "subdivisions": []
       }
     }
