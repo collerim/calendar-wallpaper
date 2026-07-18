@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta id="meta-description" name="description" content="Daily calendar wallpapers sized for iPhone and ready for Shortcuts automation.">
   <title>Calendar Wallpaper</title>
-  <link rel="stylesheet" href="styles.css?v=20260716-1">
-  <script src="app.js?v=20260716-2" defer></script>
+  <link rel="stylesheet" href="styles.css?v=20260718-1">
+  <script src="app.js?v=20260718-1" defer></script>
 </head>
 <body data-mobile-panel="preview">
   <header class="app-header">
@@ -55,25 +55,30 @@
           <span data-i18n="showLockControls">Show bottom controls</span>
         </label>
 
-        <div id="phone-preview" class="phone-preview is-lockscreen show-lock-controls is-loading" aria-live="polite">
-          <div class="phone-screen">
-            <img id="wallpaper-preview" alt="Today's generated calendar wallpaper">
-            <div class="preview-skeleton" aria-hidden="true"></div>
-            <div class="lockscreen-overlay" aria-hidden="true">
-              <p id="lock-date" class="lock-date"></p>
-              <p id="lock-time" class="lock-time"></p>
-            </div>
-            <div class="lockscreen-controls" aria-hidden="true">
-              <span class="lockscreen-control"><span class="flashlight-icon"></span></span>
-              <span class="lockscreen-control"><span class="camera-icon"></span></span>
-            </div>
-            <div id="preview-feedback" class="preview-feedback" aria-live="polite">
-              <p id="preview-message" class="preview-message">Preparing today's wallpaper...</p>
-              <button id="retry-preview" class="preview-retry" type="button" hidden>
-                <span aria-hidden="true">&#8635;</span><span data-i18n="retryWallpaper">Reload</span>
-              </button>
+        <div class="phone-preview-wrap">
+          <div id="phone-preview" class="phone-preview is-lockscreen show-lock-controls is-loading" aria-live="polite">
+            <div class="phone-screen">
+              <img id="wallpaper-preview" alt="Today's generated calendar wallpaper">
+              <div class="preview-skeleton" aria-hidden="true"></div>
+              <div class="lockscreen-overlay" aria-hidden="true">
+                <p id="lock-date" class="lock-date"></p>
+                <p id="lock-time" class="lock-time"></p>
+              </div>
+              <div class="lockscreen-controls" aria-hidden="true">
+                <span class="lockscreen-control"><span class="flashlight-icon"></span></span>
+                <span class="lockscreen-control"><span class="camera-icon"></span></span>
+              </div>
+              <div id="preview-feedback" class="preview-feedback" aria-live="polite">
+                <p id="preview-message" class="preview-message">Preparing today's wallpaper...</p>
+                <button id="retry-preview" class="preview-retry" type="button" hidden>
+                  <span aria-hidden="true">&#8635;</span><span data-i18n="retryWallpaper">Reload</span>
+                </button>
+              </div>
             </div>
           </div>
+          <button id="open-preview" class="preview-enlarge" type="button" disabled data-i18n-aria-label="enlargePreview">
+            <span class="magnify-icon" aria-hidden="true"></span>
+          </button>
         </div>
         <p id="preview-notice" class="preview-notice" aria-live="polite" hidden></p>
       </div>
@@ -113,7 +118,7 @@
           <label for="wallpaper-url" data-i18n="wallpaperUrl">Daily wallpaper URL</label>
           <div class="url-row">
             <input id="wallpaper-url" type="url" readonly aria-describedby="url-note copy-feedback">
-            <button id="copy-url" type="button" disabled data-i18n="copyUrl">Copy URL</button>
+            <button id="copy-url" type="button" data-copy-url disabled data-i18n="copyUrl">Copy URL</button>
           </div>
           <p id="url-note" class="field-note" data-i18n="urlNote">This address stays the same while the image updates each day.</p>
           <p id="copy-feedback" class="field-feedback" aria-live="polite" hidden></p>
@@ -146,6 +151,23 @@
       </div>
     </section>
   </main>
+
+  <div id="mobile-copy-bar" class="mobile-copy-bar" hidden>
+    <span id="mobile-copy-model" class="mobile-copy-model"></span>
+    <button id="mobile-copy-url" type="button" data-copy-url disabled>
+      <span class="copy-icon" aria-hidden="true"></span><span data-i18n="copyUrl">Copy URL</span>
+    </button>
+  </div>
+
+  <dialog id="preview-dialog" class="preview-dialog" aria-labelledby="preview-dialog-title">
+    <div class="preview-dialog-header">
+      <p id="preview-dialog-title" data-i18n="enlargedPreview">Enlarged preview</p>
+      <button id="close-preview" class="preview-dialog-close" type="button" data-i18n-aria-label="closePreview">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <div id="preview-dialog-content" class="preview-dialog-content"></div>
+  </dialog>
 
   <footer>
     <p data-i18n="generatedOnGitHub">Generated automatically on GitHub.</p>

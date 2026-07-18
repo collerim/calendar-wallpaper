@@ -26,6 +26,7 @@ const translations = {
     wallpaperUrl: "Daily wallpaper URL",
     copyUrl: "Copy URL",
     copied: "Copied",
+    copySuccess: "URL copied.",
     urlNote: "This address stays the same while the image updates each day.",
     openImage: "Open image",
     download: "Download",
@@ -38,6 +39,9 @@ const translations = {
     generatedOnGitHub: "Generated automatically on GitHub.",
     source: "Source",
     previewAlt: "Today's generated calendar wallpaper",
+    enlargePreview: "Enlarge preview",
+    enlargedPreview: "Enlarged preview",
+    closePreview: "Close preview",
     preparing: "Preparing today's wallpaper...",
     loadingWallpaper: "Loading today's wallpaper...",
     wallpaperLoadError: "The wallpaper could not be loaded.",
@@ -79,6 +83,7 @@ const translations = {
     wallpaperUrl: "每日壁纸 URL",
     copyUrl: "复制 URL",
     copied: "已复制",
+    copySuccess: "URL 已复制。",
     urlNote: "图片每天更新，但这个地址始终不变。",
     openImage: "打开图片",
     download: "下载",
@@ -91,6 +96,9 @@ const translations = {
     generatedOnGitHub: "由 GitHub 自动生成。",
     source: "源代码",
     previewAlt: "今天自动生成的日历壁纸",
+    enlargePreview: "放大预览",
+    enlargedPreview: "放大预览",
+    closePreview: "关闭预览",
     preparing: "正在准备今日壁纸...",
     loadingWallpaper: "正在加载今日壁纸...",
     wallpaperLoadError: "壁纸加载失败。",
@@ -132,6 +140,7 @@ const translations = {
     wallpaperUrl: "每日桌布 URL",
     copyUrl: "複製 URL",
     copied: "已複製",
+    copySuccess: "URL 已複製。",
     urlNote: "圖片每天更新，但這個網址始終不變。",
     openImage: "開啟圖片",
     download: "下載",
@@ -144,6 +153,9 @@ const translations = {
     generatedOnGitHub: "由 GitHub 自動產生。",
     source: "原始碼",
     previewAlt: "今天自動產生的日曆桌布",
+    enlargePreview: "放大預覽",
+    enlargedPreview: "放大預覽",
+    closePreview: "關閉預覽",
     preparing: "正在準備今日桌布...",
     loadingWallpaper: "正在載入今日桌布...",
     wallpaperLoadError: "桌布載入失敗。",
@@ -185,6 +197,7 @@ const translations = {
     wallpaperUrl: "毎日の壁紙 URL",
     copyUrl: "URL をコピー",
     copied: "コピー済み",
+    copySuccess: "URL をコピーしました。",
     urlNote: "画像は毎日更新されますが、この URL は変わりません。",
     openImage: "画像を開く",
     download: "ダウンロード",
@@ -197,6 +210,9 @@ const translations = {
     generatedOnGitHub: "GitHub で自動生成されています。",
     source: "ソース",
     previewAlt: "今日生成されたカレンダー壁紙",
+    enlargePreview: "プレビューを拡大",
+    enlargedPreview: "拡大プレビュー",
+    closePreview: "プレビューを閉じる",
     preparing: "今日の壁紙を準備中...",
     loadingWallpaper: "今日の壁紙を読み込み中...",
     wallpaperLoadError: "壁紙を読み込めませんでした。",
@@ -238,6 +254,7 @@ const translations = {
     wallpaperUrl: "URL del fondo diario",
     copyUrl: "Copiar URL",
     copied: "Copiada",
+    copySuccess: "URL copiada.",
     urlNote: "La imagen cambia cada día, pero esta dirección permanece igual.",
     openImage: "Abrir imagen",
     download: "Descargar",
@@ -250,6 +267,9 @@ const translations = {
     generatedOnGitHub: "Generado automáticamente en GitHub.",
     source: "Código fuente",
     previewAlt: "Fondo de calendario generado hoy",
+    enlargePreview: "Ampliar vista previa",
+    enlargedPreview: "Vista previa ampliada",
+    closePreview: "Cerrar vista previa",
     preparing: "Preparando el fondo de hoy...",
     loadingWallpaper: "Cargando el fondo de hoy...",
     wallpaperLoadError: "No se pudo cargar el fondo.",
@@ -278,18 +298,24 @@ const previewFeedback = document.querySelector("#preview-feedback");
 const previewMessage = document.querySelector("#preview-message");
 const previewRetry = document.querySelector("#retry-preview");
 const previewNotice = document.querySelector("#preview-notice");
+const previewEnlargeButton = document.querySelector("#open-preview");
+const previewDialog = document.querySelector("#preview-dialog");
+const previewDialogContent = document.querySelector("#preview-dialog-content");
+const previewDialogClose = document.querySelector("#close-preview");
 const previewModeButtons = document.querySelectorAll("[data-preview-mode]");
 const lockControlsToggle = document.querySelector("#lock-controls-toggle");
 const lockDate = document.querySelector("#lock-date");
 const lockTime = document.querySelector("#lock-time");
 const urlInput = document.querySelector("#wallpaper-url");
-const copyButton = document.querySelector("#copy-url");
+const copyButtons = document.querySelectorAll("[data-copy-url]");
 const copyFeedback = document.querySelector("#copy-feedback");
 const openLink = document.querySelector("#open-wallpaper");
 const downloadLink = document.querySelector("#download-wallpaper");
 const metaDescription = document.querySelector("#meta-description");
 const mobileWorkspaceTabs = document.querySelector(".mobile-workspace-tabs");
 const mobilePanelButtons = document.querySelectorAll(".mobile-workspace-tabs [data-mobile-panel]");
+const mobileCopyBar = document.querySelector("#mobile-copy-bar");
+const mobileCopyModel = document.querySelector("#mobile-copy-model");
 
 let presets = [];
 let locale = preferredLocale();
@@ -300,13 +326,24 @@ let currentWallpaperPath = "";
 let copyFeedbackKey = null;
 let copyResetTimer;
 
-function preferredLocale() {
-  let saved;
+function readPreference(name) {
   try {
-    saved = localStorage.getItem("calendar-wallpaper-language");
+    return localStorage.getItem(`calendar-wallpaper-${name}`);
   } catch {
-    saved = null;
+    return null;
   }
+}
+
+function savePreference(name, value) {
+  try {
+    localStorage.setItem(`calendar-wallpaper-${name}`, value);
+  } catch {
+    // Preferences are optional when storage is unavailable.
+  }
+}
+
+function preferredLocale() {
+  const saved = readPreference("language");
   const requested = saved || navigator.languages?.[0] || navigator.language || "en";
   const normalized = requested.toLowerCase();
   if (normalized.startsWith("zh-tw") || normalized.startsWith("zh-hk") || normalized.startsWith("zh-hant")) return "zh-Hant";
@@ -336,6 +373,7 @@ function applyLanguage() {
   languageSelect.value = locale;
   languageSelect.setAttribute("aria-label", text("language"));
   previewImage.alt = text("previewAlt");
+  previewFrame.title = text("enlargePreview");
 
   for (const element of document.querySelectorAll("[data-i18n]")) {
     element.textContent = text(element.dataset.i18n);
@@ -353,6 +391,7 @@ function applyLanguage() {
   updateGenerationStatus();
   if (!previewFeedback.hidden) setPreviewMessage(previewMessageKey);
   if (copyFeedbackKey) copyFeedback.textContent = text(copyFeedbackKey);
+  if (copyFeedbackKey === "copySuccess") setCopyButtonLabels("copied");
 }
 
 function updateLockScreenClock() {
@@ -461,8 +500,9 @@ function enableLink(link, href) {
 function loadPreviewImage({ reload = false } = {}) {
   if (!currentWallpaperPath) return;
   previewFrame.classList.add("is-loading");
-  previewFrame.classList.remove("is-error");
+  previewFrame.classList.remove("is-error", "can-enlarge");
   previewImage.classList.remove("is-ready");
+  previewEnlargeButton.disabled = true;
   previewFeedback.hidden = false;
   previewRetry.hidden = true;
   setPreviewMessage("loadingWallpaper");
@@ -486,7 +526,9 @@ function updateSelection() {
   syncLockControls();
   loadPreviewImage();
   urlInput.value = stableUrl;
-  copyButton.disabled = false;
+  for (const button of copyButtons) button.disabled = false;
+  mobileCopyBar.hidden = false;
+  mobileCopyModel.textContent = deviceSelect.selectedOptions[0]?.dataset.model || "iPhone";
   enableLink(openLink, stableUrl);
   enableLink(downloadLink, stableUrl);
   downloadLink.download = `calendar-wallpaper-${preset.id}.png`;
@@ -528,6 +570,9 @@ function populateDevices() {
     }
     deviceSelect.append(optionGroup);
   }
+  const savedModel = readPreference("device-model");
+  const savedOption = [...deviceSelect.options].find((option) => option.dataset.model === savedModel);
+  if (savedOption) savedOption.selected = true;
   deviceSelect.disabled = false;
   updateSelection();
 }
@@ -549,15 +594,19 @@ function modelRank(model) {
 
 previewImage.addEventListener("load", () => {
   previewFrame.classList.remove("is-loading", "is-error");
+  previewFrame.classList.add("can-enlarge");
   previewImage.classList.add("is-ready");
+  previewEnlargeButton.disabled = false;
   previewFeedback.hidden = true;
   previewRetry.hidden = true;
 });
 
 previewImage.addEventListener("error", () => {
   previewFrame.classList.remove("is-loading");
+  previewFrame.classList.remove("can-enlarge");
   previewFrame.classList.add("is-error");
   previewImage.classList.remove("is-ready");
+  previewEnlargeButton.disabled = true;
   previewFeedback.hidden = false;
   previewRetry.hidden = false;
   setPreviewMessage("wallpaperLoadError");
@@ -565,22 +614,67 @@ previewImage.addEventListener("error", () => {
 
 previewRetry.addEventListener("click", () => loadPreviewImage({ reload: true }));
 
-deviceSelect.addEventListener("change", updateSelection);
+function openEnlargedPreview() {
+  if (!previewImage.classList.contains("is-ready")) return;
+  const clone = previewFrame.cloneNode(true);
+  clone.removeAttribute("id");
+  clone.removeAttribute("aria-live");
+  clone.removeAttribute("title");
+  clone.classList.remove("can-enlarge", "is-loading", "is-error");
+  clone.classList.add("dialog-phone-preview");
+  clone.querySelector(".preview-feedback")?.remove();
+  clone.querySelector(".preview-skeleton")?.remove();
+  for (const element of clone.querySelectorAll("[id]")) element.removeAttribute("id");
+  previewDialogContent.replaceChildren(clone);
+  previewDialog.showModal();
+}
+
+previewEnlargeButton.addEventListener("click", openEnlargedPreview);
+previewFrame.addEventListener("click", (event) => {
+  if (event.target.closest("button")) return;
+  openEnlargedPreview();
+});
+previewDialogClose.addEventListener("click", () => previewDialog.close());
+previewDialog.addEventListener("click", (event) => {
+  if (event.target === previewDialog) previewDialog.close();
+});
+previewDialog.addEventListener("close", () => previewDialogContent.replaceChildren());
+
+deviceSelect.addEventListener("change", () => {
+  const model = deviceSelect.selectedOptions[0]?.dataset.model;
+  if (model) savePreference("device-model", model);
+  updateSelection();
+});
+
+function setPreviewMode(mode, { remember = false } = {}) {
+  const isLockScreen = mode === "lockscreen";
+  previewFrame.classList.toggle("is-lockscreen", isLockScreen);
+  for (const button of previewModeButtons) {
+    const isActive = button.dataset.previewMode === mode;
+    button.classList.toggle("is-active", isActive);
+    button.setAttribute("aria-pressed", String(isActive));
+  }
+  syncLockControls();
+  if (remember) savePreference("preview-mode", mode);
+}
+
+function restorePreviewPreferences() {
+  const savedControls = readPreference("lock-controls");
+  if (savedControls !== null) lockControlsToggle.checked = savedControls === "true";
+  const savedMode = readPreference("preview-mode");
+  setPreviewMode(savedMode === "wallpaper" ? "wallpaper" : "lockscreen");
+}
 
 for (const button of previewModeButtons) {
   button.addEventListener("click", () => {
-    const isLockScreen = button.dataset.previewMode === "lockscreen";
-    previewFrame.classList.toggle("is-lockscreen", isLockScreen);
-    for (const modeButton of previewModeButtons) {
-      const isActive = modeButton === button;
-      modeButton.classList.toggle("is-active", isActive);
-      modeButton.setAttribute("aria-pressed", String(isActive));
-    }
-    syncLockControls();
+    setPreviewMode(button.dataset.previewMode, { remember: true });
   });
 }
 
-lockControlsToggle.addEventListener("change", syncLockControls);
+lockControlsToggle.addEventListener("change", () => {
+  savePreference("lock-controls", String(lockControlsToggle.checked));
+  syncLockControls();
+});
 
 function selectMobilePanel(panel, { moveFocus = false } = {}) {
   document.body.dataset.mobilePanel = panel;
@@ -611,15 +705,19 @@ mobileWorkspaceTabs.addEventListener("keydown", (event) => {
 
 languageSelect.addEventListener("change", () => {
   locale = languageSelect.value;
-  try {
-    localStorage.setItem("calendar-wallpaper-language", locale);
-  } catch {
-    // The selected language still applies for this page load.
-  }
+  savePreference("language", locale);
   applyLanguage();
 });
 
-copyButton.addEventListener("click", async () => {
+function setCopyButtonLabels(key) {
+  for (const button of copyButtons) {
+    const label = button.querySelector("[data-i18n]") || button;
+    label.textContent = text(key);
+  }
+}
+
+async function copyWallpaperUrl() {
+  clearTimeout(copyResetTimer);
   let copied = false;
   try {
     await navigator.clipboard.writeText(urlInput.value);
@@ -638,19 +736,27 @@ copyButton.addEventListener("click", async () => {
     }
   }
 
-  copyFeedbackKey = copied ? null : "copyManual";
-  copyFeedback.hidden = copied;
-  copyFeedback.textContent = copied ? "" : text(copyFeedbackKey);
-  if (!copied) return;
+  copyFeedbackKey = copied ? "copySuccess" : "copyManual";
+  copyFeedback.dataset.state = copied ? "success" : "warning";
+  copyFeedback.hidden = false;
+  copyFeedback.textContent = text(copyFeedbackKey);
+  if (!copied) {
+    setCopyButtonLabels("copyUrl");
+    return;
+  }
 
   urlInput.setSelectionRange(0, 0);
-  clearTimeout(copyResetTimer);
-  copyButton.textContent = text("copied");
+  setCopyButtonLabels("copied");
   copyResetTimer = setTimeout(() => {
-    copyButton.textContent = text("copyUrl");
-  }, 1600);
-});
+    setCopyButtonLabels("copyUrl");
+    copyFeedback.hidden = true;
+    copyFeedbackKey = null;
+  }, 2200);
+}
 
+for (const button of copyButtons) button.addEventListener("click", copyWallpaperUrl);
+
+restorePreviewPreferences();
 applyLanguage();
 selectMobilePanel("preview");
 setInterval(() => {
