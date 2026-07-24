@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-23T17:24:50.636Z",
+  "updatedAt": "2026-07-24T17:40:14.896Z",
   "days": {
     "2026-07-13": {
       "title": "Battle of the Boyne",
@@ -549,6 +549,35 @@
         "typeLabels": [
           "公众节日"
         ],
+        "subdivisions": []
+      }
+    },
+    "2026-08-01": {
+      "title": "Swiss National Day",
+      "motif": "mountainFlags",
+      "gradient": [
+        "#151c2b",
+        "#552b2e",
+        "#141416"
+      ],
+      "accent": "#d15659",
+      "secondary": "#e1dee2",
+      "holidayFamily": "national-day",
+      "popularityTier": "common",
+      "scopeTier": "national",
+      "tags": [
+        "mountain",
+        "civic",
+        "celebration"
+      ],
+      "source": {
+        "provider": "Fixed Holidays",
+        "countryCode": "CH",
+        "countryName": "Switzerland",
+        "typeLabels": [
+          "公众节日"
+        ],
+        "nationwide": true,
         "subdivisions": []
       }
     }
