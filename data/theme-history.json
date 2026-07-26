@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-25T17:00:59.950Z",
+  "updatedAt": "2026-07-26T17:04:51.186Z",
   "days": {
     "2026-07-13": {
       "title": "Battle of the Boyne",
@@ -604,6 +604,34 @@
         "provider": "Nager.Date",
         "countryCode": "SV",
         "countryName": "El Salvador",
+        "typeLabels": [
+          "公众节日"
+        ],
+        "subdivisions": []
+      }
+    },
+    "2026-08-03": {
+      "title": "Nigerien Independence Day",
+      "motif": "cityParade",
+      "gradient": [
+        "#111f37",
+        "#493043",
+        "#111419"
+      ],
+      "accent": "#6fa1d9",
+      "secondary": "#d65561",
+      "holidayFamily": "independence-day",
+      "popularityTier": "common",
+      "scopeTier": "national",
+      "tags": [
+        "civic",
+        "celebration",
+        "procession"
+      ],
+      "source": {
+        "provider": "Nager.Date",
+        "countryCode": "NE",
+        "countryName": "Niger",
         "typeLabels": [
           "公众节日"
         ],
