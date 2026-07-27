@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-26T17:04:51.186Z",
+  "updatedAt": "2026-07-27T17:44:40.961Z",
   "days": {
     "2026-07-13": {
       "title": "Battle of the Boyne",
@@ -632,6 +632,36 @@
         "provider": "Nager.Date",
         "countryCode": "NE",
         "countryName": "Niger",
+        "typeLabels": [
+          "公众节日"
+        ],
+        "subdivisions": []
+      }
+    },
+    "2026-08-04": {
+      "title": "Emancipation Tuesday",
+      "motif": "maritimeFlags",
+      "gradient": [
+        "#0c2737",
+        "#2a6176",
+        "#11171c"
+      ],
+      "accent": "#6cbcd8",
+      "secondary": "#debd5c",
+      "holidayFamily": "national-civic-day",
+      "popularityTier": "niche",
+      "scopeTier": "national",
+      "tags": [
+        "maritime",
+        "water",
+        "civic",
+        "island",
+        "celebration"
+      ],
+      "source": {
+        "provider": "Nager.Date",
+        "countryCode": "VG",
+        "countryName": "British Virgin Islands",
         "typeLabels": [
           "公众节日"
         ],
