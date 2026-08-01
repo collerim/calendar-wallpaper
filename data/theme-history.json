@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-31T17:47:23.978Z",
+  "updatedAt": "2026-08-01T17:02:26.463Z",
   "days": {
     "2026-07-13": {
       "title": "Battle of the Boyne",
@@ -789,6 +789,36 @@
         "subdivisions": [
           "BY-AU"
         ]
+      }
+    },
+    "2026-08-09": {
+      "title": "Singapore National Day",
+      "motif": "fireworks",
+      "gradient": [
+        "#171a27",
+        "#622a37",
+        "#131315"
+      ],
+      "accent": "#d45561",
+      "secondary": "#e3e0e2",
+      "holidayFamily": "national-day",
+      "popularityTier": "common",
+      "scopeTier": "national",
+      "tags": [
+        "sky",
+        "celebration",
+        "light",
+        "civic"
+      ],
+      "source": {
+        "provider": "Fixed Holidays",
+        "countryCode": "SG",
+        "countryName": "Singapore",
+        "typeLabels": [
+          "公众节日"
+        ],
+        "nationwide": true,
+        "subdivisions": []
       }
     }
   }
