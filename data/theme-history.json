@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-02T17:02:18.615Z",
+  "updatedAt": "2026-08-03T17:54:04.465Z",
   "days": {
     "2026-07-13": {
       "title": "Battle of the Boyne",
@@ -845,6 +845,35 @@
         "provider": "Nager.Date",
         "countryCode": "WS",
         "countryName": "Samoa",
+        "typeLabels": [
+          "公众节日"
+        ],
+        "subdivisions": []
+      }
+    },
+    "2026-08-11": {
+      "title": "Carnival",
+      "motif": "carnivalMasks",
+      "gradient": [
+        "#1a1830",
+        "#613554",
+        "#151417"
+      ],
+      "accent": "#d5738f",
+      "secondary": "#75b0d9",
+      "holidayFamily": "culture-observance",
+      "popularityTier": "niche",
+      "scopeTier": "national",
+      "tags": [
+        "celebration",
+        "procession",
+        "folk",
+        "market"
+      ],
+      "source": {
+        "provider": "Nager.Date",
+        "countryCode": "GD",
+        "countryName": "Grenada",
         "typeLabels": [
           "公众节日"
         ],
