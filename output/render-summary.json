@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-03T17:54:04.472Z",
-  "baseDate": "2026-08-04",
-  "ensuredThrough": "2026-08-11",
+  "generatedAt": "2026-08-04T17:52:25.705Z",
+  "baseDate": "2026-08-05",
+  "ensuredThrough": "2026-08-12",
   "today": "output/today.png",
   "devices": [
     {
@@ -137,23 +137,6 @@
   ],
   "generated": [
     {
-      "date": "2026-08-04",
-      "output": "output/2026/2026.08/2026.08.04.png",
-      "selectedTheme": "Emancipation Tuesday",
-      "selectedMotif": "maritimeFlags",
-      "selectedScoreBreakdown": {
-        "basePriority": 65,
-        "popularity": 14,
-        "jitter": 1.514,
-        "motifPenalty": 0,
-        "culturalPenalty": 42,
-        "holidayFamilyPenalty": 8,
-        "colorPenalty": 24,
-        "finalScore": 6.514
-      },
-      "discardedCount": 3
-    },
-    {
       "date": "2026-08-05",
       "output": "output/2026/2026.08/2026.08.05.png",
       "selectedTheme": "Victory and Homeland Thanksgiving Day and the Day of Croatian defenders",
@@ -271,6 +254,23 @@
         "finalScore": -17.663
       },
       "discardedCount": 3
+    },
+    {
+      "date": "2026-08-12",
+      "output": "output/2026/2026.08/2026.08.12.png",
+      "selectedTheme": "International Youth Day",
+      "selectedMotif": "streamers",
+      "selectedScoreBreakdown": {
+        "basePriority": 68,
+        "popularity": 14,
+        "jitter": 2.143,
+        "motifPenalty": 0,
+        "culturalPenalty": 42,
+        "holidayFamilyPenalty": 38,
+        "colorPenalty": 40,
+        "finalScore": -35.857
+      },
+      "discardedCount": 0
     }
   ],
   "skipped": []
