@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-04T17:52:25.705Z",
-  "baseDate": "2026-08-05",
-  "ensuredThrough": "2026-08-12",
+  "generatedAt": "2026-08-05T17:40:37.466Z",
+  "baseDate": "2026-08-06",
+  "ensuredThrough": "2026-08-13",
   "today": "output/today.png",
   "devices": [
     {
@@ -137,23 +137,6 @@
   ],
   "generated": [
     {
-      "date": "2026-08-05",
-      "output": "output/2026/2026.08/2026.08.05.png",
-      "selectedTheme": "Victory and Homeland Thanksgiving Day and the Day of Croatian defenders",
-      "selectedMotif": "laurelTorch",
-      "selectedScoreBreakdown": {
-        "basePriority": 69,
-        "popularity": 34,
-        "jitter": 2.093,
-        "motifPenalty": 0,
-        "culturalPenalty": 42,
-        "holidayFamilyPenalty": 0,
-        "colorPenalty": 23,
-        "finalScore": 40.093
-      },
-      "discardedCount": 6
-    },
-    {
       "date": "2026-08-06",
       "output": "output/2026/2026.08/2026.08.06.png",
       "selectedTheme": "Independence Day",
@@ -271,6 +254,23 @@
         "finalScore": -35.857
       },
       "discardedCount": 0
+    },
+    {
+      "date": "2026-08-13",
+      "output": "output/2026/2026.08/2026.08.13.png",
+      "selectedTheme": "Women's Day",
+      "selectedMotif": "wovenPattern",
+      "selectedScoreBreakdown": {
+        "basePriority": 61,
+        "popularity": 14,
+        "jitter": 5.754,
+        "motifPenalty": 7,
+        "culturalPenalty": 42,
+        "holidayFamilyPenalty": 14,
+        "colorPenalty": 42,
+        "finalScore": -24.246
+      },
+      "discardedCount": 1
     }
   ],
   "skipped": []
