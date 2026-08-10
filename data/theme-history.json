@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-09T16:38:03.256Z",
+  "updatedAt": "2026-08-10T16:56:40.248Z",
   "days": {
     "2026-07-13": {
       "title": "Battle of the Boyne",
@@ -1056,6 +1056,33 @@
         ],
         "subdivisions": []
       }
+    },
+    "2026-08-18": {
+      "title": "八月星沙",
+      "motif": "desertGeometry",
+      "gradient": [
+        "#1f291c",
+        "#605736",
+        "#13171b"
+      ],
+      "accent": "#b69753",
+      "secondary": "#778f66",
+      "holidayFamily": "seasonal-fallback",
+      "popularityTier": "niche",
+      "scopeTier": "unknown",
+      "tags": [
+        "islamic",
+        "heritage",
+        "sun",
+        "botanical",
+        "sky",
+        "light",
+        "seasonal",
+        "harvest",
+        "autumn",
+        "month-mood"
+      ],
+      "source": null
     }
   }
 }
