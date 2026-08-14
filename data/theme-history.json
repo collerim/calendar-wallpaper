@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-13T17:00:37.040Z",
+  "updatedAt": "2026-08-14T16:56:50.016Z",
   "days": {
     "2026-07-13": {
       "title": "Battle of the Boyne",
@@ -1173,6 +1173,41 @@
           "公众节日"
         ],
         "subdivisions": []
+      }
+    },
+    "2026-08-22": {
+      "title": "Municipal holiday",
+      "motif": "lotusMandala",
+      "gradient": [
+        "#19182e",
+        "#54405f",
+        "#141318"
+      ],
+      "accent": "#c5a9da",
+      "secondary": "#81bbae",
+      "holidayFamily": "municipal-local",
+      "popularityTier": "local",
+      "scopeTier": "local",
+      "tags": [
+        "religious",
+        "botanical",
+        "culture",
+        "heritage",
+        "celebration",
+        "maritime"
+      ],
+      "source": {
+        "provider": "OpenHolidays",
+        "countryCode": "PT",
+        "countryName": "Portugal",
+        "typeLabels": [
+          "可选假日",
+          "地方性"
+        ],
+        "nationwide": false,
+        "subdivisions": [
+          "BA-BR"
+        ]
       }
     }
   }
