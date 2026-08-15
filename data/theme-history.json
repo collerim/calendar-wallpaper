@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-14T16:56:50.016Z",
+  "updatedAt": "2026-08-15T16:27:47.798Z",
   "days": {
     "2026-07-13": {
       "title": "Battle of the Boyne",
@@ -1209,6 +1209,30 @@
           "BA-BR"
         ]
       }
+    },
+    "2026-08-23": {
+      "title": "八月麦束",
+      "motif": "harvestSheaves",
+      "gradient": [
+        "#23281a",
+        "#645636",
+        "#17151a"
+      ],
+      "accent": "#ba9651",
+      "secondary": "#7c8c64",
+      "holidayFamily": "seasonal-fallback",
+      "popularityTier": "niche",
+      "scopeTier": "unknown",
+      "tags": [
+        "botanical",
+        "harvest",
+        "seasonal",
+        "sky",
+        "light",
+        "autumn",
+        "month-mood"
+      ],
+      "source": null
     }
   }
 }
