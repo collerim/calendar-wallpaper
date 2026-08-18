@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-17T16:31:24.360Z",
+  "updatedAt": "2026-08-18T16:37:48.616Z",
   "days": {
     "2026-07-13": {
       "title": "Battle of the Boyne",
@@ -1287,6 +1287,34 @@
         "provider": "Nager.Date",
         "countryCode": "UY",
         "countryName": "Uruguay",
+        "typeLabels": [
+          "公众节日"
+        ],
+        "subdivisions": []
+      }
+    },
+    "2026-08-26": {
+      "title": "Heroes' Day",
+      "motif": "wovenPattern",
+      "gradient": [
+        "#1c1824",
+        "#574435",
+        "#141417"
+      ],
+      "accent": "#c9a957",
+      "secondary": "#73afda",
+      "holidayFamily": "heroes-day",
+      "popularityTier": "niche",
+      "scopeTier": "national",
+      "tags": [
+        "culture",
+        "civic",
+        "celebration"
+      ],
+      "source": {
+        "provider": "Nager.Date",
+        "countryCode": "NA",
+        "countryName": "Namibia",
         "typeLabels": [
           "公众节日"
         ],

@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-17T16:31:24.361Z",
-  "baseDate": "2026-08-18",
-  "ensuredThrough": "2026-08-25",
+  "generatedAt": "2026-08-18T16:37:48.617Z",
+  "baseDate": "2026-08-19",
+  "ensuredThrough": "2026-08-26",
   "today": "output/today.png",
   "devices": [
     {
@@ -137,23 +137,6 @@
   ],
   "generated": [
     {
-      "date": "2026-08-18",
-      "output": "output/2026/2026.08/2026.08.18.png",
-      "selectedTheme": "八月星沙",
-      "selectedMotif": "desertGeometry",
-      "selectedScoreBreakdown": {
-        "basePriority": 29,
-        "popularity": 0,
-        "jitter": 2.791,
-        "motifPenalty": 0,
-        "culturalPenalty": 0,
-        "holidayFamilyPenalty": 0,
-        "colorPenalty": 12,
-        "finalScore": 19.791
-      },
-      "discardedCount": 10
-    },
-    {
       "date": "2026-08-19",
       "output": "output/2026/2026.08/2026.08.19.png",
       "selectedTheme": "World Photography Day",
@@ -269,6 +252,23 @@
         "holidayFamilyPenalty": 48,
         "colorPenalty": 42,
         "finalScore": -31.274
+      },
+      "discardedCount": 1
+    },
+    {
+      "date": "2026-08-26",
+      "output": "output/2026/2026.08/2026.08.26.png",
+      "selectedTheme": "Heroes' Day",
+      "selectedMotif": "wovenPattern",
+      "selectedScoreBreakdown": {
+        "basePriority": 65,
+        "popularity": 14,
+        "jitter": 1.682,
+        "motifPenalty": 0,
+        "culturalPenalty": 42,
+        "holidayFamilyPenalty": 0,
+        "colorPenalty": 42,
+        "finalScore": -3.318
       },
       "discardedCount": 1
     }
