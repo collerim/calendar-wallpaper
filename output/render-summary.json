@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-18T16:37:48.617Z",
-  "baseDate": "2026-08-19",
-  "ensuredThrough": "2026-08-26",
+  "generatedAt": "2026-08-19T16:38:33.101Z",
+  "baseDate": "2026-08-20",
+  "ensuredThrough": "2026-08-27",
   "today": "output/today.png",
   "devices": [
     {
@@ -137,23 +137,6 @@
   ],
   "generated": [
     {
-      "date": "2026-08-19",
-      "output": "output/2026/2026.08/2026.08.19.png",
-      "selectedTheme": "World Photography Day",
-      "selectedMotif": "starfield",
-      "selectedScoreBreakdown": {
-        "basePriority": 68,
-        "popularity": 14,
-        "jitter": 0.673,
-        "motifPenalty": 0,
-        "culturalPenalty": 42,
-        "holidayFamilyPenalty": 0,
-        "colorPenalty": 42,
-        "finalScore": -1.327
-      },
-      "discardedCount": 1
-    },
-    {
       "date": "2026-08-20",
       "output": "output/2026/2026.08/2026.08.20.png",
       "selectedTheme": "State Foundation Day",
@@ -269,6 +252,23 @@
         "holidayFamilyPenalty": 0,
         "colorPenalty": 42,
         "finalScore": -3.318
+      },
+      "discardedCount": 1
+    },
+    {
+      "date": "2026-08-27",
+      "output": "output/2026/2026.08/2026.08.27.png",
+      "selectedTheme": "Independence Day (Moldova)",
+      "selectedMotif": "cityParade",
+      "selectedScoreBreakdown": {
+        "basePriority": 73,
+        "popularity": 26,
+        "jitter": 1.706,
+        "motifPenalty": 30,
+        "culturalPenalty": 42,
+        "holidayFamilyPenalty": 38,
+        "colorPenalty": 42,
+        "finalScore": -51.294
       },
       "discardedCount": 1
     }
