@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-19T16:38:33.101Z",
-  "baseDate": "2026-08-20",
-  "ensuredThrough": "2026-08-27",
+  "generatedAt": "2026-08-20T16:39:26.830Z",
+  "baseDate": "2026-08-21",
+  "ensuredThrough": "2026-08-28",
   "today": "output/today.png",
   "devices": [
     {
@@ -137,23 +137,6 @@
   ],
   "generated": [
     {
-      "date": "2026-08-20",
-      "output": "output/2026/2026.08/2026.08.20.png",
-      "selectedTheme": "State Foundation Day",
-      "selectedMotif": "cityParade",
-      "selectedScoreBreakdown": {
-        "basePriority": 64,
-        "popularity": 26,
-        "jitter": 4.278,
-        "motifPenalty": 10,
-        "culturalPenalty": 29,
-        "holidayFamilyPenalty": 0,
-        "colorPenalty": 42,
-        "finalScore": 13.278
-      },
-      "discardedCount": 4
-    },
-    {
       "date": "2026-08-21",
       "output": "output/2026/2026.08/2026.08.21.png",
       "selectedTheme": "Youth Day",
@@ -269,6 +252,23 @@
         "holidayFamilyPenalty": 38,
         "colorPenalty": 42,
         "finalScore": -51.294
+      },
+      "discardedCount": 1
+    },
+    {
+      "date": "2026-08-28",
+      "output": "output/2026/2026.08/2026.08.28.png",
+      "selectedTheme": "Saint Mary's Day",
+      "selectedMotif": "stainedGlass",
+      "selectedScoreBreakdown": {
+        "basePriority": 61,
+        "popularity": 8,
+        "jitter": 0.963,
+        "motifPenalty": 0,
+        "culturalPenalty": 42,
+        "holidayFamilyPenalty": 0,
+        "colorPenalty": 42,
+        "finalScore": -14.037
       },
       "discardedCount": 1
     }
