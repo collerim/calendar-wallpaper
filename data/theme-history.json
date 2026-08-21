@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-20T16:39:26.829Z",
+  "updatedAt": "2026-08-21T16:37:05.271Z",
   "days": {
     "2026-07-13": {
       "title": "Battle of the Boyne",
@@ -1374,6 +1374,36 @@
         "countryName": "Georgia",
         "typeLabels": [
           "公众节日"
+        ],
+        "subdivisions": []
+      }
+    },
+    "2026-08-29": {
+      "title": "World Video Game Day",
+      "motif": "starfield",
+      "gradient": [
+        "#141830",
+        "#313364",
+        "#111520"
+      ],
+      "accent": "#95b7e7",
+      "secondary": "#d4bb6b",
+      "holidayFamily": "culture-observance",
+      "popularityTier": "observance",
+      "scopeTier": "international",
+      "tags": [
+        "sky",
+        "light",
+        "celebration",
+        "culture",
+        "international"
+      ],
+      "source": {
+        "provider": "Curated Cultural Observances",
+        "countryCode": "INTL",
+        "countryName": "International",
+        "typeLabels": [
+          "文化日"
         ],
         "subdivisions": []
       }
