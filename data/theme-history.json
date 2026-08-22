@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-21T16:37:05.271Z",
+  "updatedAt": "2026-08-22T16:26:35.370Z",
   "days": {
     "2026-07-13": {
       "title": "Battle of the Boyne",
@@ -1404,6 +1404,35 @@
         "countryName": "International",
         "typeLabels": [
           "文化日"
+        ],
+        "subdivisions": []
+      }
+    },
+    "2026-08-30": {
+      "title": "Victory Day",
+      "motif": "laurelTorch",
+      "gradient": [
+        "#171916",
+        "#5b3b30",
+        "#111215"
+      ],
+      "accent": "#c6ac55",
+      "secondary": "#c64f46",
+      "holidayFamily": "remembrance",
+      "popularityTier": "niche",
+      "scopeTier": "national",
+      "tags": [
+        "civic",
+        "remembrance",
+        "light",
+        "celebration"
+      ],
+      "source": {
+        "provider": "Nager.Date",
+        "countryCode": "TR",
+        "countryName": "Türkiye",
+        "typeLabels": [
+          "公众节日"
         ],
         "subdivisions": []
       }
