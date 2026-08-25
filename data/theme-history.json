@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-24T16:39:57.260Z",
+  "updatedAt": "2026-08-25T16:40:22.812Z",
   "days": {
     "2026-07-13": {
       "title": "Battle of the Boyne",
@@ -1491,6 +1491,35 @@
         "countryName": "Slovakia",
         "typeLabels": [
           "纪念日"
+        ],
+        "subdivisions": []
+      }
+    },
+    "2026-09-02": {
+      "title": "National Day",
+      "motif": "sportsMedals",
+      "gradient": [
+        "#151d30",
+        "#4c2f3e",
+        "#121517"
+      ],
+      "accent": "#72a0d2",
+      "secondary": "#d7575d",
+      "holidayFamily": "national-day",
+      "popularityTier": "common",
+      "scopeTier": "national",
+      "tags": [
+        "civic",
+        "celebration",
+        "procession",
+        "sports"
+      ],
+      "source": {
+        "provider": "Nager.Date",
+        "countryCode": "VN",
+        "countryName": "Vietnam",
+        "typeLabels": [
+          "公众节日"
         ],
         "subdivisions": []
       }
