@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-25T16:40:22.812Z",
+  "updatedAt": "2026-08-26T16:50:34.749Z",
   "days": {
     "2026-07-13": {
       "title": "Battle of the Boyne",
@@ -1521,6 +1521,35 @@
         "typeLabels": [
           "公众节日"
         ],
+        "subdivisions": []
+      }
+    },
+    "2026-09-03": {
+      "title": "San Marino Foundation Day",
+      "motif": "mountainFlags",
+      "gradient": [
+        "#11213a",
+        "#364f6b",
+        "#14151b"
+      ],
+      "accent": "#74acd8",
+      "secondary": "#e2dfe4",
+      "holidayFamily": "foundation-day",
+      "popularityTier": "common",
+      "scopeTier": "national",
+      "tags": [
+        "mountain",
+        "civic",
+        "celebration"
+      ],
+      "source": {
+        "provider": "Fixed Holidays",
+        "countryCode": "SM",
+        "countryName": "San Marino",
+        "typeLabels": [
+          "公众节日"
+        ],
+        "nationwide": true,
         "subdivisions": []
       }
     }
