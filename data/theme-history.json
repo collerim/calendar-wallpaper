@@ -1,34 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-26T16:50:34.749Z",
+  "updatedAt": "2026-08-28T00:48:05.034Z",
   "days": {
-    "2026-07-13": {
-      "title": "Battle of the Boyne",
-      "motif": "wovenPattern",
-      "gradient": [
-        "#161f2f",
-        "#4b3343",
-        "#131419"
-      ],
-      "accent": "#78a3d3",
-      "secondary": "#d65659",
-      "holidayFamily": "national-civic-day",
-      "popularityTier": "niche",
-      "scopeTier": "national",
-      "tags": [
-        "culture",
-        "civic"
-      ],
-      "source": {
-        "provider": "Nager.Date",
-        "countryCode": "GB",
-        "countryName": "United Kingdom",
-        "typeLabels": [
-          "公众节日"
-        ],
-        "subdivisions": []
-      }
-    },
     "2026-07-14": {
       "title": "National Day",
       "motif": "cityParade",
@@ -1552,6 +1525,32 @@
         "nationwide": true,
         "subdivisions": []
       }
+    },
+    "2026-09-04": {
+      "title": "九月暖雾",
+      "motif": "teaSteam",
+      "gradient": [
+        "#21261c",
+        "#625636",
+        "#121718"
+      ],
+      "accent": "#b89753",
+      "secondary": "#7c9163",
+      "holidayFamily": "seasonal-fallback",
+      "popularityTier": "niche",
+      "scopeTier": "unknown",
+      "tags": [
+        "culture",
+        "light",
+        "winter",
+        "botanical",
+        "sky",
+        "seasonal",
+        "harvest",
+        "autumn",
+        "month-mood"
+      ],
+      "source": null
     }
   }
 }
