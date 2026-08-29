@@ -1,36 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-29T00:29:21.376Z",
+  "updatedAt": "2026-08-29T19:17:22.594Z",
   "days": {
-    "2026-07-15": {
-      "title": "Democracy and National Unity Day",
-      "motif": "sportsMedals",
-      "gradient": [
-        "#151d36",
-        "#4c2e42",
-        "#131316"
-      ],
-      "accent": "#729fd7",
-      "secondary": "#d9545d",
-      "holidayFamily": "unity-day",
-      "popularityTier": "common",
-      "scopeTier": "national",
-      "tags": [
-        "civic",
-        "celebration",
-        "procession",
-        "sports"
-      ],
-      "source": {
-        "provider": "Nager.Date",
-        "countryCode": "TR",
-        "countryName": "Türkiye",
-        "typeLabels": [
-          "公众节日"
-        ],
-        "subdivisions": []
-      }
-    },
     "2026-07-16": {
       "title": "Our Lady of Mount Carmel",
       "motif": "wovenPattern",
@@ -1547,6 +1518,34 @@
         "month-mood"
       ],
       "source": null
+    },
+    "2026-09-06": {
+      "title": "Bonaire Flag Day",
+      "motif": "paperCut",
+      "gradient": [
+        "#260c0d",
+        "#7d2d29",
+        "#120c0e"
+      ],
+      "accent": "#e2b857",
+      "secondary": "#d63b37",
+      "holidayFamily": "national-symbol-day",
+      "popularityTier": "niche",
+      "scopeTier": "national",
+      "tags": [
+        "civic",
+        "celebration",
+        "culture"
+      ],
+      "source": {
+        "provider": "Nager.Date",
+        "countryCode": "BQ",
+        "countryName": "Caribbean Netherlands",
+        "typeLabels": [
+          "公众节日"
+        ],
+        "subdivisions": []
+      }
     }
   }
 }
