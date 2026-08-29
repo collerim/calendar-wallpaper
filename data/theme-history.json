@@ -1,37 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-28T00:48:05.034Z",
+  "updatedAt": "2026-08-29T00:29:21.376Z",
   "days": {
-    "2026-07-14": {
-      "title": "National Day",
-      "motif": "cityParade",
-      "gradient": [
-        "#131b3c",
-        "#372f4e",
-        "#4d2733"
-      ],
-      "accent": "#6498e9",
-      "secondary": "#dc565d",
-      "holidayFamily": "national-day",
-      "popularityTier": "common",
-      "scopeTier": "national",
-      "tags": [
-        "civic",
-        "celebration",
-        "procession"
-      ],
-      "source": {
-        "provider": "OpenHolidays",
-        "countryCode": "FR",
-        "countryName": "France",
-        "typeLabels": [
-          "公众节日",
-          "全国性"
-        ],
-        "nationwide": true,
-        "subdivisions": []
-      }
-    },
     "2026-07-15": {
       "title": "Democracy and National Unity Day",
       "motif": "sportsMedals",
@@ -1545,6 +1515,32 @@
         "winter",
         "botanical",
         "sky",
+        "seasonal",
+        "harvest",
+        "autumn",
+        "month-mood"
+      ],
+      "source": null
+    },
+    "2026-09-05": {
+      "title": "九月晴风",
+      "motif": "paperKites",
+      "gradient": [
+        "#281d21",
+        "#674f39",
+        "#15151a"
+      ],
+      "accent": "#bd8f56",
+      "secondary": "#808e66",
+      "holidayFamily": "seasonal-fallback",
+      "popularityTier": "niche",
+      "scopeTier": "unknown",
+      "tags": [
+        "sky",
+        "celebration",
+        "wind",
+        "botanical",
+        "light",
         "seasonal",
         "harvest",
         "autumn",
