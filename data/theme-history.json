@@ -1,38 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-31T21:22:41.200Z",
+  "updatedAt": "2026-09-01T19:18:01.333Z",
   "days": {
-    "2026-07-18": {
-      "title": "Constitution Day",
-      "motif": "oceanCompass",
-      "gradient": [
-        "#121f38",
-        "#4a3043",
-        "#141516"
-      ],
-      "accent": "#6fa1d9",
-      "secondary": "#d9565d",
-      "holidayFamily": "constitution-day",
-      "popularityTier": "common",
-      "scopeTier": "national",
-      "tags": [
-        "civic",
-        "celebration",
-        "procession",
-        "maritime",
-        "water",
-        "travel"
-      ],
-      "source": {
-        "provider": "Nager.Date",
-        "countryCode": "UY",
-        "countryName": "Uruguay",
-        "typeLabels": [
-          "公众节日"
-        ],
-        "subdivisions": []
-      }
-    },
     "2026-07-19": {
       "title": "Liberation Day",
       "motif": "laurelTorch",
@@ -1550,6 +1519,33 @@
         "nationwide": true,
         "subdivisions": []
       }
+    },
+    "2026-09-09": {
+      "title": "九月菱绣",
+      "motif": "folkEmbroidery",
+      "gradient": [
+        "#29241d",
+        "#695436",
+        "#13171b"
+      ],
+      "accent": "#bf9553",
+      "secondary": "#7d9167",
+      "holidayFamily": "seasonal-fallback",
+      "popularityTier": "niche",
+      "scopeTier": "unknown",
+      "tags": [
+        "folk",
+        "heritage",
+        "culture",
+        "botanical",
+        "sky",
+        "light",
+        "seasonal",
+        "harvest",
+        "autumn",
+        "month-mood"
+      ],
+      "source": null
     }
   }
 }
