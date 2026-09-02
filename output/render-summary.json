@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-01T19:18:01.334Z",
-  "baseDate": "2026-09-02",
-  "ensuredThrough": "2026-09-09",
+  "generatedAt": "2026-09-02T19:17:48.004Z",
+  "baseDate": "2026-09-03",
+  "ensuredThrough": "2026-09-10",
   "today": "output/today.png",
   "devices": [
     {
@@ -137,23 +137,6 @@
   ],
   "generated": [
     {
-      "date": "2026-09-02",
-      "output": "output/2026/2026.09/2026.09.02.png",
-      "selectedTheme": "National Day",
-      "selectedMotif": "sportsMedals",
-      "selectedScoreBreakdown": {
-        "basePriority": 69,
-        "popularity": 26,
-        "jitter": 1.336,
-        "motifPenalty": 0,
-        "culturalPenalty": 42,
-        "holidayFamilyPenalty": 0,
-        "colorPenalty": 42,
-        "finalScore": 12.336
-      },
-      "discardedCount": 1
-    },
-    {
       "date": "2026-09-03",
       "output": "output/2026/2026.09/2026.09.03.png",
       "selectedTheme": "San Marino Foundation Day",
@@ -161,46 +144,46 @@
       "selectedScoreBreakdown": {
         "basePriority": 80,
         "popularity": 26,
-        "jitter": 4.388,
+        "jitter": 0.578,
         "motifPenalty": 0,
         "culturalPenalty": 42,
         "holidayFamilyPenalty": 0,
         "colorPenalty": 42,
-        "finalScore": 26.388
+        "finalScore": 22.578
       },
-      "discardedCount": 4
+      "discardedCount": 5
     },
     {
       "date": "2026-09-04",
       "output": "output/2026/2026.09/2026.09.04.png",
-      "selectedTheme": "九月暖雾",
-      "selectedMotif": "teaSteam",
+      "selectedTheme": "Labour Day",
+      "selectedMotif": "maritimeFlags",
       "selectedScoreBreakdown": {
-        "basePriority": 30,
-        "popularity": 0,
+        "basePriority": 65,
+        "popularity": 26,
         "jitter": 3.713,
-        "motifPenalty": 0,
-        "culturalPenalty": 0,
+        "motifPenalty": 14,
+        "culturalPenalty": 42,
         "holidayFamilyPenalty": 0,
-        "colorPenalty": 12,
-        "finalScore": 21.713
+        "colorPenalty": 42,
+        "finalScore": -3.287
       },
-      "discardedCount": 10
+      "discardedCount": 0
     },
     {
       "date": "2026-09-05",
       "output": "output/2026/2026.09/2026.09.05.png",
-      "selectedTheme": "九月晴风",
-      "selectedMotif": "paperKites",
+      "selectedTheme": "九月麦束",
+      "selectedMotif": "harvestSheaves",
       "selectedScoreBreakdown": {
-        "basePriority": 29.25,
+        "basePriority": 28.25,
         "popularity": 0,
-        "jitter": 5.846,
+        "jitter": 5.757,
         "motifPenalty": 0,
         "culturalPenalty": 0,
         "holidayFamilyPenalty": 0,
-        "colorPenalty": 42,
-        "finalScore": -6.904
+        "colorPenalty": 11,
+        "finalScore": 23.007
       },
       "discardedCount": 10
     },
@@ -212,46 +195,46 @@
       "selectedScoreBreakdown": {
         "basePriority": 59,
         "popularity": 14,
-        "jitter": 2.591,
+        "jitter": 2.213,
         "motifPenalty": 0,
-        "culturalPenalty": 42,
+        "culturalPenalty": 34,
         "holidayFamilyPenalty": 0,
         "colorPenalty": 24,
-        "finalScore": 9.591
+        "finalScore": 17.213
       },
-      "discardedCount": 1
+      "discardedCount": 2
     },
     {
       "date": "2026-09-07",
       "output": "output/2026/2026.09/2026.09.07.png",
-      "selectedTheme": "Labour Day",
-      "selectedMotif": "sunRibbons",
+      "selectedTheme": "Independence Day",
+      "selectedMotif": "cityParade",
       "selectedScoreBreakdown": {
-        "basePriority": 78,
-        "popularity": 30,
-        "jitter": 2.966,
-        "motifPenalty": 0,
-        "culturalPenalty": 42,
+        "basePriority": 71,
+        "popularity": 26,
+        "jitter": 0.395,
+        "motifPenalty": 7,
+        "culturalPenalty": 39,
         "holidayFamilyPenalty": 0,
-        "colorPenalty": 20,
-        "finalScore": 48.966
+        "colorPenalty": 12,
+        "finalScore": 39.395
       },
       "discardedCount": 7
     },
     {
       "date": "2026-09-08",
       "output": "output/2026/2026.09/2026.09.08.png",
-      "selectedTheme": "Andorra National Day",
-      "selectedMotif": "mountainFlags",
+      "selectedTheme": "International Literacy Day",
+      "selectedMotif": "starfield",
       "selectedScoreBreakdown": {
-        "basePriority": 80,
-        "popularity": 26,
-        "jitter": 0.938,
-        "motifPenalty": 10,
+        "basePriority": 70,
+        "popularity": 14,
+        "jitter": 4.57,
+        "motifPenalty": 0,
         "culturalPenalty": 42,
         "holidayFamilyPenalty": 0,
-        "colorPenalty": 42,
-        "finalScore": 12.938
+        "colorPenalty": 11,
+        "finalScore": 35.57
       },
       "discardedCount": 8
     },
@@ -271,6 +254,23 @@
         "finalScore": -7.806
       },
       "discardedCount": 10
+    },
+    {
+      "date": "2026-09-10",
+      "output": "output/2026/2026.09/2026.09.10.png",
+      "selectedTheme": "Gibraltar National Day",
+      "selectedMotif": "cityParade",
+      "selectedScoreBreakdown": {
+        "basePriority": 73,
+        "popularity": 26,
+        "jitter": 0.336,
+        "motifPenalty": 20,
+        "culturalPenalty": 34,
+        "holidayFamilyPenalty": 0,
+        "colorPenalty": 42,
+        "finalScore": 3.336
+      },
+      "discardedCount": 4
     }
   ],
   "skipped": []
