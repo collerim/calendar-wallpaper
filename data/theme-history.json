@@ -1,38 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-02T19:17:48.003Z",
+  "updatedAt": "2026-09-03T19:12:09.265Z",
   "days": {
-    "2026-07-20": {
-      "title": "Marine Day",
-      "motif": "maritimeFlags",
-      "gradient": [
-        "#181821",
-        "#55323e",
-        "#141318"
-      ],
-      "accent": "#dddcd9",
-      "secondary": "#cc474d",
-      "holidayFamily": "national-civic-day",
-      "popularityTier": "niche",
-      "scopeTier": "national",
-      "tags": [
-        "maritime",
-        "water",
-        "civic",
-        "island",
-        "celebration",
-        "sun"
-      ],
-      "source": {
-        "provider": "Nager.Date",
-        "countryCode": "JP",
-        "countryName": "Japan",
-        "typeLabels": [
-          "公众节日"
-        ],
-        "subdivisions": []
-      }
-    },
     "2026-07-21": {
       "title": "National Day",
       "motif": "cityParade",
@@ -1542,6 +1511,35 @@
         "provider": "Nager.Date",
         "countryCode": "GI",
         "countryName": "Gibraltar",
+        "typeLabels": [
+          "公众节日"
+        ],
+        "subdivisions": []
+      }
+    },
+    "2026-09-11": {
+      "title": "Liberation Day",
+      "motif": "laurelTorch",
+      "gradient": [
+        "#1a1815",
+        "#5e3a2f",
+        "#141111"
+      ],
+      "accent": "#c8ab54",
+      "secondary": "#c94e40",
+      "holidayFamily": "remembrance",
+      "popularityTier": "niche",
+      "scopeTier": "national",
+      "tags": [
+        "civic",
+        "remembrance",
+        "light",
+        "celebration"
+      ],
+      "source": {
+        "provider": "Nager.Date",
+        "countryCode": "FM",
+        "countryName": "Micronesia",
         "typeLabels": [
           "公众节日"
         ],

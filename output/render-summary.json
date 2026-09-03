@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-02T19:17:48.004Z",
-  "baseDate": "2026-09-03",
-  "ensuredThrough": "2026-09-10",
+  "generatedAt": "2026-09-03T19:12:09.266Z",
+  "baseDate": "2026-09-04",
+  "ensuredThrough": "2026-09-11",
   "today": "output/today.png",
   "devices": [
     {
@@ -137,23 +137,6 @@
   ],
   "generated": [
     {
-      "date": "2026-09-03",
-      "output": "output/2026/2026.09/2026.09.03.png",
-      "selectedTheme": "San Marino Foundation Day",
-      "selectedMotif": "mountainFlags",
-      "selectedScoreBreakdown": {
-        "basePriority": 80,
-        "popularity": 26,
-        "jitter": 0.578,
-        "motifPenalty": 0,
-        "culturalPenalty": 42,
-        "holidayFamilyPenalty": 0,
-        "colorPenalty": 42,
-        "finalScore": 22.578
-      },
-      "discardedCount": 5
-    },
-    {
       "date": "2026-09-04",
       "output": "output/2026/2026.09/2026.09.04.png",
       "selectedTheme": "Labour Day",
@@ -271,6 +254,23 @@
         "finalScore": 3.336
       },
       "discardedCount": 4
+    },
+    {
+      "date": "2026-09-11",
+      "output": "output/2026/2026.09/2026.09.11.png",
+      "selectedTheme": "Liberation Day",
+      "selectedMotif": "laurelTorch",
+      "selectedScoreBreakdown": {
+        "basePriority": 62,
+        "popularity": 14,
+        "jitter": 0.444,
+        "motifPenalty": 0,
+        "culturalPenalty": 39,
+        "holidayFamilyPenalty": 0,
+        "colorPenalty": 42,
+        "finalScore": -4.556
+      },
+      "discardedCount": 3
     }
   ],
   "skipped": []
