@@ -1,35 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-04T18:54:44.381Z",
+  "updatedAt": "2026-09-05T18:00:45.997Z",
   "days": {
-    "2026-07-22": {
-      "title": "Revolution Day",
-      "motif": "wovenPattern",
-      "gradient": [
-        "#1d1c22",
-        "#584733",
-        "#141314"
-      ],
-      "accent": "#caac55",
-      "secondary": "#73afd6",
-      "holidayFamily": "revolution-day",
-      "popularityTier": "niche",
-      "scopeTier": "national",
-      "tags": [
-        "culture",
-        "civic",
-        "celebration"
-      ],
-      "source": {
-        "provider": "Nager.Date",
-        "countryCode": "GM",
-        "countryName": "Gambia",
-        "typeLabels": [
-          "公众节日"
-        ],
-        "subdivisions": []
-      }
-    },
     "2026-07-23": {
       "title": "Remembrance Day",
       "motif": "doveGarland",
@@ -1539,6 +1511,34 @@
         "month-mood"
       ],
       "source": null
+    },
+    "2026-09-13": {
+      "title": "Father's Day",
+      "motif": "wovenPattern",
+      "gradient": [
+        "#1d1a28",
+        "#584538",
+        "#131519"
+      ],
+      "accent": "#caab5a",
+      "secondary": "#71b1dc",
+      "holidayFamily": "remembrance",
+      "popularityTier": "common",
+      "scopeTier": "unknown",
+      "tags": [
+        "culture",
+        "civic",
+        "celebration"
+      ],
+      "source": {
+        "provider": "Nager.Date",
+        "countryCode": "LV",
+        "countryName": "Latvia",
+        "typeLabels": [
+          "纪念日"
+        ],
+        "subdivisions": []
+      }
     }
   }
 }

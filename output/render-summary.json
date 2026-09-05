@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-04T18:54:44.382Z",
-  "baseDate": "2026-09-05",
-  "ensuredThrough": "2026-09-12",
+  "generatedAt": "2026-09-05T18:00:45.998Z",
+  "baseDate": "2026-09-06",
+  "ensuredThrough": "2026-09-13",
   "today": "output/today.png",
   "devices": [
     {
@@ -137,23 +137,6 @@
   ],
   "generated": [
     {
-      "date": "2026-09-05",
-      "output": "output/2026/2026.09/2026.09.05.png",
-      "selectedTheme": "九月麦束",
-      "selectedMotif": "harvestSheaves",
-      "selectedScoreBreakdown": {
-        "basePriority": 28.25,
-        "popularity": 0,
-        "jitter": 5.757,
-        "motifPenalty": 0,
-        "culturalPenalty": 0,
-        "holidayFamilyPenalty": 0,
-        "colorPenalty": 11,
-        "finalScore": 23.007
-      },
-      "discardedCount": 10
-    },
-    {
       "date": "2026-09-06",
       "output": "output/2026/2026.09/2026.09.06.png",
       "selectedTheme": "Bonaire Flag Day",
@@ -271,6 +254,23 @@
         "finalScore": -7.401
       },
       "discardedCount": 10
+    },
+    {
+      "date": "2026-09-13",
+      "output": "output/2026/2026.09/2026.09.13.png",
+      "selectedTheme": "Father's Day",
+      "selectedMotif": "wovenPattern",
+      "selectedScoreBreakdown": {
+        "basePriority": 56,
+        "popularity": 12,
+        "jitter": 1.425,
+        "motifPenalty": 0,
+        "culturalPenalty": 32,
+        "holidayFamilyPenalty": 24,
+        "colorPenalty": 42,
+        "finalScore": -28.575
+      },
+      "discardedCount": 0
     }
   ],
   "skipped": []
