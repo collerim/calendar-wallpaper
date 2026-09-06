@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-05T18:00:45.998Z",
-  "baseDate": "2026-09-06",
-  "ensuredThrough": "2026-09-13",
+  "generatedAt": "2026-09-06T18:07:28.590Z",
+  "baseDate": "2026-09-07",
+  "ensuredThrough": "2026-09-14",
   "today": "output/today.png",
   "devices": [
     {
@@ -137,23 +137,6 @@
   ],
   "generated": [
     {
-      "date": "2026-09-06",
-      "output": "output/2026/2026.09/2026.09.06.png",
-      "selectedTheme": "Bonaire Flag Day",
-      "selectedMotif": "paperCut",
-      "selectedScoreBreakdown": {
-        "basePriority": 59,
-        "popularity": 14,
-        "jitter": 2.213,
-        "motifPenalty": 0,
-        "culturalPenalty": 34,
-        "holidayFamilyPenalty": 0,
-        "colorPenalty": 24,
-        "finalScore": 17.213
-      },
-      "discardedCount": 2
-    },
-    {
       "date": "2026-09-07",
       "output": "output/2026/2026.09/2026.09.07.png",
       "selectedTheme": "Independence Day",
@@ -271,6 +254,23 @@
         "finalScore": -28.575
       },
       "discardedCount": 0
+    },
+    {
+      "date": "2026-09-14",
+      "output": "output/2026/2026.09/2026.09.14.png",
+      "selectedTheme": "Angel consecration",
+      "selectedMotif": "marketBanners",
+      "selectedScoreBreakdown": {
+        "basePriority": 61,
+        "popularity": 4,
+        "jitter": 3.676,
+        "motifPenalty": 0,
+        "culturalPenalty": 42,
+        "holidayFamilyPenalty": 0,
+        "colorPenalty": 42,
+        "finalScore": -15.324
+      },
+      "discardedCount": 2
     }
   ],
   "skipped": []

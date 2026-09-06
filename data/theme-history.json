@@ -1,37 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-05T18:00:45.997Z",
+  "updatedAt": "2026-09-06T18:07:28.589Z",
   "days": {
-    "2026-07-23": {
-      "title": "Remembrance Day",
-      "motif": "doveGarland",
-      "gradient": [
-        "#171927",
-        "#404958",
-        "#11151a"
-      ],
-      "accent": "#e1dbc5",
-      "secondary": "#c8b46d",
-      "holidayFamily": "remembrance",
-      "popularityTier": "niche",
-      "scopeTier": "national",
-      "tags": [
-        "remembrance",
-        "light",
-        "civic",
-        "memorial",
-        "celebration"
-      ],
-      "source": {
-        "provider": "Nager.Date",
-        "countryCode": "PG",
-        "countryName": "Papua New Guinea",
-        "typeLabels": [
-          "公众节日"
-        ],
-        "subdivisions": []
-      }
-    },
     "2026-07-24": {
       "title": "Simón Bolívar's Birthday",
       "motif": "paperCut",
@@ -1538,6 +1508,41 @@
           "纪念日"
         ],
         "subdivisions": []
+      }
+    },
+    "2026-09-14": {
+      "title": "Angel consecration",
+      "motif": "marketBanners",
+      "gradient": [
+        "#161f2e",
+        "#552d30",
+        "#121619"
+      ],
+      "accent": "#d2585c",
+      "secondary": "#dee1e6",
+      "holidayFamily": "municipal-local",
+      "popularityTier": "niche",
+      "scopeTier": "national",
+      "tags": [
+        "culture",
+        "civic",
+        "mountain",
+        "market",
+        "celebration",
+        "folk"
+      ],
+      "source": {
+        "provider": "OpenHolidays",
+        "countryCode": "CH",
+        "countryName": "Switzerland",
+        "typeLabels": [
+          "公众节日",
+          "地方性"
+        ],
+        "nationwide": false,
+        "subdivisions": [
+          "SZ-ES"
+        ]
       }
     }
   }
