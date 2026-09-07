@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-06T18:07:28.590Z",
-  "baseDate": "2026-09-07",
-  "ensuredThrough": "2026-09-14",
+  "generatedAt": "2026-09-07T19:42:39.949Z",
+  "baseDate": "2026-09-08",
+  "ensuredThrough": "2026-09-15",
   "today": "output/today.png",
   "devices": [
     {
@@ -137,23 +137,6 @@
   ],
   "generated": [
     {
-      "date": "2026-09-07",
-      "output": "output/2026/2026.09/2026.09.07.png",
-      "selectedTheme": "Independence Day",
-      "selectedMotif": "cityParade",
-      "selectedScoreBreakdown": {
-        "basePriority": 71,
-        "popularity": 26,
-        "jitter": 0.395,
-        "motifPenalty": 7,
-        "culturalPenalty": 39,
-        "holidayFamilyPenalty": 0,
-        "colorPenalty": 12,
-        "finalScore": 39.395
-      },
-      "discardedCount": 7
-    },
-    {
       "date": "2026-09-08",
       "output": "output/2026/2026.09/2026.09.08.png",
       "selectedTheme": "International Literacy Day",
@@ -271,6 +254,23 @@
         "finalScore": -15.324
       },
       "discardedCount": 2
+    },
+    {
+      "date": "2026-09-15",
+      "output": "output/2026/2026.09/2026.09.15.png",
+      "selectedTheme": "Day of Our Lady of the Seven Sorrows",
+      "selectedMotif": "tanabata",
+      "selectedScoreBreakdown": {
+        "basePriority": 61,
+        "popularity": 14,
+        "jitter": 2.76,
+        "motifPenalty": 0,
+        "culturalPenalty": 37,
+        "holidayFamilyPenalty": 0,
+        "colorPenalty": 20,
+        "finalScore": 20.76
+      },
+      "discardedCount": 7
     }
   ],
   "skipped": []
