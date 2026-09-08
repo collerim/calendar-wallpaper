@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-07T19:42:39.949Z",
-  "baseDate": "2026-09-08",
-  "ensuredThrough": "2026-09-15",
+  "generatedAt": "2026-09-08T19:20:08.087Z",
+  "baseDate": "2026-09-09",
+  "ensuredThrough": "2026-09-16",
   "today": "output/today.png",
   "devices": [
     {
@@ -137,23 +137,6 @@
   ],
   "generated": [
     {
-      "date": "2026-09-08",
-      "output": "output/2026/2026.09/2026.09.08.png",
-      "selectedTheme": "International Literacy Day",
-      "selectedMotif": "starfield",
-      "selectedScoreBreakdown": {
-        "basePriority": 70,
-        "popularity": 14,
-        "jitter": 4.57,
-        "motifPenalty": 0,
-        "culturalPenalty": 42,
-        "holidayFamilyPenalty": 0,
-        "colorPenalty": 11,
-        "finalScore": 35.57
-      },
-      "discardedCount": 8
-    },
-    {
       "date": "2026-09-09",
       "output": "output/2026/2026.09/2026.09.09.png",
       "selectedTheme": "九月菱绣",
@@ -271,6 +254,23 @@
         "finalScore": 20.76
       },
       "discardedCount": 7
+    },
+    {
+      "date": "2026-09-16",
+      "output": "output/2026/2026.09/2026.09.16.png",
+      "selectedTheme": "Mexico Independence Day",
+      "selectedMotif": "tricolor",
+      "selectedScoreBreakdown": {
+        "basePriority": 76,
+        "popularity": 26,
+        "jitter": 4.772,
+        "motifPenalty": 0,
+        "culturalPenalty": 42,
+        "holidayFamilyPenalty": 0,
+        "colorPenalty": 40,
+        "finalScore": 24.772
+      },
+      "discardedCount": 5
     }
   ],
   "skipped": []
