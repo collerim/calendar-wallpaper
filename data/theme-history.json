@@ -1,38 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-08T19:20:08.086Z",
+  "updatedAt": "2026-09-09T19:09:33.306Z",
   "days": {
-    "2026-07-26": {
-      "title": "Maldives Independence Day",
-      "motif": "waterFlowers",
-      "gradient": [
-        "#0e2c2f",
-        "#246159",
-        "#131516"
-      ],
-      "accent": "#67c0bf",
-      "secondary": "#cb5055",
-      "holidayFamily": "independence-day",
-      "popularityTier": "common",
-      "scopeTier": "national",
-      "tags": [
-        "water",
-        "botanical",
-        "island",
-        "civic",
-        "celebration"
-      ],
-      "source": {
-        "provider": "Fixed Holidays",
-        "countryCode": "MV",
-        "countryName": "Maldives",
-        "typeLabels": [
-          "公众节日"
-        ],
-        "nationwide": true,
-        "subdivisions": []
-      }
-    },
     "2026-07-27": {
       "title": "Day after the Commemoration of the Assault of the Moncada garrison",
       "motif": "wovenPattern",
@@ -1545,6 +1514,36 @@
           "公众节日"
         ],
         "nationwide": true,
+        "subdivisions": []
+      }
+    },
+    "2026-09-17": {
+      "title": "Birthday of the Heir to the Crown of Tonga",
+      "motif": "maritimeFlags",
+      "gradient": [
+        "#0d2a39",
+        "#2b6477",
+        "#141518"
+      ],
+      "accent": "#6dbfd9",
+      "secondary": "#e2bb57",
+      "holidayFamily": "national-civic-day",
+      "popularityTier": "niche",
+      "scopeTier": "national",
+      "tags": [
+        "maritime",
+        "water",
+        "civic",
+        "island",
+        "celebration"
+      ],
+      "source": {
+        "provider": "Nager.Date",
+        "countryCode": "TO",
+        "countryName": "Tonga",
+        "typeLabels": [
+          "公众节日"
+        ],
         "subdivisions": []
       }
     }

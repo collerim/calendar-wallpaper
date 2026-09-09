@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-08T19:20:08.087Z",
-  "baseDate": "2026-09-09",
-  "ensuredThrough": "2026-09-16",
+  "generatedAt": "2026-09-09T19:09:33.306Z",
+  "baseDate": "2026-09-10",
+  "ensuredThrough": "2026-09-17",
   "today": "output/today.png",
   "devices": [
     {
@@ -137,23 +137,6 @@
   ],
   "generated": [
     {
-      "date": "2026-09-09",
-      "output": "output/2026/2026.09/2026.09.09.png",
-      "selectedTheme": "九月菱绣",
-      "selectedMotif": "folkEmbroidery",
-      "selectedScoreBreakdown": {
-        "basePriority": 29.75,
-        "popularity": 0,
-        "jitter": 4.444,
-        "motifPenalty": 0,
-        "culturalPenalty": 0,
-        "holidayFamilyPenalty": 0,
-        "colorPenalty": 42,
-        "finalScore": -7.806
-      },
-      "discardedCount": 10
-    },
-    {
       "date": "2026-09-10",
       "output": "output/2026/2026.09/2026.09.10.png",
       "selectedTheme": "Gibraltar National Day",
@@ -271,6 +254,23 @@
         "finalScore": 24.772
       },
       "discardedCount": 5
+    },
+    {
+      "date": "2026-09-17",
+      "output": "output/2026/2026.09/2026.09.17.png",
+      "selectedTheme": "Birthday of the Heir to the Crown of Tonga",
+      "selectedMotif": "maritimeFlags",
+      "selectedScoreBreakdown": {
+        "basePriority": 61,
+        "popularity": 14,
+        "jitter": 4.007,
+        "motifPenalty": 0,
+        "culturalPenalty": 42,
+        "holidayFamilyPenalty": 0,
+        "colorPenalty": 36,
+        "finalScore": 1.007
+      },
+      "discardedCount": 3
     }
   ],
   "skipped": []
