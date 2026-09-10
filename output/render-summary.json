@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-09T19:09:33.306Z",
-  "baseDate": "2026-09-10",
-  "ensuredThrough": "2026-09-17",
+  "generatedAt": "2026-09-10T19:01:45.049Z",
+  "baseDate": "2026-09-11",
+  "ensuredThrough": "2026-09-18",
   "today": "output/today.png",
   "devices": [
     {
@@ -137,23 +137,6 @@
   ],
   "generated": [
     {
-      "date": "2026-09-10",
-      "output": "output/2026/2026.09/2026.09.10.png",
-      "selectedTheme": "Gibraltar National Day",
-      "selectedMotif": "cityParade",
-      "selectedScoreBreakdown": {
-        "basePriority": 73,
-        "popularity": 26,
-        "jitter": 0.336,
-        "motifPenalty": 20,
-        "culturalPenalty": 34,
-        "holidayFamilyPenalty": 0,
-        "colorPenalty": 42,
-        "finalScore": 3.336
-      },
-      "discardedCount": 4
-    },
-    {
       "date": "2026-09-11",
       "output": "output/2026/2026.09/2026.09.11.png",
       "selectedTheme": "Liberation Day",
@@ -271,6 +254,23 @@
         "finalScore": 1.007
       },
       "discardedCount": 3
+    },
+    {
+      "date": "2026-09-18",
+      "output": "output/2026/2026.09/2026.09.18.png",
+      "selectedTheme": "National holiday",
+      "selectedMotif": "lotusMandala",
+      "selectedScoreBreakdown": {
+        "basePriority": 73,
+        "popularity": 14,
+        "jitter": 1.61,
+        "motifPenalty": 0,
+        "culturalPenalty": 42,
+        "holidayFamilyPenalty": 0,
+        "colorPenalty": 42,
+        "finalScore": 4.61
+      },
+      "discardedCount": 2
     }
   ],
   "skipped": []
