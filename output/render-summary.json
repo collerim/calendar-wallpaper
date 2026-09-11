@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-10T19:01:45.049Z",
-  "baseDate": "2026-09-11",
-  "ensuredThrough": "2026-09-18",
+  "generatedAt": "2026-09-11T19:03:30.454Z",
+  "baseDate": "2026-09-12",
+  "ensuredThrough": "2026-09-19",
   "today": "output/today.png",
   "devices": [
     {
@@ -137,23 +137,6 @@
   ],
   "generated": [
     {
-      "date": "2026-09-11",
-      "output": "output/2026/2026.09/2026.09.11.png",
-      "selectedTheme": "Liberation Day",
-      "selectedMotif": "laurelTorch",
-      "selectedScoreBreakdown": {
-        "basePriority": 62,
-        "popularity": 14,
-        "jitter": 0.444,
-        "motifPenalty": 0,
-        "culturalPenalty": 39,
-        "holidayFamilyPenalty": 0,
-        "colorPenalty": 42,
-        "finalScore": -4.556
-      },
-      "discardedCount": 3
-    },
-    {
       "date": "2026-09-12",
       "output": "output/2026/2026.09/2026.09.12.png",
       "selectedTheme": "九月微月",
@@ -271,6 +254,23 @@
         "finalScore": 4.61
       },
       "discardedCount": 2
+    },
+    {
+      "date": "2026-09-19",
+      "output": "output/2026/2026.09/2026.09.19.png",
+      "selectedTheme": "Independence Day",
+      "selectedMotif": "stainedGlass",
+      "selectedScoreBreakdown": {
+        "basePriority": 73,
+        "popularity": 26,
+        "jitter": 2.671,
+        "motifPenalty": 0,
+        "culturalPenalty": 42,
+        "holidayFamilyPenalty": 14,
+        "colorPenalty": 42,
+        "finalScore": 3.671
+      },
+      "discardedCount": 3
     }
   ],
   "skipped": []
