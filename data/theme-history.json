@@ -1,35 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-11T19:03:30.453Z",
+  "updatedAt": "2026-09-12T18:12:32.149Z",
   "days": {
-    "2026-07-29": {
-      "title": "Independence Day",
-      "motif": "cityParade",
-      "gradient": [
-        "#172132",
-        "#4e313f",
-        "#121517"
-      ],
-      "accent": "#74a3d4",
-      "secondary": "#d7575d",
-      "holidayFamily": "independence-day",
-      "popularityTier": "common",
-      "scopeTier": "national",
-      "tags": [
-        "civic",
-        "celebration",
-        "procession"
-      ],
-      "source": {
-        "provider": "Nager.Date",
-        "countryCode": "PE",
-        "countryName": "Peru",
-        "typeLabels": [
-          "公众节日"
-        ],
-        "subdivisions": []
-      }
-    },
     "2026-07-30": {
       "title": "Enthronement",
       "motif": "crescentLantern",
@@ -1548,6 +1520,38 @@
         "countryName": "Saint Kitts and Nevis",
         "typeLabels": [
           "公众节日"
+        ],
+        "subdivisions": []
+      }
+    },
+    "2026-09-20": {
+      "title": "Federal Day of Thanksgiving",
+      "motif": "crescentLantern",
+      "gradient": [
+        "#1f1c18",
+        "#63462b",
+        "#131514"
+      ],
+      "accent": "#c49559",
+      "secondary": "#92a565",
+      "holidayFamily": "remembrance",
+      "popularityTier": "major",
+      "scopeTier": "unknown",
+      "tags": [
+        "islamic",
+        "religious",
+        "light",
+        "sky",
+        "celebration",
+        "harvest",
+        "botanical"
+      ],
+      "source": {
+        "provider": "Nager.Date",
+        "countryCode": "CH",
+        "countryName": "Switzerland",
+        "typeLabels": [
+          "纪念日"
         ],
         "subdivisions": []
       }
