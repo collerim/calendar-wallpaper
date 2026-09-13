@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-12T18:12:32.150Z",
-  "baseDate": "2026-09-13",
-  "ensuredThrough": "2026-09-20",
+  "generatedAt": "2026-09-13T18:39:15.923Z",
+  "baseDate": "2026-09-14",
+  "ensuredThrough": "2026-09-21",
   "today": "output/today.png",
   "devices": [
     {
@@ -137,23 +137,6 @@
   ],
   "generated": [
     {
-      "date": "2026-09-13",
-      "output": "output/2026/2026.09/2026.09.13.png",
-      "selectedTheme": "Father's Day",
-      "selectedMotif": "wovenPattern",
-      "selectedScoreBreakdown": {
-        "basePriority": 56,
-        "popularity": 12,
-        "jitter": 1.425,
-        "motifPenalty": 0,
-        "culturalPenalty": 32,
-        "holidayFamilyPenalty": 24,
-        "colorPenalty": 42,
-        "finalScore": -28.575
-      },
-      "discardedCount": 0
-    },
-    {
       "date": "2026-09-14",
       "output": "output/2026/2026.09/2026.09.14.png",
       "selectedTheme": "Angel consecration",
@@ -271,6 +254,23 @@
         "finalScore": 14.907
       },
       "discardedCount": 4
+    },
+    {
+      "date": "2026-09-21",
+      "output": "output/2026/2026.09/2026.09.21.png",
+      "selectedTheme": "International Day of Peace",
+      "selectedMotif": "candle",
+      "selectedScoreBreakdown": {
+        "basePriority": 76,
+        "popularity": 18,
+        "jitter": 5.312,
+        "motifPenalty": 0,
+        "culturalPenalty": 42,
+        "holidayFamilyPenalty": 0,
+        "colorPenalty": 42,
+        "finalScore": 15.312
+      },
+      "discardedCount": 7
     }
   ],
   "skipped": []
