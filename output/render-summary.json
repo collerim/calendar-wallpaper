@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-13T18:39:15.923Z",
-  "baseDate": "2026-09-14",
-  "ensuredThrough": "2026-09-21",
+  "generatedAt": "2026-09-14T20:13:01.858Z",
+  "baseDate": "2026-09-15",
+  "ensuredThrough": "2026-09-22",
   "today": "output/today.png",
   "devices": [
     {
@@ -137,23 +137,6 @@
   ],
   "generated": [
     {
-      "date": "2026-09-14",
-      "output": "output/2026/2026.09/2026.09.14.png",
-      "selectedTheme": "Angel consecration",
-      "selectedMotif": "marketBanners",
-      "selectedScoreBreakdown": {
-        "basePriority": 61,
-        "popularity": 4,
-        "jitter": 3.676,
-        "motifPenalty": 0,
-        "culturalPenalty": 42,
-        "holidayFamilyPenalty": 0,
-        "colorPenalty": 42,
-        "finalScore": -15.324
-      },
-      "discardedCount": 2
-    },
-    {
       "date": "2026-09-15",
       "output": "output/2026/2026.09/2026.09.15.png",
       "selectedTheme": "Day of Our Lady of the Seven Sorrows",
@@ -271,6 +254,23 @@
         "finalScore": 15.312
       },
       "discardedCount": 7
+    },
+    {
+      "date": "2026-09-22",
+      "output": "output/2026/2026.09/2026.09.22.png",
+      "selectedTheme": "Independence Day",
+      "selectedMotif": "cityParade",
+      "selectedScoreBreakdown": {
+        "basePriority": 73,
+        "popularity": 26,
+        "jitter": 1.831,
+        "motifPenalty": 0,
+        "culturalPenalty": 42,
+        "holidayFamilyPenalty": 18,
+        "colorPenalty": 42,
+        "finalScore": -1.169
+      },
+      "discardedCount": 4
     }
   ],
   "skipped": []
