@@ -1,36 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-15T19:35:22.786Z",
+  "updatedAt": "2026-09-16T19:26:32.896Z",
   "days": {
-    "2026-08-02": {
-      "title": "August Festivals",
-      "motif": "carnivalMasks",
-      "gradient": [
-        "#1c1730",
-        "#633553",
-        "#151616"
-      ],
-      "accent": "#d7728e",
-      "secondary": "#74b2d7",
-      "holidayFamily": "culture-observance",
-      "popularityTier": "niche",
-      "scopeTier": "national",
-      "tags": [
-        "celebration",
-        "procession",
-        "folk",
-        "market"
-      ],
-      "source": {
-        "provider": "Nager.Date",
-        "countryCode": "SV",
-        "countryName": "El Salvador",
-        "typeLabels": [
-          "公众节日"
-        ],
-        "subdivisions": []
-      }
-    },
     "2026-08-03": {
       "title": "Nigerien Independence Day",
       "motif": "cityParade",
@@ -1556,6 +1527,35 @@
         "provider": "Nager.Date",
         "countryCode": "JP",
         "countryName": "Japan",
+        "typeLabels": [
+          "公众节日"
+        ],
+        "subdivisions": []
+      }
+    },
+    "2026-09-24": {
+      "title": "Constitution Day",
+      "motif": "wovenPattern",
+      "gradient": [
+        "#121f38",
+        "#4a3043",
+        "#141616"
+      ],
+      "accent": "#6fa1d9",
+      "secondary": "#d9585d",
+      "holidayFamily": "constitution-day",
+      "popularityTier": "common",
+      "scopeTier": "national",
+      "tags": [
+        "civic",
+        "celebration",
+        "procession",
+        "culture"
+      ],
+      "source": {
+        "provider": "Nager.Date",
+        "countryCode": "KH",
+        "countryName": "Cambodia",
         "typeLabels": [
           "公众节日"
         ],

@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-15T19:35:22.787Z",
-  "baseDate": "2026-09-16",
-  "ensuredThrough": "2026-09-23",
+  "generatedAt": "2026-09-16T19:26:32.910Z",
+  "baseDate": "2026-09-17",
+  "ensuredThrough": "2026-09-24",
   "today": "output/today.png",
   "devices": [
     {
@@ -137,23 +137,6 @@
   ],
   "generated": [
     {
-      "date": "2026-09-16",
-      "output": "output/2026/2026.09/2026.09.16.png",
-      "selectedTheme": "Mexico Independence Day",
-      "selectedMotif": "tricolor",
-      "selectedScoreBreakdown": {
-        "basePriority": 76,
-        "popularity": 26,
-        "jitter": 4.772,
-        "motifPenalty": 0,
-        "culturalPenalty": 42,
-        "holidayFamilyPenalty": 0,
-        "colorPenalty": 40,
-        "finalScore": 24.772
-      },
-      "discardedCount": 5
-    },
-    {
       "date": "2026-09-17",
       "output": "output/2026/2026.09/2026.09.17.png",
       "selectedTheme": "Birthday of the Heir to the Crown of Tonga",
@@ -271,6 +254,23 @@
         "finalScore": 8.335
       },
       "discardedCount": 1
+    },
+    {
+      "date": "2026-09-24",
+      "output": "output/2026/2026.09/2026.09.24.png",
+      "selectedTheme": "Constitution Day",
+      "selectedMotif": "wovenPattern",
+      "selectedScoreBreakdown": {
+        "basePriority": 69,
+        "popularity": 26,
+        "jitter": 3.124,
+        "motifPenalty": 0,
+        "culturalPenalty": 42,
+        "holidayFamilyPenalty": 0,
+        "colorPenalty": 42,
+        "finalScore": 14.124
+      },
+      "discardedCount": 7
     }
   ],
   "skipped": []
