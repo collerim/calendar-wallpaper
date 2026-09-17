@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-16T19:26:32.910Z",
-  "baseDate": "2026-09-17",
-  "ensuredThrough": "2026-09-24",
+  "generatedAt": "2026-09-17T19:37:26.305Z",
+  "baseDate": "2026-09-18",
+  "ensuredThrough": "2026-09-25",
   "today": "output/today.png",
   "devices": [
     {
@@ -137,23 +137,6 @@
   ],
   "generated": [
     {
-      "date": "2026-09-17",
-      "output": "output/2026/2026.09/2026.09.17.png",
-      "selectedTheme": "Birthday of the Heir to the Crown of Tonga",
-      "selectedMotif": "maritimeFlags",
-      "selectedScoreBreakdown": {
-        "basePriority": 61,
-        "popularity": 14,
-        "jitter": 4.007,
-        "motifPenalty": 0,
-        "culturalPenalty": 42,
-        "holidayFamilyPenalty": 0,
-        "colorPenalty": 36,
-        "finalScore": 1.007
-      },
-      "discardedCount": 3
-    },
-    {
       "date": "2026-09-18",
       "output": "output/2026/2026.09/2026.09.18.png",
       "selectedTheme": "National holiday",
@@ -269,6 +252,23 @@
         "holidayFamilyPenalty": 0,
         "colorPenalty": 42,
         "finalScore": 14.124
+      },
+      "discardedCount": 7
+    },
+    {
+      "date": "2026-09-25",
+      "output": "output/2026/2026.09/2026.09.25.png",
+      "selectedTheme": "Mid-Autumn Festival",
+      "selectedMotif": "carnivalMasks",
+      "selectedScoreBreakdown": {
+        "basePriority": 91,
+        "popularity": 36,
+        "jitter": 0.594,
+        "motifPenalty": 0,
+        "culturalPenalty": 42,
+        "holidayFamilyPenalty": 0,
+        "colorPenalty": 0,
+        "finalScore": 85.594
       },
       "discardedCount": 7
     }
