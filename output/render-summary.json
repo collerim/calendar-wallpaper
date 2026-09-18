@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-17T19:37:26.305Z",
-  "baseDate": "2026-09-18",
-  "ensuredThrough": "2026-09-25",
+  "generatedAt": "2026-09-18T19:08:36.192Z",
+  "baseDate": "2026-09-19",
+  "ensuredThrough": "2026-09-26",
   "today": "output/today.png",
   "devices": [
     {
@@ -137,23 +137,6 @@
   ],
   "generated": [
     {
-      "date": "2026-09-18",
-      "output": "output/2026/2026.09/2026.09.18.png",
-      "selectedTheme": "National holiday",
-      "selectedMotif": "lotusMandala",
-      "selectedScoreBreakdown": {
-        "basePriority": 73,
-        "popularity": 14,
-        "jitter": 1.61,
-        "motifPenalty": 0,
-        "culturalPenalty": 42,
-        "holidayFamilyPenalty": 0,
-        "colorPenalty": 42,
-        "finalScore": 4.61
-      },
-      "discardedCount": 2
-    },
-    {
       "date": "2026-09-19",
       "output": "output/2026/2026.09/2026.09.19.png",
       "selectedTheme": "Independence Day",
@@ -271,6 +254,23 @@
         "finalScore": 85.594
       },
       "discardedCount": 7
+    },
+    {
+      "date": "2026-09-26",
+      "output": "output/2026/2026.09/2026.09.26.png",
+      "selectedTheme": "Day following the Mid-Autumn Festival",
+      "selectedMotif": "bookPress",
+      "selectedScoreBreakdown": {
+        "basePriority": 73,
+        "popularity": 34,
+        "jitter": 2.159,
+        "motifPenalty": 0,
+        "culturalPenalty": 42,
+        "holidayFamilyPenalty": 38,
+        "colorPenalty": 40,
+        "finalScore": -10.841
+      },
+      "discardedCount": 2
     }
   ],
   "skipped": []
