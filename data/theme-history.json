@@ -1,38 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-18T19:08:36.191Z",
+  "updatedAt": "2026-09-19T18:29:25.239Z",
   "days": {
-    "2026-08-05": {
-      "title": "Victory and Homeland Thanksgiving Day and the Day of Croatian defenders",
-      "motif": "laurelTorch",
-      "gradient": [
-        "#281b1b",
-        "#69462c",
-        "#111617"
-      ],
-      "accent": "#cb945c",
-      "secondary": "#90a769",
-      "holidayFamily": "remembrance",
-      "popularityTier": "major",
-      "scopeTier": "national",
-      "tags": [
-        "civic",
-        "remembrance",
-        "light",
-        "celebration",
-        "harvest",
-        "botanical"
-      ],
-      "source": {
-        "provider": "Nager.Date",
-        "countryCode": "HR",
-        "countryName": "Croatia",
-        "typeLabels": [
-          "公众节日"
-        ],
-        "subdivisions": []
-      }
-    },
     "2026-08-06": {
       "title": "Independence Day",
       "motif": "cityParade",
@@ -1562,6 +1531,34 @@
         "provider": "Nager.Date",
         "countryCode": "HK",
         "countryName": "Hong Kong",
+        "typeLabels": [
+          "公众节日"
+        ],
+        "subdivisions": []
+      }
+    },
+    "2026-09-27": {
+      "title": "Meskel (Orthodox)",
+      "motif": "templeBells",
+      "gradient": [
+        "#161a26",
+        "#534537",
+        "#121615"
+      ],
+      "accent": "#c4ab59",
+      "secondary": "#71b3d7",
+      "holidayFamily": "religious-observance",
+      "popularityTier": "niche",
+      "scopeTier": "national",
+      "tags": [
+        "religious",
+        "heritage",
+        "light"
+      ],
+      "source": {
+        "provider": "Nager.Date",
+        "countryCode": "ET",
+        "countryName": "Ethiopia",
         "typeLabels": [
           "公众节日"
         ],
