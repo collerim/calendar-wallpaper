@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-19T18:29:25.240Z",
-  "baseDate": "2026-09-20",
-  "ensuredThrough": "2026-09-27",
+  "generatedAt": "2026-09-20T18:33:50.875Z",
+  "baseDate": "2026-09-21",
+  "ensuredThrough": "2026-09-28",
   "today": "output/today.png",
   "devices": [
     {
@@ -137,23 +137,6 @@
   ],
   "generated": [
     {
-      "date": "2026-09-20",
-      "output": "output/2026/2026.09/2026.09.20.png",
-      "selectedTheme": "Federal Day of Thanksgiving",
-      "selectedMotif": "crescentLantern",
-      "selectedScoreBreakdown": {
-        "basePriority": 64,
-        "popularity": 20,
-        "jitter": 0.907,
-        "motifPenalty": 0,
-        "culturalPenalty": 42,
-        "holidayFamilyPenalty": 0,
-        "colorPenalty": 28,
-        "finalScore": 14.907
-      },
-      "discardedCount": 4
-    },
-    {
       "date": "2026-09-21",
       "output": "output/2026/2026.09/2026.09.21.png",
       "selectedTheme": "International Day of Peace",
@@ -271,6 +254,23 @@
         "finalScore": 0.543
       },
       "discardedCount": 1
+    },
+    {
+      "date": "2026-09-28",
+      "output": "output/2026/2026.09/2026.09.28.png",
+      "selectedTheme": "Czech Statehood Day",
+      "selectedMotif": "cityParade",
+      "selectedScoreBreakdown": {
+        "basePriority": 64,
+        "popularity": 14,
+        "jitter": 1.955,
+        "motifPenalty": 7,
+        "culturalPenalty": 32,
+        "holidayFamilyPenalty": 0,
+        "colorPenalty": 42,
+        "finalScore": -1.045
+      },
+      "discardedCount": 3
     }
   ],
   "skipped": []
