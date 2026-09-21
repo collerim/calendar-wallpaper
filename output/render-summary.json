@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-20T18:33:50.875Z",
-  "baseDate": "2026-09-21",
-  "ensuredThrough": "2026-09-28",
+  "generatedAt": "2026-09-21T20:19:58.805Z",
+  "baseDate": "2026-09-22",
+  "ensuredThrough": "2026-09-29",
   "today": "output/today.png",
   "devices": [
     {
@@ -137,23 +137,6 @@
   ],
   "generated": [
     {
-      "date": "2026-09-21",
-      "output": "output/2026/2026.09/2026.09.21.png",
-      "selectedTheme": "International Day of Peace",
-      "selectedMotif": "candle",
-      "selectedScoreBreakdown": {
-        "basePriority": 76,
-        "popularity": 18,
-        "jitter": 5.312,
-        "motifPenalty": 0,
-        "culturalPenalty": 42,
-        "holidayFamilyPenalty": 0,
-        "colorPenalty": 42,
-        "finalScore": 15.312
-      },
-      "discardedCount": 7
-    },
-    {
       "date": "2026-09-22",
       "output": "output/2026/2026.09/2026.09.22.png",
       "selectedTheme": "Independence Day",
@@ -269,6 +252,23 @@
         "holidayFamilyPenalty": 0,
         "colorPenalty": 42,
         "finalScore": -1.045
+      },
+      "discardedCount": 3
+    },
+    {
+      "date": "2026-09-29",
+      "output": "output/2026/2026.09/2026.09.29.png",
+      "selectedTheme": "Boqueron Battle Victory Day",
+      "selectedMotif": "laurelTorch",
+      "selectedScoreBreakdown": {
+        "basePriority": 61,
+        "popularity": 14,
+        "jitter": 2.15,
+        "motifPenalty": 0,
+        "culturalPenalty": 37,
+        "holidayFamilyPenalty": 0,
+        "colorPenalty": 42,
+        "finalScore": -1.85
       },
       "discardedCount": 3
     }
