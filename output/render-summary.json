@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-23T19:33:48.467Z",
-  "baseDate": "2026-09-24",
-  "ensuredThrough": "2026-10-01",
+  "generatedAt": "2026-09-24T19:53:24.858Z",
+  "baseDate": "2026-09-25",
+  "ensuredThrough": "2026-10-02",
   "today": "output/today.png",
   "devices": [
     {
@@ -137,23 +137,6 @@
   ],
   "generated": [
     {
-      "date": "2026-09-24",
-      "output": "output/2026/2026.09/2026.09.24.png",
-      "selectedTheme": "Constitution Day",
-      "selectedMotif": "wovenPattern",
-      "selectedScoreBreakdown": {
-        "basePriority": 69,
-        "popularity": 26,
-        "jitter": 3.124,
-        "motifPenalty": 0,
-        "culturalPenalty": 42,
-        "holidayFamilyPenalty": 0,
-        "colorPenalty": 42,
-        "finalScore": 14.124
-      },
-      "discardedCount": 7
-    },
-    {
       "date": "2026-09-25",
       "output": "output/2026/2026.09/2026.09.25.png",
       "selectedTheme": "Mid-Autumn Festival",
@@ -271,6 +254,23 @@
         "finalScore": 59.685
       },
       "discardedCount": 8
+    },
+    {
+      "date": "2026-10-02",
+      "output": "output/2026/2026.10/2026.10.02.png",
+      "selectedTheme": "Tuvalu Day Holiday",
+      "selectedMotif": "lotusMandala",
+      "selectedScoreBreakdown": {
+        "basePriority": 65,
+        "popularity": 14,
+        "jitter": 2.029,
+        "motifPenalty": 0,
+        "culturalPenalty": 42,
+        "holidayFamilyPenalty": 5,
+        "colorPenalty": 42,
+        "finalScore": -7.971
+      },
+      "discardedCount": 1
     }
   ],
   "skipped": []
