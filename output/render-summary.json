@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-28T21:40:08.878Z",
-  "baseDate": "2026-09-29",
-  "ensuredThrough": "2026-10-06",
+  "generatedAt": "2026-09-29T20:30:54.711Z",
+  "baseDate": "2026-09-30",
+  "ensuredThrough": "2026-10-07",
   "today": "output/today.png",
   "devices": [
     {
@@ -137,23 +137,6 @@
   ],
   "generated": [
     {
-      "date": "2026-09-29",
-      "output": "output/2026/2026.09/2026.09.29.png",
-      "selectedTheme": "Boqueron Battle Victory Day",
-      "selectedMotif": "laurelTorch",
-      "selectedScoreBreakdown": {
-        "basePriority": 61,
-        "popularity": 14,
-        "jitter": 2.15,
-        "motifPenalty": 0,
-        "culturalPenalty": 37,
-        "holidayFamilyPenalty": 0,
-        "colorPenalty": 42,
-        "finalScore": -1.85
-      },
-      "discardedCount": 3
-    },
-    {
       "date": "2026-09-30",
       "output": "output/2026/2026.09/2026.09.30.png",
       "selectedTheme": "National Day for Truth and Reconciliation",
@@ -269,6 +252,23 @@
         "holidayFamilyPenalty": 0,
         "colorPenalty": 42,
         "finalScore": -4.204
+      },
+      "discardedCount": 0
+    },
+    {
+      "date": "2026-10-07",
+      "output": "output/2026/2026.10/2026.10.07.png",
+      "selectedTheme": "Municipal holiday",
+      "selectedMotif": "lotusMandala",
+      "selectedScoreBreakdown": {
+        "basePriority": 58,
+        "popularity": -22,
+        "jitter": 0.266,
+        "motifPenalty": 10,
+        "culturalPenalty": 42,
+        "holidayFamilyPenalty": 0,
+        "colorPenalty": 42,
+        "finalScore": -57.734
       },
       "discardedCount": 0
     }
