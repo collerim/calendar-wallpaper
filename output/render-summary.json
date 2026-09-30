@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-29T20:30:54.711Z",
-  "baseDate": "2026-09-30",
-  "ensuredThrough": "2026-10-07",
+  "generatedAt": "2026-09-30T20:39:08.561Z",
+  "baseDate": "2026-10-01",
+  "ensuredThrough": "2026-10-08",
   "today": "output/today.png",
   "devices": [
     {
@@ -137,23 +137,6 @@
   ],
   "generated": [
     {
-      "date": "2026-09-30",
-      "output": "output/2026/2026.09/2026.09.30.png",
-      "selectedTheme": "National Day for Truth and Reconciliation",
-      "selectedMotif": "doveGarland",
-      "selectedScoreBreakdown": {
-        "basePriority": 74,
-        "popularity": 30,
-        "jitter": 0.912,
-        "motifPenalty": 0,
-        "culturalPenalty": 42,
-        "holidayFamilyPenalty": 0,
-        "colorPenalty": 42,
-        "finalScore": 20.912
-      },
-      "discardedCount": 2
-    },
-    {
       "date": "2026-10-01",
       "output": "output/2026/2026.10/2026.10.01.png",
       "selectedTheme": "Tuvalu Independence Day",
@@ -269,6 +252,23 @@
         "holidayFamilyPenalty": 0,
         "colorPenalty": 42,
         "finalScore": -57.734
+      },
+      "discardedCount": 0
+    },
+    {
+      "date": "2026-10-08",
+      "output": "output/2026/2026.10/2026.10.08.png",
+      "selectedTheme": "Battle of Angamos",
+      "selectedMotif": "streamers",
+      "selectedScoreBreakdown": {
+        "basePriority": 61,
+        "popularity": 14,
+        "jitter": 2.47,
+        "motifPenalty": 0,
+        "culturalPenalty": 42,
+        "holidayFamilyPenalty": 24,
+        "colorPenalty": 42,
+        "finalScore": -30.53
       },
       "discardedCount": 0
     }
