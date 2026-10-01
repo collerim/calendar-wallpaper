@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-30T20:39:08.561Z",
-  "baseDate": "2026-10-01",
-  "ensuredThrough": "2026-10-08",
+  "generatedAt": "2026-10-01T20:56:11.177Z",
+  "baseDate": "2026-10-02",
+  "ensuredThrough": "2026-10-09",
   "today": "output/today.png",
   "devices": [
     {
@@ -137,23 +137,6 @@
   ],
   "generated": [
     {
-      "date": "2026-10-01",
-      "output": "output/2026/2026.10/2026.10.01.png",
-      "selectedTheme": "Tuvalu Independence Day",
-      "selectedMotif": "waterFlowers",
-      "selectedScoreBreakdown": {
-        "basePriority": 82,
-        "popularity": 26,
-        "jitter": 4.685,
-        "motifPenalty": 0,
-        "culturalPenalty": 42,
-        "holidayFamilyPenalty": 0,
-        "colorPenalty": 11,
-        "finalScore": 59.685
-      },
-      "discardedCount": 8
-    },
-    {
       "date": "2026-10-02",
       "output": "output/2026/2026.10/2026.10.02.png",
       "selectedTheme": "Tuvalu Day Holiday",
@@ -271,6 +254,23 @@
         "finalScore": -30.53
       },
       "discardedCount": 0
+    },
+    {
+      "date": "2026-10-09",
+      "output": "output/2026/2026.10/2026.10.09.png",
+      "selectedTheme": "Independence Day",
+      "selectedMotif": "cityParade",
+      "selectedScoreBreakdown": {
+        "basePriority": 73,
+        "popularity": 26,
+        "jitter": 5.467,
+        "motifPenalty": 0,
+        "culturalPenalty": 42,
+        "holidayFamilyPenalty": 0,
+        "colorPenalty": 42,
+        "finalScore": 20.467
+      },
+      "discardedCount": 7
     }
   ],
   "skipped": []
