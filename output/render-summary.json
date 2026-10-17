@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-16T19:26:21.761Z",
-  "baseDate": "2026-10-17",
-  "ensuredThrough": "2026-10-24",
+  "generatedAt": "2026-10-17T18:19:14.672Z",
+  "baseDate": "2026-10-18",
+  "ensuredThrough": "2026-10-25",
   "today": "output/today.png",
   "devices": [
     {
@@ -137,23 +137,6 @@
   ],
   "generated": [
     {
-      "date": "2026-10-17",
-      "output": "output/2026/2026.10/2026.10.17.png",
-      "selectedTheme": "Dessalines Day",
-      "selectedMotif": "wovenPattern",
-      "selectedScoreBreakdown": {
-        "basePriority": 61,
-        "popularity": 14,
-        "jitter": 2.177,
-        "motifPenalty": 7,
-        "culturalPenalty": 42,
-        "holidayFamilyPenalty": 8,
-        "colorPenalty": 42,
-        "finalScore": -21.823
-      },
-      "discardedCount": 0
-    },
-    {
       "date": "2026-10-18",
       "output": "output/2026/2026.10/2026.10.18.png",
       "selectedTheme": "十月烛台",
@@ -271,6 +254,23 @@
         "finalScore": -4.169
       },
       "discardedCount": 1
+    },
+    {
+      "date": "2026-10-25",
+      "output": "output/2026/2026.10/2026.10.25.png",
+      "selectedTheme": "Thanksgiving Day",
+      "selectedMotif": "harvestSheaves",
+      "selectedScoreBreakdown": {
+        "basePriority": 73,
+        "popularity": 34,
+        "jitter": 4.816,
+        "motifPenalty": 0,
+        "culturalPenalty": 42,
+        "holidayFamilyPenalty": 0,
+        "colorPenalty": 20,
+        "finalScore": 49.816
+      },
+      "discardedCount": 2
     }
   ],
   "skipped": []
