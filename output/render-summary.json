@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-17T18:19:14.672Z",
-  "baseDate": "2026-10-18",
-  "ensuredThrough": "2026-10-25",
+  "generatedAt": "2026-10-18T18:32:01.205Z",
+  "baseDate": "2026-10-19",
+  "ensuredThrough": "2026-10-26",
   "today": "output/today.png",
   "devices": [
     {
@@ -137,23 +137,6 @@
   ],
   "generated": [
     {
-      "date": "2026-10-18",
-      "output": "output/2026/2026.10/2026.10.18.png",
-      "selectedTheme": "十月烛台",
-      "selectedMotif": "ancestralTable",
-      "selectedScoreBreakdown": {
-        "basePriority": 29,
-        "popularity": 0,
-        "jitter": 3.843,
-        "motifPenalty": 0,
-        "culturalPenalty": 0,
-        "holidayFamilyPenalty": 0,
-        "colorPenalty": 27,
-        "finalScore": 5.843
-      },
-      "discardedCount": 10
-    },
-    {
       "date": "2026-10-19",
       "output": "output/2026/2026.10/2026.10.19.png",
       "selectedTheme": "Constitution Day",
@@ -271,6 +254,23 @@
         "finalScore": 49.816
       },
       "discardedCount": 2
+    },
+    {
+      "date": "2026-10-26",
+      "output": "output/2026/2026.10/2026.10.26.png",
+      "selectedTheme": "Labour Day",
+      "selectedMotif": "paperCut",
+      "selectedScoreBreakdown": {
+        "basePriority": 67,
+        "popularity": 26,
+        "jitter": 5.389,
+        "motifPenalty": 10,
+        "culturalPenalty": 42,
+        "holidayFamilyPenalty": 0,
+        "colorPenalty": 40,
+        "finalScore": 6.389
+      },
+      "discardedCount": 7
     }
   ],
   "skipped": []
