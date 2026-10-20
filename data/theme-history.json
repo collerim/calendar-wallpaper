@@ -1,31 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-19T20:56:54.060Z",
+  "updatedAt": "2026-10-20T19:55:17.904Z",
   "days": {
-    "2026-09-05": {
-      "title": "九月麦束",
-      "motif": "harvestSheaves",
-      "gradient": [
-        "#291d1e",
-        "#695036",
-        "#16161b"
-      ],
-      "accent": "#be9054",
-      "secondary": "#819067",
-      "holidayFamily": "seasonal-fallback",
-      "popularityTier": "niche",
-      "scopeTier": "unknown",
-      "tags": [
-        "botanical",
-        "harvest",
-        "seasonal",
-        "sky",
-        "light",
-        "autumn",
-        "month-mood"
-      ],
-      "source": null
-    },
     "2026-09-06": {
       "title": "Bonaire Flag Day",
       "motif": "paperCut",
@@ -1561,6 +1537,35 @@
         "provider": "Nager.Date",
         "countryCode": "VC",
         "countryName": "Saint Vincent and the Grenadines",
+        "typeLabels": [
+          "公众节日"
+        ],
+        "subdivisions": []
+      }
+    },
+    "2026-10-28": {
+      "title": "Independent Czechoslovak State Day",
+      "motif": "lanterns",
+      "gradient": [
+        "#2b0d10",
+        "#812d2b",
+        "#170c0c"
+      ],
+      "accent": "#e6b95a",
+      "secondary": "#dc3a35",
+      "holidayFamily": "national-civic-day",
+      "popularityTier": "niche",
+      "scopeTier": "national",
+      "tags": [
+        "civic",
+        "celebration",
+        "culture",
+        "light"
+      ],
+      "source": {
+        "provider": "Nager.Date",
+        "countryCode": "CZ",
+        "countryName": "Czechia",
         "typeLabels": [
           "公众节日"
         ],
