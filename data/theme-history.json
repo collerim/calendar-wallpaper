@@ -1,35 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-20T19:55:17.904Z",
+  "updatedAt": "2026-10-21T19:59:25.928Z",
   "days": {
-    "2026-09-06": {
-      "title": "Bonaire Flag Day",
-      "motif": "paperCut",
-      "gradient": [
-        "#260b13",
-        "#7d2c2d",
-        "#120c0e"
-      ],
-      "accent": "#e2b75d",
-      "secondary": "#d63b37",
-      "holidayFamily": "national-symbol-day",
-      "popularityTier": "niche",
-      "scopeTier": "national",
-      "tags": [
-        "civic",
-        "celebration",
-        "culture"
-      ],
-      "source": {
-        "provider": "Nager.Date",
-        "countryCode": "BQ",
-        "countryName": "Caribbean Netherlands",
-        "typeLabels": [
-          "公众节日"
-        ],
-        "subdivisions": []
-      }
-    },
     "2026-09-07": {
       "title": "Independence Day",
       "motif": "cityParade",
@@ -1566,6 +1538,34 @@
         "provider": "Nager.Date",
         "countryCode": "CZ",
         "countryName": "Czechia",
+        "typeLabels": [
+          "公众节日"
+        ],
+        "subdivisions": []
+      }
+    },
+    "2026-10-29": {
+      "title": "Republic Day",
+      "motif": "cityParade",
+      "gradient": [
+        "#101e37",
+        "#492f42",
+        "#151516"
+      ],
+      "accent": "#6ea0d8",
+      "secondary": "#da575c",
+      "holidayFamily": "republic-day",
+      "popularityTier": "common",
+      "scopeTier": "national",
+      "tags": [
+        "civic",
+        "celebration",
+        "procession"
+      ],
+      "source": {
+        "provider": "Nager.Date",
+        "countryCode": "TR",
+        "countryName": "Türkiye",
         "typeLabels": [
           "公众节日"
         ],

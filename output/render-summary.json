@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-20T19:55:17.907Z",
-  "baseDate": "2026-10-21",
-  "ensuredThrough": "2026-10-28",
+  "generatedAt": "2026-10-21T19:59:25.931Z",
+  "baseDate": "2026-10-22",
+  "ensuredThrough": "2026-10-29",
   "today": "output/today.png",
   "devices": [
     {
@@ -137,23 +137,6 @@
   ],
   "generated": [
     {
-      "date": "2026-10-21",
-      "output": "output/2026/2026.10/2026.10.21.png",
-      "selectedTheme": "Ndadaye Day",
-      "selectedMotif": "paperCut",
-      "selectedScoreBreakdown": {
-        "basePriority": 65,
-        "popularity": 14,
-        "jitter": 5.296,
-        "motifPenalty": 0,
-        "culturalPenalty": 42,
-        "holidayFamilyPenalty": 8,
-        "colorPenalty": 42,
-        "finalScore": -7.704
-      },
-      "discardedCount": 1
-    },
-    {
       "date": "2026-10-22",
       "output": "output/2026/2026.10/2026.10.22.png",
       "selectedTheme": "Municipal holiday",
@@ -271,6 +254,23 @@
         "finalScore": 31.672
       },
       "discardedCount": 3
+    },
+    {
+      "date": "2026-10-29",
+      "output": "output/2026/2026.10/2026.10.29.png",
+      "selectedTheme": "Republic Day",
+      "selectedMotif": "cityParade",
+      "selectedScoreBreakdown": {
+        "basePriority": 69,
+        "popularity": 26,
+        "jitter": 2.153,
+        "motifPenalty": 7,
+        "culturalPenalty": 42,
+        "holidayFamilyPenalty": 0,
+        "colorPenalty": 36,
+        "finalScore": 12.153
+      },
+      "discardedCount": 1
     }
   ],
   "skipped": []
