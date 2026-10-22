@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-21T19:59:25.931Z",
-  "baseDate": "2026-10-22",
-  "ensuredThrough": "2026-10-29",
+  "generatedAt": "2026-10-22T20:15:35.384Z",
+  "baseDate": "2026-10-23",
+  "ensuredThrough": "2026-10-30",
   "today": "output/today.png",
   "devices": [
     {
@@ -137,23 +137,6 @@
   ],
   "generated": [
     {
-      "date": "2026-10-22",
-      "output": "output/2026/2026.10/2026.10.22.png",
-      "selectedTheme": "Municipal holiday",
-      "selectedMotif": "lotusMandala",
-      "selectedScoreBreakdown": {
-        "basePriority": 58,
-        "popularity": -22,
-        "jitter": 3.334,
-        "motifPenalty": 0,
-        "culturalPenalty": 42,
-        "holidayFamilyPenalty": 0,
-        "colorPenalty": 42,
-        "finalScore": -44.666
-      },
-      "discardedCount": 0
-    },
-    {
       "date": "2026-10-23",
       "output": "output/2026/2026.10/2026.10.23.png",
       "selectedTheme": "National Day",
@@ -271,6 +254,23 @@
         "finalScore": 12.153
       },
       "discardedCount": 1
+    },
+    {
+      "date": "2026-10-30",
+      "output": "output/2026/2026.10/2026.10.30.png",
+      "selectedTheme": "St. Saturninus",
+      "selectedMotif": "wovenPattern",
+      "selectedScoreBreakdown": {
+        "basePriority": 62,
+        "popularity": 8,
+        "jitter": 5.322,
+        "motifPenalty": 0,
+        "culturalPenalty": 42,
+        "holidayFamilyPenalty": 0,
+        "colorPenalty": 42,
+        "finalScore": -8.678
+      },
+      "discardedCount": 0
     }
   ],
   "skipped": []

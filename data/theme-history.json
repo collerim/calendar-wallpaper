@@ -1,36 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-21T19:59:25.928Z",
+  "updatedAt": "2026-10-22T20:15:35.372Z",
   "days": {
-    "2026-09-07": {
-      "title": "Independence Day",
-      "motif": "cityParade",
-      "gradient": [
-        "#122822",
-        "#476134",
-        "#141716"
-      ],
-      "accent": "#6fba83",
-      "secondary": "#ccb468",
-      "holidayFamily": "independence-day",
-      "popularityTier": "common",
-      "scopeTier": "national",
-      "tags": [
-        "civic",
-        "celebration",
-        "procession",
-        "sun"
-      ],
-      "source": {
-        "provider": "Nager.Date",
-        "countryCode": "BR",
-        "countryName": "Brazil",
-        "typeLabels": [
-          "公众节日"
-        ],
-        "subdivisions": []
-      }
-    },
     "2026-09-08": {
       "title": "International Literacy Day",
       "motif": "starfield",
@@ -1570,6 +1541,38 @@
           "公众节日"
         ],
         "subdivisions": []
+      }
+    },
+    "2026-10-30": {
+      "title": "St. Saturninus",
+      "motif": "wovenPattern",
+      "gradient": [
+        "#142525",
+        "#4f3739",
+        "#141515"
+      ],
+      "accent": "#6ab071",
+      "secondary": "#d75555",
+      "holidayFamily": "municipal-local",
+      "popularityTier": "niche",
+      "scopeTier": "national",
+      "tags": [
+        "culture",
+        "civic",
+        "botanical"
+      ],
+      "source": {
+        "provider": "OpenHolidays",
+        "countryCode": "IT",
+        "countryName": "Italy",
+        "typeLabels": [
+          "公众节日",
+          "地方性"
+        ],
+        "nationwide": false,
+        "subdivisions": [
+          "SA-CA"
+        ]
       }
     }
   }
