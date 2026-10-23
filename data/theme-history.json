@@ -1,38 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-22T20:15:35.372Z",
+  "updatedAt": "2026-10-23T19:51:50.602Z",
   "days": {
-    "2026-09-08": {
-      "title": "International Literacy Day",
-      "motif": "starfield",
-      "gradient": [
-        "#1b1824",
-        "#483c4d",
-        "#121617"
-      ],
-      "accent": "#c8af66",
-      "secondary": "#aa89c8",
-      "holidayFamily": "culture-observance",
-      "popularityTier": "observance",
-      "scopeTier": "international",
-      "tags": [
-        "sky",
-        "light",
-        "civic",
-        "celebration",
-        "culture",
-        "international"
-      ],
-      "source": {
-        "provider": "Curated Cultural Observances",
-        "countryCode": "INTL",
-        "countryName": "International",
-        "typeLabels": [
-          "文化日"
-        ],
-        "subdivisions": []
-      }
-    },
     "2026-09-09": {
       "title": "九月菱绣",
       "motif": "folkEmbroidery",
@@ -1573,6 +1542,38 @@
         "subdivisions": [
           "SA-CA"
         ]
+      }
+    },
+    "2026-10-31": {
+      "title": "Halloween",
+      "motif": "pumpkin",
+      "gradient": [
+        "#18161e",
+        "#553415",
+        "#141215"
+      ],
+      "accent": "#db812b",
+      "secondary": "#875fb9",
+      "holidayFamily": "international-observance",
+      "popularityTier": "major",
+      "scopeTier": "international",
+      "tags": [
+        "night",
+        "autumn",
+        "playful",
+        "sky",
+        "light",
+        "celebration"
+      ],
+      "source": {
+        "provider": "Fixed Holidays",
+        "countryCode": "INTL",
+        "countryName": "International",
+        "typeLabels": [
+          "国际日"
+        ],
+        "nationwide": true,
+        "subdivisions": []
       }
     }
   }
