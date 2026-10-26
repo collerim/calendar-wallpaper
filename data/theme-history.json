@@ -1,36 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-25T18:47:58.073Z",
+  "updatedAt": "2026-10-26T20:59:41.264Z",
   "days": {
-    "2026-09-11": {
-      "title": "Liberation Day",
-      "motif": "laurelTorch",
-      "gradient": [
-        "#1a1815",
-        "#5e3a2f",
-        "#141111"
-      ],
-      "accent": "#c8ab54",
-      "secondary": "#c94e40",
-      "holidayFamily": "remembrance",
-      "popularityTier": "niche",
-      "scopeTier": "national",
-      "tags": [
-        "civic",
-        "remembrance",
-        "light",
-        "celebration"
-      ],
-      "source": {
-        "provider": "Nager.Date",
-        "countryCode": "FM",
-        "countryName": "Micronesia",
-        "typeLabels": [
-          "公众节日"
-        ],
-        "subdivisions": []
-      }
-    },
     "2026-09-12": {
       "title": "九月微月",
       "motif": "moonOrbit",
@@ -1582,6 +1553,34 @@
           "公众节日"
         ],
         "nationwide": true,
+        "subdivisions": []
+      }
+    },
+    "2026-11-03": {
+      "title": "Independence Day",
+      "motif": "cityParade",
+      "gradient": [
+        "#161e37",
+        "#4d2f42",
+        "#131419"
+      ],
+      "accent": "#73a0d8",
+      "secondary": "#d85561",
+      "holidayFamily": "independence-day",
+      "popularityTier": "common",
+      "scopeTier": "national",
+      "tags": [
+        "civic",
+        "celebration",
+        "procession"
+      ],
+      "source": {
+        "provider": "Nager.Date",
+        "countryCode": "DM",
+        "countryName": "Dominica",
+        "typeLabels": [
+          "公众节日"
+        ],
         "subdivisions": []
       }
     }
