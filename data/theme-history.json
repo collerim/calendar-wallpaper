@@ -1,35 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-27T20:38:43.399Z",
+  "updatedAt": "2026-10-28T20:52:28.120Z",
   "days": {
-    "2026-09-13": {
-      "title": "Father's Day",
-      "motif": "wovenPattern",
-      "gradient": [
-        "#1d1a28",
-        "#584538",
-        "#131519"
-      ],
-      "accent": "#caab5a",
-      "secondary": "#71b1dc",
-      "holidayFamily": "remembrance",
-      "popularityTier": "common",
-      "scopeTier": "unknown",
-      "tags": [
-        "culture",
-        "civic",
-        "celebration"
-      ],
-      "source": {
-        "provider": "Nager.Date",
-        "countryCode": "LV",
-        "countryName": "Latvia",
-        "typeLabels": [
-          "纪念日"
-        ],
-        "subdivisions": []
-      }
-    },
     "2026-09-14": {
       "title": "Angel consecration",
       "motif": "marketBanners",
@@ -1584,6 +1556,35 @@
         "provider": "Nager.Date",
         "countryCode": "TO",
         "countryName": "Tonga",
+        "typeLabels": [
+          "公众节日"
+        ],
+        "subdivisions": []
+      }
+    },
+    "2026-11-05": {
+      "title": "Thanksgiving Day",
+      "motif": "harvestSheaves",
+      "gradient": [
+        "#241e16",
+        "#66482a",
+        "#121518"
+      ],
+      "accent": "#c89658",
+      "secondary": "#90a56a",
+      "holidayFamily": "environmental-observance",
+      "popularityTier": "major",
+      "scopeTier": "national",
+      "tags": [
+        "botanical",
+        "harvest",
+        "seasonal",
+        "celebration"
+      ],
+      "source": {
+        "provider": "Nager.Date",
+        "countryCode": "LR",
+        "countryName": "Liberia",
         "typeLabels": [
           "公众节日"
         ],
