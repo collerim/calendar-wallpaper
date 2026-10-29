@@ -1,42 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-28T20:52:28.120Z",
+  "updatedAt": "2026-10-29T20:57:40.718Z",
   "days": {
-    "2026-09-14": {
-      "title": "Angel consecration",
-      "motif": "marketBanners",
-      "gradient": [
-        "#161f2e",
-        "#552d30",
-        "#121619"
-      ],
-      "accent": "#d2585c",
-      "secondary": "#dee1e6",
-      "holidayFamily": "municipal-local",
-      "popularityTier": "niche",
-      "scopeTier": "national",
-      "tags": [
-        "culture",
-        "civic",
-        "mountain",
-        "market",
-        "celebration",
-        "folk"
-      ],
-      "source": {
-        "provider": "OpenHolidays",
-        "countryCode": "CH",
-        "countryName": "Switzerland",
-        "typeLabels": [
-          "公众节日",
-          "地方性"
-        ],
-        "nationwide": false,
-        "subdivisions": [
-          "SZ-ES"
-        ]
-      }
-    },
     "2026-09-15": {
       "title": "Day of Our Lady of the Seven Sorrows",
       "motif": "tanabata",
@@ -1585,6 +1550,36 @@
         "provider": "Nager.Date",
         "countryCode": "LR",
         "countryName": "Liberia",
+        "typeLabels": [
+          "公众节日"
+        ],
+        "subdivisions": []
+      }
+    },
+    "2026-11-06": {
+      "title": "Green March",
+      "motif": "crescentLantern",
+      "gradient": [
+        "#111b2d",
+        "#333f5f",
+        "#111517"
+      ],
+      "accent": "#c5b26c",
+      "secondary": "#6fb1d7",
+      "holidayFamily": "religious-observance",
+      "popularityTier": "major",
+      "scopeTier": "national",
+      "tags": [
+        "islamic",
+        "religious",
+        "light",
+        "sky",
+        "botanical"
+      ],
+      "source": {
+        "provider": "Nager.Date",
+        "countryCode": "MA",
+        "countryName": "Morocco",
         "typeLabels": [
           "公众节日"
         ],

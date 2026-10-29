@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-28T20:52:28.128Z",
-  "baseDate": "2026-10-29",
-  "ensuredThrough": "2026-11-05",
+  "generatedAt": "2026-10-29T20:57:40.721Z",
+  "baseDate": "2026-10-30",
+  "ensuredThrough": "2026-11-06",
   "today": "output/today.png",
   "devices": [
     {
@@ -137,23 +137,6 @@
   ],
   "generated": [
     {
-      "date": "2026-10-29",
-      "output": "output/2026/2026.10/2026.10.29.png",
-      "selectedTheme": "Republic Day",
-      "selectedMotif": "cityParade",
-      "selectedScoreBreakdown": {
-        "basePriority": 69,
-        "popularity": 26,
-        "jitter": 2.153,
-        "motifPenalty": 7,
-        "culturalPenalty": 42,
-        "holidayFamilyPenalty": 0,
-        "colorPenalty": 36,
-        "finalScore": 12.153
-      },
-      "discardedCount": 1
-    },
-    {
       "date": "2026-10-30",
       "output": "output/2026/2026.10/2026.10.30.png",
       "selectedTheme": "St. Saturninus",
@@ -271,6 +254,23 @@
         "finalScore": 58.316
       },
       "discardedCount": 1
+    },
+    {
+      "date": "2026-11-06",
+      "output": "output/2026/2026.11/2026.11.06.png",
+      "selectedTheme": "Green March",
+      "selectedMotif": "crescentLantern",
+      "selectedScoreBreakdown": {
+        "basePriority": 61,
+        "popularity": 34,
+        "jitter": 2.143,
+        "motifPenalty": 0,
+        "culturalPenalty": 37,
+        "holidayFamilyPenalty": 0,
+        "colorPenalty": 28,
+        "finalScore": 32.143
+      },
+      "discardedCount": 2
     }
   ],
   "skipped": []
