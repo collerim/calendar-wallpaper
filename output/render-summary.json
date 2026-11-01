@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-31T19:47:44.548Z",
-  "baseDate": "2026-11-01",
-  "ensuredThrough": "2026-11-08",
+  "generatedAt": "2026-11-01T20:27:16.872Z",
+  "baseDate": "2026-11-02",
+  "ensuredThrough": "2026-11-09",
   "today": "output/today.png",
   "devices": [
     {
@@ -137,23 +137,6 @@
   ],
   "generated": [
     {
-      "date": "2026-11-01",
-      "output": "output/2026/2026.11/2026.11.01.png",
-      "selectedTheme": "All Saints Day",
-      "selectedMotif": "stainedGlass",
-      "selectedScoreBreakdown": {
-        "basePriority": 73,
-        "popularity": 18,
-        "jitter": 5.416,
-        "motifPenalty": 10,
-        "culturalPenalty": 42,
-        "holidayFamilyPenalty": 0,
-        "colorPenalty": 24,
-        "finalScore": 20.416
-      },
-      "discardedCount": 8
-    },
-    {
       "date": "2026-11-02",
       "output": "output/2026/2026.11/2026.11.02.png",
       "selectedTheme": "Dia de Muertos",
@@ -271,6 +254,23 @@
         "finalScore": -1.964
       },
       "discardedCount": 1
+    },
+    {
+      "date": "2026-11-09",
+      "output": "output/2026/2026.11/2026.11.09.png",
+      "selectedTheme": "National Independence Day",
+      "selectedMotif": "marketBanners",
+      "selectedScoreBreakdown": {
+        "basePriority": 69,
+        "popularity": 26,
+        "jitter": 4.946,
+        "motifPenalty": 0,
+        "culturalPenalty": 42,
+        "holidayFamilyPenalty": 0,
+        "colorPenalty": 42,
+        "finalScore": 15.946
+      },
+      "discardedCount": 3
     }
   ],
   "skipped": []
