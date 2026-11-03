@@ -406,10 +406,22 @@ function cachedHolidayThemes(date) {
 }
 
 function displayDescriptionForSource(theme) {
-  if (!theme.source) return theme.description;
-  if (theme.source.provider === "Curated Cultural Observances") return theme.description;
+  try {
+    if (!theme?.source) return theme?.description || providerHolidayName(theme);
+    if (theme.source.provider === "Curated Cultural Observances") return theme.description || providerHolidayName(theme);
+    const introduction = holidayIntroduction(theme.title, theme.source, theme.description);
+    if (introduction) return introduction;
+  } catch {
+    // A missing content entry should not stop the wallpaper from rendering.
+  }
+  return theme?.description || providerHolidayName(theme);
+}
 
-  return holidayIntroduction(theme.title, theme.source, theme.description);
+function providerHolidayName(theme) {
+  const title = typeof theme?.title === "string" ? theme.title.trim() : "";
+  const localName = typeof theme?.source?.localName === "string" ? theme.source.localName.trim() : "";
+  if (localName && localName !== title) return localName;
+  return title || localName;
 }
 
 function holidayIntroduction(title, source, fallback) {

@@ -1,5 +1,6 @@
 globalThis.window = globalThis;
 
+import fs from "node:fs";
 import path from "node:path";
 import { pathToFileURL } from "node:url";
 
@@ -68,21 +69,50 @@ if (options.requireProviderData && providerHolidayCount === 0) {
   process.exit(1);
 }
 
+if (options.json) {
+  const payload = {
+    window: {
+      start: cache.window?.start || "",
+      end: cache.window?.end || ""
+    },
+    providerHolidayCount,
+    coveredByContent,
+    coveredByLegacyIntro,
+    gaps: [...gaps.values()].map(summaryToJson),
+    legacyOnly: [...legacyOnly.values()].map(summaryToJson)
+  };
+  fs.mkdirSync(path.dirname(path.resolve(options.json)), { recursive: true });
+  fs.writeFileSync(options.json, `${JSON.stringify(payload, null, 2)}\n`);
+}
+
 if (options.failOnGaps && (gaps.size || legacyOnly.size)) {
   console.error(`Holiday content coverage failed: ${gaps.size} uncovered title(s), ${legacyOnly.size} legacy-only title(s).`);
   process.exit(1);
+}
+
+function summaryToJson(summary) {
+  return {
+    title: summary.title,
+    providers: [...summary.providers],
+    countries: [...summary.countries],
+    dates: [...summary.dates].sort(),
+    localNames: [...summary.localNames],
+    typeLabels: [...summary.typeLabels]
+  };
 }
 
 function parseArgs(args) {
   const limitIndex = args.indexOf("--limit");
   const limit = limitIndex >= 0 ? Number(args[limitIndex + 1]) : 50;
   const cacheIndex = args.indexOf("--cache");
+  const jsonIndex = args.indexOf("--json");
   return {
     limit: Number.isFinite(limit) && limit > 0 ? limit : 50,
     legacyOnly: args.includes("--legacy-only"),
     cache: cacheIndex >= 0 ? args[cacheIndex + 1] : "./data/holiday-cache.js",
     failOnGaps: args.includes("--fail-on-gaps"),
-    requireProviderData: args.includes("--require-provider-data")
+    requireProviderData: args.includes("--require-provider-data"),
+    json: jsonIndex >= 0 ? args[jsonIndex + 1] : ""
   };
 }
 
