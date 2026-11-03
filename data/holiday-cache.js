@@ -1,6 +1,6 @@
 window.YearCalendarHolidayCache = {
   "version": 1,
-  "generatedAt": "2026-09-01T19:27:00.748Z",
+  "generatedAt": "2026-11-03T15:37:26.511Z",
   "source": "https://date.nager.at/api/v3/PublicHolidays/{year}/{countryCode}",
   "sources": [
     {
@@ -23,8 +23,8 @@ window.YearCalendarHolidayCache = {
     }
   ],
   "window": {
-    "start": "2026-09-02",
-    "end": "2026-12-01",
+    "start": "2026-11-02",
+    "end": "2027-01-31",
     "days": 90
   },
   "profile": {
@@ -1257,20 +1257,23 @@ window.YearCalendarHolidayCache = {
   },
   "coverage": {
     "totalDays": 91,
-    "candidateDays": 85,
-    "fallbackDays": 6,
+    "candidateDays": 82,
+    "fallbackDays": 9,
     "fallbackDates": [
-      "2026-09-05",
-      "2026-09-09",
-      "2026-09-12",
-      "2026-10-18",
       "2026-11-14",
-      "2026-11-22"
+      "2026-11-22",
+      "2026-12-02",
+      "2026-12-14",
+      "2026-12-15",
+      "2026-12-19",
+      "2026-12-23",
+      "2027-01-29",
+      "2027-01-30"
     ]
   },
   "sourceStats": {
-    "nagerRequests": 204,
-    "nagerSuccessfulRequests": 204,
+    "nagerRequests": 408,
+    "nagerSuccessfulRequests": 408,
     "nagerFailedRequests": 0,
     "nagerErrorSamples": [],
     "openHolidaysRequests": 36,
@@ -1279,8197 +1282,6 @@ window.YearCalendarHolidayCache = {
     "openHolidaysErrorSamples": []
   },
   "days": {
-    "2026-09-02": [
-      {
-        "title": "National Day",
-        "caption": "National Day · Quốc khánh",
-        "description": "越南国庆日纪念1945年《独立宣言》发表，红旗、公共仪式和城市节庆共同呈现现代国家记忆。",
-        "motif": "cityParade",
-        "gradient": [
-          "#101d34",
-          "#4a2432",
-          "#111316"
-        ],
-        "accent": "#78aee8",
-        "secondary": "#e85a63",
-        "priority": 69,
-        "tags": [
-          "civic",
-          "celebration",
-          "procession"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "VN",
-          "countryName": "Vietnam",
-          "localName": "Quốc khánh",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 342,
-        "holidayFamily": "national-day",
-        "popularityTier": "common",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Regional Holiday in Ceuta",
-        "caption": "Regional Holiday in Ceuta · Spain",
-        "description": "休达地方假日标记这座北非西班牙城市的自治身份和地中海边城历史，公共活动常带有地方旗帜与社区庆典。",
-        "motif": "lotusMandala",
-        "gradient": [
-          "#211619",
-          "#63362a",
-          "#111314"
-        ],
-        "accent": "#d8b95b",
-        "secondary": "#e65b5b",
-        "priority": 62,
-        "tags": [
-          "religious",
-          "botanical",
-          "culture",
-          "heritage",
-          "folk"
-        ],
-        "source": {
-          "provider": "OpenHolidays",
-          "countryCode": "ES",
-          "countryName": "Spain",
-          "localName": "Regional Holiday in Ceuta",
-          "typeLabels": [
-            "公众节日",
-            "地方性"
-          ],
-          "nationwide": false,
-          "subdivisions": [
-            "CE"
-          ]
-        },
-        "score": 198,
-        "holidayFamily": "municipal-local",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      }
-    ],
-    "2026-09-03": [
-      {
-        "title": "Day of the Moldovan National Army",
-        "caption": "Day of the Moldovan National Army · Moldova",
-        "description": "摩尔多瓦国家军队日纪念独立后国防力量的建立，常以官方仪式、军人致敬和国家安全记忆来标记。",
-        "motif": "cityParade",
-        "gradient": [
-          "#101d34",
-          "#4a2432",
-          "#111316"
-        ],
-        "accent": "#78aee8",
-        "secondary": "#e85a63",
-        "priority": 69,
-        "tags": [
-          "civic",
-          "celebration",
-          "procession"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "MD",
-          "countryName": "Moldova",
-          "localName": "Day of the Moldovan National Army",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 342,
-        "holidayFamily": "national-civic-day",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
-        "title": "The Feast of San Marino and the Republic",
-        "caption": "The Feast of San Marino and the Republic · San Marino",
-        "description": "圣马力诺与共和国节纪念圣马力诺守护圣人和共和国传统，把山城小国的起源传说、国家仪式和宗教礼拜连在一起。",
-        "motif": "cityParade",
-        "gradient": [
-          "#101d34",
-          "#4a2432",
-          "#111316"
-        ],
-        "accent": "#78aee8",
-        "secondary": "#e85a63",
-        "priority": 69,
-        "tags": [
-          "civic",
-          "celebration",
-          "procession"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "SM",
-          "countryName": "San Marino",
-          "localName": "The Feast of San Marino and the Republic",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 342,
-        "holidayFamily": "saint-day",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
-        "title": "San Marino National Holiday / Foundation of the Republic (301 A.D.)",
-        "caption": "San Marino National Holiday / Foundation of the Republic (301 A.D.) · San Marino",
-        "description": "圣马力诺国庆日回望公元301年的共和国奠基传统，是这个微型国家表达古老共和身份的重要日子。",
-        "motif": "lotusMandala",
-        "gradient": [
-          "#171427",
-          "#4c3652",
-          "#111214"
-        ],
-        "accent": "#d6b6e8",
-        "secondary": "#87c9b7",
-        "priority": 69,
-        "tags": [
-          "religious",
-          "botanical",
-          "culture",
-          "heritage",
-          "civic"
-        ],
-        "source": {
-          "provider": "OpenHolidays",
-          "countryCode": "SM",
-          "countryName": "San Marino",
-          "localName": "San Marino National Holiday / Foundation of the Republic (301 A.D.)",
-          "typeLabels": [
-            "公众节日",
-            "全国性"
-          ],
-          "nationwide": true,
-          "subdivisions": []
-        },
-        "score": 327,
-        "holidayFamily": "saint-day",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Conquest of the city from the Moors",
-        "caption": "Conquest of the city from the Moors · Portugal",
-        "description": "这类葡萄牙地方纪念日回望中世纪城市归属变化和再征服时代记忆，常被市镇用来保存本地历史身份。",
-        "motif": "wovenPattern",
-        "gradient": [
-          "#171822",
-          "#4d3d32",
-          "#111314"
-        ],
-        "accent": "#d8b95b",
-        "secondary": "#78bde8",
-        "priority": 54,
-        "tags": [
-          "culture",
-          "civic"
-        ],
-        "source": {
-          "provider": "OpenHolidays",
-          "countryCode": "PT",
-          "countryName": "Portugal",
-          "localName": "Conquest of the city from the Moors",
-          "typeLabels": [
-            "可选假日",
-            "地方性"
-          ],
-          "nationwide": false,
-          "subdivisions": [
-            "FA-SI"
-          ]
-        },
-        "score": 56,
-        "holidayFamily": "municipal-local",
-        "popularityTier": "local",
-        "scopeTier": "local"
-      },
-      {
-        "title": "Tokehega Day",
-        "caption": "Tokehega Day · Tokelau",
-        "description": "Tokehega Day是Tokelau日历中的纪念日，通常承载当地历史、公共生活或季节性的休假安排。",
-        "motif": "wovenPattern",
-        "gradient": [
-          "#171822",
-          "#4d3d32",
-          "#111314"
-        ],
-        "accent": "#d8b95b",
-        "secondary": "#78bde8",
-        "priority": 65,
-        "tags": [
-          "culture",
-          "civic"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "TK",
-          "countryName": "Tokelau",
-          "localName": "Tokehega Day",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 230,
-        "holidayFamily": "national-civic-day",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      }
-    ],
-    "2026-09-04": [
-      {
-        "title": "Labour Day",
-        "caption": "Labour Day · Labor Day",
-        "description": "劳动节纪念劳动者权益与劳动生活，许多地方会在这一天休假，也可能举行游行、集会或公共活动。",
-        "motif": "maritimeFlags",
-        "gradient": [
-          "#0c2635",
-          "#255d70",
-          "#101417"
-        ],
-        "accent": "#76cce8",
-        "secondary": "#f0c95c",
-        "priority": 65,
-        "tags": [
-          "maritime",
-          "water",
-          "civic",
-          "island"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "MH",
-          "countryName": "Marshall Islands",
-          "localName": "Labor Day",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 230,
-        "holidayFamily": "labour-day",
-        "popularityTier": "common",
-        "scopeTier": "national"
-      }
-    ],
-    "2026-09-06": [
-      {
-        "title": "Unification Day",
-        "caption": "Unification Day · Bulgaria",
-        "description": "保加利亚统一日纪念1885年保加利亚公国与东鲁米利亚统一，是现代保加利亚国家形成的重要节点。",
-        "motif": "wovenPattern",
-        "gradient": [
-          "#171822",
-          "#4d3d32",
-          "#111314"
-        ],
-        "accent": "#d8b95b",
-        "secondary": "#78bde8",
-        "priority": 64,
-        "tags": [
-          "culture",
-          "civic"
-        ],
-        "source": {
-          "provider": "OpenHolidays",
-          "countryCode": "BG",
-          "countryName": "Bulgaria",
-          "localName": "Unification Day",
-          "typeLabels": [
-            "公众节日",
-            "全国性"
-          ],
-          "nationwide": true,
-          "subdivisions": []
-        },
-        "score": 215,
-        "holidayFamily": "national-civic-day",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Armed Forces Day",
-        "caption": "Armed Forces Day · Dia das Forças Armadas",
-        "description": "São Tomé and Príncipe以「Dia das Forças Armadas」为名纪念这一天，通常与当地历史、传统或社区公共生活有关。",
-        "motif": "wovenPattern",
-        "gradient": [
-          "#171822",
-          "#4d3d32",
-          "#111314"
-        ],
-        "accent": "#d8b95b",
-        "secondary": "#78bde8",
-        "priority": 61,
-        "tags": [
-          "culture",
-          "civic"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "ST",
-          "countryName": "São Tomé and Príncipe",
-          "localName": "Dia das Forças Armadas",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 150,
-        "holidayFamily": "national-civic-day",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Bonaire Flag Day",
-        "caption": "Bonaire Flag Day · Vlagdag bonaire",
-        "description": "博内尔旗帜日纪念岛屿旗帜和地方身份，常以升旗、文化活动和社区聚会表达对博内尔的归属感。",
-        "motif": "paperCut",
-        "gradient": [
-          "#25080c",
-          "#7a1e26",
-          "#12090a"
-        ],
-        "accent": "#f6c85f",
-        "secondary": "#e83b36",
-        "priority": 59,
-        "tags": [
-          "civic",
-          "celebration",
-          "culture"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "BQ",
-          "countryName": "Caribbean Netherlands",
-          "localName": "Vlagdag bonaire",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 110,
-        "holidayFamily": "national-symbol-day",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      }
-    ],
-    "2026-09-07": [
-      {
-        "title": "Labour Day",
-        "caption": "Labour Day · Labor Day",
-        "description": "美国劳动节纪念劳动者和劳工运动，也通常象征夏季结束，常见活动包括长周末旅行、烧烤和体育赛事。",
-        "motif": "paperCut",
-        "gradient": [
-          "#101a34",
-          "#4a2432",
-          "#111316"
-        ],
-        "accent": "#6aa7ff",
-        "secondary": "#e85a63",
-        "priority": 78,
-        "tags": [
-          "civic",
-          "celebration",
-          "culture"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "US",
-          "countryName": "United States",
-          "localName": "Labor Day",
-          "typeLabels": [
-            "公众节日",
-            "银行假日"
-          ]
-        },
-        "score": 540,
-        "holidayFamily": "labour-day",
-        "popularityTier": "common",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Independence Day",
-        "caption": "Independence Day · Eswatini",
-        "description": "独立日通常纪念国家取得主权或脱离殖民统治的历史时刻，常伴随旗帜、仪式和公共庆祝。",
-        "motif": "cityParade",
-        "gradient": [
-          "#101d34",
-          "#4a2432",
-          "#111316"
-        ],
-        "accent": "#78aee8",
-        "secondary": "#e85a63",
-        "priority": 73,
-        "tags": [
-          "civic",
-          "celebration",
-          "procession"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "SZ",
-          "countryName": "Eswatini",
-          "localName": "Independence Day",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 422,
-        "holidayFamily": "independence-day",
-        "popularityTier": "common",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Independence Day",
-        "caption": "Independence Day · Dia da Independência",
-        "description": "巴西独立日纪念1822年独立宣告，阅兵、国旗和公共庆典把帝国起源记忆与现代国家身份连接起来。",
-        "motif": "cityParade",
-        "gradient": [
-          "#102622",
-          "#465c2d",
-          "#101516"
-        ],
-        "accent": "#77c98e",
-        "secondary": "#d8c070",
-        "priority": 71,
-        "tags": [
-          "civic",
-          "celebration",
-          "procession"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "BR",
-          "countryName": "Brazil",
-          "localName": "Dia da Independência",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 392,
-        "holidayFamily": "independence-day",
-        "popularityTier": "common",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Mother Teresa Day",
-        "caption": "Mother Teresa Day · Dita e Nënë Terezës",
-        "description": "阿尔巴尼亚特蕾莎修女日纪念这位出生于巴尔干地区的天主教修女，人道服务、慈善和宗教身份是这一天的核心记忆。",
-        "motif": "petals",
-        "gradient": [
-          "#241525",
-          "#643044",
-          "#111214"
-        ],
-        "accent": "#e87a94",
-        "secondary": "#d7b56b",
-        "priority": 61,
-        "tags": [
-          "botanical",
-          "memorial"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "AL",
-          "countryName": "Albania",
-          "localName": "Dita e Nënë Terezës",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 150,
-        "holidayFamily": "remembrance",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Unification Day",
-        "caption": "Unification Day · Ден на съединението",
-        "description": "保加利亚统一日纪念1885年保加利亚公国与东鲁米利亚统一，是现代保加利亚国家形成的重要节点。",
-        "motif": "wovenPattern",
-        "gradient": [
-          "#171822",
-          "#4d3d32",
-          "#111314"
-        ],
-        "accent": "#d8b95b",
-        "secondary": "#78bde8",
-        "priority": 61,
-        "tags": [
-          "culture",
-          "civic"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "BG",
-          "countryName": "Bulgaria",
-          "localName": "Ден на съединението",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 150,
-        "holidayFamily": "national-civic-day",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Municipal holiday",
-        "caption": "Municipal holiday · Portugal",
-        "description": "葡萄牙市镇假日通常由各地自行纪念守护圣人、建城传统或地方历史，日期和习俗会随着城市而变化。",
-        "motif": "lotusMandala",
-        "gradient": [
-          "#171427",
-          "#4c3652",
-          "#111214"
-        ],
-        "accent": "#d6b6e8",
-        "secondary": "#87c9b7",
-        "priority": 58,
-        "tags": [
-          "religious",
-          "botanical",
-          "culture",
-          "heritage"
-        ],
-        "source": {
-          "provider": "OpenHolidays",
-          "countryCode": "PT",
-          "countryName": "Portugal",
-          "localName": "Municipal holiday",
-          "typeLabels": [
-            "可选假日",
-            "地方性"
-          ],
-          "nationwide": false,
-          "subdivisions": [
-            "CO-AR",
-            "EV-VN",
-            "FA-FA"
-          ]
-        },
-        "score": 136,
-        "holidayFamily": "municipal-local",
-        "popularityTier": "local",
-        "scopeTier": "local"
-      },
-      {
-        "title": "Labour Day",
-        "caption": "Labour Day · Canada",
-        "description": "加拿大劳动节纪念劳动者权益与工会传统，也常作为开学前的夏末长周末，用于旅行、休息和家庭活动。",
-        "motif": "paperCut",
-        "gradient": [
-          "#17161c",
-          "#5d2630",
-          "#111214"
-        ],
-        "accent": "#e85a63",
-        "secondary": "#f3f3f5",
-        "priority": 70,
-        "tags": [
-          "civic",
-          "celebration",
-          "culture"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "CA",
-          "countryName": "Canada",
-          "localName": "Labour Day",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 350,
-        "holidayFamily": "labour-day",
-        "popularityTier": "common",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Labour Day",
-        "caption": "Labour Day · Bermuda",
-        "description": "劳动节纪念劳动者权益与劳动生活，许多地方会在这一天休假，也可能举行游行、集会或公共活动。",
-        "motif": "paperCut",
-        "gradient": [
-          "#25080c",
-          "#7a1e26",
-          "#12090a"
-        ],
-        "accent": "#f6c85f",
-        "secondary": "#e83b36",
-        "priority": 65,
-        "tags": [
-          "civic",
-          "celebration",
-          "culture"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "BM",
-          "countryName": "Bermuda",
-          "localName": "Labour Day",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 230,
-        "holidayFamily": "labour-day",
-        "popularityTier": "common",
-        "scopeTier": "national"
-      }
-    ],
-    "2026-09-08": [
-      {
-        "title": "International Literacy Day",
-        "caption": "International Literacy Day · 国际扫盲日",
-        "description": "联合国教科文组织纪念日，关注阅读能力、教育公平和人的发展。",
-        "motif": "starfield",
-        "gradient": [
-          "#171827",
-          "#3c3350",
-          "#111316"
-        ],
-        "accent": "#d8c070",
-        "secondary": "#b68fd8",
-        "priority": 70,
-        "tags": [
-          "culture",
-          "international",
-          "light"
-        ],
-        "source": {
-          "provider": "Curated Cultural Observances",
-          "countryCode": "INTL",
-          "countryName": "International",
-          "zhName": "国际",
-          "localName": "国际扫盲日",
-          "typeLabels": [
-            "文化日"
-          ]
-        },
-        "score": 584,
-        "holidayFamily": "culture-observance",
-        "popularityTier": "observance",
-        "scopeTier": "international"
-      },
-      {
-        "title": "National Holiday",
-        "caption": "National Holiday · Andorra",
-        "description": "安道尔国庆日与梅里切尔圣母日相连，山地小国的守护圣母传统、国家身份和公共庆典在这一天重叠。",
-        "motif": "lotusMandala",
-        "gradient": [
-          "#171427",
-          "#4c3652",
-          "#111214"
-        ],
-        "accent": "#d6b6e8",
-        "secondary": "#87c9b7",
-        "priority": 72,
-        "tags": [
-          "religious",
-          "botanical",
-          "culture",
-          "heritage",
-          "civic"
-        ],
-        "source": {
-          "provider": "OpenHolidays",
-          "countryCode": "AD",
-          "countryName": "Andorra",
-          "localName": "National Holiday",
-          "typeLabels": [
-            "公众节日",
-            "全国性"
-          ],
-          "nationwide": true,
-          "subdivisions": []
-        },
-        "score": 407,
-        "holidayFamily": "religious-observance",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Independence Day",
-        "caption": "Independence Day · Ден на независноста, Den na nezavisnosta",
-        "description": "北马其顿独立日纪念1991年独立公投，巴尔干现代国家形成、主权记忆和公共仪式是这一天的核心。",
-        "motif": "cityParade",
-        "gradient": [
-          "#101d34",
-          "#4a2432",
-          "#111316"
-        ],
-        "accent": "#78aee8",
-        "secondary": "#e85a63",
-        "priority": 69,
-        "tags": [
-          "civic",
-          "celebration",
-          "procession"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "MK",
-          "countryName": "North Macedonia",
-          "localName": "Ден на независноста, Den na nezavisnosta",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 342,
-        "holidayFamily": "independence-day",
-        "popularityTier": "common",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Asturias Day",
-        "caption": "Asturias Day · Spain",
-        "description": "阿斯图里亚斯日纪念西班牙北部阿斯图里亚斯地区身份，也常与科瓦东加圣母传统、山地文化和自治庆典相连。",
-        "motif": "wovenPattern",
-        "gradient": [
-          "#211619",
-          "#63362a",
-          "#111314"
-        ],
-        "accent": "#d8b95b",
-        "secondary": "#e65b5b",
-        "priority": 66,
-        "tags": [
-          "culture",
-          "civic"
-        ],
-        "source": {
-          "provider": "OpenHolidays",
-          "countryCode": "ES",
-          "countryName": "Spain",
-          "localName": "Asturias Day",
-          "typeLabels": [
-            "公众节日",
-            "地方性"
-          ],
-          "nationwide": false,
-          "subdivisions": [
-            "AS"
-          ]
-        },
-        "score": 278,
-        "holidayFamily": "municipal-local",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Nativity of Mary",
-        "caption": "Nativity of Mary · Festa della natività della madonna",
-        "description": "圣母诞辰日纪念玛利亚的诞生，在天主教和东正教传统中都是重要节日，常有礼拜、鲜花和圣母崇敬仪式。",
-        "motif": "wovenPattern",
-        "gradient": [
-          "#171822",
-          "#4d3d32",
-          "#111314"
-        ],
-        "accent": "#d8b95b",
-        "secondary": "#78bde8",
-        "priority": 65,
-        "tags": [
-          "culture",
-          "civic"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "VA",
-          "countryName": "Vatican City",
-          "localName": "Festa della natività della madonna",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 230,
-        "holidayFamily": "national-civic-day",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Liberation Day",
-        "caption": "Liberation Day · Micronesia",
-        "description": "解放日通常纪念战争结束、占领结束或国家重新获得自由的历史时刻，常带有追思和庆祝双重意味。",
-        "motif": "laurelTorch",
-        "gradient": [
-          "#151515",
-          "#55302d",
-          "#111111"
-        ],
-        "accent": "#d8b95b",
-        "secondary": "#d65345",
-        "priority": 62,
-        "tags": [
-          "civic",
-          "remembrance",
-          "light"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "FM",
-          "countryName": "Micronesia",
-          "localName": "Liberation Day",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 190,
-        "holidayFamily": "remembrance",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Day of Asturias",
-        "caption": "Day of Asturias · Día de Asturias",
-        "description": "阿斯图里亚斯日纪念西班牙阿斯图里亚斯地区身份与科瓦东加圣母传统，是地方历史和社区庆祝的一部分。",
-        "motif": "wovenPattern",
-        "gradient": [
-          "#211619",
-          "#63362a",
-          "#111314"
-        ],
-        "accent": "#d8b95b",
-        "secondary": "#e65b5b",
-        "priority": 62,
-        "tags": [
-          "culture",
-          "civic"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "ES",
-          "countryName": "Spain",
-          "localName": "Día de Asturias",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 200,
-        "holidayFamily": "national-civic-day",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Day of Extremadura",
-        "caption": "Day of Extremadura · Día de Extremadura",
-        "description": "埃斯特雷马杜拉日纪念西班牙埃斯特雷马杜拉地区身份，常与地方历史、宗教传统和社区活动相连。",
-        "motif": "wovenPattern",
-        "gradient": [
-          "#211619",
-          "#63362a",
-          "#111314"
-        ],
-        "accent": "#d8b95b",
-        "secondary": "#e65b5b",
-        "priority": 62,
-        "tags": [
-          "culture",
-          "civic"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "ES",
-          "countryName": "Spain",
-          "localName": "Día de Extremadura",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 200,
-        "holidayFamily": "national-civic-day",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      }
-    ],
-    "2026-09-10": [
-      {
-        "title": "Gibraltar National Day",
-        "caption": "Gibraltar National Day · Gibraltar",
-        "description": "直布罗陀国庆日纪念1967年公投，红白旗帜、集会和海峡城市身份是这一天最鲜明的公共符号。",
-        "motif": "cityParade",
-        "gradient": [
-          "#101d34",
-          "#4a2432",
-          "#111316"
-        ],
-        "accent": "#78aee8",
-        "secondary": "#e85a63",
-        "priority": 73,
-        "tags": [
-          "civic",
-          "celebration",
-          "procession"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "GI",
-          "countryName": "Gibraltar",
-          "localName": "Gibraltar National Day",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 422,
-        "holidayFamily": "national-day",
-        "popularityTier": "common",
-        "scopeTier": "national"
-      },
-      {
-        "title": "National Day of Prayer",
-        "caption": "National Day of Prayer · Antigua and Barbuda",
-        "description": "全国祈祷日把公共生活和宗教仪式连接起来，常以教堂礼拜、国家祝祷或社区聚会表达祝福与反思。",
-        "motif": "cityParade",
-        "gradient": [
-          "#101d34",
-          "#4a2432",
-          "#111316"
-        ],
-        "accent": "#78aee8",
-        "secondary": "#e85a63",
-        "priority": 69,
-        "tags": [
-          "civic",
-          "celebration",
-          "procession"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "AG",
-          "countryName": "Antigua and Barbuda",
-          "localName": "National Day of Prayer",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 342,
-        "holidayFamily": "national-day",
-        "popularityTier": "common",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Saint George's Caye Day",
-        "caption": "Saint George's Caye Day · Belize",
-        "description": "伯利兹圣乔治岛礁日纪念1798年战役传统，公共记忆中它象征当地社区抵御外来控制和形成身份的早期故事。",
-        "motif": "stainedGlass",
-        "gradient": [
-          "#101a34",
-          "#4a2734",
-          "#111316"
-        ],
-        "accent": "#9fc8ff",
-        "secondary": "#e87a94",
-        "priority": 65,
-        "tags": [
-          "religious",
-          "heritage",
-          "light"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "BZ",
-          "countryName": "Belize",
-          "localName": "Saint George's Caye Day",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 230,
-        "holidayFamily": "saint-day",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Geneva Prayday",
-        "caption": "Geneva Prayday · Jeûne genevois",
-        "description": "日内瓦禁食日源自宗教改革时期的禁食祈祷传统，今天仍保留为日内瓦地方假日，并带有反思和简朴意味。",
-        "motif": "wovenPattern",
-        "gradient": [
-          "#151b27",
-          "#4d2727",
-          "#111314"
-        ],
-        "accent": "#e65b5b",
-        "secondary": "#f0f0f2",
-        "priority": 62,
-        "tags": [
-          "culture",
-          "civic"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "CH",
-          "countryName": "Switzerland",
-          "localName": "Jeûne genevois",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 180,
-        "holidayFamily": "national-civic-day",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Jeûne genevois",
-        "caption": "Jeûne genevois · Switzerland",
-        "description": "日内瓦禁食日源自宗教改革时期的禁食祈祷传统，今天仍保留为日内瓦地方假日，并带有反思和简朴意味。",
-        "motif": "wovenPattern",
-        "gradient": [
-          "#151b27",
-          "#4d2727",
-          "#111314"
-        ],
-        "accent": "#e65b5b",
-        "secondary": "#f0f0f2",
-        "priority": 61,
-        "tags": [
-          "culture",
-          "civic"
-        ],
-        "source": {
-          "provider": "OpenHolidays",
-          "countryCode": "CH",
-          "countryName": "Switzerland",
-          "localName": "Jeûne genevois",
-          "typeLabels": [
-            "公众节日",
-            "地方性"
-          ],
-          "nationwide": false,
-          "subdivisions": [
-            "GE"
-          ]
-        },
-        "score": 178,
-        "holidayFamily": "municipal-local",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      }
-    ],
-    "2026-09-11": [
-      {
-        "title": "National Day of Catalonia",
-        "caption": "National Day of Catalonia · Diada Nacional de Catalunya",
-        "description": "加泰罗尼亚民族日纪念1714年巴塞罗那陷落，也成为表达加泰罗尼亚地方身份与政治记忆的日子。",
-        "motif": "cityParade",
-        "gradient": [
-          "#211619",
-          "#63362a",
-          "#111314"
-        ],
-        "accent": "#d8b95b",
-        "secondary": "#e65b5b",
-        "priority": 70,
-        "tags": [
-          "civic",
-          "celebration",
-          "procession"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "ES",
-          "countryName": "Spain",
-          "localName": "Diada Nacional de Catalunya",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 392,
-        "holidayFamily": "national-day",
-        "popularityTier": "common",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Liberation Day",
-        "caption": "Liberation Day · Micronesia",
-        "description": "解放日通常纪念战争结束、占领结束或国家重新获得自由的历史时刻，常带有追思和庆祝双重意味。",
-        "motif": "laurelTorch",
-        "gradient": [
-          "#151515",
-          "#55302d",
-          "#111111"
-        ],
-        "accent": "#d8b95b",
-        "secondary": "#d65345",
-        "priority": 62,
-        "tags": [
-          "civic",
-          "remembrance",
-          "light"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "FM",
-          "countryName": "Micronesia",
-          "localName": "Liberation Day",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 190,
-        "holidayFamily": "remembrance",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Enkutatash",
-        "caption": "Enkutatash · እንቁጣጣሽ/የዘመን መለወጫ/አዲስ አመት",
-        "description": "Ethiopia以「እንቁጣጣሽ/የዘመን መለወጫ/አዲስ አመት」为名纪念这一天，通常与当地历史、传统或社区公共生活有关。",
-        "motif": "wovenPattern",
-        "gradient": [
-          "#171822",
-          "#4d3d32",
-          "#111314"
-        ],
-        "accent": "#d8b95b",
-        "secondary": "#78bde8",
-        "priority": 61,
-        "tags": [
-          "culture",
-          "civic"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "ET",
-          "countryName": "Ethiopia",
-          "localName": "እንቁጣጣሽ/የዘመን መለወጫ/አዲስ አመት",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 150,
-        "holidayFamily": "national-civic-day",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Municipal holiday",
-        "caption": "Municipal holiday · Portugal",
-        "description": "葡萄牙市镇假日通常由各地自行纪念守护圣人、建城传统或地方历史，日期和习俗会随着城市而变化。",
-        "motif": "lotusMandala",
-        "gradient": [
-          "#171427",
-          "#4c3652",
-          "#111214"
-        ],
-        "accent": "#d6b6e8",
-        "secondary": "#87c9b7",
-        "priority": 58,
-        "tags": [
-          "religious",
-          "botanical",
-          "culture",
-          "heritage"
-        ],
-        "source": {
-          "provider": "OpenHolidays",
-          "countryCode": "PT",
-          "countryName": "Portugal",
-          "localName": "Municipal holiday",
-          "typeLabels": [
-            "可选假日",
-            "地方性"
-          ],
-          "nationwide": false,
-          "subdivisions": [
-            "SE-MT",
-            "LI-AM"
-          ]
-        },
-        "score": 136,
-        "holidayFamily": "municipal-local",
-        "popularityTier": "local",
-        "scopeTier": "local"
-      }
-    ],
-    "2026-09-13": [
-      {
-        "title": "Father's Day",
-        "caption": "Father's Day · Tēva diena",
-        "description": "Latvia以「Tēva diena」为名纪念这一天，通常与当地历史、传统或社区公共生活有关。",
-        "motif": "wovenPattern",
-        "gradient": [
-          "#171822",
-          "#4d3d32",
-          "#111314"
-        ],
-        "accent": "#d8b95b",
-        "secondary": "#78bde8",
-        "priority": 56,
-        "tags": [
-          "culture",
-          "civic"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "LV",
-          "countryName": "Latvia",
-          "localName": "Tēva diena",
-          "typeLabels": [
-            "纪念日"
-          ]
-        },
-        "score": 70,
-        "holidayFamily": "remembrance",
-        "popularityTier": "common",
-        "scopeTier": "unknown"
-      }
-    ],
-    "2026-09-14": [
-      {
-        "title": "Angel consecration",
-        "caption": "Angel consecration · Switzerland",
-        "description": "瑞士的天使祝圣纪念日与艾因西德伦修道院传统相连，纪念圣堂献堂与朝圣礼仪，是地方天主教记忆中的节日。",
-        "motif": "wovenPattern",
-        "gradient": [
-          "#151b27",
-          "#4d2727",
-          "#111314"
-        ],
-        "accent": "#e65b5b",
-        "secondary": "#f0f0f2",
-        "priority": 61,
-        "tags": [
-          "culture",
-          "civic"
-        ],
-        "source": {
-          "provider": "OpenHolidays",
-          "countryCode": "CH",
-          "countryName": "Switzerland",
-          "localName": "Angel consecration",
-          "typeLabels": [
-            "公众节日",
-            "地方性"
-          ],
-          "nationwide": false,
-          "subdivisions": [
-            "SZ-ES"
-          ]
-        },
-        "score": 178,
-        "holidayFamily": "municipal-local",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Battle of San Jacinto",
-        "caption": "Battle of San Jacinto · Nicaragua",
-        "description": "尼加拉瓜圣哈辛托战役纪念日纪念1856年庄园战役中的胜利，象征反抗外来干预和国家独立叙事。",
-        "motif": "wovenPattern",
-        "gradient": [
-          "#171822",
-          "#4d3d32",
-          "#111314"
-        ],
-        "accent": "#d8b95b",
-        "secondary": "#78bde8",
-        "priority": 61,
-        "tags": [
-          "culture",
-          "civic"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "NI",
-          "countryName": "Nicaragua",
-          "localName": "Battle of San Jacinto",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 150,
-        "holidayFamily": "saint-day",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Knabenschiessen",
-        "caption": "Knabenschiessen · Switzerland",
-        "description": "Knabenschiessen 是苏黎世传统少年射击节，现代也融合游乐场、市集和城市秋季聚会气氛。",
-        "motif": "wovenPattern",
-        "gradient": [
-          "#151b27",
-          "#4d2727",
-          "#111314"
-        ],
-        "accent": "#e65b5b",
-        "secondary": "#f0f0f2",
-        "priority": 57,
-        "tags": [
-          "culture",
-          "civic"
-        ],
-        "source": {
-          "provider": "OpenHolidays",
-          "countryCode": "CH",
-          "countryName": "Switzerland",
-          "localName": "Knabenschiessen",
-          "typeLabels": [
-            "可选假日",
-            "地方性"
-          ],
-          "nationwide": false,
-          "subdivisions": [
-            "ZH-ZH-ZH"
-          ]
-        },
-        "score": 126,
-        "holidayFamily": "municipal-local",
-        "popularityTier": "local",
-        "scopeTier": "local"
-      }
-    ],
-    "2026-09-15": [
-      {
-        "title": "International Day of Democracy",
-        "caption": "International Day of Democracy · 国际民主日",
-        "description": "联合国纪念日，关注公共参与、制度信任和公民生活。",
-        "motif": "tricolor",
-        "gradient": [
-          "#101d34",
-          "#263a54",
-          "#111316"
-        ],
-        "accent": "#78aee8",
-        "secondary": "#f3f3f5",
-        "priority": 68,
-        "tags": [
-          "culture",
-          "international",
-          "civic"
-        ],
-        "source": {
-          "provider": "Curated Cultural Observances",
-          "countryCode": "INTL",
-          "countryName": "International",
-          "zhName": "国际",
-          "localName": "国际民主日",
-          "typeLabels": [
-            "文化日"
-          ]
-        },
-        "score": 568,
-        "holidayFamily": "culture-observance",
-        "popularityTier": "common",
-        "scopeTier": "international"
-      },
-      {
-        "title": "Independence Day",
-        "caption": "Independence Day · Guatemala",
-        "description": "独立日通常纪念国家取得主权或脱离殖民统治的历史时刻，常伴随旗帜、仪式和公共庆祝。",
-        "motif": "cityParade",
-        "gradient": [
-          "#101d34",
-          "#4a2432",
-          "#111316"
-        ],
-        "accent": "#78aee8",
-        "secondary": "#e85a63",
-        "priority": 73,
-        "tags": [
-          "civic",
-          "celebration",
-          "procession"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "GT",
-          "countryName": "Guatemala",
-          "localName": "Independence Day",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 422,
-        "holidayFamily": "independence-day",
-        "popularityTier": "common",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Independence Day",
-        "caption": "Independence Day · Honduras",
-        "description": "独立日通常纪念国家取得主权或脱离殖民统治的历史时刻，常伴随旗帜、仪式和公共庆祝。",
-        "motif": "cityParade",
-        "gradient": [
-          "#101d34",
-          "#4a2432",
-          "#111316"
-        ],
-        "accent": "#78aee8",
-        "secondary": "#e85a63",
-        "priority": 73,
-        "tags": [
-          "civic",
-          "celebration",
-          "procession"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "HN",
-          "countryName": "Honduras",
-          "localName": "Independence Day",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 422,
-        "holidayFamily": "independence-day",
-        "popularityTier": "common",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Feast of Our Lady of Bien Aparecida",
-        "caption": "Feast of Our Lady of Bien Aparecida · Festividad de la Bien Aparecida",
-        "description": "Bien Aparecida 圣母节是西班牙坎塔布里亚的守护圣母纪念日，常与地方宗教传统和朝圣活动相连。",
-        "motif": "wovenPattern",
-        "gradient": [
-          "#211619",
-          "#63362a",
-          "#111314"
-        ],
-        "accent": "#d8b95b",
-        "secondary": "#e65b5b",
-        "priority": 66,
-        "tags": [
-          "culture",
-          "civic"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "ES",
-          "countryName": "Spain",
-          "localName": "Festividad de la Bien Aparecida",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 280,
-        "holidayFamily": "national-civic-day",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Regional Holiday in Cantabria",
-        "caption": "Regional Holiday in Cantabria · Spain",
-        "description": "坎塔布里亚地方假日属于西班牙区域日历的一部分，通常连接地方守护传统、社区活动和区域身份。",
-        "motif": "lotusMandala",
-        "gradient": [
-          "#211619",
-          "#63362a",
-          "#111314"
-        ],
-        "accent": "#d8b95b",
-        "secondary": "#e65b5b",
-        "priority": 62,
-        "tags": [
-          "religious",
-          "botanical",
-          "culture",
-          "heritage",
-          "folk"
-        ],
-        "source": {
-          "provider": "OpenHolidays",
-          "countryCode": "ES",
-          "countryName": "Spain",
-          "localName": "Regional Holiday in Cantabria",
-          "typeLabels": [
-            "公众节日",
-            "地方性"
-          ],
-          "nationwide": false,
-          "subdivisions": [
-            "CB"
-          ]
-        },
-        "score": 198,
-        "holidayFamily": "municipal-local",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Day of Our Lady of the Seven Sorrows",
-        "caption": "Day of Our Lady of the Seven Sorrows · Slovakia",
-        "description": "七苦圣母日纪念天主教传统中圣母玛利亚的七种悲痛，在斯洛伐克等地具有全国性宗教和公共节日意义。",
-        "motif": "tanabata",
-        "gradient": [
-          "#0f1734",
-          "#25265f",
-          "#11131d"
-        ],
-        "accent": "#9fc8ff",
-        "secondary": "#e6c86f",
-        "priority": 61,
-        "tags": [
-          "sky",
-          "wish",
-          "light"
-        ],
-        "source": {
-          "provider": "OpenHolidays",
-          "countryCode": "SK",
-          "countryName": "Slovakia",
-          "localName": "Day of Our Lady of the Seven Sorrows",
-          "typeLabels": [
-            "公众节日",
-            "全国性"
-          ],
-          "nationwide": true,
-          "subdivisions": []
-        },
-        "score": 135,
-        "holidayFamily": "public-holiday",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Integration of Primorska into the Homeland",
-        "caption": "Integration of Primorska into the Homeland · priključitev Primorske k matični domovini",
-        "description": "普里莫斯卡回归祖国纪念日纪念斯洛文尼亚沿海地区重新并入民族共同体的历史记忆，带有地区身份和国家叙事。",
-        "motif": "wovenPattern",
-        "gradient": [
-          "#171822",
-          "#4d3d32",
-          "#111314"
-        ],
-        "accent": "#d8b95b",
-        "secondary": "#78bde8",
-        "priority": 56,
-        "tags": [
-          "culture",
-          "civic"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "SI",
-          "countryName": "Slovenia",
-          "localName": "priključitev Primorske k matični domovini",
-          "typeLabels": [
-            "纪念日"
-          ]
-        },
-        "score": 70,
-        "holidayFamily": "remembrance",
-        "popularityTier": "niche",
-        "scopeTier": "unknown"
-      },
-      {
-        "title": "Independence Day",
-        "caption": "Independence Day · Nicaragua",
-        "description": "独立日通常纪念国家取得主权或脱离殖民统治的历史时刻，常伴随旗帜、仪式和公共庆祝。",
-        "motif": "cityParade",
-        "gradient": [
-          "#101d34",
-          "#4a2432",
-          "#111316"
-        ],
-        "accent": "#78aee8",
-        "secondary": "#e85a63",
-        "priority": 73,
-        "tags": [
-          "civic",
-          "celebration",
-          "procession"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "NI",
-          "countryName": "Nicaragua",
-          "localName": "Independence Day",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 422,
-        "holidayFamily": "independence-day",
-        "popularityTier": "common",
-        "scopeTier": "national"
-      }
-    ],
-    "2026-09-16": [
-      {
-        "title": "Independence Day",
-        "caption": "Independence Day · Mexico",
-        "description": "独立日通常纪念国家取得主权或脱离殖民统治的历史时刻，常伴随旗帜、仪式和公共庆祝。",
-        "motif": "cityParade",
-        "gradient": [
-          "#10251f",
-          "#4f2c31",
-          "#111515"
-        ],
-        "accent": "#70bf75",
-        "secondary": "#e85a63",
-        "priority": 75,
-        "tags": [
-          "civic",
-          "celebration",
-          "procession"
-        ],
-        "source": {
-          "provider": "OpenHolidays",
-          "countryCode": "MX",
-          "countryName": "Mexico",
-          "localName": "Independence Day",
-          "typeLabels": [
-            "公众节日",
-            "全国性"
-          ],
-          "nationwide": true,
-          "subdivisions": []
-        },
-        "score": 477,
-        "holidayFamily": "independence-day",
-        "popularityTier": "common",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Independence Day",
-        "caption": "Independence Day · Papua New Guinea",
-        "description": "独立日通常纪念国家取得主权或脱离殖民统治的历史时刻，常伴随旗帜、仪式和公共庆祝。",
-        "motif": "cityParade",
-        "gradient": [
-          "#101d34",
-          "#4a2432",
-          "#111316"
-        ],
-        "accent": "#78aee8",
-        "secondary": "#e85a63",
-        "priority": 73,
-        "tags": [
-          "civic",
-          "celebration",
-          "procession"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "PG",
-          "countryName": "Papua New Guinea",
-          "localName": "Independence Day",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 422,
-        "holidayFamily": "independence-day",
-        "popularityTier": "common",
-        "scopeTier": "national"
-      },
-      {
-        "title": "National Heroes' Day",
-        "caption": "National Heroes' Day · Saint Kitts and Nevis",
-        "description": "国家英雄日纪念为国家历史、公共生活或独立进程作出象征性贡献的人物，常以官方仪式和社区活动表达敬意。",
-        "motif": "stainedGlass",
-        "gradient": [
-          "#101a34",
-          "#4a2734",
-          "#111316"
-        ],
-        "accent": "#9fc8ff",
-        "secondary": "#e87a94",
-        "priority": 73,
-        "tags": [
-          "religious",
-          "heritage",
-          "light",
-          "civic"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "KN",
-          "countryName": "Saint Kitts and Nevis",
-          "localName": "National Heroes' Day",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 422,
-        "holidayFamily": "heroes-day",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Martyrs' Day",
-        "caption": "Martyrs' Day · يوم الشهيد",
-        "description": "Libya以「يوم الشهيد」为名纪念这一天，通常与当地历史、传统或社区公共生活有关。",
-        "motif": "doveGarland",
-        "gradient": [
-          "#101827",
-          "#2e3d51",
-          "#101316"
-        ],
-        "accent": "#f2f0d6",
-        "secondary": "#d8c070",
-        "priority": 61,
-        "tags": [
-          "remembrance",
-          "light",
-          "civic"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "LY",
-          "countryName": "Libya",
-          "localName": "يوم الشهيد",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 150,
-        "holidayFamily": "remembrance",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
-        "title": "St Euphemia's Day",
-        "caption": "St Euphemia's Day · Portugal",
-        "description": "圣欧斐米娅日纪念早期基督教殉道圣人，葡萄牙部分地方会以弥撒、游行和守护圣人传统标记这一天。",
-        "motif": "wovenPattern",
-        "gradient": [
-          "#171822",
-          "#4d3d32",
-          "#111314"
-        ],
-        "accent": "#d8b95b",
-        "secondary": "#78bde8",
-        "priority": 58,
-        "tags": [
-          "culture",
-          "civic"
-        ],
-        "source": {
-          "provider": "OpenHolidays",
-          "countryCode": "PT",
-          "countryName": "Portugal",
-          "localName": "St Euphemia's Day",
-          "typeLabels": [
-            "可选假日",
-            "地方性"
-          ],
-          "nationwide": false,
-          "subdivisions": [
-            "VI-TO"
-          ]
-        },
-        "score": 136,
-        "holidayFamily": "municipal-local",
-        "popularityTier": "local",
-        "scopeTier": "local"
-      }
-    ],
-    "2026-09-17": [
-      {
-        "title": "National Heroes' Day",
-        "caption": "National Heroes' Day · Dia do Fundador da Nação e do Herói Nacional",
-        "description": "安哥拉民族英雄日纪念独立运动领袖阿戈什蒂纽·内图，也追忆争取国家独立的历史人物。",
-        "motif": "cityParade",
-        "gradient": [
-          "#101d34",
-          "#4a2432",
-          "#111316"
-        ],
-        "accent": "#78aee8",
-        "secondary": "#e85a63",
-        "priority": 69,
-        "tags": [
-          "civic",
-          "celebration",
-          "procession"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "AO",
-          "countryName": "Angola",
-          "localName": "Dia do Fundador da Nação e do Herói Nacional",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 342,
-        "holidayFamily": "heroes-day",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Saint Robert Bellarmine's Day",
-        "caption": "Saint Robert Bellarmine's Day · Vatican City",
-        "description": "圣罗伯特·白敏日纪念耶稣会神学家和教会圣师 Robert Bellarmine，在梵蒂冈礼仪日历中带有学术与信仰传统意味。",
-        "motif": "stainedGlass",
-        "gradient": [
-          "#101a34",
-          "#4a2734",
-          "#111316"
-        ],
-        "accent": "#9fc8ff",
-        "secondary": "#e87a94",
-        "priority": 64,
-        "tags": [
-          "religious",
-          "heritage",
-          "light"
-        ],
-        "source": {
-          "provider": "OpenHolidays",
-          "countryCode": "VA",
-          "countryName": "Vatican City",
-          "localName": "Saint Robert Bellarmine's Day",
-          "typeLabels": [
-            "公众节日",
-            "全国性"
-          ],
-          "nationwide": true,
-          "subdivisions": []
-        },
-        "score": 215,
-        "holidayFamily": "saint-day",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Regional Holiday in Meilla",
-        "caption": "Regional Holiday in Meilla · Spain",
-        "description": "梅利利亚地方假日标记这座西班牙北非自治城市的地方历史与城市身份，常与官方仪式和社区活动相连。",
-        "motif": "lotusMandala",
-        "gradient": [
-          "#211619",
-          "#63362a",
-          "#111314"
-        ],
-        "accent": "#d8b95b",
-        "secondary": "#e65b5b",
-        "priority": 62,
-        "tags": [
-          "religious",
-          "botanical",
-          "culture",
-          "heritage",
-          "folk"
-        ],
-        "source": {
-          "provider": "OpenHolidays",
-          "countryCode": "ES",
-          "countryName": "Spain",
-          "localName": "Regional Holiday in Meilla",
-          "typeLabels": [
-            "公众节日",
-            "地方性"
-          ],
-          "nationwide": false,
-          "subdivisions": [
-            "ML"
-          ]
-        },
-        "score": 198,
-        "holidayFamily": "municipal-local",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Birthday of the Heir to the Crown of Tonga",
-        "caption": "Birthday of the Heir to the Crown of Tonga · Tonga",
-        "description": "Birthday of the Heir to the Crown of Tonga是Tonga日历中的纪念日，通常承载当地历史、公共生活或季节性的休假安排。",
-        "motif": "maritimeFlags",
-        "gradient": [
-          "#0c2635",
-          "#255d70",
-          "#101417"
-        ],
-        "accent": "#76cce8",
-        "secondary": "#f0c95c",
-        "priority": 61,
-        "tags": [
-          "maritime",
-          "water",
-          "civic",
-          "island"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "TO",
-          "countryName": "Tonga",
-          "localName": "Birthday of the Heir to the Crown of Tonga",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 150,
-        "holidayFamily": "national-civic-day",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      }
-    ],
-    "2026-09-18": [
-      {
-        "title": "National holiday",
-        "caption": "National holiday · Fiestas Patrias",
-        "description": "National Holiday 通常标记国家层面的重要纪念日，具体含义会随国家历史、制度和公共传统而变化。",
-        "motif": "lotusMandala",
-        "gradient": [
-          "#171427",
-          "#4c3652",
-          "#111214"
-        ],
-        "accent": "#d6b6e8",
-        "secondary": "#87c9b7",
-        "priority": 73,
-        "tags": [
-          "religious",
-          "botanical",
-          "culture",
-          "heritage",
-          "civic",
-          "procession"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "CL",
-          "countryName": "Chile",
-          "localName": "Fiestas Patrias",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 422,
-        "holidayFamily": "religious-observance",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
-        "title": "National Heroes' Day (Ponte)",
-        "caption": "National Heroes' Day (Ponte) · Dia do Fundador da Nação e do Herói Nacional (Ponte)",
-        "description": "安哥拉民族英雄日连休把国家纪念日延伸为公共休假安排，让纪念活动与家庭出行、社区聚会相连。",
-        "motif": "cityParade",
-        "gradient": [
-          "#101d34",
-          "#4a2432",
-          "#111316"
-        ],
-        "accent": "#78aee8",
-        "secondary": "#e85a63",
-        "priority": 69,
-        "tags": [
-          "civic",
-          "celebration",
-          "procession"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "AO",
-          "countryName": "Angola",
-          "localName": "Dia do Fundador da Nação e do Herói Nacional (Ponte)",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 342,
-        "holidayFamily": "heroes-day",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Nuestra Señora de la Peña",
-        "caption": "Nuestra Señora de la Peña · Spain",
-        "description": "佩尼亚圣母节是西班牙地方圣母敬礼传统的一部分，常以朝圣、弥撒和城镇守护节庆来纪念。",
-        "motif": "wovenPattern",
-        "gradient": [
-          "#211619",
-          "#63362a",
-          "#111314"
-        ],
-        "accent": "#d8b95b",
-        "secondary": "#e65b5b",
-        "priority": 62,
-        "tags": [
-          "culture",
-          "civic"
-        ],
-        "source": {
-          "provider": "OpenHolidays",
-          "countryCode": "ES",
-          "countryName": "Spain",
-          "localName": "Nuestra Señora de la Peña",
-          "typeLabels": [
-            "公众节日",
-            "地方性"
-          ],
-          "nationwide": false,
-          "subdivisions": [
-            "CN-LP-FV"
-          ]
-        },
-        "score": 198,
-        "holidayFamily": "municipal-local",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      }
-    ],
-    "2026-09-19": [
-      {
-        "title": "Independence Day",
-        "caption": "Independence Day · Saint Kitts and Nevis",
-        "description": "独立日通常纪念国家取得主权或脱离殖民统治的历史时刻，常伴随旗帜、仪式和公共庆祝。",
-        "motif": "stainedGlass",
-        "gradient": [
-          "#101a34",
-          "#4a2734",
-          "#111316"
-        ],
-        "accent": "#9fc8ff",
-        "secondary": "#e87a94",
-        "priority": 73,
-        "tags": [
-          "religious",
-          "heritage",
-          "light",
-          "civic"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "KN",
-          "countryName": "Saint Kitts and Nevis",
-          "localName": "Independence Day",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 422,
-        "holidayFamily": "independence-day",
-        "popularityTier": "common",
-        "scopeTier": "national"
-      },
-      {
-        "title": "St. Januarius",
-        "caption": "St. Januarius · Italy",
-        "description": "圣雅纳略日纪念那不勒斯守护圣人，相关礼仪围绕圣人遗物和城市守护传统展开。",
-        "motif": "wovenPattern",
-        "gradient": [
-          "#10251f",
-          "#4f2c31",
-          "#111515"
-        ],
-        "accent": "#70bf75",
-        "secondary": "#e65b5b",
-        "priority": 62,
-        "tags": [
-          "culture",
-          "civic"
-        ],
-        "source": {
-          "provider": "OpenHolidays",
-          "countryCode": "IT",
-          "countryName": "Italy",
-          "localName": "St. Januarius",
-          "typeLabels": [
-            "公众节日",
-            "地方性"
-          ],
-          "nationwide": false,
-          "subdivisions": [
-            "CM-NA"
-          ]
-        },
-        "score": 198,
-        "holidayFamily": "municipal-local",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Army Day",
-        "caption": "Army Day · Día de las Glorias del Ejército",
-        "description": "智利军队荣耀日纪念陆军传统和国家军事史，常与阅兵、旗帜和独立月庆典气氛相连。",
-        "motif": "wovenPattern",
-        "gradient": [
-          "#171822",
-          "#4d3d32",
-          "#111314"
-        ],
-        "accent": "#d8b95b",
-        "secondary": "#78bde8",
-        "priority": 61,
-        "tags": [
-          "culture",
-          "civic"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "CL",
-          "countryName": "Chile",
-          "localName": "Día de las Glorias del Ejército",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 150,
-        "holidayFamily": "national-civic-day",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Municipal holiday",
-        "caption": "Municipal holiday · Portugal",
-        "description": "葡萄牙市镇假日通常由各地自行纪念守护圣人、建城传统或地方历史，日期和习俗会随着城市而变化。",
-        "motif": "lotusMandala",
-        "gradient": [
-          "#171427",
-          "#4c3652",
-          "#111214"
-        ],
-        "accent": "#d6b6e8",
-        "secondary": "#87c9b7",
-        "priority": 58,
-        "tags": [
-          "religious",
-          "botanical",
-          "culture",
-          "heritage"
-        ],
-        "source": {
-          "provider": "OpenHolidays",
-          "countryCode": "PT",
-          "countryName": "Portugal",
-          "localName": "Municipal holiday",
-          "typeLabels": [
-            "可选假日",
-            "地方性"
-          ],
-          "nationwide": false,
-          "subdivisions": [
-            "CB-VR"
-          ]
-        },
-        "score": 136,
-        "holidayFamily": "municipal-local",
-        "popularityTier": "local",
-        "scopeTier": "local"
-      }
-    ],
-    "2026-09-20": [
-      {
-        "title": "Federal Day of Thanksgiving, Repentance and Prayer",
-        "caption": "Federal Day of Thanksgiving, Repentance and Prayer · Switzerland",
-        "description": "瑞士联邦感恩、忏悔与祈祷日源自新教和公共祈祷传统，强调感恩、反省与共同体责任。",
-        "motif": "harvestSheaves",
-        "gradient": [
-          "#211916",
-          "#604026",
-          "#111314"
-        ],
-        "accent": "#d8a05f",
-        "secondary": "#9bb06d",
-        "priority": 69,
-        "tags": [
-          "botanical",
-          "harvest",
-          "seasonal",
-          "celebration"
-        ],
-        "source": {
-          "provider": "OpenHolidays",
-          "countryCode": "CH",
-          "countryName": "Switzerland",
-          "localName": "Federal Day of Thanksgiving, Repentance and Prayer",
-          "typeLabels": [
-            "公众节日",
-            "地方性"
-          ],
-          "nationwide": false,
-          "subdivisions": [
-            "LU",
-            "BL",
-            "VS",
-            "GR",
-            "SZ",
-            "NW",
-            "GL",
-            "ZG"
-          ]
-        },
-        "score": 370,
-        "holidayFamily": "municipal-local",
-        "popularityTier": "major",
-        "scopeTier": "national"
-      },
-      {
-        "title": "World Children's Day",
-        "caption": "World Children's Day · Germany",
-        "description": "世界儿童日关注儿童权利、成长与福祉，提醒社会为儿童创造更安全和公平的环境。",
-        "motif": "wovenPattern",
-        "gradient": [
-          "#151515",
-          "#55302d",
-          "#111111"
-        ],
-        "accent": "#d8b95b",
-        "secondary": "#d65345",
-        "priority": 66,
-        "tags": [
-          "culture",
-          "civic"
-        ],
-        "source": {
-          "provider": "OpenHolidays",
-          "countryCode": "DE",
-          "countryName": "Germany",
-          "localName": "World Children's Day",
-          "typeLabels": [
-            "公众节日",
-            "地方性"
-          ],
-          "nationwide": false,
-          "subdivisions": [
-            "TH"
-          ]
-        },
-        "score": 298,
-        "holidayFamily": "rights-observance",
-        "popularityTier": "common",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Federal Day of Thanksgiving",
-        "caption": "Federal Day of Thanksgiving · Eidgenössischer Dank-, Buss- und Bettag",
-        "description": "瑞士联邦感恩日是宗教和公民传统交织的日子，强调感恩、团结与公共生活中的共同体意识。",
-        "motif": "crescentLantern",
-        "gradient": [
-          "#211916",
-          "#604026",
-          "#111314"
-        ],
-        "accent": "#d8a05f",
-        "secondary": "#9bb06d",
-        "priority": 64,
-        "tags": [
-          "islamic",
-          "religious",
-          "light",
-          "sky",
-          "celebration"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "CH",
-          "countryName": "Switzerland",
-          "localName": "Eidgenössischer Dank-, Buss- und Bettag",
-          "typeLabels": [
-            "纪念日"
-          ]
-        },
-        "score": 292,
-        "holidayFamily": "remembrance",
-        "popularityTier": "major",
-        "scopeTier": "unknown"
-      },
-      {
-        "title": "Fast Monday",
-        "caption": "Fast Monday · Switzerland",
-        "description": "瑞士部分地区的禁食星期一延续斋戒和反省传统，也常成为地方秋季休假与家庭聚会的节点。",
-        "motif": "wovenPattern",
-        "gradient": [
-          "#151b27",
-          "#4d2727",
-          "#111314"
-        ],
-        "accent": "#e65b5b",
-        "secondary": "#f0f0f2",
-        "priority": 65,
-        "tags": [
-          "culture",
-          "civic"
-        ],
-        "source": {
-          "provider": "OpenHolidays",
-          "countryCode": "CH",
-          "countryName": "Switzerland",
-          "localName": "Fast Monday",
-          "typeLabels": [
-            "公众节日",
-            "地方性"
-          ],
-          "nationwide": false,
-          "subdivisions": [
-            "VD"
-          ]
-        },
-        "score": 258,
-        "holidayFamily": "municipal-local",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Municipal holiday",
-        "caption": "Municipal holiday · Portugal",
-        "description": "葡萄牙市镇假日通常由各地自行纪念守护圣人、建城传统或地方历史，日期和习俗会随着城市而变化。",
-        "motif": "lotusMandala",
-        "gradient": [
-          "#171427",
-          "#4c3652",
-          "#111214"
-        ],
-        "accent": "#d6b6e8",
-        "secondary": "#87c9b7",
-        "priority": 58,
-        "tags": [
-          "religious",
-          "botanical",
-          "culture",
-          "heritage"
-        ],
-        "source": {
-          "provider": "OpenHolidays",
-          "countryCode": "PT",
-          "countryName": "Portugal",
-          "localName": "Municipal holiday",
-          "typeLabels": [
-            "可选假日",
-            "地方性"
-          ],
-          "nationwide": false,
-          "subdivisions": [
-            "VC-PL"
-          ]
-        },
-        "score": 136,
-        "holidayFamily": "municipal-local",
-        "popularityTier": "local",
-        "scopeTier": "local"
-      }
-    ],
-    "2026-09-21": [
-      {
-        "title": "International Day of Peace",
-        "caption": "International Day of Peace · 国际和平日",
-        "description": "联合国设立的国际日，纪念和平、停火与共同生活。",
-        "motif": "candle",
-        "gradient": [
-          "#101827",
-          "#37304d",
-          "#111214"
-        ],
-        "accent": "#f0c95c",
-        "secondary": "#f2f0d6",
-        "priority": 76,
-        "tags": [
-          "culture",
-          "international",
-          "light",
-          "memorial"
-        ],
-        "source": {
-          "provider": "Curated Cultural Observances",
-          "countryCode": "INTL",
-          "countryName": "International",
-          "zhName": "国际",
-          "localName": "国际和平日",
-          "typeLabels": [
-            "文化日"
-          ]
-        },
-        "score": 632,
-        "holidayFamily": "peace-observance",
-        "popularityTier": "common",
-        "scopeTier": "international"
-      },
-      {
-        "title": "Independence Day",
-        "caption": "Independence Day · Belize",
-        "description": "独立日通常纪念国家取得主权或脱离殖民统治的历史时刻，常伴随旗帜、仪式和公共庆祝。",
-        "motif": "cityParade",
-        "gradient": [
-          "#101d34",
-          "#4a2432",
-          "#111316"
-        ],
-        "accent": "#78aee8",
-        "secondary": "#e85a63",
-        "priority": 73,
-        "tags": [
-          "civic",
-          "celebration",
-          "procession"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "BZ",
-          "countryName": "Belize",
-          "localName": "Independence Day",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 422,
-        "holidayFamily": "independence-day",
-        "popularityTier": "common",
-        "scopeTier": "national"
-      },
-      {
-        "title": "​​​Independence Day",
-        "caption": "​​​Independence Day · Malta",
-        "description": "马耳他独立日纪念1964年脱离英国统治成为独立国家，是马耳他现代国家身份的重要日子。",
-        "motif": "cityParade",
-        "gradient": [
-          "#101d34",
-          "#4a2432",
-          "#111316"
-        ],
-        "accent": "#78aee8",
-        "secondary": "#e85a63",
-        "priority": 72,
-        "tags": [
-          "civic",
-          "celebration",
-          "procession"
-        ],
-        "source": {
-          "provider": "OpenHolidays",
-          "countryCode": "MT",
-          "countryName": "Malta",
-          "localName": "​​​Independence Day",
-          "typeLabels": [
-            "公众节日",
-            "全国性"
-          ],
-          "nationwide": true,
-          "subdivisions": []
-        },
-        "score": 407,
-        "holidayFamily": "independence-day",
-        "popularityTier": "common",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Respect for the Aged Day",
-        "caption": "Respect for the Aged Day · 敬老の日",
-        "description": "敬老日是日本节日，用来感谢长者、祝福健康长寿，也强调家庭和社区中的代际关系。",
-        "motif": "sunRibbons",
-        "gradient": [
-          "#171318",
-          "#4b1f2a",
-          "#111214"
-        ],
-        "accent": "#f2eee6",
-        "secondary": "#d94a4d",
-        "priority": 71,
-        "tags": [
-          "sun",
-          "celebration"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "JP",
-          "countryName": "Japan",
-          "localName": "敬老の日",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 380,
-        "holidayFamily": "public-holiday",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Founders Day",
-        "caption": "Founders Day · Ghana",
-        "description": "加纳奠基者日纪念推动国家独立和建国的政治人物，也反映加纳如何讲述独立运动与现代国家形成。",
-        "motif": "wovenPattern",
-        "gradient": [
-          "#171822",
-          "#4d3d32",
-          "#111314"
-        ],
-        "accent": "#d8b95b",
-        "secondary": "#78bde8",
-        "priority": 65,
-        "tags": [
-          "culture",
-          "civic"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "GH",
-          "countryName": "Ghana",
-          "localName": "Founders Day",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 230,
-        "holidayFamily": "national-civic-day",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Municipal holiday",
-        "caption": "Municipal holiday · Portugal",
-        "description": "葡萄牙市镇假日通常由各地自行纪念守护圣人、建城传统或地方历史，日期和习俗会随着城市而变化。",
-        "motif": "lotusMandala",
-        "gradient": [
-          "#171427",
-          "#4c3652",
-          "#111214"
-        ],
-        "accent": "#d6b6e8",
-        "secondary": "#87c9b7",
-        "priority": 58,
-        "tags": [
-          "religious",
-          "botanical",
-          "culture",
-          "heritage"
-        ],
-        "source": {
-          "provider": "OpenHolidays",
-          "countryCode": "PT",
-          "countryName": "Portugal",
-          "localName": "Municipal holiday",
-          "typeLabels": [
-            "可选假日",
-            "地方性"
-          ],
-          "nationwide": false,
-          "subdivisions": [
-            "CO-SO",
-            "VI-VS"
-          ]
-        },
-        "score": 136,
-        "holidayFamily": "municipal-local",
-        "popularityTier": "local",
-        "scopeTier": "local"
-      },
-      {
-        "title": "Independence Day",
-        "caption": "Independence Day · Անկախության օր",
-        "description": "独立日通常纪念国家取得主权或脱离殖民统治的历史时刻，常伴随旗帜、仪式和公共庆祝。",
-        "motif": "cityParade",
-        "gradient": [
-          "#101d34",
-          "#4a2432",
-          "#111316"
-        ],
-        "accent": "#78aee8",
-        "secondary": "#e85a63",
-        "priority": 69,
-        "tags": [
-          "civic",
-          "celebration",
-          "procession"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "AM",
-          "countryName": "Armenia",
-          "localName": "Անկախության օր",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 342,
-        "holidayFamily": "independence-day",
-        "popularityTier": "common",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Independence Day",
-        "caption": "Independence Day · L-Indipendenza",
-        "description": "马耳他独立日纪念1964年脱离英国统治成为独立国家，是马耳他现代国家身份的重要日子。",
-        "motif": "cityParade",
-        "gradient": [
-          "#101d34",
-          "#4a2432",
-          "#111316"
-        ],
-        "accent": "#78aee8",
-        "secondary": "#e85a63",
-        "priority": 69,
-        "tags": [
-          "civic",
-          "celebration",
-          "procession"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "MT",
-          "countryName": "Malta",
-          "localName": "L-Indipendenza",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 342,
-        "holidayFamily": "independence-day",
-        "popularityTier": "common",
-        "scopeTier": "national"
-      }
-    ],
-    "2026-09-22": [
-      {
-        "title": "Independence Day",
-        "caption": "Independence Day · Mali",
-        "description": "独立日通常纪念国家取得主权或脱离殖民统治的历史时刻，常伴随旗帜、仪式和公共庆祝。",
-        "motif": "cityParade",
-        "gradient": [
-          "#101d34",
-          "#4a2432",
-          "#111316"
-        ],
-        "accent": "#78aee8",
-        "secondary": "#e85a63",
-        "priority": 73,
-        "tags": [
-          "civic",
-          "celebration",
-          "procession"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "ML",
-          "countryName": "Mali",
-          "localName": "Independence Day",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 422,
-        "holidayFamily": "independence-day",
-        "popularityTier": "common",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Independence Day",
-        "caption": "Independence Day · Bulgaria",
-        "description": "独立日通常纪念国家取得主权或脱离殖民统治的历史时刻，常伴随旗帜、仪式和公共庆祝。",
-        "motif": "cityParade",
-        "gradient": [
-          "#101d34",
-          "#4a2432",
-          "#111316"
-        ],
-        "accent": "#78aee8",
-        "secondary": "#e85a63",
-        "priority": 72,
-        "tags": [
-          "civic",
-          "celebration",
-          "procession"
-        ],
-        "source": {
-          "provider": "OpenHolidays",
-          "countryCode": "BG",
-          "countryName": "Bulgaria",
-          "localName": "Independence Day",
-          "typeLabels": [
-            "公众节日",
-            "全国性"
-          ],
-          "nationwide": true,
-          "subdivisions": []
-        },
-        "score": 407,
-        "holidayFamily": "independence-day",
-        "popularityTier": "common",
-        "scopeTier": "national"
-      },
-      {
-        "title": "St. Mauritius Day",
-        "caption": "St. Mauritius Day · Switzerland",
-        "description": "圣莫里斯日纪念传说中的底比斯军团殉道者莫里斯，瑞士部分地方会把它作为守护圣人和地方历史节日。",
-        "motif": "wovenPattern",
-        "gradient": [
-          "#151b27",
-          "#4d2727",
-          "#111314"
-        ],
-        "accent": "#e65b5b",
-        "secondary": "#f0f0f2",
-        "priority": 65,
-        "tags": [
-          "culture",
-          "civic"
-        ],
-        "source": {
-          "provider": "OpenHolidays",
-          "countryCode": "CH",
-          "countryName": "Switzerland",
-          "localName": "St. Mauritius Day",
-          "typeLabels": [
-            "公众节日",
-            "地方性"
-          ],
-          "nationwide": false,
-          "subdivisions": [
-            "AI-AP",
-            "AI-SH",
-            "AI-GO",
-            "AI-SR"
-          ]
-        },
-        "score": 258,
-        "holidayFamily": "municipal-local",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Baltic Unity Day",
-        "caption": "Baltic Unity Day · Baltu vienības diena",
-        "description": "Latvia以「Baltu vienības diena」为名纪念这一天，通常与当地历史、传统或社区公共生活有关。",
-        "motif": "cityParade",
-        "gradient": [
-          "#101d34",
-          "#4a2432",
-          "#111316"
-        ],
-        "accent": "#78aee8",
-        "secondary": "#e85a63",
-        "priority": 56,
-        "tags": [
-          "civic",
-          "celebration",
-          "procession"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "LV",
-          "countryName": "Latvia",
-          "localName": "Baltu vienības diena",
-          "typeLabels": [
-            "纪念日"
-          ]
-        },
-        "score": 70,
-        "holidayFamily": "unity-day",
-        "popularityTier": "common",
-        "scopeTier": "unknown"
-      },
-      {
-        "title": "Municipal holiday",
-        "caption": "Municipal holiday · Portugal",
-        "description": "葡萄牙市镇假日通常由各地自行纪念守护圣人、建城传统或地方历史，日期和习俗会随着城市而变化。",
-        "motif": "lotusMandala",
-        "gradient": [
-          "#171427",
-          "#4c3652",
-          "#111214"
-        ],
-        "accent": "#d6b6e8",
-        "secondary": "#87c9b7",
-        "priority": 58,
-        "tags": [
-          "religious",
-          "botanical",
-          "culture",
-          "heritage"
-        ],
-        "source": {
-          "provider": "OpenHolidays",
-          "countryCode": "PT",
-          "countryName": "Portugal",
-          "localName": "Municipal holiday",
-          "typeLabels": [
-            "可选假日",
-            "地方性"
-          ],
-          "nationwide": false,
-          "subdivisions": [
-            "SA-SD"
-          ]
-        },
-        "score": 136,
-        "holidayFamily": "municipal-local",
-        "popularityTier": "local",
-        "scopeTier": "local"
-      }
-    ],
-    "2026-09-23": [
-      {
-        "title": "Autumnal Equinox Day",
-        "caption": "Autumnal Equinox Day · 秋分の日",
-        "description": "秋分日是日本节日，处在昼夜接近均分的时节，人们也常借此扫墓、祭祖和感受秋意转深。",
-        "motif": "harvestSheaves",
-        "gradient": [
-          "#171318",
-          "#4b1f2a",
-          "#111214"
-        ],
-        "accent": "#f2eee6",
-        "secondary": "#d94a4d",
-        "priority": 71,
-        "tags": [
-          "botanical",
-          "harvest",
-          "seasonal"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "JP",
-          "countryName": "Japan",
-          "localName": "秋分の日",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 380,
-        "holidayFamily": "environmental-observance",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Slovenian Sports Day",
-        "caption": "Slovenian Sports Day · dan slovenskega športa",
-        "description": "斯洛文尼亚体育日赞颂体育传统、户外活动和国家体育成就，也鼓励公众参与运动。",
-        "motif": "sportsMedals",
-        "gradient": [
-          "#101d34",
-          "#365a70",
-          "#101418"
-        ],
-        "accent": "#d8b95b",
-        "secondary": "#78bde8",
-        "priority": 56,
-        "tags": [
-          "sports",
-          "celebration",
-          "civic",
-          "maritime"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "SI",
-          "countryName": "Slovenia",
-          "localName": "dan slovenskega športa",
-          "typeLabels": [
-            "纪念日"
-          ]
-        },
-        "score": 70,
-        "holidayFamily": "remembrance",
-        "popularityTier": "niche",
-        "scopeTier": "unknown"
-      }
-    ],
-    "2026-09-24": [
-      {
-        "title": "Independence Day",
-        "caption": "Independence Day · Guinea-Bissau",
-        "description": "独立日通常纪念国家取得主权或脱离殖民统治的历史时刻，常伴随旗帜、仪式和公共庆祝。",
-        "motif": "cityParade",
-        "gradient": [
-          "#101d34",
-          "#4a2432",
-          "#111316"
-        ],
-        "accent": "#78aee8",
-        "secondary": "#e85a63",
-        "priority": 73,
-        "tags": [
-          "civic",
-          "celebration",
-          "procession"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "GW",
-          "countryName": "Guinea-Bissau",
-          "localName": "Independence Day",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 422,
-        "holidayFamily": "independence-day",
-        "popularityTier": "common",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Republic Day",
-        "caption": "Republic Day · Trinidad and Tobago",
-        "description": "特立尼达和多巴哥共和国日纪念国家成为共和国的宪政节点，常与国家身份、旗帜和公共仪式相连。",
-        "motif": "cityParade",
-        "gradient": [
-          "#101d34",
-          "#4a2432",
-          "#111316"
-        ],
-        "accent": "#78aee8",
-        "secondary": "#e85a63",
-        "priority": 73,
-        "tags": [
-          "civic",
-          "celebration",
-          "procession"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "TT",
-          "countryName": "Trinidad and Tobago",
-          "localName": "Republic Day",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 422,
-        "holidayFamily": "republic-day",
-        "popularityTier": "common",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Constitution Day",
-        "caption": "Constitution Day · ទិវាប្រកាសរដ្ឋធម្មនុញ្ញ",
-        "description": "宪法日纪念宪法秩序或现代国家制度的重要节点，是公共生活中回顾法治与国家制度的日子。",
-        "motif": "cityParade",
-        "gradient": [
-          "#101d34",
-          "#4a2432",
-          "#111316"
-        ],
-        "accent": "#78aee8",
-        "secondary": "#e85a63",
-        "priority": 69,
-        "tags": [
-          "civic",
-          "celebration",
-          "procession"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "KH",
-          "countryName": "Cambodia",
-          "localName": "ទិវាប្រកាសរដ្ឋធម្មនុញ្ញ",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 342,
-        "holidayFamily": "constitution-day",
-        "popularityTier": "common",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Heritage Day",
-        "caption": "Heritage Day · South Africa",
-        "description": "南非遗产日庆祝多元语言、食物、服饰和社区传统，也常被称作 Braai Day，带有鲜明的共享饮食气氛。",
-        "motif": "folkEmbroidery",
-        "gradient": [
-          "#10251f",
-          "#1f415a",
-          "#111515"
-        ],
-        "accent": "#77c98e",
-        "secondary": "#d8b95b",
-        "priority": 67,
-        "tags": [
-          "folk",
-          "heritage",
-          "culture"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "ZA",
-          "countryName": "South Africa",
-          "localName": "Heritage Day",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 280,
-        "holidayFamily": "culture-observance",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
-        "title": "New Caledonia Day",
-        "caption": "New Caledonia Day · New Caledonia",
-        "description": "New Caledonia Day是New Caledonia日历中的纪念日，通常承载当地历史、公共生活或季节性的休假安排。",
-        "motif": "wovenPattern",
-        "gradient": [
-          "#171822",
-          "#4d3d32",
-          "#111314"
-        ],
-        "accent": "#d8b95b",
-        "secondary": "#78bde8",
-        "priority": 65,
-        "tags": [
-          "culture",
-          "civic"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "NC",
-          "countryName": "New Caledonia",
-          "localName": "New Caledonia Day",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 230,
-        "holidayFamily": "national-civic-day",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Nuestra Señora de Los Reyes",
-        "caption": "Nuestra Señora de Los Reyes · Spain",
-        "description": "诸王圣母节是西班牙部分地方的守护圣母庆典，常通过礼拜、游行和城镇节庆呈现地方信仰传统。",
-        "motif": "wovenPattern",
-        "gradient": [
-          "#211619",
-          "#63362a",
-          "#111314"
-        ],
-        "accent": "#d8b95b",
-        "secondary": "#e65b5b",
-        "priority": 62,
-        "tags": [
-          "culture",
-          "civic"
-        ],
-        "source": {
-          "provider": "OpenHolidays",
-          "countryCode": "ES",
-          "countryName": "Spain",
-          "localName": "Nuestra Señora de Los Reyes",
-          "typeLabels": [
-            "公众节日",
-            "地方性"
-          ],
-          "nationwide": false,
-          "subdivisions": [
-            "CN-SC-EH"
-          ]
-        },
-        "score": 198,
-        "holidayFamily": "municipal-local",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Feast of the Our Lady of Mercy",
-        "caption": "Feast of the Our Lady of Mercy · Día del Virgen de las Mercedes",
-        "description": "委内瑞拉仁慈圣母节纪念 Virgen de las Mercedes，地方信众常以弥撒、游行和还愿传统表达敬礼。",
-        "motif": "wovenPattern",
-        "gradient": [
-          "#171822",
-          "#4d3d32",
-          "#111314"
-        ],
-        "accent": "#d8b95b",
-        "secondary": "#78bde8",
-        "priority": 56,
-        "tags": [
-          "culture",
-          "civic"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "VE",
-          "countryName": "Venezuela",
-          "localName": "Día del Virgen de las Mercedes",
-          "typeLabels": [
-            "纪念日"
-          ]
-        },
-        "score": 70,
-        "holidayFamily": "remembrance",
-        "popularityTier": "niche",
-        "scopeTier": "unknown"
-      },
-      {
-        "title": "Saint Rupert's Day",
-        "caption": "Saint Rupert's Day · Rupertitag",
-        "description": "奥地利萨尔茨堡圣鲁伯特日纪念城市守护圣人 Rupert，学校假日和地方庆典带有鲜明区域传统。",
-        "motif": "stainedGlass",
-        "gradient": [
-          "#101a34",
-          "#4a2734",
-          "#111316"
-        ],
-        "accent": "#9fc8ff",
-        "secondary": "#e87a94",
-        "priority": 53,
-        "tags": [
-          "religious",
-          "heritage",
-          "light"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "AT",
-          "countryName": "Austria",
-          "localName": "Rupertitag",
-          "typeLabels": [
-            "学校假日"
-          ]
-        },
-        "score": 30,
-        "holidayFamily": "saint-day",
-        "popularityTier": "niche",
-        "scopeTier": "unknown"
-      }
-    ],
-    "2026-09-25": [
-      {
-        "title": "Mid-Autumn Festival",
-        "caption": "Mid-Autumn Festival · 中秋节",
-        "description": "中秋节是东亚重要节日，围绕满月、团圆和秋收展开，常见习俗包括赏月、吃月饼和家人团聚。",
-        "motif": "carnivalMasks",
-        "gradient": [
-          "#25080c",
-          "#8f171c",
-          "#12090a"
-        ],
-        "accent": "#f6c85f",
-        "secondary": "#e83b36",
-        "priority": 91,
-        "tags": [
-          "celebration",
-          "procession",
-          "folk",
-          "market"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "CN",
-          "countryName": "China",
-          "localName": "中秋节",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 872,
-        "holidayFamily": "culture-observance",
-        "popularityTier": "major",
-        "scopeTier": "national"
-      },
-      {
-        "title": "National Youth Day",
-        "caption": "National Youth Day · Turks and Caicos Islands",
-        "description": "全国青年日关注青年、教育和社区未来，通常通过学校、公共活动和社区庆典强调下一代的角色。",
-        "motif": "maritimeFlags",
-        "gradient": [
-          "#0c2635",
-          "#255d70",
-          "#101417"
-        ],
-        "accent": "#76cce8",
-        "secondary": "#f0c95c",
-        "priority": 73,
-        "tags": [
-          "maritime",
-          "water",
-          "civic",
-          "island",
-          "sports"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "TC",
-          "countryName": "Turks and Caicos Islands",
-          "localName": "National Youth Day",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 422,
-        "holidayFamily": "national-civic-day",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Saint Nicholas of Flüe Day",
-        "caption": "Saint Nicholas of Flüe Day · Switzerland",
-        "description": "圣尼各老·弗吕埃日纪念瑞士隐修者和和平象征 Nicholas of Flüe，在瑞士中部尤其具有地方身份意义。",
-        "motif": "stainedGlass",
-        "gradient": [
-          "#151b27",
-          "#4d2727",
-          "#111314"
-        ],
-        "accent": "#e65b5b",
-        "secondary": "#f0f0f2",
-        "priority": 65,
-        "tags": [
-          "religious",
-          "heritage",
-          "light"
-        ],
-        "source": {
-          "provider": "OpenHolidays",
-          "countryCode": "CH",
-          "countryName": "Switzerland",
-          "localName": "Saint Nicholas of Flüe Day",
-          "typeLabels": [
-            "公众节日",
-            "地方性"
-          ],
-          "nationwide": false,
-          "subdivisions": [
-            "OW"
-          ]
-        },
-        "score": 258,
-        "holidayFamily": "municipal-local",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Revolution Day",
-        "caption": "Revolution Day · Dia da Revolução",
-        "description": "革命日纪念推动国家政治或社会变革的重要历史事件，常与国家身份和公共仪式相连。",
-        "motif": "wovenPattern",
-        "gradient": [
-          "#171822",
-          "#4d3d32",
-          "#111314"
-        ],
-        "accent": "#d8b95b",
-        "secondary": "#78bde8",
-        "priority": 61,
-        "tags": [
-          "culture",
-          "civic"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "MZ",
-          "countryName": "Mozambique",
-          "localName": "Dia da Revolução",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 150,
-        "holidayFamily": "revolution-day",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Chuseok",
-        "caption": "Chuseok · 추석",
-        "description": "秋夕是韩国重要的秋收节日，人们常返乡团聚、祭祖、赏月，并分享松饼等节令食物。",
-        "motif": "dragonDance",
-        "gradient": [
-          "#11192d",
-          "#3d2f4b",
-          "#111316"
-        ],
-        "accent": "#f3f3f5",
-        "secondary": "#d8555b",
-        "priority": 65,
-        "tags": [
-          "celebration",
-          "culture",
-          "procession",
-          "folk"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "KR",
-          "countryName": "South Korea",
-          "localName": "추석",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 240,
-        "holidayFamily": "culture-observance",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Friday before AFL Grand Final",
-        "caption": "Friday before AFL Grand Final · Australia",
-        "description": "澳式橄榄球总决赛前星期五是维多利亚州围绕 AFL 总决赛形成的公众假日，把体育传统、城市活动和周末庆典连在一起。",
-        "motif": "wovenPattern",
-        "gradient": [
-          "#101d34",
-          "#263a54",
-          "#111316"
-        ],
-        "accent": "#78aee8",
-        "secondary": "#d8b95b",
-        "priority": 64,
-        "tags": [
-          "culture",
-          "civic"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "AU",
-          "countryName": "Australia",
-          "localName": "Friday before AFL Grand Final",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 230,
-        "holidayFamily": "national-civic-day",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Manit Day",
-        "caption": "Manit Day · Marshall Islands",
-        "description": "Manit Day是Marshall Islands日历中的纪念日，通常承载当地历史、公共生活或季节性的休假安排。",
-        "motif": "maritimeFlags",
-        "gradient": [
-          "#0c2635",
-          "#255d70",
-          "#101417"
-        ],
-        "accent": "#76cce8",
-        "secondary": "#f0c95c",
-        "priority": 65,
-        "tags": [
-          "maritime",
-          "water",
-          "civic",
-          "island"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "MH",
-          "countryName": "Marshall Islands",
-          "localName": "Manit Day",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 230,
-        "holidayFamily": "national-civic-day",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Sir Hammer DeRoburt Day",
-        "caption": "Sir Hammer DeRoburt Day · Nauru",
-        "description": "Sir Hammer DeRoburt Day是Nauru日历中的纪念日，通常承载当地历史、公共生活或季节性的休假安排。",
-        "motif": "wovenPattern",
-        "gradient": [
-          "#171822",
-          "#4d3d32",
-          "#111314"
-        ],
-        "accent": "#d8b95b",
-        "secondary": "#78bde8",
-        "priority": 65,
-        "tags": [
-          "culture",
-          "civic"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "NR",
-          "countryName": "Nauru",
-          "localName": "Sir Hammer DeRoburt Day",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 230,
-        "holidayFamily": "national-civic-day",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      }
-    ],
-    "2026-09-26": [
-      {
-        "title": "Day following the Mid-Autumn Festival",
-        "caption": "Day following the Mid-Autumn Festival · 中秋節翌日",
-        "description": "香港中秋节翌日让人们在赏月、灯笼和团圆晚会之后继续休息，也把城市夜色与家庭节庆连在一起。",
-        "motif": "carnivalMasks",
-        "gradient": [
-          "#18142a",
-          "#5a2f4c",
-          "#111315"
-        ],
-        "accent": "#e87a94",
-        "secondary": "#78bde8",
-        "priority": 73,
-        "tags": [
-          "celebration",
-          "procession",
-          "folk",
-          "market"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "HK",
-          "countryName": "Hong Kong",
-          "localName": "中秋節翌日",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 422,
-        "holidayFamily": "culture-observance",
-        "popularityTier": "major",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Chuseok",
-        "caption": "Chuseok · 추석",
-        "description": "秋夕是韩国重要的秋收节日，人们常返乡团聚、祭祖、赏月，并分享松饼等节令食物。",
-        "motif": "dragonDance",
-        "gradient": [
-          "#11192d",
-          "#3d2f4b",
-          "#111316"
-        ],
-        "accent": "#f3f3f5",
-        "secondary": "#d8555b",
-        "priority": 65,
-        "tags": [
-          "celebration",
-          "culture",
-          "procession",
-          "folk"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "KR",
-          "countryName": "South Korea",
-          "localName": "추석",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 240,
-        "holidayFamily": "culture-observance",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Revolution Day",
-        "caption": "Revolution Day · ثورة 26 سبتمبر المجيدة",
-        "description": "革命日纪念推动国家政治或社会变革的重要历史事件，常与国家身份和公共仪式相连。",
-        "motif": "wovenPattern",
-        "gradient": [
-          "#171822",
-          "#4d3d32",
-          "#111314"
-        ],
-        "accent": "#d8b95b",
-        "secondary": "#78bde8",
-        "priority": 61,
-        "tags": [
-          "culture",
-          "civic"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "YE",
-          "countryName": "Yemen",
-          "localName": "ثورة 26 سبتمبر المجيدة",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 150,
-        "holidayFamily": "revolution-day",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      }
-    ],
-    "2026-09-27": [
-      {
-        "title": "World Tourism Day",
-        "caption": "World Tourism Day · 世界旅游日",
-        "description": "关注旅行、地方文化与人与地点之间的连接。",
-        "motif": "mountainFlags",
-        "gradient": [
-          "#102039",
-          "#5c4227",
-          "#101417"
-        ],
-        "accent": "#6da2cf",
-        "secondary": "#f0b64d",
-        "priority": 66,
-        "tags": [
-          "culture",
-          "international",
-          "mountain",
-          "celebration"
-        ],
-        "source": {
-          "provider": "Curated Cultural Observances",
-          "countryCode": "INTL",
-          "countryName": "International",
-          "zhName": "国际",
-          "localName": "世界旅游日",
-          "typeLabels": [
-            "文化日"
-          ]
-        },
-        "score": 552,
-        "holidayFamily": "culture-observance",
-        "popularityTier": "observance",
-        "scopeTier": "international"
-      },
-      {
-        "title": "Meskel (Orthodox)",
-        "caption": "Meskel (Orthodox) · መስቀል",
-        "description": "Ethiopia以「መስቀል」为名纪念这一天，通常与当地历史、传统或社区公共生活有关。",
-        "motif": "templeBells",
-        "gradient": [
-          "#171822",
-          "#4d3d32",
-          "#111314"
-        ],
-        "accent": "#d8b95b",
-        "secondary": "#78bde8",
-        "priority": 61,
-        "tags": [
-          "religious",
-          "heritage",
-          "light"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "ET",
-          "countryName": "Ethiopia",
-          "localName": "መስቀል",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 150,
-        "holidayFamily": "religious-observance",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      }
-    ],
-    "2026-09-28": [
-      {
-        "title": "King's Birthday",
-        "caption": "King's Birthday · Australia",
-        "description": "澳大利亚的国王生日假日延续英联邦君主生日传统，多数地区会把它安排成六月长周末，用于休息、出行和社区活动。",
-        "motif": "wovenPattern",
-        "gradient": [
-          "#101d34",
-          "#263a54",
-          "#111316"
-        ],
-        "accent": "#78aee8",
-        "secondary": "#d8b95b",
-        "priority": 67,
-        "tags": [
-          "culture",
-          "civic"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "AU",
-          "countryName": "Australia",
-          "localName": "King's Birthday",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 310,
-        "holidayFamily": "national-civic-day",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Canterbury (South) Anniversary Day",
-        "caption": "Canterbury (South) Anniversary Day · Dominion Day",
-        "description": "坎特伯雷周年纪念日是新西兰地方性假日，纪念地区早期殖民、地方共同体历史和南岛城市生活。",
-        "motif": "wovenPattern",
-        "gradient": [
-          "#101d34",
-          "#293f5d",
-          "#101316"
-        ],
-        "accent": "#78aee8",
-        "secondary": "#e85a63",
-        "priority": 64,
-        "tags": [
-          "culture",
-          "civic"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "NZ",
-          "countryName": "New Zealand",
-          "localName": "Dominion Day",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 240,
-        "holidayFamily": "national-civic-day",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Czech Statehood Day",
-        "caption": "Czech Statehood Day · Czechia",
-        "description": "捷克国家地位日与圣瓦茨拉夫传统相连，纪念捷克国家保护圣人和国家历史连续性。",
-        "motif": "cityParade",
-        "gradient": [
-          "#101d34",
-          "#4a2432",
-          "#111316"
-        ],
-        "accent": "#78aee8",
-        "secondary": "#e85a63",
-        "priority": 64,
-        "tags": [
-          "civic",
-          "celebration",
-          "procession"
-        ],
-        "source": {
-          "provider": "OpenHolidays",
-          "countryCode": "CZ",
-          "countryName": "Czechia",
-          "localName": "Czech Statehood Day",
-          "typeLabels": [
-            "公众节日",
-            "全国性"
-          ],
-          "nationwide": true,
-          "subdivisions": []
-        },
-        "score": 215,
-        "holidayFamily": "national-civic-day",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
-        "title": "St. Wenceslas Day",
-        "caption": "St. Wenceslas Day · Den české státnosti",
-        "description": "圣瓦茨拉夫日纪念波希米亚公爵和捷克守护圣人，也是捷克国家地位日的历史与宗教核心。",
-        "motif": "wovenPattern",
-        "gradient": [
-          "#171822",
-          "#4d3d32",
-          "#111314"
-        ],
-        "accent": "#d8b95b",
-        "secondary": "#78bde8",
-        "priority": 61,
-        "tags": [
-          "culture",
-          "civic"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "CZ",
-          "countryName": "Czechia",
-          "localName": "Den české státnosti",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 150,
-        "holidayFamily": "saint-day",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      }
-    ],
-    "2026-09-29": [
-      {
-        "title": "World Heart Day",
-        "caption": "World Heart Day · 世界心脏日",
-        "description": "全球健康倡议日，关注心血管健康、运动和日常生活习惯。",
-        "motif": "petals",
-        "gradient": [
-          "#241525",
-          "#643044",
-          "#111214"
-        ],
-        "accent": "#e87a94",
-        "secondary": "#d7b56b",
-        "priority": 66,
-        "tags": [
-          "culture",
-          "international",
-          "botanical"
-        ],
-        "source": {
-          "provider": "Curated Cultural Observances",
-          "countryCode": "INTL",
-          "countryName": "International",
-          "zhName": "国际",
-          "localName": "世界心脏日",
-          "typeLabels": [
-            "文化日"
-          ]
-        },
-        "score": 552,
-        "holidayFamily": "culture-observance",
-        "popularityTier": "observance",
-        "scopeTier": "international"
-      },
-      {
-        "title": "Boqueron Battle Victory Day",
-        "caption": "Boqueron Battle Victory Day · Victoria de Boquerón",
-        "description": "巴拉圭博克龙战役胜利日纪念查科战争中的关键战斗，公共记忆中带有边境、牺牲和国家坚韧的象征。",
-        "motif": "laurelTorch",
-        "gradient": [
-          "#151515",
-          "#55302d",
-          "#111111"
-        ],
-        "accent": "#d8b95b",
-        "secondary": "#d65345",
-        "priority": 61,
-        "tags": [
-          "civic",
-          "remembrance",
-          "light"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "PY",
-          "countryName": "Paraguay",
-          "localName": "Victoria de Boquerón",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 150,
-        "holidayFamily": "remembrance",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Municipal holiday",
-        "caption": "Municipal holiday · Portugal",
-        "description": "葡萄牙市镇假日通常由各地自行纪念守护圣人、建城传统或地方历史，日期和习俗会随着城市而变化。",
-        "motif": "lotusMandala",
-        "gradient": [
-          "#171427",
-          "#4c3652",
-          "#111214"
-        ],
-        "accent": "#d6b6e8",
-        "secondary": "#87c9b7",
-        "priority": 58,
-        "tags": [
-          "religious",
-          "botanical",
-          "culture",
-          "heritage"
-        ],
-        "source": {
-          "provider": "OpenHolidays",
-          "countryCode": "PT",
-          "countryName": "Portugal",
-          "localName": "Municipal holiday",
-          "typeLabels": [
-            "可选假日",
-            "地方性"
-          ],
-          "nationwide": false,
-          "subdivisions": [
-            "VI-TR",
-            "VI-RE"
-          ]
-        },
-        "score": 136,
-        "holidayFamily": "municipal-local",
-        "popularityTier": "local",
-        "scopeTier": "local"
-      },
-      {
-        "title": "Day of St Michael the Archangel",
-        "caption": "Day of St Michael the Archangel · Portugal",
-        "description": "大天使圣弥额尔日是葡萄牙部分地方的守护圣人庆典，常见礼拜、游行和市镇节庆活动。",
-        "motif": "wovenPattern",
-        "gradient": [
-          "#171822",
-          "#4d3d32",
-          "#111314"
-        ],
-        "accent": "#d8b95b",
-        "secondary": "#78bde8",
-        "priority": 54,
-        "tags": [
-          "culture",
-          "civic"
-        ],
-        "source": {
-          "provider": "OpenHolidays",
-          "countryCode": "PT",
-          "countryName": "Portugal",
-          "localName": "Day of St Michael the Archangel",
-          "typeLabels": [
-            "可选假日",
-            "地方性"
-          ],
-          "nationwide": false,
-          "subdivisions": [
-            "CO-PL",
-            "BR-CB",
-            "GU-FA"
-          ]
-        },
-        "score": 56,
-        "holidayFamily": "municipal-local",
-        "popularityTier": "local",
-        "scopeTier": "local"
-      }
-    ],
-    "2026-09-30": [
-      {
-        "title": "National Day for Truth and Reconciliation",
-        "caption": "National Day for Truth and Reconciliation · Canada",
-        "description": "加拿大真相与和解日纪念寄宿学校制度中的受害儿童、幸存者及其家庭，提醒社会持续面对历史并推进和解。",
-        "motif": "doveGarland",
-        "gradient": [
-          "#17161c",
-          "#5d2630",
-          "#111214"
-        ],
-        "accent": "#e85a63",
-        "secondary": "#f3f3f5",
-        "priority": 74,
-        "tags": [
-          "remembrance",
-          "light",
-          "civic"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "CA",
-          "countryName": "Canada",
-          "localName": "National Day for Truth and Reconciliation",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 462,
-        "holidayFamily": "national-day",
-        "popularityTier": "common",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Independence Day",
-        "caption": "Independence Day · Botswana",
-        "description": "独立日通常纪念国家取得主权或脱离殖民统治的历史时刻，常伴随旗帜、仪式和公共庆祝。",
-        "motif": "cityParade",
-        "gradient": [
-          "#101d34",
-          "#4a2432",
-          "#111316"
-        ],
-        "accent": "#78aee8",
-        "secondary": "#e85a63",
-        "priority": 73,
-        "tags": [
-          "civic",
-          "celebration",
-          "procession"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "BW",
-          "countryName": "Botswana",
-          "localName": "Independence Day",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 422,
-        "holidayFamily": "independence-day",
-        "popularityTier": "common",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Agricultural Reform Day",
-        "caption": "Agricultural Reform Day · Dia da Reforma Agrária",
-        "description": "São Tomé and Príncipe以「Dia da Reforma Agrária」为名纪念这一天，通常与当地历史、传统或社区公共生活有关。",
-        "motif": "wovenPattern",
-        "gradient": [
-          "#171822",
-          "#4d3d32",
-          "#111314"
-        ],
-        "accent": "#d8b95b",
-        "secondary": "#78bde8",
-        "priority": 61,
-        "tags": [
-          "culture",
-          "civic"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "ST",
-          "countryName": "São Tomé and Príncipe",
-          "localName": "Dia da Reforma Agrária",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 150,
-        "holidayFamily": "national-civic-day",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      }
-    ],
-    "2026-10-01": [
-      {
-        "title": "National Day",
-        "caption": "National Day · 国庆节",
-        "description": "国庆日通常纪念国家成立、独立或重要制度节点，是公共仪式、旗帜和国家身份表达的日子。",
-        "motif": "cityParade",
-        "gradient": [
-          "#25080c",
-          "#8f171c",
-          "#12090a"
-        ],
-        "accent": "#f6c85f",
-        "secondary": "#e83b36",
-        "priority": 88,
-        "tags": [
-          "civic",
-          "celebration",
-          "procession"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "CN",
-          "countryName": "China",
-          "localName": "国庆节",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 792,
-        "holidayFamily": "national-day",
-        "popularityTier": "common",
-        "scopeTier": "national"
-      },
-      {
-        "title": "International Coffee Day",
-        "caption": "International Coffee Day · 国际咖啡日",
-        "description": "纪念咖啡、手作与城市日常节奏的国际文化日。",
-        "motif": "grain",
-        "gradient": [
-          "#1b1513",
-          "#563321",
-          "#111314"
-        ],
-        "accent": "#d8a05f",
-        "secondary": "#9bb06d",
-        "priority": 64,
-        "tags": [
-          "culture",
-          "international",
-          "harvest"
-        ],
-        "source": {
-          "provider": "Curated Cultural Observances",
-          "countryCode": "INTL",
-          "countryName": "International",
-          "zhName": "国际",
-          "localName": "国际咖啡日",
-          "typeLabels": [
-            "文化日"
-          ]
-        },
-        "score": 539,
-        "holidayFamily": "culture-observance",
-        "popularityTier": "observance",
-        "scopeTier": "international"
-      },
-      {
-        "title": "National Day",
-        "caption": "National Day · Nigeria",
-        "description": "国庆日通常纪念国家成立、独立或重要制度节点，是公共仪式、旗帜和国家身份表达的日子。",
-        "motif": "cityParade",
-        "gradient": [
-          "#101d34",
-          "#4a2432",
-          "#111316"
-        ],
-        "accent": "#78aee8",
-        "secondary": "#e85a63",
-        "priority": 73,
-        "tags": [
-          "civic",
-          "celebration",
-          "procession"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "NG",
-          "countryName": "Nigeria",
-          "localName": "National Day",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 422,
-        "holidayFamily": "national-day",
-        "popularityTier": "common",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Independence Day",
-        "caption": "Independence Day · Palau",
-        "description": "独立日通常纪念国家取得主权或脱离殖民统治的历史时刻，常伴随旗帜、仪式和公共庆祝。",
-        "motif": "cityParade",
-        "gradient": [
-          "#101d34",
-          "#4a2432",
-          "#111316"
-        ],
-        "accent": "#78aee8",
-        "secondary": "#e85a63",
-        "priority": 73,
-        "tags": [
-          "civic",
-          "celebration",
-          "procession"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "PW",
-          "countryName": "Palau",
-          "localName": "Independence Day",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 422,
-        "holidayFamily": "independence-day",
-        "popularityTier": "common",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Constitution Day",
-        "caption": "Constitution Day · Micronesia",
-        "description": "宪法日纪念宪法秩序或现代国家制度的重要节点，是公共生活中回顾法治与国家制度的日子。",
-        "motif": "cityParade",
-        "gradient": [
-          "#101d34",
-          "#4a2432",
-          "#111316"
-        ],
-        "accent": "#78aee8",
-        "secondary": "#e85a63",
-        "priority": 70,
-        "tags": [
-          "civic",
-          "celebration",
-          "procession"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "FM",
-          "countryName": "Micronesia",
-          "localName": "Constitution Day",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 382,
-        "holidayFamily": "constitution-day",
-        "popularityTier": "common",
-        "scopeTier": "national"
-      },
-      {
-        "title": "International Day of Older Persons",
-        "caption": "International Day of Older Persons · Starptautiskā senioru diena",
-        "description": "Latvia的国家纪念日，通常用来纪念国家成立、宪法传统或重要历史节点，常有官方仪式和公共庆典。",
-        "motif": "cityParade",
-        "gradient": [
-          "#101d34",
-          "#4a2432",
-          "#111316"
-        ],
-        "accent": "#78aee8",
-        "secondary": "#e85a63",
-        "priority": 64,
-        "tags": [
-          "civic",
-          "celebration",
-          "procession",
-          "sky",
-          "light"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "LV",
-          "countryName": "Latvia",
-          "localName": "Starptautiskā senioru diena",
-          "typeLabels": [
-            "纪念日"
-          ]
-        },
-        "score": 262,
-        "holidayFamily": "remembrance",
-        "popularityTier": "common",
-        "scopeTier": "unknown"
-      },
-      {
-        "title": "Botswana Day holiday",
-        "caption": "Botswana Day holiday · Botswana",
-        "description": "博茨瓦纳日纪念1966年脱离英国独立，补假让国旗、游行和家庭休息延伸到相邻工作日。",
-        "motif": "lotusMandala",
-        "gradient": [
-          "#171427",
-          "#4c3652",
-          "#111214"
-        ],
-        "accent": "#d6b6e8",
-        "secondary": "#87c9b7",
-        "priority": 65,
-        "tags": [
-          "religious",
-          "botanical",
-          "culture",
-          "heritage"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "BW",
-          "countryName": "Botswana",
-          "localName": "Botswana Day holiday",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 230,
-        "holidayFamily": "religious-observance",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Tuvalu Day",
-        "caption": "Tuvalu Day · Tuvalu",
-        "description": "Tuvalu Day是Tuvalu日历中的纪念日，通常承载当地历史、公共生活或季节性的休假安排。",
-        "motif": "wovenPattern",
-        "gradient": [
-          "#171822",
-          "#4d3d32",
-          "#111314"
-        ],
-        "accent": "#d8b95b",
-        "secondary": "#78bde8",
-        "priority": 65,
-        "tags": [
-          "culture",
-          "civic"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "TV",
-          "countryName": "Tuvalu",
-          "localName": "Tuvalu Day",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 230,
-        "holidayFamily": "national-civic-day",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      }
-    ],
-    "2026-10-02": [
-      {
-        "title": "Independence Day",
-        "caption": "Independence Day · Guinea",
-        "description": "独立日通常纪念国家取得主权或脱离殖民统治的历史时刻，常伴随旗帜、仪式和公共庆祝。",
-        "motif": "cityParade",
-        "gradient": [
-          "#101d34",
-          "#4a2432",
-          "#111316"
-        ],
-        "accent": "#78aee8",
-        "secondary": "#e85a63",
-        "priority": 73,
-        "tags": [
-          "civic",
-          "celebration",
-          "procession"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "GN",
-          "countryName": "Guinea",
-          "localName": "Independence Day",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 422,
-        "holidayFamily": "independence-day",
-        "popularityTier": "common",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Tuvalu Day Holiday",
-        "caption": "Tuvalu Day Holiday · Tuvalu",
-        "description": "Tuvalu Day Holiday是Tuvalu日历中的纪念日，通常承载当地历史、公共生活或季节性的休假安排。",
-        "motif": "lotusMandala",
-        "gradient": [
-          "#171427",
-          "#4c3652",
-          "#111214"
-        ],
-        "accent": "#d6b6e8",
-        "secondary": "#87c9b7",
-        "priority": 65,
-        "tags": [
-          "religious",
-          "botanical",
-          "culture",
-          "heritage"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "TV",
-          "countryName": "Tuvalu",
-          "localName": "Tuvalu Day Holiday",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 230,
-        "holidayFamily": "religious-observance",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      }
-    ],
-    "2026-10-03": [
-      {
-        "title": "National Day",
-        "caption": "National Day · Iraq",
-        "description": "国庆日通常纪念国家成立、独立或重要制度节点，是公共仪式、旗帜和国家身份表达的日子。",
-        "motif": "cityParade",
-        "gradient": [
-          "#101d34",
-          "#4a2432",
-          "#111316"
-        ],
-        "accent": "#78aee8",
-        "secondary": "#e85a63",
-        "priority": 73,
-        "tags": [
-          "civic",
-          "celebration",
-          "procession"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "IQ",
-          "countryName": "Iraq",
-          "localName": "National Day",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 422,
-        "holidayFamily": "national-day",
-        "popularityTier": "common",
-        "scopeTier": "national"
-      },
-      {
-        "title": "German Unity Day",
-        "caption": "German Unity Day · Tag der Deutschen Einheit",
-        "description": "德国统一日纪念1990年德国重新统一，是现代德国国家身份中最重要的纪念日之一。",
-        "motif": "cityParade",
-        "gradient": [
-          "#151515",
-          "#55302d",
-          "#111111"
-        ],
-        "accent": "#d8b95b",
-        "secondary": "#d65345",
-        "priority": 66,
-        "tags": [
-          "civic",
-          "celebration",
-          "procession"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "DE",
-          "countryName": "Germany",
-          "localName": "Tag der Deutschen Einheit",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 260,
-        "holidayFamily": "unity-day",
-        "popularityTier": "common",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Day of German Unity",
-        "caption": "Day of German Unity · Germany",
-        "description": "德国统一日纪念1990年两德统一，是现代德国最重要的国家节日，常以官方庆典和城市活动纪念。",
-        "motif": "cityParade",
-        "gradient": [
-          "#151515",
-          "#55302d",
-          "#111111"
-        ],
-        "accent": "#d8b95b",
-        "secondary": "#d65345",
-        "priority": 65,
-        "tags": [
-          "civic",
-          "celebration",
-          "procession"
-        ],
-        "source": {
-          "provider": "OpenHolidays",
-          "countryCode": "DE",
-          "countryName": "Germany",
-          "localName": "Day of German Unity",
-          "typeLabels": [
-            "公众节日",
-            "全国性"
-          ],
-          "nationwide": true,
-          "subdivisions": []
-        },
-        "score": 245,
-        "holidayFamily": "unity-day",
-        "popularityTier": "common",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Francisco Morazán's Day/Soldier's Day",
-        "caption": "Francisco Morazán's Day/Soldier's Day · Honduras",
-        "description": "洪都拉斯这一天纪念中美洲联邦理想人物 Francisco Morazán，也与军人纪念和十月公民假期传统相连。",
-        "motif": "wovenPattern",
-        "gradient": [
-          "#171822",
-          "#4d3d32",
-          "#111314"
-        ],
-        "accent": "#d8b95b",
-        "secondary": "#78bde8",
-        "priority": 65,
-        "tags": [
-          "culture",
-          "civic"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "HN",
-          "countryName": "Honduras",
-          "localName": "Francisco Morazán's Day/Soldier's Day",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 230,
-        "holidayFamily": "national-civic-day",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      }
-    ],
-    "2026-10-04": [
-      {
-        "title": "World Space Week",
-        "caption": "World Space Week · 世界空间周",
-        "description": "纪念空间探索、卫星科技和人类望向宇宙的想象力。",
-        "motif": "cosmicObservatory",
-        "gradient": [
-          "#101729",
-          "#2f3158",
-          "#111316"
-        ],
-        "accent": "#d8c070",
-        "secondary": "#9fc8ff",
-        "priority": 70,
-        "tags": [
-          "culture",
-          "international",
-          "science",
-          "sky",
-          "light"
-        ],
-        "source": {
-          "provider": "Curated Cultural Observances",
-          "countryCode": "INTL",
-          "countryName": "International",
-          "zhName": "国际",
-          "localName": "世界空间周",
-          "typeLabels": [
-            "文化日"
-          ]
-        },
-        "score": 587,
-        "holidayFamily": "culture-observance",
-        "popularityTier": "observance",
-        "scopeTier": "international"
-      },
-      {
-        "title": "Independence Day",
-        "caption": "Independence Day · Lesotho",
-        "description": "独立日通常纪念国家取得主权或脱离殖民统治的历史时刻，常伴随旗帜、仪式和公共庆祝。",
-        "motif": "cityParade",
-        "gradient": [
-          "#101d34",
-          "#4a2432",
-          "#111316"
-        ],
-        "accent": "#78aee8",
-        "secondary": "#e85a63",
-        "priority": 73,
-        "tags": [
-          "civic",
-          "celebration",
-          "procession"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "LS",
-          "countryName": "Lesotho",
-          "localName": "Independence Day",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 422,
-        "holidayFamily": "independence-day",
-        "popularityTier": "common",
-        "scopeTier": "national"
-      },
-      {
-        "title": "St. Francis of Assisi's Day",
-        "caption": "St. Francis of Assisi's Day · San Francesco d'Assisi",
-        "description": "圣方济各日纪念以简朴、和平和亲近自然著称的圣方济各，在宗教传统中常与动物祝福相连。",
-        "motif": "wovenPattern",
-        "gradient": [
-          "#10251f",
-          "#4f2c31",
-          "#111515"
-        ],
-        "accent": "#70bf75",
-        "secondary": "#e65b5b",
-        "priority": 65,
-        "tags": [
-          "culture",
-          "civic"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "IT",
-          "countryName": "Italy",
-          "localName": "San Francesco d'Assisi",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 240,
-        "holidayFamily": "saint-day",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
-        "title": "St. Petronius",
-        "caption": "St. Petronius · Italy",
-        "description": "圣伯多禄尼奥日纪念博洛尼亚守护圣人，意大利地方庆典中常与城市身份、宗教礼仪和公共活动相连。",
-        "motif": "wovenPattern",
-        "gradient": [
-          "#10251f",
-          "#4f2c31",
-          "#111515"
-        ],
-        "accent": "#70bf75",
-        "secondary": "#e65b5b",
-        "priority": 62,
-        "tags": [
-          "culture",
-          "civic"
-        ],
-        "source": {
-          "provider": "OpenHolidays",
-          "countryCode": "IT",
-          "countryName": "Italy",
-          "localName": "St. Petronius",
-          "typeLabels": [
-            "公众节日",
-            "地方性"
-          ],
-          "nationwide": false,
-          "subdivisions": [
-            "ER-BO"
-          ]
-        },
-        "score": 198,
-        "holidayFamily": "municipal-local",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Day of Peace and Reconciliation",
-        "caption": "Day of Peace and Reconciliation · Dia da Paz e da Reconcialição",
-        "description": "莫桑比克和平与和解日纪念内战结束后的和平进程，强调停火、国家重建与社会和解。",
-        "motif": "doveGarland",
-        "gradient": [
-          "#101827",
-          "#2e3d51",
-          "#101316"
-        ],
-        "accent": "#f2f0d6",
-        "secondary": "#d8c070",
-        "priority": 61,
-        "tags": [
-          "remembrance",
-          "light",
-          "civic"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "MZ",
-          "countryName": "Mozambique",
-          "localName": "Dia da Paz e da Reconcialição",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 150,
-        "holidayFamily": "remembrance",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      }
-    ],
-    "2026-10-05": [
-      {
-        "title": "World Teachers' Day",
-        "caption": "World Teachers' Day · 世界教师日",
-        "description": "联合国教科文组织设立的国际日，感谢教育者与知识传递。",
-        "motif": "starfield",
-        "gradient": [
-          "#171827",
-          "#3c3350",
-          "#111316"
-        ],
-        "accent": "#d8c070",
-        "secondary": "#b68fd8",
-        "priority": 68,
-        "tags": [
-          "culture",
-          "international",
-          "light"
-        ],
-        "source": {
-          "provider": "Curated Cultural Observances",
-          "countryCode": "INTL",
-          "countryName": "International",
-          "zhName": "国际",
-          "localName": "世界教师日",
-          "typeLabels": [
-            "文化日"
-          ]
-        },
-        "score": 571,
-        "holidayFamily": "culture-observance",
-        "popularityTier": "observance",
-        "scopeTier": "international"
-      },
-      {
-        "title": "National Foundation Day",
-        "caption": "National Foundation Day · 개천절",
-        "description": "建国纪念日通常回望国家起源、神话传统或制度形成，是表达国家身份和历史连续性的节日。",
-        "motif": "cityParade",
-        "gradient": [
-          "#11192d",
-          "#3d2f4b",
-          "#111316"
-        ],
-        "accent": "#f3f3f5",
-        "secondary": "#d8555b",
-        "priority": 73,
-        "tags": [
-          "civic",
-          "celebration",
-          "procession"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "KR",
-          "countryName": "South Korea",
-          "localName": "개천절",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 432,
-        "holidayFamily": "foundation-day",
-        "popularityTier": "common",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Constitution Day",
-        "caption": "Constitution Day · Vanuatu",
-        "description": "宪法日纪念宪法秩序或现代国家制度的重要节点，是公共生活中回顾法治与国家制度的日子。",
-        "motif": "cityParade",
-        "gradient": [
-          "#101d34",
-          "#4a2432",
-          "#111316"
-        ],
-        "accent": "#78aee8",
-        "secondary": "#e85a63",
-        "priority": 73,
-        "tags": [
-          "civic",
-          "celebration",
-          "procession"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "VU",
-          "countryName": "Vanuatu",
-          "localName": "Constitution Day",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 422,
-        "holidayFamily": "constitution-day",
-        "popularityTier": "common",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Republic Day",
-        "caption": "Republic Day · Portugal",
-        "description": "葡萄牙共和国日纪念1910年共和国建立，公共仪式中常回顾君主制终结和现代共和制度的开始。",
-        "motif": "cityParade",
-        "gradient": [
-          "#101d34",
-          "#4a2432",
-          "#111316"
-        ],
-        "accent": "#78aee8",
-        "secondary": "#e85a63",
-        "priority": 72,
-        "tags": [
-          "civic",
-          "celebration",
-          "procession"
-        ],
-        "source": {
-          "provider": "OpenHolidays",
-          "countryCode": "PT",
-          "countryName": "Portugal",
-          "localName": "Republic Day",
-          "typeLabels": [
-            "公众节日",
-            "全国性"
-          ],
-          "nationwide": true,
-          "subdivisions": []
-        },
-        "score": 407,
-        "holidayFamily": "republic-day",
-        "popularityTier": "common",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Thanksgiving",
-        "caption": "Thanksgiving · Saint Lucia",
-        "description": "感恩节以感谢、收获和团聚为核心，常见习俗包括家庭餐桌、秋日食物和与亲友共度假日。",
-        "motif": "stainedGlass",
-        "gradient": [
-          "#211916",
-          "#604026",
-          "#111314"
-        ],
-        "accent": "#d8a05f",
-        "secondary": "#9bb06d",
-        "priority": 69,
-        "tags": [
-          "religious",
-          "heritage",
-          "light",
-          "celebration"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "LC",
-          "countryName": "Saint Lucia",
-          "localName": "Thanksgiving",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 342,
-        "holidayFamily": "saint-day",
-        "popularityTier": "major",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Labour Day",
-        "caption": "Labour Day · Australia",
-        "description": "澳大利亚劳动节纪念八小时工作制等劳工运动成果，不同州日期不同，常与长周末和社区活动相连。",
-        "motif": "paperCut",
-        "gradient": [
-          "#101d34",
-          "#263a54",
-          "#111316"
-        ],
-        "accent": "#78aee8",
-        "secondary": "#d8b95b",
-        "priority": 67,
-        "tags": [
-          "civic",
-          "celebration",
-          "culture"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "AU",
-          "countryName": "Australia",
-          "localName": "Labour Day",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 310,
-        "holidayFamily": "labour-day",
-        "popularityTier": "common",
-        "scopeTier": "national"
-      },
-      {
-        "title": "King's Birthday",
-        "caption": "King's Birthday · Australia",
-        "description": "澳大利亚的国王生日假日延续英联邦君主生日传统，多数地区会把它安排成六月长周末，用于休息、出行和社区活动。",
-        "motif": "wovenPattern",
-        "gradient": [
-          "#101d34",
-          "#263a54",
-          "#111316"
-        ],
-        "accent": "#78aee8",
-        "secondary": "#d8b95b",
-        "priority": 67,
-        "tags": [
-          "culture",
-          "civic"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "AU",
-          "countryName": "Australia",
-          "localName": "King's Birthday",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 310,
-        "holidayFamily": "national-civic-day",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Territory Day",
-        "caption": "Territory Day · Christmas Island",
-        "description": "Territory Day是Christmas Island日历中的纪念日，通常承载当地历史、公共生活或季节性的休假安排。",
-        "motif": "maritimeFlags",
-        "gradient": [
-          "#0c2635",
-          "#255d70",
-          "#101417"
-        ],
-        "accent": "#76cce8",
-        "secondary": "#f0c95c",
-        "priority": 65,
-        "tags": [
-          "maritime",
-          "water",
-          "civic",
-          "island"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "CX",
-          "countryName": "Christmas Island",
-          "localName": "Territory Day",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 230,
-        "holidayFamily": "christmas",
-        "popularityTier": "major",
-        "scopeTier": "national"
-      }
-    ],
-    "2026-10-06": [
-      {
-        "title": "Armed Forces Day",
-        "caption": "Armed Forces Day · عيد القوات المسلحة",
-        "description": "埃及武装部队日纪念1973年十月战争中苏伊士运河战线的军事行动，在国家叙事中象征军队与国家荣誉。",
-        "motif": "wovenPattern",
-        "gradient": [
-          "#171822",
-          "#4d3d32",
-          "#111314"
-        ],
-        "accent": "#d8b95b",
-        "secondary": "#78bde8",
-        "priority": 61,
-        "tags": [
-          "culture",
-          "civic"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "EG",
-          "countryName": "Egypt",
-          "localName": "عيد القوات المسلحة",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 150,
-        "holidayFamily": "national-civic-day",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      }
-    ],
-    "2026-10-07": [
-      {
-        "title": "Municipal holiday",
-        "caption": "Municipal holiday · Portugal",
-        "description": "葡萄牙市镇假日通常由各地自行纪念守护圣人、建城传统或地方历史，日期和习俗会随着城市而变化。",
-        "motif": "lotusMandala",
-        "gradient": [
-          "#171427",
-          "#4c3652",
-          "#111214"
-        ],
-        "accent": "#d6b6e8",
-        "secondary": "#87c9b7",
-        "priority": 58,
-        "tags": [
-          "religious",
-          "botanical",
-          "culture",
-          "heritage"
-        ],
-        "source": {
-          "provider": "OpenHolidays",
-          "countryCode": "PT",
-          "countryName": "Portugal",
-          "localName": "Municipal holiday",
-          "typeLabels": [
-            "可选假日",
-            "地方性"
-          ],
-          "nationwide": false,
-          "subdivisions": [
-            "CO-OH",
-            "VI-OF"
-          ]
-        },
-        "score": 136,
-        "holidayFamily": "municipal-local",
-        "popularityTier": "local",
-        "scopeTier": "local"
-      }
-    ],
-    "2026-10-08": [
-      {
-        "title": "Battle of Angamos",
-        "caption": "Battle of Angamos · Combate de Angamos",
-        "description": "秘鲁安加莫斯海战纪念日追忆太平洋战争中的海战和海军英雄 Miguel Grau，是海军传统的重要纪念日。",
-        "motif": "wovenPattern",
-        "gradient": [
-          "#171822",
-          "#4d3d32",
-          "#111314"
-        ],
-        "accent": "#d8b95b",
-        "secondary": "#78bde8",
-        "priority": 61,
-        "tags": [
-          "culture",
-          "civic"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "PE",
-          "countryName": "Peru",
-          "localName": "Combate de Angamos",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 150,
-        "holidayFamily": "national-civic-day",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      }
-    ],
-    "2026-10-09": [
-      {
-        "title": "Independence Day",
-        "caption": "Independence Day · Uganda",
-        "description": "独立日通常纪念国家取得主权或脱离殖民统治的历史时刻，常伴随旗帜、仪式和公共庆祝。",
-        "motif": "cityParade",
-        "gradient": [
-          "#101d34",
-          "#4a2432",
-          "#111316"
-        ],
-        "accent": "#78aee8",
-        "secondary": "#e85a63",
-        "priority": 73,
-        "tags": [
-          "civic",
-          "celebration",
-          "procession"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "UG",
-          "countryName": "Uganda",
-          "localName": "Independence Day",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 422,
-        "holidayFamily": "independence-day",
-        "popularityTier": "common",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Independence of Guayaquil",
-        "caption": "Independence of Guayaquil · Independencia de Guayaquil",
-        "description": "瓜亚基尔独立日纪念1820年瓜亚基尔摆脱西班牙统治，是厄瓜多尔独立进程中的关键城市记忆。",
-        "motif": "cityParade",
-        "gradient": [
-          "#101d34",
-          "#4a2432",
-          "#111316"
-        ],
-        "accent": "#78aee8",
-        "secondary": "#e85a63",
-        "priority": 69,
-        "tags": [
-          "civic",
-          "celebration",
-          "procession"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "EC",
-          "countryName": "Ecuador",
-          "localName": "Independencia de Guayaquil",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 342,
-        "holidayFamily": "national-civic-day",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Abolition of slavery",
-        "caption": "Abolition of slavery · France",
-        "description": "法国部分海外地区的废奴纪念日回望奴隶制终结，也提醒人们殖民历史、自由和公民平等的意义。",
-        "motif": "wovenPattern",
-        "gradient": [
-          "#101d3f",
-          "#342742",
-          "#4c2734"
-        ],
-        "accent": "#6aa7ff",
-        "secondary": "#e85a63",
-        "priority": 65,
-        "tags": [
-          "culture",
-          "civic"
-        ],
-        "source": {
-          "provider": "OpenHolidays",
-          "countryCode": "FR",
-          "countryName": "France",
-          "localName": "Abolition of slavery",
-          "typeLabels": [
-            "公众节日",
-            "地方性"
-          ],
-          "nationwide": false,
-          "subdivisions": [
-            "BL"
-          ]
-        },
-        "score": 258,
-        "holidayFamily": "municipal-local",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Teachers' Appreciation Day",
-        "caption": "Teachers' Appreciation Day · Micronesia",
-        "description": "Teachers' Appreciation Day是Micronesia日历中的纪念日，通常承载当地历史、公共生活或季节性的休假安排。",
-        "motif": "bookPress",
-        "gradient": [
-          "#171822",
-          "#4d3d32",
-          "#111314"
-        ],
-        "accent": "#d8b95b",
-        "secondary": "#f2f0d6",
-        "priority": 62,
-        "tags": [
-          "literature",
-          "culture",
-          "heritage"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "FM",
-          "countryName": "Micronesia",
-          "localName": "Teachers' Appreciation Day",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 190,
-        "holidayFamily": "culture-observance",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Abolition Day",
-        "caption": "Abolition Day · Abolition de l'Esclavage",
-        "description": "Saint Barthélemy以「Abolition de l'Esclavage」为名纪念这一天，通常与当地历史、传统或社区公共生活有关。",
-        "motif": "stainedGlass",
-        "gradient": [
-          "#101a34",
-          "#4a2734",
-          "#111316"
-        ],
-        "accent": "#9fc8ff",
-        "secondary": "#e87a94",
-        "priority": 61,
-        "tags": [
-          "religious",
-          "heritage",
-          "light"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "BL",
-          "countryName": "Saint Barthélemy",
-          "localName": "Abolition de l'Esclavage",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 150,
-        "holidayFamily": "religious-observance",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Hangul Day",
-        "caption": "Hangul Day · 한글날",
-        "description": "韩文日纪念世宗大王创制韩文字母，强调语言、识字与韩国文化身份。",
-        "motif": "wovenPattern",
-        "gradient": [
-          "#11192d",
-          "#3d2f4b",
-          "#111316"
-        ],
-        "accent": "#f3f3f5",
-        "secondary": "#d8555b",
-        "priority": 65,
-        "tags": [
-          "culture",
-          "civic"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "KR",
-          "countryName": "South Korea",
-          "localName": "한글날",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 240,
-        "holidayFamily": "national-civic-day",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Day of the Valencian Community",
-        "caption": "Day of the Valencian Community · Dia de la Comunitat Valenciana",
-        "description": "瓦伦西亚自治区日纪念当地自治传统和历史身份，常有仪式、游行和地方文化活动。",
-        "motif": "cityParade",
-        "gradient": [
-          "#211619",
-          "#63362a",
-          "#111314"
-        ],
-        "accent": "#d8b95b",
-        "secondary": "#e65b5b",
-        "priority": 62,
-        "tags": [
-          "civic",
-          "celebration",
-          "procession"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "ES",
-          "countryName": "Spain",
-          "localName": "Dia de la Comunitat Valenciana",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 200,
-        "holidayFamily": "national-civic-day",
-        "popularityTier": "common",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Regional Holiday in Valencia",
-        "caption": "Regional Holiday in Valencia · Spain",
-        "description": "Regional Holiday in Valencia是西班牙日历中的纪念日，通常承载当地历史、公共生活或季节性的休假安排。",
-        "motif": "lotusMandala",
-        "gradient": [
-          "#211619",
-          "#63362a",
-          "#111314"
-        ],
-        "accent": "#d8b95b",
-        "secondary": "#e65b5b",
-        "priority": 62,
-        "tags": [
-          "religious",
-          "botanical",
-          "culture",
-          "heritage",
-          "folk"
-        ],
-        "source": {
-          "provider": "OpenHolidays",
-          "countryCode": "ES",
-          "countryName": "Spain",
-          "localName": "Regional Holiday in Valencia",
-          "typeLabels": [
-            "公众节日",
-            "地方性"
-          ],
-          "nationwide": false,
-          "subdivisions": [
-            "VC"
-          ]
-        },
-        "score": 198,
-        "holidayFamily": "municipal-local",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      }
-    ],
-    "2026-10-10": [
-      {
-        "title": "World Mental Health Day",
-        "caption": "World Mental Health Day · 世界精神卫生日",
-        "description": "关注心理健康、照护网络和更温柔的公共讨论。",
-        "motif": "candle",
-        "gradient": [
-          "#101827",
-          "#37304d",
-          "#111214"
-        ],
-        "accent": "#f0c95c",
-        "secondary": "#f2f0d6",
-        "priority": 70,
-        "tags": [
-          "culture",
-          "international",
-          "light"
-        ],
-        "source": {
-          "provider": "Curated Cultural Observances",
-          "countryCode": "INTL",
-          "countryName": "International",
-          "zhName": "国际",
-          "localName": "世界精神卫生日",
-          "typeLabels": [
-            "文化日"
-          ]
-        },
-        "score": 587,
-        "holidayFamily": "health-observance",
-        "popularityTier": "observance",
-        "scopeTier": "international"
-      },
-      {
-        "title": "Constitution Day",
-        "caption": "Constitution Day · Sint Maarten",
-        "description": "宪法日纪念宪法秩序或现代国家制度的重要节点，是公共生活中回顾法治与国家制度的日子。",
-        "motif": "cityParade",
-        "gradient": [
-          "#101d34",
-          "#4a2432",
-          "#111316"
-        ],
-        "accent": "#78aee8",
-        "secondary": "#e85a63",
-        "priority": 73,
-        "tags": [
-          "civic",
-          "celebration",
-          "procession"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "SX",
-          "countryName": "Sint Maarten",
-          "localName": "Constitution Day",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 422,
-        "holidayFamily": "constitution-day",
-        "popularityTier": "common",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Independence Day",
-        "caption": "Independence Day · Día de la Independencia",
-        "description": "独立日通常纪念国家取得主权或脱离殖民统治的历史时刻，常伴随旗帜、仪式和公共庆祝。",
-        "motif": "cityParade",
-        "gradient": [
-          "#101d34",
-          "#4a2432",
-          "#111316"
-        ],
-        "accent": "#78aee8",
-        "secondary": "#e85a63",
-        "priority": 69,
-        "tags": [
-          "civic",
-          "celebration",
-          "procession"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "CU",
-          "countryName": "Cuba",
-          "localName": "Día de la Independencia",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 342,
-        "holidayFamily": "independence-day",
-        "popularityTier": "common",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Mazingira Day",
-        "caption": "Mazingira Day · Kenya",
-        "description": "肯尼亚 Mazingira Day 关注环境保护和植树行动，名字来自斯瓦希里语中与环境相关的表达。",
-        "motif": "wovenPattern",
-        "gradient": [
-          "#171822",
-          "#4d3d32",
-          "#111314"
-        ],
-        "accent": "#d8b95b",
-        "secondary": "#78bde8",
-        "priority": 65,
-        "tags": [
-          "culture",
-          "civic"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "KE",
-          "countryName": "Kenya",
-          "localName": "Mazingira Day",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 230,
-        "holidayFamily": "national-civic-day",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Pchum Ben",
-        "caption": "Pchum Ben · ពិធីបុណ្យភ្ផុំបិណ្ឌ",
-        "description": "Cambodia以「ពិធីបុណ្យភ្ផុំបិណ្ឌ」为名纪念这一天，通常与当地历史、传统或社区公共生活有关。",
-        "motif": "wovenPattern",
-        "gradient": [
-          "#171822",
-          "#4d3d32",
-          "#111314"
-        ],
-        "accent": "#d8b95b",
-        "secondary": "#78bde8",
-        "priority": 61,
-        "tags": [
-          "culture",
-          "civic"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "KH",
-          "countryName": "Cambodia",
-          "localName": "ពិធីបុណ្យភ្ផុំបិណ្ឌ",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 150,
-        "holidayFamily": "national-civic-day",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Curaçao Day",
-        "caption": "Curaçao Day · Dag van Curaçao",
-        "description": "Curaçao以「Dag van Curaçao」为名纪念这一天，通常与当地历史、传统或社区公共生活有关。",
-        "motif": "wovenPattern",
-        "gradient": [
-          "#171822",
-          "#4d3d32",
-          "#111314"
-        ],
-        "accent": "#d8b95b",
-        "secondary": "#78bde8",
-        "priority": 61,
-        "tags": [
-          "culture",
-          "civic"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "CW",
-          "countryName": "Curaçao",
-          "localName": "Dag van Curaçao",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 150,
-        "holidayFamily": "national-civic-day",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Day of the Maroons",
-        "caption": "Day of the Maroons · Suriname",
-        "description": "苏里南马龙人日纪念逃离奴役并建立自治社区的马龙人历史，是自由、非洲侨民文化和社区身份的纪念日。",
-        "motif": "wovenPattern",
-        "gradient": [
-          "#171822",
-          "#4d3d32",
-          "#111314"
-        ],
-        "accent": "#d8b95b",
-        "secondary": "#78bde8",
-        "priority": 61,
-        "tags": [
-          "culture",
-          "civic"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "SR",
-          "countryName": "Suriname",
-          "localName": "Day of the Maroons",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 150,
-        "holidayFamily": "national-civic-day",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      }
-    ],
-    "2026-10-11": [
-      {
-        "title": "Pchum Ben",
-        "caption": "Pchum Ben · ពិធីបុណ្យភ្ផុំបិណ្ឌ",
-        "description": "Cambodia以「ពិធីបុណ្យភ្ផុំបិណ្ឌ」为名纪念这一天，通常与当地历史、传统或社区公共生活有关。",
-        "motif": "wovenPattern",
-        "gradient": [
-          "#171822",
-          "#4d3d32",
-          "#111314"
-        ],
-        "accent": "#d8b95b",
-        "secondary": "#78bde8",
-        "priority": 61,
-        "tags": [
-          "culture",
-          "civic"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "KH",
-          "countryName": "Cambodia",
-          "localName": "ពិធីបុណ្យភ្ផុំបិណ្ឌ",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 150,
-        "holidayFamily": "national-civic-day",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Revolution Day",
-        "caption": "Revolution Day · Ден на востанието, Den na vostanieto",
-        "description": "革命日纪念推动国家政治或社会变革的重要历史事件，常与国家身份和公共仪式相连。",
-        "motif": "wovenPattern",
-        "gradient": [
-          "#171822",
-          "#4d3d32",
-          "#111314"
-        ],
-        "accent": "#d8b95b",
-        "secondary": "#78bde8",
-        "priority": 61,
-        "tags": [
-          "culture",
-          "civic"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "MK",
-          "countryName": "North Macedonia",
-          "localName": "Ден на востанието, Den na vostanieto",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 150,
-        "holidayFamily": "revolution-day",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Municipal holiday",
-        "caption": "Municipal holiday · Portugal",
-        "description": "葡萄牙市镇假日通常由各地自行纪念守护圣人、建城传统或地方历史，日期和习俗会随着城市而变化。",
-        "motif": "lotusMandala",
-        "gradient": [
-          "#171427",
-          "#4c3652",
-          "#111214"
-        ],
-        "accent": "#d6b6e8",
-        "secondary": "#87c9b7",
-        "priority": 58,
-        "tags": [
-          "religious",
-          "botanical",
-          "culture",
-          "heritage"
-        ],
-        "source": {
-          "provider": "OpenHolidays",
-          "countryCode": "PT",
-          "countryName": "Portugal",
-          "localName": "Municipal holiday",
-          "typeLabels": [
-            "可选假日",
-            "地方性"
-          ],
-          "nationwide": false,
-          "subdivisions": [
-            "AV-SJ"
-          ]
-        },
-        "score": 136,
-        "holidayFamily": "municipal-local",
-        "popularityTier": "local",
-        "scopeTier": "local"
-      }
-    ],
-    "2026-10-12": [
-      {
-        "title": "National Day of Spain",
-        "caption": "National Day of Spain · Fiesta Nacional de España",
-        "description": "西班牙国庆日纪念1492年哥伦布抵达美洲的历史节点，现代常以国家仪式和阅兵标记。",
-        "motif": "carnivalMasks",
-        "gradient": [
-          "#211619",
-          "#63362a",
-          "#111314"
-        ],
-        "accent": "#d8b95b",
-        "secondary": "#e65b5b",
-        "priority": 76,
-        "tags": [
-          "celebration",
-          "procession",
-          "folk",
-          "market",
-          "civic"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "ES",
-          "countryName": "Spain",
-          "localName": "Fiesta Nacional de España",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 512,
-        "holidayFamily": "national-day",
-        "popularityTier": "common",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Columbus Day",
-        "caption": "Columbus Day · United States",
-        "description": "哥伦布日纪念哥伦布抵达美洲的历史事件，在现代也常伴随关于殖民历史和原住民处境的讨论。",
-        "motif": "paperCut",
-        "gradient": [
-          "#101a34",
-          "#4a2432",
-          "#111316"
-        ],
-        "accent": "#6aa7ff",
-        "secondary": "#e85a63",
-        "priority": 75,
-        "tags": [
-          "civic",
-          "celebration",
-          "culture"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "US",
-          "countryName": "United States",
-          "localName": "Columbus Day",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 500,
-        "holidayFamily": "national-civic-day",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Indigenous Peoples' Day",
-        "caption": "Indigenous Peoples' Day · United States",
-        "description": "美国原住民日纪念原住民族历史、文化和持续存在的社区，也常被用于重新审视殖民叙事。",
-        "motif": "folkEmbroidery",
-        "gradient": [
-          "#101a34",
-          "#4a2432",
-          "#111316"
-        ],
-        "accent": "#6aa7ff",
-        "secondary": "#e85a63",
-        "priority": 75,
-        "tags": [
-          "folk",
-          "heritage",
-          "culture"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "US",
-          "countryName": "United States",
-          "localName": "Indigenous Peoples' Day",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 500,
-        "holidayFamily": "culture-observance",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Thanksgiving",
-        "caption": "Thanksgiving · Canada",
-        "description": "感恩节以感谢、收获和团聚为核心，常见习俗包括家庭餐桌、秋日食物和与亲友共度假日。",
-        "motif": "harvestSheaves",
-        "gradient": [
-          "#211916",
-          "#604026",
-          "#111314"
-        ],
-        "accent": "#d8a05f",
-        "secondary": "#9bb06d",
-        "priority": 74,
-        "tags": [
-          "botanical",
-          "harvest",
-          "seasonal",
-          "celebration"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "CA",
-          "countryName": "Canada",
-          "localName": "Thanksgiving",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 462,
-        "holidayFamily": "environmental-observance",
-        "popularityTier": "major",
-        "scopeTier": "national"
-      },
-      {
-        "title": "National Heroes' Day",
-        "caption": "National Heroes' Day · Bahamas",
-        "description": "巴哈马民族英雄日纪念塑造国家历史、政治和文化的人物，公共仪式强调公民榜样和国家记忆。",
-        "motif": "cityParade",
-        "gradient": [
-          "#101d34",
-          "#4a2432",
-          "#111316"
-        ],
-        "accent": "#78aee8",
-        "secondary": "#e85a63",
-        "priority": 73,
-        "tags": [
-          "civic",
-          "celebration",
-          "procession"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "BS",
-          "countryName": "Bahamas",
-          "localName": "National Heroes' Day",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 422,
-        "holidayFamily": "heroes-day",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Independence Day",
-        "caption": "Independence Day · Equatorial Guinea",
-        "description": "独立日通常纪念国家取得主权或脱离殖民统治的历史时刻，常伴随旗帜、仪式和公共庆祝。",
-        "motif": "cityParade",
-        "gradient": [
-          "#101d34",
-          "#4a2432",
-          "#111316"
-        ],
-        "accent": "#78aee8",
-        "secondary": "#e85a63",
-        "priority": 73,
-        "tags": [
-          "civic",
-          "celebration",
-          "procession"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "GQ",
-          "countryName": "Equatorial Guinea",
-          "localName": "Independence Day",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 422,
-        "holidayFamily": "independence-day",
-        "popularityTier": "common",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Spanish National Day",
-        "caption": "Spanish National Day · Spain",
-        "description": "西班牙国庆日纪念1492年之后西班牙语世界的历史连接，现代常以阅兵、国旗和公共仪式呈现。",
-        "motif": "cityParade",
-        "gradient": [
-          "#211619",
-          "#63362a",
-          "#111314"
-        ],
-        "accent": "#d8b95b",
-        "secondary": "#e65b5b",
-        "priority": 76,
-        "tags": [
-          "civic",
-          "celebration",
-          "procession"
-        ],
-        "source": {
-          "provider": "OpenHolidays",
-          "countryCode": "ES",
-          "countryName": "Spain",
-          "localName": "Spanish National Day",
-          "typeLabels": [
-            "公众节日",
-            "全国性"
-          ],
-          "nationwide": true,
-          "subdivisions": []
-        },
-        "score": 497,
-        "holidayFamily": "national-day",
-        "popularityTier": "common",
-        "scopeTier": "national"
-      },
-      {
-        "title": "National Heritage Day",
-        "caption": "National Heritage Day · Turks and Caicos Islands",
-        "description": "National Heritage Day是Turks and Caicos Islands日历中的纪念日，通常承载当地历史、公共生活或季节性的休假安排。",
-        "motif": "folkEmbroidery",
-        "gradient": [
-          "#171822",
-          "#4d2f32",
-          "#111314"
-        ],
-        "accent": "#d8b95b",
-        "secondary": "#e65b5b",
-        "priority": 73,
-        "tags": [
-          "folk",
-          "heritage",
-          "culture",
-          "civic"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "TC",
-          "countryName": "Turks and Caicos Islands",
-          "localName": "National Heritage Day",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 422,
-        "holidayFamily": "national-civic-day",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      }
-    ],
-    "2026-10-13": [
-      {
-        "title": "Rwagasore Day",
-        "caption": "Rwagasore Day · Burundi",
-        "description": "Rwagasore Day是Burundi日历中的纪念日，通常承载当地历史、公共生活或季节性的休假安排。",
-        "motif": "wovenPattern",
-        "gradient": [
-          "#171822",
-          "#4d3d32",
-          "#111314"
-        ],
-        "accent": "#d8b95b",
-        "secondary": "#78bde8",
-        "priority": 65,
-        "tags": [
-          "culture",
-          "civic"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "BI",
-          "countryName": "Burundi",
-          "localName": "Rwagasore Day",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 230,
-        "holidayFamily": "national-civic-day",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Commonwealth Cultural Day",
-        "caption": "Commonwealth Cultural Day · Northern Mariana Islands",
-        "description": "Commonwealth Cultural Day是Northern Mariana Islands日历中的纪念日，通常承载当地历史、公共生活或季节性的休假安排。",
-        "motif": "maritimeFlags",
-        "gradient": [
-          "#0c2635",
-          "#255d70",
-          "#101417"
-        ],
-        "accent": "#76cce8",
-        "secondary": "#f0c95c",
-        "priority": 65,
-        "tags": [
-          "maritime",
-          "water",
-          "civic",
-          "island"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "MP",
-          "countryName": "Northern Mariana Islands",
-          "localName": "Commonwealth Cultural Day",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 230,
-        "holidayFamily": "national-civic-day",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      }
-    ],
-    "2026-10-14": [
-      {
-        "title": "Capital's Day",
-        "caption": "Capital's Day · Moldova",
-        "description": "摩尔多瓦首都日庆祝基希讷乌的城市历史和地方身份，常与城市活动、音乐和公共庆典相连。",
-        "motif": "wovenPattern",
-        "gradient": [
-          "#171822",
-          "#4d3d32",
-          "#111314"
-        ],
-        "accent": "#d8b95b",
-        "secondary": "#78bde8",
-        "priority": 65,
-        "tags": [
-          "culture",
-          "civic"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "MD",
-          "countryName": "Moldova",
-          "localName": "Capital's Day",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 230,
-        "holidayFamily": "national-civic-day",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Day of Svetitskhoveli Cathedra",
-        "caption": "Day of Svetitskhoveli Cathedra · სვეტიცხოვლობა",
-        "description": "格鲁吉亚斯维季茨霍维利日纪念姆茨赫塔主教座堂传统，这座教堂在格鲁吉亚东正教和国家文化中地位重要。",
-        "motif": "wovenPattern",
-        "gradient": [
-          "#171822",
-          "#4d3d32",
-          "#111314"
-        ],
-        "accent": "#d8b95b",
-        "secondary": "#78bde8",
-        "priority": 61,
-        "tags": [
-          "culture",
-          "civic"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "GE",
-          "countryName": "Georgia",
-          "localName": "სვეტიცხოვლობა",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 150,
-        "holidayFamily": "national-civic-day",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Nyerere Day",
-        "caption": "Nyerere Day · Siku ya Nyerere",
-        "description": "Tanzania以「Siku ya Nyerere」为名纪念这一天，通常与当地历史、传统或社区公共生活有关。",
-        "motif": "wovenPattern",
-        "gradient": [
-          "#171822",
-          "#4d3d32",
-          "#111314"
-        ],
-        "accent": "#d8b95b",
-        "secondary": "#78bde8",
-        "priority": 61,
-        "tags": [
-          "culture",
-          "civic"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "TZ",
-          "countryName": "Tanzania",
-          "localName": "Siku ya Nyerere",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 150,
-        "holidayFamily": "national-civic-day",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Liberation Day",
-        "caption": "Liberation Day · ثورة 14 أكتوبر المجيدة",
-        "description": "解放日通常纪念战争结束、占领结束或国家重新获得自由的历史时刻，常带有追思和庆祝双重意味。",
-        "motif": "laurelTorch",
-        "gradient": [
-          "#151515",
-          "#55302d",
-          "#111111"
-        ],
-        "accent": "#d8b95b",
-        "secondary": "#d65345",
-        "priority": 61,
-        "tags": [
-          "civic",
-          "remembrance",
-          "light"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "YE",
-          "countryName": "Yemen",
-          "localName": "ثورة 14 أكتوبر المجيدة",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 150,
-        "holidayFamily": "remembrance",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      }
-    ],
-    "2026-10-15": [
-      {
-        "title": "Mother's Day",
-        "caption": "Mother's Day · Malawi",
-        "description": "Mother's Day是Malawi日历中的纪念日，通常承载当地历史、公共生活或季节性的休假安排。",
-        "motif": "petals",
-        "gradient": [
-          "#241525",
-          "#643044",
-          "#111214"
-        ],
-        "accent": "#e87a94",
-        "secondary": "#d7b56b",
-        "priority": 65,
-        "tags": [
-          "botanical",
-          "memorial"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "MW",
-          "countryName": "Malawi",
-          "localName": "Mother's Day",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 230,
-        "holidayFamily": "remembrance",
-        "popularityTier": "common",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Commemoration Day of the King's Father",
-        "caption": "Commemoration Day of the King's Father · ព្រះរាជពិធីគោរពព្រះវិញ្ញាណក្ខន្ធព្រះករុណាព្រះបាទសម្ដេចព្រះ នរោត្ដម សីហនុ",
-        "description": "Cambodia以「ព្រះរាជពិធីគោរពព្រះវិញ្ញាណក្ខន្ធព្រះករុណាព្រះបាទសម្ដេចព្រះ នរោត្ដម សីហនុ」为名纪念这一天，通常与当地历史、传统或社区公共生活有关。",
-        "motif": "wovenPattern",
-        "gradient": [
-          "#171822",
-          "#4d3d32",
-          "#111314"
-        ],
-        "accent": "#d8b95b",
-        "secondary": "#78bde8",
-        "priority": 61,
-        "tags": [
-          "culture",
-          "civic"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "KH",
-          "countryName": "Cambodia",
-          "localName": "ព្រះរាជពិធីគោរពព្រះវិញ្ញាណក្ខន្ធព្រះករុណាព្រះបាទសម្ដេចព្រះ នរោត្ដម សីហនុ",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 150,
-        "holidayFamily": "national-civic-day",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Evacuation Day",
-        "caption": "Evacuation Day · عيد الجلاء",
-        "description": "突尼斯撤离日纪念1963年法国军队撤出比塞大，标记独立后主权完整的重要时刻。",
-        "motif": "wovenPattern",
-        "gradient": [
-          "#171822",
-          "#4d3d32",
-          "#111314"
-        ],
-        "accent": "#d8b95b",
-        "secondary": "#78bde8",
-        "priority": 61,
-        "tags": [
-          "culture",
-          "civic"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "TN",
-          "countryName": "Tunisia",
-          "localName": "عيد الجلاء",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 150,
-        "holidayFamily": "national-civic-day",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Municipal holiday",
-        "caption": "Municipal holiday · Portugal",
-        "description": "葡萄牙市镇假日通常由各地自行纪念守护圣人、建城传统或地方历史，日期和习俗会随着城市而变化。",
-        "motif": "lotusMandala",
-        "gradient": [
-          "#171427",
-          "#4c3652",
-          "#111214"
-        ],
-        "accent": "#d6b6e8",
-        "secondary": "#87c9b7",
-        "priority": 58,
-        "tags": [
-          "religious",
-          "botanical",
-          "culture",
-          "heritage"
-        ],
-        "source": {
-          "provider": "OpenHolidays",
-          "countryCode": "PT",
-          "countryName": "Portugal",
-          "localName": "Municipal holiday",
-          "typeLabels": [
-            "可选假日",
-            "地方性"
-          ],
-          "nationwide": false,
-          "subdivisions": [
-            "BA-MO"
-          ]
-        },
-        "score": 136,
-        "holidayFamily": "municipal-local",
-        "popularityTier": "local",
-        "scopeTier": "local"
-      },
-      {
-        "title": "Official Language Day",
-        "caption": "Official Language Day · Valsts valodas diena",
-        "description": "Latvia以「Valsts valodas diena」为名纪念这一天，通常与当地历史、传统或社区公共生活有关。",
-        "motif": "bookPress",
-        "gradient": [
-          "#171822",
-          "#4d3d32",
-          "#111314"
-        ],
-        "accent": "#d8b95b",
-        "secondary": "#f2f0d6",
-        "priority": 56,
-        "tags": [
-          "literature",
-          "culture",
-          "heritage",
-          "folk"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "LV",
-          "countryName": "Latvia",
-          "localName": "Valsts valodas diena",
-          "typeLabels": [
-            "纪念日"
-          ]
-        },
-        "score": 70,
-        "holidayFamily": "remembrance",
-        "popularityTier": "niche",
-        "scopeTier": "unknown"
-      }
-    ],
-    "2026-10-16": [
-      {
-        "title": "World Food Day",
-        "caption": "World Food Day · 世界粮食日",
-        "description": "联合国粮农组织纪念日，关注食物、土地与人类生活。",
-        "motif": "grain",
-        "gradient": [
-          "#211916",
-          "#604026",
-          "#111314"
-        ],
-        "accent": "#d8a05f",
-        "secondary": "#9bb06d",
-        "priority": 70,
-        "tags": [
-          "culture",
-          "international",
-          "harvest",
-          "botanical"
-        ],
-        "source": {
-          "provider": "Curated Cultural Observances",
-          "countryCode": "INTL",
-          "countryName": "International",
-          "zhName": "国际",
-          "localName": "世界粮食日",
-          "typeLabels": [
-            "文化日"
-          ]
-        },
-        "score": 587,
-        "holidayFamily": "culture-observance",
-        "popularityTier": "observance",
-        "scopeTier": "international"
-      },
-      {
-        "title": "National Heroes Day",
-        "caption": "National Heroes Day · Jamaica",
-        "description": "牙买加民族英雄日纪念推动独立、反奴役和社会改革的民族英雄，是公共仪式和历史教育中的重要日子。",
-        "motif": "cityParade",
-        "gradient": [
-          "#101d34",
-          "#4a2432",
-          "#111316"
-        ],
-        "accent": "#78aee8",
-        "secondary": "#e85a63",
-        "priority": 73,
-        "tags": [
-          "civic",
-          "celebration",
-          "procession"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "JM",
-          "countryName": "Jamaica",
-          "localName": "National Heroes Day",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 422,
-        "holidayFamily": "heroes-day",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
-        "title": "St Gallus' Day",
-        "caption": "St Gallus' Day · Switzerland",
-        "description": "圣加卢斯日纪念与圣加仑修道院传统相连的爱尔兰修士 Gallus，瑞士地方庆典中带有城市守护和修道文化意味。",
-        "motif": "wovenPattern",
-        "gradient": [
-          "#151b27",
-          "#4d2727",
-          "#111314"
-        ],
-        "accent": "#e65b5b",
-        "secondary": "#f0f0f2",
-        "priority": 65,
-        "tags": [
-          "culture",
-          "civic"
-        ],
-        "source": {
-          "provider": "OpenHolidays",
-          "countryCode": "CH",
-          "countryName": "Switzerland",
-          "localName": "St Gallus' Day",
-          "typeLabels": [
-            "公众节日",
-            "地方性"
-          ],
-          "nationwide": false,
-          "subdivisions": [
-            "SZ-SZ-MO"
-          ]
-        },
-        "score": 258,
-        "holidayFamily": "municipal-local",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Municipal holiday",
-        "caption": "Municipal holiday · Portugal",
-        "description": "葡萄牙市镇假日通常由各地自行纪念守护圣人、建城传统或地方历史，日期和习俗会随着城市而变化。",
-        "motif": "lotusMandala",
-        "gradient": [
-          "#171427",
-          "#4c3652",
-          "#111214"
-        ],
-        "accent": "#d6b6e8",
-        "secondary": "#87c9b7",
-        "priority": 58,
-        "tags": [
-          "religious",
-          "botanical",
-          "culture",
-          "heritage"
-        ],
-        "source": {
-          "provider": "OpenHolidays",
-          "countryCode": "PT",
-          "countryName": "Portugal",
-          "localName": "Municipal holiday",
-          "typeLabels": [
-            "可选假日",
-            "地方性"
-          ],
-          "nationwide": false,
-          "subdivisions": [
-            "MA-CL"
-          ]
-        },
-        "score": 136,
-        "holidayFamily": "municipal-local",
-        "popularityTier": "local",
-        "scopeTier": "local"
-      }
-    ],
-    "2026-10-17": [
-      {
-        "title": "Dessalines Day",
-        "caption": "Dessalines Day · Anniversaire de la mort de Dessalines",
-        "description": "海地德萨林日纪念独立领袖 Jean-Jacques Dessalines 逝世，他在海地革命和建国记忆中具有核心地位。",
-        "motif": "wovenPattern",
-        "gradient": [
-          "#171822",
-          "#4d3d32",
-          "#111314"
-        ],
-        "accent": "#d8b95b",
-        "secondary": "#78bde8",
-        "priority": 61,
-        "tags": [
-          "culture",
-          "civic"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "HT",
-          "countryName": "Haiti",
-          "localName": "Anniversaire de la mort de Dessalines",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 150,
-        "holidayFamily": "national-civic-day",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      }
-    ],
-    "2026-10-19": [
-      {
-        "title": "Constitution Day",
-        "caption": "Constitution Day · Niue",
-        "description": "宪法日纪念宪法秩序或现代国家制度的重要节点，是公共生活中回顾法治与国家制度的日子。",
-        "motif": "cityParade",
-        "gradient": [
-          "#101d34",
-          "#4a2432",
-          "#111316"
-        ],
-        "accent": "#78aee8",
-        "secondary": "#e85a63",
-        "priority": 73,
-        "tags": [
-          "civic",
-          "celebration",
-          "procession"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "NU",
-          "countryName": "Niue",
-          "localName": "Constitution Day",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 422,
-        "holidayFamily": "constitution-day",
-        "popularityTier": "common",
-        "scopeTier": "national"
-      },
-      {
-        "title": "National Day of Prayer",
-        "caption": "National Day of Prayer · Zambia",
-        "description": "Zambia的国家纪念日，通常用来纪念国家成立、宪法传统或重要历史节点，常有官方仪式和公共庆典。",
-        "motif": "cityParade",
-        "gradient": [
-          "#101d34",
-          "#4a2432",
-          "#111316"
-        ],
-        "accent": "#78aee8",
-        "secondary": "#e85a63",
-        "priority": 69,
-        "tags": [
-          "civic",
-          "celebration",
-          "procession"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "ZM",
-          "countryName": "Zambia",
-          "localName": "National Day of Prayer",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 342,
-        "holidayFamily": "national-day",
-        "popularityTier": "common",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Heroes and Foreparents Day",
-        "caption": "Heroes and Foreparents Day · British Virgin Islands",
-        "description": "Heroes and Foreparents Day是British Virgin Islands日历中的纪念日，通常承载当地历史、公共生活或季节性的休假安排。",
-        "motif": "maritimeFlags",
-        "gradient": [
-          "#0c2635",
-          "#255d70",
-          "#101417"
-        ],
-        "accent": "#76cce8",
-        "secondary": "#f0c95c",
-        "priority": 65,
-        "tags": [
-          "maritime",
-          "water",
-          "civic",
-          "island"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "VG",
-          "countryName": "British Virgin Islands",
-          "localName": "Heroes and Foreparents Day",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 230,
-        "holidayFamily": "national-civic-day",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Chung Yeung Festival",
-        "caption": "Chung Yeung Festival · 重陽節",
-        "description": "重阳节在农历九月初九举行，香港常见登高、扫墓、祭祖和秋日郊游等习俗。",
-        "motif": "carnivalMasks",
-        "gradient": [
-          "#18142a",
-          "#5a2f4c",
-          "#111315"
-        ],
-        "accent": "#e87a94",
-        "secondary": "#78bde8",
-        "priority": 65,
-        "tags": [
-          "celebration",
-          "procession",
-          "folk",
-          "market"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "HK",
-          "countryName": "Hong Kong",
-          "localName": "重陽節",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 230,
-        "holidayFamily": "culture-observance",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Mother Teresa Day",
-        "caption": "Mother Teresa Day · Albania",
-        "description": "阿尔巴尼亚特蕾莎修女日纪念这位出生于巴尔干地区的天主教修女，人道服务、慈善和宗教身份是这一天的核心记忆。",
-        "motif": "petals",
-        "gradient": [
-          "#241525",
-          "#643044",
-          "#111214"
-        ],
-        "accent": "#e87a94",
-        "secondary": "#d7b56b",
-        "priority": 64,
-        "tags": [
-          "botanical",
-          "memorial"
-        ],
-        "source": {
-          "provider": "OpenHolidays",
-          "countryCode": "AL",
-          "countryName": "Albania",
-          "localName": "Mother Teresa Day",
-          "typeLabels": [
-            "公众节日",
-            "全国性"
-          ],
-          "nationwide": true,
-          "subdivisions": []
-        },
-        "score": 215,
-        "holidayFamily": "remembrance",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      }
-    ],
-    "2026-10-20": [
-      {
-        "title": "Revolution Day",
-        "caption": "Revolution Day · Guatemala",
-        "description": "革命日纪念推动国家政治或社会变革的重要历史事件，常与国家身份和公共仪式相连。",
-        "motif": "wovenPattern",
-        "gradient": [
-          "#171822",
-          "#4d3d32",
-          "#111314"
-        ],
-        "accent": "#d8b95b",
-        "secondary": "#78bde8",
-        "priority": 65,
-        "tags": [
-          "culture",
-          "civic"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "GT",
-          "countryName": "Guatemala",
-          "localName": "Revolution Day",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 230,
-        "holidayFamily": "revolution-day",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Mashujaa Day",
-        "caption": "Mashujaa Day · Kenya",
-        "description": "肯尼亚 Mashujaa Day 纪念为国家独立和社会建设作出贡献的人，名称在斯瓦希里语中意为英雄。",
-        "motif": "wovenPattern",
-        "gradient": [
-          "#171822",
-          "#4d3d32",
-          "#111314"
-        ],
-        "accent": "#d8b95b",
-        "secondary": "#78bde8",
-        "priority": 65,
-        "tags": [
-          "culture",
-          "civic"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "KE",
-          "countryName": "Kenya",
-          "localName": "Mashujaa Day",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 230,
-        "holidayFamily": "national-civic-day",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Chinese Arrival day",
-        "caption": "Chinese Arrival day · Suriname",
-        "description": "苏里南华人抵达日纪念19世纪华人契约劳工抵达，也呈现华人社群在当地饮食、商业和文化中的痕迹。",
-        "motif": "wovenPattern",
-        "gradient": [
-          "#171822",
-          "#4d3d32",
-          "#111314"
-        ],
-        "accent": "#d8b95b",
-        "secondary": "#78bde8",
-        "priority": 65,
-        "tags": [
-          "culture",
-          "civic"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "SR",
-          "countryName": "Suriname",
-          "localName": "Chinese Arrival day",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 230,
-        "holidayFamily": "national-civic-day",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Municipal holiday",
-        "caption": "Municipal holiday · Portugal",
-        "description": "葡萄牙市镇假日通常由各地自行纪念守护圣人、建城传统或地方历史，日期和习俗会随着城市而变化。",
-        "motif": "lotusMandala",
-        "gradient": [
-          "#171427",
-          "#4c3652",
-          "#111214"
-        ],
-        "accent": "#d6b6e8",
-        "secondary": "#87c9b7",
-        "priority": 58,
-        "tags": [
-          "religious",
-          "botanical",
-          "culture",
-          "heritage"
-        ],
-        "source": {
-          "provider": "OpenHolidays",
-          "countryCode": "PT",
-          "countryName": "Portugal",
-          "localName": "Municipal holiday",
-          "typeLabels": [
-            "可选假日",
-            "地方性"
-          ],
-          "nationwide": false,
-          "subdivisions": [
-            "CB-CO",
-            "BR-TB"
-          ]
-        },
-        "score": 136,
-        "holidayFamily": "municipal-local",
-        "popularityTier": "local",
-        "scopeTier": "local"
-      }
-    ],
-    "2026-10-21": [
-      {
-        "title": "Ndadaye Day",
-        "caption": "Ndadaye Day · Burundi",
-        "description": "Ndadaye Day是Burundi日历中的纪念日，通常承载当地历史、公共生活或季节性的休假安排。",
-        "motif": "wovenPattern",
-        "gradient": [
-          "#171822",
-          "#4d3d32",
-          "#111314"
-        ],
-        "accent": "#d8b95b",
-        "secondary": "#78bde8",
-        "priority": 65,
-        "tags": [
-          "culture",
-          "civic"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "BI",
-          "countryName": "Burundi",
-          "localName": "Ndadaye Day",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 230,
-        "holidayFamily": "national-civic-day",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Army Day",
-        "caption": "Army Day · Honduras",
-        "description": "洪都拉斯军队日纪念国家军事传统和武装力量，在十月公民假期序列中带有官方仪式和国家象征。",
-        "motif": "wovenPattern",
-        "gradient": [
-          "#171822",
-          "#4d3d32",
-          "#111314"
-        ],
-        "accent": "#d8b95b",
-        "secondary": "#78bde8",
-        "priority": 65,
-        "tags": [
-          "culture",
-          "civic"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "HN",
-          "countryName": "Honduras",
-          "localName": "Army Day",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 230,
-        "holidayFamily": "national-civic-day",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      }
-    ],
-    "2026-10-22": [
-      {
-        "title": "Municipal holiday",
-        "caption": "Municipal holiday · Portugal",
-        "description": "葡萄牙市镇假日通常由各地自行纪念守护圣人、建城传统或地方历史，日期和习俗会随着城市而变化。",
-        "motif": "lotusMandala",
-        "gradient": [
-          "#171427",
-          "#4c3652",
-          "#111214"
-        ],
-        "accent": "#d6b6e8",
-        "secondary": "#87c9b7",
-        "priority": 58,
-        "tags": [
-          "religious",
-          "botanical",
-          "culture",
-          "heritage"
-        ],
-        "source": {
-          "provider": "OpenHolidays",
-          "countryCode": "PT",
-          "countryName": "Portugal",
-          "localName": "Municipal holiday",
-          "typeLabels": [
-            "可选假日",
-            "地方性"
-          ],
-          "nationwide": false,
-          "subdivisions": [
-            "SE-GR"
-          ]
-        },
-        "score": 136,
-        "holidayFamily": "municipal-local",
-        "popularityTier": "local",
-        "scopeTier": "local"
-      }
-    ],
-    "2026-10-23": [
-      {
-        "title": "National Day",
-        "caption": "National Day · Hungary",
-        "description": "国庆日通常纪念国家成立、独立或重要制度节点，是公共仪式、旗帜和国家身份表达的日子。",
-        "motif": "cityParade",
-        "gradient": [
-          "#101d34",
-          "#4a2432",
-          "#111316"
-        ],
-        "accent": "#78aee8",
-        "secondary": "#e85a63",
-        "priority": 72,
-        "tags": [
-          "civic",
-          "celebration",
-          "procession"
-        ],
-        "source": {
-          "provider": "OpenHolidays",
-          "countryCode": "HU",
-          "countryName": "Hungary",
-          "localName": "National Day",
-          "typeLabels": [
-            "公众节日",
-            "全国性"
-          ],
-          "nationwide": true,
-          "subdivisions": []
-        },
-        "score": 407,
-        "holidayFamily": "national-day",
-        "popularityTier": "common",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Hawke's Bay Anniversary Day",
-        "caption": "Hawke's Bay Anniversary Day · New Zealand",
-        "description": "霍克湾周年纪念日是新西兰地方假日，纪念地区历史、港湾城市生活和地方共同体传统。",
-        "motif": "wovenPattern",
-        "gradient": [
-          "#101d34",
-          "#293f5d",
-          "#101316"
-        ],
-        "accent": "#78aee8",
-        "secondary": "#e85a63",
-        "priority": 64,
-        "tags": [
-          "culture",
-          "civic"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "NZ",
-          "countryName": "New Zealand",
-          "localName": "Hawke's Bay Anniversary Day",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 240,
-        "holidayFamily": "national-civic-day",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
-        "title": "United Nations Day",
-        "caption": "United Nations Day · Micronesia",
-        "description": "联合国日纪念《联合国宪章》生效，象征国际合作、和平与公共秩序。",
-        "motif": "wovenPattern",
-        "gradient": [
-          "#171822",
-          "#4d3d32",
-          "#111314"
-        ],
-        "accent": "#d8b95b",
-        "secondary": "#78bde8",
-        "priority": 65,
-        "tags": [
-          "culture",
-          "civic"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "FM",
-          "countryName": "Micronesia",
-          "localName": "United Nations Day",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 230,
-        "holidayFamily": "national-civic-day",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
-        "title": "1956 Revolution Memorial Day",
-        "caption": "1956 Revolution Memorial Day · Nemzeti ünnep",
-        "description": "匈牙利1956年革命纪念日追忆反抗苏联控制的革命，也纪念1989年共和国宣告成立的同一日期。",
-        "motif": "doveGarland",
-        "gradient": [
-          "#101827",
-          "#2e3d51",
-          "#101316"
-        ],
-        "accent": "#f2f0d6",
-        "secondary": "#d8c070",
-        "priority": 64,
-        "tags": [
-          "remembrance",
-          "light",
-          "civic",
-          "memorial"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "HU",
-          "countryName": "Hungary",
-          "localName": "Nemzeti ünnep",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 214,
-        "holidayFamily": "revolution-day",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Liberation Day",
-        "caption": "Liberation Day · يوم التحرير",
-        "description": "解放日通常纪念战争结束、占领结束或国家重新获得自由的历史时刻，常带有追思和庆祝双重意味。",
-        "motif": "laurelTorch",
-        "gradient": [
-          "#151515",
-          "#55302d",
-          "#111111"
-        ],
-        "accent": "#d8b95b",
-        "secondary": "#d65345",
-        "priority": 61,
-        "tags": [
-          "civic",
-          "remembrance",
-          "light"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "LY",
-          "countryName": "Libya",
-          "localName": "يوم التحرير",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 150,
-        "holidayFamily": "remembrance",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Day of the Macedonian Revolutionary Struggle",
-        "caption": "Day of the Macedonian Revolutionary Struggle · Ден на македонската револуционерна борба,Den na makedonskata revolucionarna borba",
-        "description": "马其顿革命斗争日纪念19世纪末民族革命组织的形成，连接反奥斯曼运动和现代国家身份叙事。",
-        "motif": "wovenPattern",
-        "gradient": [
-          "#171822",
-          "#4d3d32",
-          "#111314"
-        ],
-        "accent": "#d8b95b",
-        "secondary": "#78bde8",
-        "priority": 61,
-        "tags": [
-          "culture",
-          "civic"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "MK",
-          "countryName": "North Macedonia",
-          "localName": "Ден на македонската револуционерна борба,Den na makedonskata revolucionarna borba",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 150,
-        "holidayFamily": "national-civic-day",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      }
-    ],
-    "2026-10-24": [
-      {
-        "title": "United Nations Day",
-        "caption": "United Nations Day · 联合国日",
-        "description": "纪念联合国宪章生效的国际日，象征合作、和平与公共秩序。",
-        "motif": "tricolor",
-        "gradient": [
-          "#101d34",
-          "#263a54",
-          "#111316"
-        ],
-        "accent": "#78aee8",
-        "secondary": "#f3f3f5",
-        "priority": 72,
-        "tags": [
-          "culture",
-          "international",
-          "civic"
-        ],
-        "source": {
-          "provider": "Curated Cultural Observances",
-          "countryCode": "INTL",
-          "countryName": "International",
-          "zhName": "国际",
-          "localName": "联合国日",
-          "typeLabels": [
-            "文化日"
-          ]
-        },
-        "score": 603,
-        "holidayFamily": "culture-observance",
-        "popularityTier": "niche",
-        "scopeTier": "international"
-      },
-      {
-        "title": "United Nations Day",
-        "caption": "United Nations Day · Palau",
-        "description": "联合国日纪念《联合国宪章》生效，象征国际合作、和平与公共秩序。",
-        "motif": "wovenPattern",
-        "gradient": [
-          "#171822",
-          "#4d3d32",
-          "#111314"
-        ],
-        "accent": "#d8b95b",
-        "secondary": "#78bde8",
-        "priority": 65,
-        "tags": [
-          "culture",
-          "civic"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "PW",
-          "countryName": "Palau",
-          "localName": "United Nations Day",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 230,
-        "holidayFamily": "national-civic-day",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      }
-    ],
-    "2026-10-25": [
-      {
-        "title": "Thanksgiving Day",
-        "caption": "Thanksgiving Day · Grenada",
-        "description": "感恩节以感谢、收获和团聚为核心，常见习俗包括家庭餐桌、秋日食物和与亲友共度假日。",
-        "motif": "harvestSheaves",
-        "gradient": [
-          "#211916",
-          "#604026",
-          "#111314"
-        ],
-        "accent": "#d8a05f",
-        "secondary": "#9bb06d",
-        "priority": 73,
-        "tags": [
-          "botanical",
-          "harvest",
-          "seasonal",
-          "celebration"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "GD",
-          "countryName": "Grenada",
-          "localName": "Thanksgiving Day",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 422,
-        "holidayFamily": "environmental-observance",
-        "popularityTier": "major",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Republic Day",
-        "caption": "Republic Day · Республика күні",
-        "description": "哈萨克斯坦共和国日纪念1990年国家主权宣言，是独立前夕国家身份成形的重要节点。",
-        "motif": "cityParade",
-        "gradient": [
-          "#101d34",
-          "#4a2432",
-          "#111316"
-        ],
-        "accent": "#78aee8",
-        "secondary": "#e85a63",
-        "priority": 69,
-        "tags": [
-          "civic",
-          "celebration",
-          "procession"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "KZ",
-          "countryName": "Kazakhstan",
-          "localName": "Республика күні",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 342,
-        "holidayFamily": "republic-day",
-        "popularityTier": "common",
-        "scopeTier": "national"
-      },
-      {
-        "title": "St Catherine's Day",
-        "caption": "St Catherine's Day · Portugal",
-        "description": "葡萄牙部分地方在圣加大利纳日纪念亚历山大的圣加大利纳，常与守护圣人礼仪和市镇传统相连。",
-        "motif": "wovenPattern",
-        "gradient": [
-          "#171822",
-          "#4d3d32",
-          "#111314"
-        ],
-        "accent": "#d8b95b",
-        "secondary": "#78bde8",
-        "priority": 58,
-        "tags": [
-          "culture",
-          "civic"
-        ],
-        "source": {
-          "provider": "OpenHolidays",
-          "countryCode": "PT",
-          "countryName": "Portugal",
-          "localName": "St Catherine's Day",
-          "typeLabels": [
-            "可选假日",
-            "地方性"
-          ],
-          "nationwide": false,
-          "subdivisions": [
-            "MA-CT"
-          ]
-        },
-        "score": 136,
-        "holidayFamily": "municipal-local",
-        "popularityTier": "local",
-        "scopeTier": "local"
-      }
-    ],
-    "2026-10-26": [
-      {
-        "title": "Independence Day",
-        "caption": "Independence Day · Zambia",
-        "description": "独立日通常纪念国家取得主权或脱离殖民统治的历史时刻，常伴随旗帜、仪式和公共庆祝。",
-        "motif": "cityParade",
-        "gradient": [
-          "#101d34",
-          "#4a2432",
-          "#111316"
-        ],
-        "accent": "#78aee8",
-        "secondary": "#e85a63",
-        "priority": 73,
-        "tags": [
-          "civic",
-          "celebration",
-          "procession"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "ZM",
-          "countryName": "Zambia",
-          "localName": "Independence Day",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 422,
-        "holidayFamily": "independence-day",
-        "popularityTier": "common",
-        "scopeTier": "national"
-      },
-      {
-        "title": "National Day",
-        "caption": "National Day · Austria",
-        "description": "国庆日通常纪念国家成立、独立或重要制度节点，是公共仪式、旗帜和国家身份表达的日子。",
-        "motif": "cityParade",
-        "gradient": [
-          "#101d34",
-          "#4a2432",
-          "#111316"
-        ],
-        "accent": "#78aee8",
-        "secondary": "#e85a63",
-        "priority": 72,
-        "tags": [
-          "civic",
-          "celebration",
-          "procession"
-        ],
-        "source": {
-          "provider": "OpenHolidays",
-          "countryCode": "AT",
-          "countryName": "Austria",
-          "localName": "National Day",
-          "typeLabels": [
-            "公众节日",
-            "全国性"
-          ],
-          "nationwide": true,
-          "subdivisions": []
-        },
-        "score": 407,
-        "holidayFamily": "national-day",
-        "popularityTier": "common",
-        "scopeTier": "national"
-      },
-      {
-        "title": "National Holiday",
-        "caption": "National Holiday · Nationalfeiertag",
-        "description": "National Holiday 通常标记国家层面的重要纪念日，具体含义会随国家历史、制度和公共传统而变化。",
-        "motif": "lotusMandala",
-        "gradient": [
-          "#171427",
-          "#4c3652",
-          "#111214"
-        ],
-        "accent": "#d6b6e8",
-        "secondary": "#87c9b7",
-        "priority": 69,
-        "tags": [
-          "religious",
-          "botanical",
-          "culture",
-          "heritage",
-          "civic"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "AT",
-          "countryName": "Austria",
-          "localName": "Nationalfeiertag",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 342,
-        "holidayFamily": "religious-observance",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Labour Day",
-        "caption": "Labour Day · New Zealand",
-        "description": "新西兰劳动节纪念当地争取八小时工作制的劳工传统，现代多成为春季长周末和家庭出行时间。",
-        "motif": "paperCut",
-        "gradient": [
-          "#101d34",
-          "#293f5d",
-          "#101316"
-        ],
-        "accent": "#78aee8",
-        "secondary": "#e85a63",
-        "priority": 67,
-        "tags": [
-          "civic",
-          "celebration",
-          "culture"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "NZ",
-          "countryName": "New Zealand",
-          "localName": "Labour Day",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 280,
-        "holidayFamily": "labour-day",
-        "popularityTier": "common",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Armed Forces Day",
-        "caption": "Armed Forces Day · Benin",
-        "description": "贝宁武装部队日表彰国家军队和公共安全服务，通常带有阅兵、官方致敬和国家仪式感。",
-        "motif": "wovenPattern",
-        "gradient": [
-          "#171822",
-          "#4d3d32",
-          "#111314"
-        ],
-        "accent": "#d8b95b",
-        "secondary": "#78bde8",
-        "priority": 65,
-        "tags": [
-          "culture",
-          "civic"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "BJ",
-          "countryName": "Benin",
-          "localName": "Armed Forces Day",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 230,
-        "holidayFamily": "national-civic-day",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Gospel Day",
-        "caption": "Gospel Day · Cook Islands",
-        "description": "Gospel Day是Cook Islands日历中的纪念日，通常承载当地历史、公共生活或季节性的休假安排。",
-        "motif": "maritimeFlags",
-        "gradient": [
-          "#0c2635",
-          "#255d70",
-          "#101417"
-        ],
-        "accent": "#76cce8",
-        "secondary": "#f0c95c",
-        "priority": 65,
-        "tags": [
-          "maritime",
-          "water",
-          "civic",
-          "island"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "CK",
-          "countryName": "Cook Islands",
-          "localName": "Gospel Day",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 230,
-        "holidayFamily": "national-civic-day",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Angam Day",
-        "caption": "Angam Day · Nauru",
-        "description": "Angam Day是Nauru日历中的纪念日，通常承载当地历史、公共生活或季节性的休假安排。",
-        "motif": "wovenPattern",
-        "gradient": [
-          "#171822",
-          "#4d3d32",
-          "#111314"
-        ],
-        "accent": "#d8b95b",
-        "secondary": "#78bde8",
-        "priority": 65,
-        "tags": [
-          "culture",
-          "civic"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "NR",
-          "countryName": "Nauru",
-          "localName": "Angam Day",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 230,
-        "holidayFamily": "national-civic-day",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Peniamina Gospel Day",
-        "caption": "Peniamina Gospel Day · Niue",
-        "description": "Peniamina Gospel Day是Niue日历中的纪念日，通常承载当地历史、公共生活或季节性的休假安排。",
-        "motif": "wovenPattern",
-        "gradient": [
-          "#171822",
-          "#4d3d32",
-          "#111314"
-        ],
-        "accent": "#d8b95b",
-        "secondary": "#78bde8",
-        "priority": 65,
-        "tags": [
-          "culture",
-          "civic"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "NU",
-          "countryName": "Niue",
-          "localName": "Peniamina Gospel Day",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 230,
-        "holidayFamily": "national-civic-day",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      }
-    ],
-    "2026-10-27": [
-      {
-        "title": "Independence Day",
-        "caption": "Independence Day · Saint Vincent and the Grenadines",
-        "description": "独立日通常纪念国家取得主权或脱离殖民统治的历史时刻，常伴随旗帜、仪式和公共庆祝。",
-        "motif": "stainedGlass",
-        "gradient": [
-          "#101a34",
-          "#4a2734",
-          "#111316"
-        ],
-        "accent": "#9fc8ff",
-        "secondary": "#e87a94",
-        "priority": 73,
-        "tags": [
-          "religious",
-          "heritage",
-          "light",
-          "civic"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "VC",
-          "countryName": "Saint Vincent and the Grenadines",
-          "localName": "Independence Day",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 422,
-        "holidayFamily": "independence-day",
-        "popularityTier": "common",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Municipal holiday",
-        "caption": "Municipal holiday · Portugal",
-        "description": "葡萄牙市镇假日通常由各地自行纪念守护圣人、建城传统或地方历史，日期和习俗会随着城市而变化。",
-        "motif": "lotusMandala",
-        "gradient": [
-          "#171427",
-          "#4c3652",
-          "#111214"
-        ],
-        "accent": "#d6b6e8",
-        "secondary": "#87c9b7",
-        "priority": 58,
-        "tags": [
-          "religious",
-          "botanical",
-          "culture",
-          "heritage"
-        ],
-        "source": {
-          "provider": "OpenHolidays",
-          "countryCode": "PT",
-          "countryName": "Portugal",
-          "localName": "Municipal holiday",
-          "typeLabels": [
-            "可选假日",
-            "地方性"
-          ],
-          "nationwide": false,
-          "subdivisions": [
-            "FA-LS"
-          ]
-        },
-        "score": 136,
-        "holidayFamily": "municipal-local",
-        "popularityTier": "local",
-        "scopeTier": "local"
-      }
-    ],
-    "2026-10-28": [
-      {
-        "title": "Independence Day",
-        "caption": "Independence Day · Czechia",
-        "description": "独立日通常纪念国家取得主权或脱离殖民统治的历史时刻，常伴随旗帜、仪式和公共庆祝。",
-        "motif": "cityParade",
-        "gradient": [
-          "#101d34",
-          "#4a2432",
-          "#111316"
-        ],
-        "accent": "#78aee8",
-        "secondary": "#e85a63",
-        "priority": 72,
-        "tags": [
-          "civic",
-          "celebration",
-          "procession"
-        ],
-        "source": {
-          "provider": "OpenHolidays",
-          "countryCode": "CZ",
-          "countryName": "Czechia",
-          "localName": "Independence Day",
-          "typeLabels": [
-            "公众节日",
-            "全国性"
-          ],
-          "nationwide": true,
-          "subdivisions": []
-        },
-        "score": 407,
-        "holidayFamily": "independence-day",
-        "popularityTier": "common",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Ohi Day",
-        "caption": "Ohi Day · Το Όχι",
-        "description": "塞浦路斯 Ohi Day 纪念1940年希腊拒绝轴心国最后通牒的“不”，在希腊语文化圈象征抵抗精神。",
-        "motif": "wovenPattern",
-        "gradient": [
-          "#171822",
-          "#4d3d32",
-          "#111314"
-        ],
-        "accent": "#d8b95b",
-        "secondary": "#78bde8",
-        "priority": 61,
-        "tags": [
-          "culture",
-          "civic"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "CY",
-          "countryName": "Cyprus",
-          "localName": "Το Όχι",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 150,
-        "holidayFamily": "national-civic-day",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Independent Czechoslovak State Day",
-        "caption": "Independent Czechoslovak State Day · Den vzniku samostatného československého státu",
-        "description": "捷克独立国家日纪念1918年捷克斯洛伐克成立，是现代捷克国家历史中的重要开端。",
-        "motif": "paperCut",
-        "gradient": [
-          "#25080c",
-          "#7a1e26",
-          "#12090a"
-        ],
-        "accent": "#f6c85f",
-        "secondary": "#e83b36",
-        "priority": 61,
-        "tags": [
-          "civic",
-          "celebration",
-          "culture"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "CZ",
-          "countryName": "Czechia",
-          "localName": "Den vzniku samostatného československého státu",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 150,
-        "holidayFamily": "national-civic-day",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Ochi Day",
-        "caption": "Ochi Day · Το Όχι",
-        "description": "希腊 Ochi Day 纪念1940年拒绝意大利最后通牒，游行、旗帜和学校活动常围绕抵抗与民族记忆展开。",
-        "motif": "wovenPattern",
-        "gradient": [
-          "#171822",
-          "#4d3d32",
-          "#111314"
-        ],
-        "accent": "#d8b95b",
-        "secondary": "#78bde8",
-        "priority": 61,
-        "tags": [
-          "culture",
-          "civic"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "GR",
-          "countryName": "Greece",
-          "localName": "Το Όχι",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 150,
-        "holidayFamily": "national-civic-day",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      }
-    ],
-    "2026-10-29": [
-      {
-        "title": "Republic Day",
-        "caption": "Republic Day · Cumhuriyet Bayramı",
-        "description": "土耳其共和国日纪念1923年共和国宣告成立，常以国旗、灯光、游行和纪念阿塔图尔克的仪式庆祝。",
-        "motif": "cityParade",
-        "gradient": [
-          "#101d34",
-          "#4a2432",
-          "#111316"
-        ],
-        "accent": "#78aee8",
-        "secondary": "#e85a63",
-        "priority": 69,
-        "tags": [
-          "civic",
-          "celebration",
-          "procession"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "TR",
-          "countryName": "Türkiye",
-          "localName": "Cumhuriyet Bayramı",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 342,
-        "holidayFamily": "republic-day",
-        "popularityTier": "common",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Coronation Day of King Sihamoni",
-        "caption": "Coronation Day of King Sihamoni · ព្រះរាជពិធីគ្រងព្រះបរមរាជសម្បត្តិរបស់ព្រះករុណាព្រះបាទសម្ដេចព្រះបរមនាថ នរោត្ដម សីហមុនី",
-        "description": "Cambodia以「ព្រះរាជពិធីគ្រងព្រះបរមរាជសម្បត្តិរបស់ព្រះករុណាព្រះបាទសម្ដេចព្រះបរមនាថ នរោត្ដម សីហមុនី」为名纪念这一天，通常与当地历史、传统或社区公共生活有关。",
-        "motif": "wovenPattern",
-        "gradient": [
-          "#171822",
-          "#4d3d32",
-          "#111314"
-        ],
-        "accent": "#d8b95b",
-        "secondary": "#78bde8",
-        "priority": 61,
-        "tags": [
-          "culture",
-          "civic"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "KH",
-          "countryName": "Cambodia",
-          "localName": "ព្រះរាជពិធីគ្រងព្រះបរមរាជសម្បត្តិរបស់ព្រះករុណាព្រះបាទសម្ដេចព្រះបរមនាថ នរោត្ដម សីហមុនី",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 150,
-        "holidayFamily": "national-civic-day",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      }
-    ],
-    "2026-10-30": [
-      {
-        "title": "St. Saturninus",
-        "caption": "St. Saturninus · Italy",
-        "description": "圣萨图尔尼诺日纪念撒丁岛卡利亚里等地的守护圣人传统，地方庆典中常见宗教礼仪和社区活动。",
-        "motif": "wovenPattern",
-        "gradient": [
-          "#10251f",
-          "#4f2c31",
-          "#111515"
-        ],
-        "accent": "#70bf75",
-        "secondary": "#e65b5b",
-        "priority": 62,
-        "tags": [
-          "culture",
-          "civic"
-        ],
-        "source": {
-          "provider": "OpenHolidays",
-          "countryCode": "IT",
-          "countryName": "Italy",
-          "localName": "St. Saturninus",
-          "typeLabels": [
-            "公众节日",
-            "地方性"
-          ],
-          "nationwide": false,
-          "subdivisions": [
-            "SA-CA"
-          ]
-        },
-        "score": 198,
-        "holidayFamily": "municipal-local",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      }
-    ],
-    "2026-10-31": [
-      {
-        "title": "Reformation Day",
-        "caption": "Reformation Day · Germany",
-        "description": "宗教改革日纪念马丁·路德与宗教改革传统，在欧洲新教地区常有礼拜、纪念和公共假日安排。",
-        "motif": "wovenPattern",
-        "gradient": [
-          "#151515",
-          "#55302d",
-          "#111111"
-        ],
-        "accent": "#d8b95b",
-        "secondary": "#d65345",
-        "priority": 66,
-        "tags": [
-          "culture",
-          "civic"
-        ],
-        "source": {
-          "provider": "OpenHolidays",
-          "countryCode": "DE",
-          "countryName": "Germany",
-          "localName": "Reformation Day",
-          "typeLabels": [
-            "公众节日",
-            "地方性"
-          ],
-          "nationwide": false,
-          "subdivisions": [
-            "SH",
-            "ST",
-            "HH",
-            "HB",
-            "TH",
-            "MV",
-            "SN",
-            "NI"
-          ]
-        },
-        "score": 298,
-        "holidayFamily": "municipal-local",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
-        "title": "All Saints' Day",
-        "caption": "All Saints' Day · Sweden",
-        "description": "诸圣节源自基督教传统，用来纪念圣徒，也常与献花、点烛、扫墓和追思逝者联系在一起。",
-        "motif": "stainedGlass",
-        "gradient": [
-          "#101a34",
-          "#4a2734",
-          "#111316"
-        ],
-        "accent": "#9fc8ff",
-        "secondary": "#e87a94",
-        "priority": 67,
-        "tags": [
-          "religious",
-          "heritage",
-          "light",
-          "memorial"
-        ],
-        "source": {
-          "provider": "OpenHolidays",
-          "countryCode": "SE",
-          "countryName": "Sweden",
-          "localName": "All Saints' Day",
-          "typeLabels": [
-            "公众节日",
-            "全国性"
-          ],
-          "nationwide": true,
-          "subdivisions": []
-        },
-        "score": 279,
-        "holidayFamily": "saint-day",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Martyrs' Day",
-        "caption": "Martyrs' Day · Burkina Faso",
-        "description": "Martyrs' Day是Burkina Faso日历中的纪念日，通常承载当地历史、公共生活或季节性的休假安排。",
-        "motif": "doveGarland",
-        "gradient": [
-          "#101827",
-          "#2e3d51",
-          "#101316"
-        ],
-        "accent": "#f2f0d6",
-        "secondary": "#d8c070",
-        "priority": 65,
-        "tags": [
-          "remembrance",
-          "light",
-          "civic"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "BF",
-          "countryName": "Burkina Faso",
-          "localName": "Martyrs' Day",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 230,
-        "holidayFamily": "remembrance",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Reformation Day",
-        "caption": "Reformation Day · Slovenia",
-        "description": "宗教改革日纪念马丁·路德与宗教改革传统，在欧洲新教地区常有礼拜、纪念和公共假日安排。",
-        "motif": "wovenPattern",
-        "gradient": [
-          "#171822",
-          "#4d3d32",
-          "#111314"
-        ],
-        "accent": "#d8b95b",
-        "secondary": "#78bde8",
-        "priority": 64,
-        "tags": [
-          "culture",
-          "civic"
-        ],
-        "source": {
-          "provider": "OpenHolidays",
-          "countryCode": "SI",
-          "countryName": "Slovenia",
-          "localName": "Reformation Day",
-          "typeLabels": [
-            "公众节日",
-            "全国性"
-          ],
-          "nationwide": true,
-          "subdivisions": []
-        },
-        "score": 215,
-        "holidayFamily": "national-civic-day",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
-        "title": "All Saints' Day",
-        "caption": "All Saints' Day · Pyhäinpäivä",
-        "description": "诸圣节源自基督教传统，用来纪念圣徒，也常与献花、点烛、扫墓和追思逝者联系在一起。",
-        "motif": "stainedGlass",
-        "gradient": [
-          "#101a34",
-          "#4a2734",
-          "#111316"
-        ],
-        "accent": "#9fc8ff",
-        "secondary": "#e87a94",
-        "priority": 64,
-        "tags": [
-          "religious",
-          "heritage",
-          "light",
-          "memorial"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "FI",
-          "countryName": "Finland",
-          "localName": "Pyhäinpäivä",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 214,
-        "holidayFamily": "saint-day",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
-        "title": "All Saints' Day Eve",
-        "caption": "All Saints' Day Eve · Philippines",
-        "description": "菲律宾诸圣日前夕连接万圣节和扫墓传统，许多家庭会准备前往墓园祭扫和团聚。",
-        "motif": "stainedGlass",
-        "gradient": [
-          "#101a34",
-          "#4a2734",
-          "#111316"
-        ],
-        "accent": "#9fc8ff",
-        "secondary": "#e87a94",
-        "priority": 64,
-        "tags": [
-          "religious",
-          "heritage",
-          "light",
-          "sky",
-          "memorial"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "PH",
-          "countryName": "Philippines",
-          "localName": "All Saints' Day Eve",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 214,
-        "holidayFamily": "saint-day",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Reformation Day",
-        "caption": "Reformation Day · Día Nacional de las Iglesias Evangélicas y Protestantes",
-        "description": "宗教改革日纪念马丁·路德与宗教改革传统，在欧洲新教地区常有礼拜、纪念和公共假日安排。",
-        "motif": "wovenPattern",
-        "gradient": [
-          "#171822",
-          "#4d3d32",
-          "#111314"
-        ],
-        "accent": "#d8b95b",
-        "secondary": "#78bde8",
-        "priority": 61,
-        "tags": [
-          "culture",
-          "civic"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "CL",
-          "countryName": "Chile",
-          "localName": "Día Nacional de las Iglesias Evangélicas y Protestantes",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 150,
-        "holidayFamily": "national-civic-day",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      }
-    ],
-    "2026-11-01": [
-      {
-        "title": "All Saints Day",
-        "caption": "All Saints Day · France",
-        "description": "诸圣节源自基督教传统，用来纪念圣徒，也常与献花、点烛、扫墓和追思逝者联系在一起。",
-        "motif": "stainedGlass",
-        "gradient": [
-          "#101d3f",
-          "#342742",
-          "#4c2734"
-        ],
-        "accent": "#6aa7ff",
-        "secondary": "#e85a63",
-        "priority": 73,
-        "tags": [
-          "religious",
-          "heritage",
-          "light",
-          "memorial"
-        ],
-        "source": {
-          "provider": "OpenHolidays",
-          "countryCode": "FR",
-          "countryName": "France",
-          "localName": "All Saints Day",
-          "typeLabels": [
-            "公众节日",
-            "全国性"
-          ],
-          "nationwide": true,
-          "subdivisions": []
-        },
-        "score": 429,
-        "holidayFamily": "saint-day",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
-        "title": "National Youth Day",
-        "caption": "National Youth Day · Nigeria",
-        "description": "尼日利亚国家青年日关注青年参与、教育、就业和公共生活，也呼应这个年轻人口众多国家的社会议题。",
-        "motif": "cityParade",
-        "gradient": [
-          "#101d34",
-          "#4a2432",
-          "#111316"
-        ],
-        "accent": "#78aee8",
-        "secondary": "#e85a63",
-        "priority": 73,
-        "tags": [
-          "civic",
-          "celebration",
-          "procession",
-          "sports"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "NG",
-          "countryName": "Nigeria",
-          "localName": "National Youth Day",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 422,
-        "holidayFamily": "national-civic-day",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
-        "title": "All Saints' Day",
-        "caption": "All Saints' Day · Italy",
-        "description": "诸圣节源自基督教传统，用来纪念圣徒，也常与献花、点烛、扫墓和追思逝者联系在一起。",
-        "motif": "stainedGlass",
-        "gradient": [
-          "#10251f",
-          "#4f2c31",
-          "#111515"
-        ],
-        "accent": "#70bf75",
-        "secondary": "#e65b5b",
-        "priority": 70,
-        "tags": [
-          "religious",
-          "heritage",
-          "light",
-          "memorial"
-        ],
-        "source": {
-          "provider": "OpenHolidays",
-          "countryCode": "IT",
-          "countryName": "Italy",
-          "localName": "All Saints' Day",
-          "typeLabels": [
-            "公众节日",
-            "全国性"
-          ],
-          "nationwide": true,
-          "subdivisions": []
-        },
-        "score": 369,
-        "holidayFamily": "saint-day",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
-        "title": "All Saints' Day",
-        "caption": "All Saints' Day · Germany",
-        "description": "诸圣节源自基督教传统，用来纪念圣徒，也常与献花、点烛、扫墓和追思逝者联系在一起。",
-        "motif": "stainedGlass",
-        "gradient": [
-          "#151515",
-          "#55302d",
-          "#111111"
-        ],
-        "accent": "#d8b95b",
-        "secondary": "#d65345",
-        "priority": 69,
-        "tags": [
-          "religious",
-          "heritage",
-          "light",
-          "memorial"
-        ],
-        "source": {
-          "provider": "OpenHolidays",
-          "countryCode": "DE",
-          "countryName": "Germany",
-          "localName": "All Saints' Day",
-          "typeLabels": [
-            "公众节日",
-            "地方性"
-          ],
-          "nationwide": false,
-          "subdivisions": [
-            "SL",
-            "NW",
-            "BW",
-            "RP",
-            "BY"
-          ]
-        },
-        "score": 362,
-        "holidayFamily": "municipal-local",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Revolution Day",
-        "caption": "Revolution Day · Algeria",
-        "description": "革命日纪念推动国家政治或社会变革的重要历史事件，常与国家身份和公共仪式相连。",
-        "motif": "wovenPattern",
-        "gradient": [
-          "#171822",
-          "#4d3d32",
-          "#111314"
-        ],
-        "accent": "#d8b95b",
-        "secondary": "#78bde8",
-        "priority": 65,
-        "tags": [
-          "culture",
-          "civic"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "DZ",
-          "countryName": "Algeria",
-          "localName": "Revolution Day",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 230,
-        "holidayFamily": "revolution-day",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Day of Remembrance for the Dead",
-        "caption": "Day of Remembrance for the Dead · Slovenia",
-        "description": "这是带有追思性质的纪念日，常用静默、花束、仪式或公共纪念来记住历史与逝去的人。",
-        "motif": "ancestralTable",
-        "gradient": [
-          "#101827",
-          "#37304d",
-          "#111214"
-        ],
-        "accent": "#f0c95c",
-        "secondary": "#d65345",
-        "priority": 63,
-        "tags": [
-          "remembrance",
-          "religious",
-          "light",
-          "memorial"
-        ],
-        "source": {
-          "provider": "OpenHolidays",
-          "countryCode": "SI",
-          "countryName": "Slovenia",
-          "localName": "Day of Remembrance for the Dead",
-          "typeLabels": [
-            "公众节日",
-            "全国性"
-          ],
-          "nationwide": true,
-          "subdivisions": []
-        },
-        "score": 199,
-        "holidayFamily": "remembrance",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Day of the Dead",
-        "caption": "Day of the Dead · dan spomina na mrtve",
-        "description": "the Dead日通常纪念地方身份、自治传统或区域历史，是当地公共生活与社区记忆的一部分。",
-        "motif": "ancestralTable",
-        "gradient": [
-          "#101827",
-          "#37304d",
-          "#111214"
-        ],
-        "accent": "#f0c95c",
-        "secondary": "#d65345",
-        "priority": 61,
-        "tags": [
-          "remembrance",
-          "religious",
-          "light"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "SI",
-          "countryName": "Slovenia",
-          "localName": "dan spomina na mrtve",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 150,
-        "holidayFamily": "religious-observance",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
-        "title": "All Saints' Day",
-        "caption": "All Saints' Day · Spain",
-        "description": "诸圣节源自基督教传统，用来纪念圣徒，也常与献花、点烛、扫墓和追思逝者联系在一起。",
-        "motif": "stainedGlass",
-        "gradient": [
-          "#211619",
-          "#63362a",
-          "#111314"
-        ],
-        "accent": "#d8b95b",
-        "secondary": "#e65b5b",
-        "priority": 70,
-        "tags": [
-          "religious",
-          "heritage",
-          "light",
-          "memorial"
-        ],
-        "source": {
-          "provider": "OpenHolidays",
-          "countryCode": "ES",
-          "countryName": "Spain",
-          "localName": "All Saints' Day",
-          "typeLabels": [
-            "公众节日",
-            "全国性"
-          ],
-          "nationwide": true,
-          "subdivisions": []
-        },
-        "score": 369,
-        "holidayFamily": "saint-day",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      }
-    ],
     "2026-11-02": [
       {
         "title": "Independence Day",
@@ -9501,6 +1313,38 @@ window.YearCalendarHolidayCache = {
         "score": 422,
         "holidayFamily": "independence-day",
         "popularityTier": "common",
+        "scopeTier": "national"
+      },
+      {
+        "title": "Independence of Cuenca",
+        "caption": "Independence of Cuenca · Independencia de Cuenca",
+        "description": "昆卡独立日纪念1820年厄瓜多尔昆卡脱离西班牙统治，城市庆典常连接游行、音乐和地方身份。",
+        "motif": "cityParade",
+        "gradient": [
+          "#101d34",
+          "#4a2432",
+          "#111316"
+        ],
+        "accent": "#78aee8",
+        "secondary": "#e85a63",
+        "priority": 69,
+        "tags": [
+          "civic",
+          "celebration",
+          "procession"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "EC",
+          "countryName": "Ecuador",
+          "localName": "Independencia de Cuenca",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 342,
+        "holidayFamily": "national-civic-day",
+        "popularityTier": "niche",
         "scopeTier": "national"
       },
       {
@@ -9582,37 +1426,6 @@ window.YearCalendarHolidayCache = {
         "scopeTier": "national"
       },
       {
-        "title": "Marlborough Anniversary Day",
-        "caption": "Marlborough Anniversary Day · New Zealand",
-        "description": "马尔堡周年纪念日是新西兰地方假日，纪念地区历史、地方身份和社区生活。",
-        "motif": "wovenPattern",
-        "gradient": [
-          "#101d34",
-          "#293f5d",
-          "#101316"
-        ],
-        "accent": "#78aee8",
-        "secondary": "#e85a63",
-        "priority": 64,
-        "tags": [
-          "culture",
-          "civic"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "NZ",
-          "countryName": "New Zealand",
-          "localName": "Marlborough Anniversary Day",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 240,
-        "holidayFamily": "national-civic-day",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
         "title": "All Souls' Day",
         "caption": "All Souls' Day · Guinea-Bissau",
         "description": "诸灵节延续基督教追思传统，许多地方会在这一天前往墓地、点烛或以家庭仪式纪念逝去的人。",
@@ -9677,6 +1490,37 @@ window.YearCalendarHolidayCache = {
         "scopeTier": "unknown"
       },
       {
+        "title": "Marlborough Anniversary Day",
+        "caption": "Marlborough Anniversary Day · New Zealand",
+        "description": "马尔堡周年纪念日是新西兰地方假日，纪念地区历史、地方身份和社区生活。",
+        "motif": "wovenPattern",
+        "gradient": [
+          "#101d34",
+          "#293f5d",
+          "#101316"
+        ],
+        "accent": "#78aee8",
+        "secondary": "#e85a63",
+        "priority": 64,
+        "tags": [
+          "culture",
+          "civic"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "NZ",
+          "countryName": "New Zealand",
+          "localName": "Marlborough Anniversary Day",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 240,
+        "holidayFamily": "national-civic-day",
+        "popularityTier": "niche",
+        "scopeTier": "national"
+      },
+      {
         "title": "All Souls' Day",
         "caption": "All Souls' Day · Lithuania",
         "description": "诸灵节延续基督教追思传统，许多地方会在这一天前往墓地、点烛或以家庭仪式纪念逝去的人。",
@@ -9708,41 +1552,6 @@ window.YearCalendarHolidayCache = {
         },
         "score": 215,
         "holidayFamily": "religious-observance",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
-        "title": "All Souls' Day",
-        "caption": "All Souls' Day · San Marino",
-        "description": "诸灵节延续基督教追思传统，许多地方会在这一天前往墓地、点烛或以家庭仪式纪念逝去的人。",
-        "motif": "ancestralTable",
-        "gradient": [
-          "#101827",
-          "#37304d",
-          "#111214"
-        ],
-        "accent": "#f0c95c",
-        "secondary": "#d65345",
-        "priority": 64,
-        "tags": [
-          "remembrance",
-          "religious",
-          "light"
-        ],
-        "source": {
-          "provider": "OpenHolidays",
-          "countryCode": "SM",
-          "countryName": "San Marino",
-          "localName": "All Souls' Day",
-          "typeLabels": [
-            "公众节日",
-            "全国性"
-          ],
-          "nationwide": true,
-          "subdivisions": []
-        },
-        "score": 215,
-        "holidayFamily": "saint-day",
         "popularityTier": "niche",
         "scopeTier": "national"
       }
@@ -9845,33 +1654,32 @@ window.YearCalendarHolidayCache = {
         "scopeTier": "national"
       },
       {
-        "title": "Independence of Cuenca",
-        "caption": "Independence of Cuenca · Independencia de Cuenca",
-        "description": "昆卡独立日纪念1820年厄瓜多尔昆卡脱离西班牙统治，城市庆典常连接游行、音乐和地方身份。",
-        "motif": "cityParade",
+        "title": "Melbourne Cup",
+        "caption": "Melbourne Cup · Australia",
+        "description": "墨尔本杯日围绕澳大利亚著名赛马赛事展开，在维多利亚州尤其重要，常与观赛、社交和节庆着装相连。",
+        "motif": "wovenPattern",
         "gradient": [
           "#101d34",
-          "#4a2432",
+          "#263a54",
           "#111316"
         ],
         "accent": "#78aee8",
-        "secondary": "#e85a63",
-        "priority": 69,
+        "secondary": "#d8b95b",
+        "priority": 64,
         "tags": [
-          "civic",
-          "celebration",
-          "procession"
+          "culture",
+          "civic"
         ],
         "source": {
           "provider": "Nager.Date",
-          "countryCode": "EC",
-          "countryName": "Ecuador",
-          "localName": "Independencia de Cuenca",
+          "countryCode": "AU",
+          "countryName": "Australia",
+          "localName": "Melbourne Cup",
           "typeLabels": [
             "公众节日"
           ]
         },
-        "score": 342,
+        "score": 230,
         "holidayFamily": "national-civic-day",
         "popularityTier": "niche",
         "scopeTier": "national"
@@ -9913,39 +1721,8 @@ window.YearCalendarHolidayCache = {
         "scopeTier": "national"
       },
       {
-        "title": "Melbourne Cup",
-        "caption": "Melbourne Cup · Australia",
-        "description": "墨尔本杯日围绕澳大利亚著名赛马赛事展开，在维多利亚州尤其重要，常与观赛、社交和节庆着装相连。",
-        "motif": "wovenPattern",
-        "gradient": [
-          "#101d34",
-          "#263a54",
-          "#111316"
-        ],
-        "accent": "#78aee8",
-        "secondary": "#d8b95b",
-        "priority": 64,
-        "tags": [
-          "culture",
-          "civic"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "AU",
-          "countryName": "Australia",
-          "localName": "Melbourne Cup",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 230,
-        "holidayFamily": "national-civic-day",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
         "title": "Separation Day",
-        "caption": "Separation Day · Panama",
+        "caption": "Separation Day · Separación de Panamá de Colombia",
         "description": "巴拿马分离日纪念1903年脱离哥伦比亚，是巴拿马独立月中最重要的国家纪念之一。",
         "motif": "wovenPattern",
         "gradient": [
@@ -9955,7 +1732,7 @@ window.YearCalendarHolidayCache = {
         ],
         "accent": "#d8b95b",
         "secondary": "#78bde8",
-        "priority": 65,
+        "priority": 61,
         "tags": [
           "culture",
           "civic"
@@ -9964,12 +1741,12 @@ window.YearCalendarHolidayCache = {
           "provider": "Nager.Date",
           "countryCode": "PA",
           "countryName": "Panama",
-          "localName": "Separation Day",
+          "localName": "Separación de Panamá de Colombia",
           "typeLabels": [
             "公众节日"
           ]
         },
-        "score": 230,
+        "score": 150,
         "holidayFamily": "national-civic-day",
         "popularityTier": "niche",
         "scopeTier": "national"
@@ -10010,9 +1787,40 @@ window.YearCalendarHolidayCache = {
         "scopeTier": "national"
       },
       {
+        "title": "Election Day",
+        "caption": "Election Day · South Africa",
+        "description": "Election Day是南非日历中的纪念日，通常承载当地历史、公共生活或季节性的休假安排。",
+        "motif": "wovenPattern",
+        "gradient": [
+          "#10251f",
+          "#1f415a",
+          "#111515"
+        ],
+        "accent": "#77c98e",
+        "secondary": "#d8b95b",
+        "priority": 67,
+        "tags": [
+          "culture",
+          "civic"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "ZA",
+          "countryName": "South Africa",
+          "localName": "Election Day",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 280,
+        "holidayFamily": "national-civic-day",
+        "popularityTier": "niche",
+        "scopeTier": "national"
+      },
+      {
         "title": "Community Service Day",
         "caption": "Community Service Day · Dominica",
-        "description": "Community Service Day是Dominica日历中的纪念日，通常承载当地历史、公共生活或季节性的休假安排。",
+        "description": "社区服务日鼓励多米尼克居民参与社区维护与公共服务，通过共同劳动加强邻里连接。",
         "motif": "cityParade",
         "gradient": [
           "#101d34",
@@ -10038,71 +1846,6 @@ window.YearCalendarHolidayCache = {
         },
         "score": 230,
         "holidayFamily": "national-civic-day",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Citizenship Day",
-        "caption": "Citizenship Day · Northern Mariana Islands",
-        "description": "Citizenship Day是Northern Mariana Islands日历中的纪念日，通常承载当地历史、公共生活或季节性的休假安排。",
-        "motif": "maritimeFlags",
-        "gradient": [
-          "#0c2635",
-          "#255d70",
-          "#101417"
-        ],
-        "accent": "#76cce8",
-        "secondary": "#f0c95c",
-        "priority": 65,
-        "tags": [
-          "maritime",
-          "water",
-          "civic",
-          "island"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "MP",
-          "countryName": "Northern Mariana Islands",
-          "localName": "Citizenship Day",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 230,
-        "holidayFamily": "national-civic-day",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
-        "title": "Flag Day",
-        "caption": "Flag Day · Panama",
-        "description": "巴拿马国旗日纪念国旗诞生，学校、官方机构和社区活动常以旗帜展示国家身份。",
-        "motif": "paperCut",
-        "gradient": [
-          "#25080c",
-          "#7a1e26",
-          "#12090a"
-        ],
-        "accent": "#f6c85f",
-        "secondary": "#e83b36",
-        "priority": 65,
-        "tags": [
-          "civic",
-          "celebration",
-          "culture"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "PA",
-          "countryName": "Panama",
-          "localName": "Flag Day",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 230,
-        "holidayFamily": "national-symbol-day",
         "popularityTier": "niche",
         "scopeTier": "national"
       },
@@ -10136,6 +1879,72 @@ window.YearCalendarHolidayCache = {
         "score": 150,
         "holidayFamily": "unity-day",
         "popularityTier": "common",
+        "scopeTier": "national"
+      },
+      {
+        "title": "Flag Day",
+        "caption": "Flag Day · Día de los Símbolos Patrios",
+        "description": "巴拿马国旗日纪念国旗诞生，学校、官方机构和社区活动常以旗帜展示国家身份。",
+        "motif": "paperCut",
+        "gradient": [
+          "#25080c",
+          "#7a1e26",
+          "#12090a"
+        ],
+        "accent": "#f6c85f",
+        "secondary": "#e83b36",
+        "priority": 56,
+        "tags": [
+          "civic",
+          "celebration",
+          "culture"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "PA",
+          "countryName": "Panama",
+          "localName": "Día de los Símbolos Patrios",
+          "typeLabels": [
+            "学校假日",
+            "政府机关假日"
+          ]
+        },
+        "score": 70,
+        "holidayFamily": "national-symbol-day",
+        "popularityTier": "niche",
+        "scopeTier": "unknown"
+      },
+      {
+        "title": "Citizenship Day",
+        "caption": "Citizenship Day · Northern Mariana Islands",
+        "description": "公民日是北马里亚纳群岛纪念国家制度、共同体身份或重要历史转折的日子，常伴随官方仪式、旗帜和公共活动。",
+        "motif": "maritimeFlags",
+        "gradient": [
+          "#0c2635",
+          "#255d70",
+          "#101417"
+        ],
+        "accent": "#76cce8",
+        "secondary": "#f0c95c",
+        "priority": 65,
+        "tags": [
+          "maritime",
+          "water",
+          "civic",
+          "island"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "MP",
+          "countryName": "Northern Mariana Islands",
+          "localName": "Citizenship Day",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 230,
+        "holidayFamily": "national-civic-day",
+        "popularityTier": "niche",
         "scopeTier": "national"
       }
     ],
@@ -10174,9 +1983,9 @@ window.YearCalendarHolidayCache = {
         "scopeTier": "national"
       },
       {
-        "title": "Colon Day",
-        "caption": "Colon Day · Colón Day",
-        "description": "巴拿马科隆日纪念科隆市在1903年分离进程中的角色，是独立月里具有加勒比港城色彩的纪念日。",
+        "title": "Consolidation of the Separation Day",
+        "caption": "Consolidation of the Separation Day · Consolidación de la Separación de Panamá de Colombia",
+        "description": "Panama以「Consolidación de la Separación de Panamá de Colombia」为名纪念这一天，通常与当地历史、传统或社区公共生活有关。",
         "motif": "wovenPattern",
         "gradient": [
           "#171822",
@@ -10185,7 +1994,7 @@ window.YearCalendarHolidayCache = {
         ],
         "accent": "#d8b95b",
         "secondary": "#78bde8",
-        "priority": 65,
+        "priority": 61,
         "tags": [
           "culture",
           "civic"
@@ -10194,12 +2003,12 @@ window.YearCalendarHolidayCache = {
           "provider": "Nager.Date",
           "countryCode": "PA",
           "countryName": "Panama",
-          "localName": "Colón Day",
+          "localName": "Consolidación de la Separación de Panamá de Colombia",
           "typeLabels": [
             "公众节日"
           ]
         },
-        "score": 230,
+        "score": 150,
         "holidayFamily": "national-civic-day",
         "popularityTier": "niche",
         "scopeTier": "national"
@@ -10384,42 +2193,9 @@ window.YearCalendarHolidayCache = {
         "scopeTier": "national"
       },
       {
-        "title": "All Saints Day",
-        "caption": "All Saints Day · Alla helgons dag",
-        "description": "诸圣节源自基督教传统，用来纪念圣徒，也常与献花、点烛、扫墓和追思逝者联系在一起。",
-        "motif": "stainedGlass",
-        "gradient": [
-          "#101a34",
-          "#4a2734",
-          "#111316"
-        ],
-        "accent": "#9fc8ff",
-        "secondary": "#e87a94",
-        "priority": 64,
-        "tags": [
-          "religious",
-          "heritage",
-          "light",
-          "memorial"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "AX",
-          "countryName": "Åland Islands",
-          "localName": "Alla helgons dag",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 214,
-        "holidayFamily": "saint-day",
-        "popularityTier": "niche",
-        "scopeTier": "national"
-      },
-      {
         "title": "Border Guards Day",
         "caption": "Border Guards Day · Robežsargu diena",
-        "description": "Latvia以「Robežsargu diena」为名纪念这一天，通常与当地历史、传统或社区公共生活有关。",
+        "description": "边防卫士日是拉脱维亚纪念国防与公共服务人员的日子，通常通过官方仪式表达敬意。",
         "motif": "wovenPattern",
         "gradient": [
           "#171822",
@@ -10554,7 +2330,7 @@ window.YearCalendarHolidayCache = {
       {
         "title": "National Independence Day",
         "caption": "National Independence Day · ទិវាបុណ្យឯករាជ្យជាតិ",
-        "description": "Cambodia的独立纪念日，通常纪念国家取得主权或脱离殖民统治的历史时刻，常伴随旗帜、仪式和公共庆祝。",
+        "description": "国家独立日是柬埔寨纪念国家制度、共同体身份或重要历史转折的日子，常伴随官方仪式、旗帜和公共活动。",
         "motif": "cityParade",
         "gradient": [
           "#101d34",
@@ -10719,7 +2495,7 @@ window.YearCalendarHolidayCache = {
       },
       {
         "title": "Shout in Villa de los Santos",
-        "caption": "Shout in Villa de los Santos · Panama",
+        "caption": "Shout in Villa de los Santos · Primer Grito de Independencia de la Villa de Los Santos",
         "description": "洛斯桑托斯镇呼声日纪念1821年巴拿马地方独立呼声，常被视为脱离西班牙统治进程的象征性开端。",
         "motif": "wovenPattern",
         "gradient": [
@@ -10738,7 +2514,7 @@ window.YearCalendarHolidayCache = {
           "provider": "Nager.Date",
           "countryCode": "PA",
           "countryName": "Panama",
-          "localName": "Shout in Villa de los Santos",
+          "localName": "Primer Grito de Independencia de la Villa de Los Santos",
           "typeLabels": [
             "公众节日"
           ]
@@ -10888,7 +2664,7 @@ window.YearCalendarHolidayCache = {
       {
         "title": "St Martin's Day",
         "caption": "St Martin's Day · Switzerland",
-        "description": "St Martin's Day是瑞士日历中的纪念日，通常承载当地历史、公共生活或季节性的休假安排。",
+        "description": "圣马丁日是瑞士宗教与地方传统中的节日，人们常通过礼拜、纪念、家庭团聚或社区活动标记这一天。",
         "motif": "wovenPattern",
         "gradient": [
           "#151b27",
@@ -10956,7 +2732,7 @@ window.YearCalendarHolidayCache = {
       {
         "title": "Saint Martin's Day",
         "caption": "Saint Martin's Day · Martinstag",
-        "description": "Austria以「Martinstag」为名纪念这一天，通常与当地历史、传统或社区公共生活有关。",
+        "description": "圣马丁日是奥地利宗教与地方传统中的节日，人们常通过礼拜、纪念、家庭团聚或社区活动标记这一天。",
         "motif": "stainedGlass",
         "gradient": [
           "#101a34",
@@ -11058,7 +2834,7 @@ window.YearCalendarHolidayCache = {
       {
         "title": "Maore Day",
         "caption": "Maore Day · Comoros",
-        "description": "Maore Day是Comoros日历中的纪念日，通常承载当地历史、公共生活或季节性的休假安排。",
+        "description": "马约特日是科摩罗公共日历中的纪念日，承载当地历史、文化传统和社区生活，常伴随官方仪式或公共活动。",
         "motif": "wovenPattern",
         "gradient": [
           "#171822",
@@ -11192,7 +2968,7 @@ window.YearCalendarHolidayCache = {
       {
         "title": "National Peace Day",
         "caption": "National Peace Day · Ivory Coast",
-        "description": "National Peace Day是Ivory Coast日历中的纪念日，通常承载当地历史、公共生活或季节性的休假安排。",
+        "description": "国家和平日是科特迪瓦回顾重要历史、纪念前人并表达和平愿望的公共纪念日，常有追思或社区仪式。",
         "motif": "doveGarland",
         "gradient": [
           "#101827",
@@ -11422,7 +3198,7 @@ window.YearCalendarHolidayCache = {
       {
         "title": "Statia Day",
         "caption": "Statia Day · Caribbean Netherlands",
-        "description": "Statia Day是Caribbean Netherlands日历中的纪念日，通常承载当地历史、公共生活或季节性的休假安排。",
+        "description": "圣尤斯特歇斯日是荷属加勒比公共日历中的纪念日，承载当地历史、文化传统和社区生活，常伴随官方仪式或公共活动。",
         "motif": "wovenPattern",
         "gradient": [
           "#171822",
@@ -11455,7 +3231,7 @@ window.YearCalendarHolidayCache = {
       {
         "title": "Presidents' Day",
         "caption": "Presidents' Day · Marshall Islands",
-        "description": "Presidents' Day是Marshall Islands日历中的纪念日，通常承载当地历史、公共生活或季节性的休假安排。",
+        "description": "总统日是马绍尔群岛公共日历中的纪念日，承载当地历史、文化传统和社区生活，常伴随官方仪式或公共活动。",
         "motif": "maritimeFlags",
         "gradient": [
           "#0c2635",
@@ -12090,7 +3866,7 @@ window.YearCalendarHolidayCache = {
       {
         "title": "Matari'i",
         "caption": "Matari'i · French Polynesia",
-        "description": "Matari'i是French Polynesia日历中的纪念日，通常承载当地历史、公共生活或季节性的休假安排。",
+        "description": "玛塔里伊节是法属波利尼西亚具有代表性的季节或文化节庆，连接当地传统、家庭生活与社区庆祝。",
         "motif": "wovenPattern",
         "gradient": [
           "#171822",
@@ -12220,7 +3996,7 @@ window.YearCalendarHolidayCache = {
       {
         "title": "Remembrance Day of the Tragedy of 21 November 2013",
         "caption": "Remembrance Day of the Tragedy of 21 November 2013 · 2013. gada 21. novembra traģēdijas atceres diena",
-        "description": "这是带有追思性质的纪念日，常用静默、花束、仪式或公共纪念来记住历史与逝去的人。",
+        "description": "2013年11月21日惨剧纪念日是拉脱维亚回顾重要历史、纪念前人并表达和平愿望的公共纪念日，常有追思或社区仪式。",
         "motif": "doveGarland",
         "gradient": [
           "#101827",
@@ -12351,7 +4127,7 @@ window.YearCalendarHolidayCache = {
       {
         "title": "The 1949 Great March and Restoration Day",
         "caption": "The 1949 Great March and Restoration Day · British Virgin Islands",
-        "description": "The 1949 Great March and Restoration Day是British Virgin Islands日历中的纪念日，通常承载当地历史、公共生活或季节性的休假安排。",
+        "description": "1949年大游行与复兴日是英属维尔京群岛回顾重要历史、纪念前人并表达和平愿望的公共纪念日，常有追思或社区仪式。",
         "motif": "maritimeFlags",
         "gradient": [
           "#0c2635",
@@ -12384,7 +4160,7 @@ window.YearCalendarHolidayCache = {
       {
         "title": "Water Festival",
         "caption": "Water Festival · ពិធីបុណ្យអុំទូក បណ្ដែតប្រទីប អកអំបុក និងសំពះព្រះខែ",
-        "description": "Cambodia以「ពិធីបុណ្យអុំទូក បណ្ដែតប្រទីប អកអំបុក និងសំពះព្រះខែ」为名纪念这一天，通常与当地历史、传统或社区公共生活有关。",
+        "description": "送水节是柬埔寨具有代表性的季节或文化节庆，连接当地传统、家庭生活与社区庆祝。",
         "motif": "carnivalMasks",
         "gradient": [
           "#18142a",
@@ -12519,7 +4295,7 @@ window.YearCalendarHolidayCache = {
       {
         "title": "Presidents Day",
         "caption": "Presidents Day · Micronesia",
-        "description": "Presidents Day是Micronesia日历中的纪念日，通常承载当地历史、公共生活或季节性的休假安排。",
+        "description": "总统日是密克罗尼西亚联邦公共日历中的纪念日，承载当地历史、文化传统和社区生活，常伴随官方仪式或公共活动。",
         "motif": "wovenPattern",
         "gradient": [
           "#171822",
@@ -12552,7 +4328,7 @@ window.YearCalendarHolidayCache = {
       {
         "title": "Water Festival",
         "caption": "Water Festival · ពិធីបុណ្យអុំទូក បណ្ដែតប្រទីប អកអំបុក និងសំពះព្រះខែ",
-        "description": "Cambodia以「ពិធីបុណ្យអុំទូក បណ្ដែតប្រទីប អកអំបុក និងសំពះព្រះខែ」为名纪念这一天，通常与当地历史、传统或社区公共生活有关。",
+        "description": "送水节是柬埔寨具有代表性的季节或文化节庆，连接当地传统、家庭生活与社区庆祝。",
         "motif": "carnivalMasks",
         "gradient": [
           "#18142a",
@@ -12692,7 +4468,7 @@ window.YearCalendarHolidayCache = {
       {
         "title": "Water Festival",
         "caption": "Water Festival · ពិធីបុណ្យអុំទូក បណ្ដែតប្រទីប អកអំបុក និងសំពះព្រះខែ",
-        "description": "Cambodia以「ពិធីបុណ្យអុំទូក បណ្ដែតប្រទីប អកអំបុក និងសំពះព្រះខែ」为名纪念这一天，通常与当地历史、传统或社区公共生活有关。",
+        "description": "送水节是柬埔寨具有代表性的季节或文化节庆，连接当地传统、家庭生活与社区庆祝。",
         "motif": "carnivalMasks",
         "gradient": [
           "#18142a",
@@ -12890,6 +4666,40 @@ window.YearCalendarHolidayCache = {
         "scopeTier": "national"
       },
       {
+        "title": "Thanksgiving",
+        "caption": "Thanksgiving · Northern Mariana Islands",
+        "description": "感恩节以感谢、收获和团聚为核心，常见习俗包括家庭餐桌、秋日食物和与亲友共度假日。",
+        "motif": "maritimeFlags",
+        "gradient": [
+          "#211916",
+          "#604026",
+          "#111314"
+        ],
+        "accent": "#d8a05f",
+        "secondary": "#9bb06d",
+        "priority": 69,
+        "tags": [
+          "maritime",
+          "water",
+          "civic",
+          "island",
+          "celebration"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "MP",
+          "countryName": "Northern Mariana Islands",
+          "localName": "Thanksgiving",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 342,
+        "holidayFamily": "national-civic-day",
+        "popularityTier": "major",
+        "scopeTier": "national"
+      },
+      {
         "title": "Thanksgiving Day",
         "caption": "Thanksgiving Day · Día de Acción de Gracias",
         "description": "感恩节以感谢、收获和团聚为核心，常见习俗包括家庭餐桌、秋日食物和与亲友共度假日。",
@@ -12958,43 +4768,9 @@ window.YearCalendarHolidayCache = {
     ],
     "2026-11-27": [
       {
-        "title": "Thanksgiving",
-        "caption": "Thanksgiving · Northern Mariana Islands",
-        "description": "感恩节以感谢、收获和团聚为核心，常见习俗包括家庭餐桌、秋日食物和与亲友共度假日。",
-        "motif": "maritimeFlags",
-        "gradient": [
-          "#211916",
-          "#604026",
-          "#111314"
-        ],
-        "accent": "#d8a05f",
-        "secondary": "#9bb06d",
-        "priority": 69,
-        "tags": [
-          "maritime",
-          "water",
-          "civic",
-          "island",
-          "celebration"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "MP",
-          "countryName": "Northern Mariana Islands",
-          "localName": "Thanksgiving",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 342,
-        "holidayFamily": "national-civic-day",
-        "popularityTier": "major",
-        "scopeTier": "national"
-      },
-      {
         "title": "Family Day",
         "caption": "Family Day · Palau",
-        "description": "Family Day是Palau日历中的纪念日，通常承载当地历史、公共生活或季节性的休假安排。",
+        "description": "家庭日是帕劳围绕家庭与照护关系设立的节日，人们常以团聚、祝福和社区活动表达感谢。",
         "motif": "wovenPattern",
         "gradient": [
           "#171822",
@@ -13065,7 +4841,7 @@ window.YearCalendarHolidayCache = {
       {
         "title": "Republic Day",
         "caption": "Republic Day · Chad",
-        "description": "Chad的共和国纪念日，通常纪念共和国体制确立或重要宪政转折，是国家身份的一部分。",
+        "description": "共和国日是乍得纪念国家制度、共同体身份或重要历史转折的日子，常伴随官方仪式、旗帜和公共活动。",
         "motif": "cityParade",
         "gradient": [
           "#101d34",
@@ -13127,38 +4903,6 @@ window.YearCalendarHolidayCache = {
         "scopeTier": "national"
       },
       {
-        "title": "Independence Day",
-        "caption": "Independence Day · Panama",
-        "description": "独立日通常纪念国家取得主权或脱离殖民统治的历史时刻，常伴随旗帜、仪式和公共庆祝。",
-        "motif": "cityParade",
-        "gradient": [
-          "#101d34",
-          "#4a2432",
-          "#111316"
-        ],
-        "accent": "#78aee8",
-        "secondary": "#e85a63",
-        "priority": 73,
-        "tags": [
-          "civic",
-          "celebration",
-          "procession"
-        ],
-        "source": {
-          "provider": "Nager.Date",
-          "countryCode": "PA",
-          "countryName": "Panama",
-          "localName": "Independence Day",
-          "typeLabels": [
-            "公众节日"
-          ]
-        },
-        "score": 422,
-        "holidayFamily": "independence-day",
-        "popularityTier": "common",
-        "scopeTier": "national"
-      },
-      {
         "title": "Republic Day",
         "caption": "Republic Day · Jour de la République",
         "description": "刚果共和国日纪念1958年法兰西共同体内自治共和国成立，后来成为独立国家道路上的政治节点。",
@@ -13189,13 +4933,45 @@ window.YearCalendarHolidayCache = {
         "holidayFamily": "republic-day",
         "popularityTier": "common",
         "scopeTier": "national"
+      },
+      {
+        "title": "Independence Day",
+        "caption": "Independence Day · Independencia de Panamá de España",
+        "description": "独立日通常纪念国家取得主权或脱离殖民统治的历史时刻，常伴随旗帜、仪式和公共庆祝。",
+        "motif": "cityParade",
+        "gradient": [
+          "#101d34",
+          "#4a2432",
+          "#111316"
+        ],
+        "accent": "#78aee8",
+        "secondary": "#e85a63",
+        "priority": 69,
+        "tags": [
+          "civic",
+          "celebration",
+          "procession"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "PA",
+          "countryName": "Panama",
+          "localName": "Independencia de Panamá de España",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 342,
+        "holidayFamily": "independence-day",
+        "popularityTier": "common",
+        "scopeTier": "national"
       }
     ],
     "2026-11-29": [
       {
         "title": "National Unity Day",
         "caption": "National Unity Day · Vanuatu",
-        "description": "National Unity Day是Vanuatu日历中的纪念日，通常承载当地历史、公共生活或季节性的休假安排。",
+        "description": "民族团结日是瓦努阿图纪念国家制度、共同体身份或重要历史转折的日子，常伴随官方仪式、旗帜和公共活动。",
         "motif": "cityParade",
         "gradient": [
           "#101d34",
@@ -13227,7 +5003,7 @@ window.YearCalendarHolidayCache = {
       {
         "title": "William V. S. Tubman's Birthday",
         "caption": "William V. S. Tubman's Birthday · Liberia",
-        "description": "William V. S. Tubman's Birthday是Liberia日历中的纪念日，通常承载当地历史、公共生活或季节性的休假安排。",
+        "description": "威廉·V·S·塔布曼诞辰纪念利比里亚历史或公共生活中的重要人物，相关活动通常包括官方纪念和社区参与。",
         "motif": "wovenPattern",
         "gradient": [
           "#171822",
@@ -13696,7 +5472,7 @@ window.YearCalendarHolidayCache = {
       {
         "title": "Freedom and Democracy Day",
         "caption": "Freedom and Democracy Day · Chad",
-        "description": "Freedom and Democracy Day是Chad日历中的纪念日，通常承载当地历史、公共生活或季节性的休假安排。",
+        "description": "自由与民主日是乍得纪念国家制度、共同体身份或重要历史转折的日子，常伴随官方仪式、旗帜和公共活动。",
         "motif": "oliveBranches",
         "gradient": [
           "#10251f",
@@ -13754,6 +5530,6859 @@ window.YearCalendarHolidayCache = {
         "score": 150,
         "holidayFamily": "national-civic-day",
         "popularityTier": "niche",
+        "scopeTier": "national"
+      }
+    ],
+    "2026-12-03": [
+      {
+        "title": "International Day of Persons with Disabilities",
+        "caption": "International Day of Persons with Disabilities · 国际残疾人日",
+        "description": "联合国纪念日，关注无障碍环境、平等参与和多样身体经验。",
+        "motif": "paperKites",
+        "gradient": [
+          "#102238",
+          "#365a70",
+          "#101418"
+        ],
+        "accent": "#78bde6",
+        "secondary": "#e6b66b",
+        "priority": 70,
+        "tags": [
+          "culture",
+          "international",
+          "civic"
+        ],
+        "source": {
+          "provider": "Curated Cultural Observances",
+          "countryCode": "INTL",
+          "countryName": "International",
+          "zhName": "国际",
+          "localName": "国际残疾人日",
+          "typeLabels": [
+            "文化日"
+          ]
+        },
+        "score": 593,
+        "holidayFamily": "culture-observance",
+        "popularityTier": "common",
+        "scopeTier": "international"
+      },
+      {
+        "title": "San Francisco Javier",
+        "caption": "San Francisco Javier · Spain",
+        "description": "纳瓦拉等地纪念圣方济各·沙勿略，这位出生于当地的耶稣会传教士也连接伊比利亚和亚洲传教史。",
+        "motif": "wovenPattern",
+        "gradient": [
+          "#211619",
+          "#63362a",
+          "#111314"
+        ],
+        "accent": "#d8b95b",
+        "secondary": "#e65b5b",
+        "priority": 62,
+        "tags": [
+          "culture",
+          "civic"
+        ],
+        "source": {
+          "provider": "OpenHolidays",
+          "countryCode": "ES",
+          "countryName": "Spain",
+          "localName": "San Francisco Javier",
+          "typeLabels": [
+            "公众节日",
+            "地方性"
+          ],
+          "nationwide": false,
+          "subdivisions": [
+            "NC"
+          ]
+        },
+        "score": 198,
+        "holidayFamily": "municipal-local",
+        "popularityTier": "niche",
+        "scopeTier": "national"
+      }
+    ],
+    "2026-12-04": [
+      {
+        "title": "Farmers' Day",
+        "caption": "Farmers' Day · Ghana",
+        "description": "加纳农民日表彰农民、渔民和农业劳动者对粮食与经济的贡献，常有评选、集市和官方致敬活动。",
+        "motif": "wovenPattern",
+        "gradient": [
+          "#171822",
+          "#4d3d32",
+          "#111314"
+        ],
+        "accent": "#d8b95b",
+        "secondary": "#78bde8",
+        "priority": 65,
+        "tags": [
+          "culture",
+          "civic"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "GH",
+          "countryName": "Ghana",
+          "localName": "Farmers' Day",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 230,
+        "holidayFamily": "national-civic-day",
+        "popularityTier": "niche",
+        "scopeTier": "national"
+      },
+      {
+        "title": "Gospel Day",
+        "caption": "Gospel Day · Marshall Islands",
+        "description": "Gospel Day是Marshall Islands日历中的纪念日，通常承载当地历史、公共生活或季节性的休假安排。",
+        "motif": "maritimeFlags",
+        "gradient": [
+          "#0c2635",
+          "#255d70",
+          "#101417"
+        ],
+        "accent": "#76cce8",
+        "secondary": "#f0c95c",
+        "priority": 65,
+        "tags": [
+          "maritime",
+          "water",
+          "civic",
+          "island"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "MH",
+          "countryName": "Marshall Islands",
+          "localName": "Gospel Day",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 230,
+        "holidayFamily": "national-civic-day",
+        "popularityTier": "niche",
+        "scopeTier": "national"
+      },
+      {
+        "title": "Saba Day",
+        "caption": "Saba Day · Caribbean Netherlands",
+        "description": "Saba Day是Caribbean Netherlands日历中的纪念日，通常承载当地历史、公共生活或季节性的休假安排。",
+        "motif": "wovenPattern",
+        "gradient": [
+          "#171822",
+          "#4d3d32",
+          "#111314"
+        ],
+        "accent": "#d8b95b",
+        "secondary": "#78bde8",
+        "priority": 62,
+        "tags": [
+          "culture",
+          "civic"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "BQ",
+          "countryName": "Caribbean Netherlands",
+          "localName": "Saba Day",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 190,
+        "holidayFamily": "national-civic-day",
+        "popularityTier": "niche",
+        "scopeTier": "national"
+      },
+      {
+        "title": "Anniversary of the Coronation of H.M. King George Tubou I",
+        "caption": "Anniversary of the Coronation of H.M. King George Tubou I · Tonga",
+        "description": "Anniversary of the Coronation of H.M. King George Tubou I是Tonga日历中的纪念日，通常承载当地历史、公共生活或季节性的休假安排。",
+        "motif": "maritimeFlags",
+        "gradient": [
+          "#0c2635",
+          "#255d70",
+          "#101417"
+        ],
+        "accent": "#76cce8",
+        "secondary": "#f0c95c",
+        "priority": 61,
+        "tags": [
+          "maritime",
+          "water",
+          "civic",
+          "island"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "TO",
+          "countryName": "Tonga",
+          "localName": "Anniversary of the Coronation of H.M. King George Tubou I",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 150,
+        "holidayFamily": "national-civic-day",
+        "popularityTier": "niche",
+        "scopeTier": "national"
+      }
+    ],
+    "2026-12-05": [
+      {
+        "title": "International Volunteer Day",
+        "caption": "International Volunteer Day · 国际志愿者日",
+        "description": "联合国纪念日，感谢志愿服务、社区互助和日常善意。",
+        "motif": "lanterns",
+        "gradient": [
+          "#171427",
+          "#523143",
+          "#111214"
+        ],
+        "accent": "#f0c95c",
+        "secondary": "#e85a63",
+        "priority": 68,
+        "tags": [
+          "culture",
+          "international",
+          "light"
+        ],
+        "source": {
+          "provider": "Curated Cultural Observances",
+          "countryCode": "INTL",
+          "countryName": "International",
+          "zhName": "国际",
+          "localName": "国际志愿者日",
+          "typeLabels": [
+            "文化日"
+          ]
+        },
+        "score": 577,
+        "holidayFamily": "culture-observance",
+        "popularityTier": "observance",
+        "scopeTier": "international"
+      },
+      {
+        "title": "Discovery Day",
+        "caption": "Discovery Day · Découverte d'Haïti",
+        "description": "海地发现日回望1492年欧洲人抵达伊斯帕尼奥拉岛的历史，现代语境中也会牵连殖民记忆与岛屿身份。",
+        "motif": "wovenPattern",
+        "gradient": [
+          "#171822",
+          "#4d3d32",
+          "#111314"
+        ],
+        "accent": "#d8b95b",
+        "secondary": "#78bde8",
+        "priority": 61,
+        "tags": [
+          "culture",
+          "civic"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "HT",
+          "countryName": "Haiti",
+          "localName": "Découverte d'Haïti",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 150,
+        "holidayFamily": "national-civic-day",
+        "popularityTier": "niche",
+        "scopeTier": "national"
+      },
+      {
+        "title": "Police Day",
+        "caption": "Police Day · Policijas darbinieku diena",
+        "description": "Latvia以「Policijas darbinieku diena」为名纪念这一天，通常与当地历史、传统或社区公共生活有关。",
+        "motif": "wovenPattern",
+        "gradient": [
+          "#171822",
+          "#4d3d32",
+          "#111314"
+        ],
+        "accent": "#d8b95b",
+        "secondary": "#78bde8",
+        "priority": 56,
+        "tags": [
+          "culture",
+          "civic"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "LV",
+          "countryName": "Latvia",
+          "localName": "Policijas darbinieku diena",
+          "typeLabels": [
+            "纪念日"
+          ]
+        },
+        "score": 70,
+        "holidayFamily": "remembrance",
+        "popularityTier": "niche",
+        "scopeTier": "unknown"
+      }
+    ],
+    "2026-12-06": [
+      {
+        "title": "Constitution Day",
+        "caption": "Constitution Day · Spain",
+        "description": "宪法日纪念宪法秩序或现代国家制度的重要节点，是公共生活中回顾法治与国家制度的日子。",
+        "motif": "cityParade",
+        "gradient": [
+          "#211619",
+          "#63362a",
+          "#111314"
+        ],
+        "accent": "#d8b95b",
+        "secondary": "#e65b5b",
+        "priority": 76,
+        "tags": [
+          "civic",
+          "celebration",
+          "procession"
+        ],
+        "source": {
+          "provider": "OpenHolidays",
+          "countryCode": "ES",
+          "countryName": "Spain",
+          "localName": "Constitution Day",
+          "typeLabels": [
+            "公众节日",
+            "全国性"
+          ],
+          "nationwide": true,
+          "subdivisions": []
+        },
+        "score": 497,
+        "holidayFamily": "constitution-day",
+        "popularityTier": "common",
+        "scopeTier": "national"
+      },
+      {
+        "title": "Independence Day",
+        "caption": "Independence Day · Självständighetsdagen",
+        "description": "独立日通常纪念国家取得主权或脱离殖民统治的历史时刻，常伴随旗帜、仪式和公共庆祝。",
+        "motif": "maritimeFlags",
+        "gradient": [
+          "#0c2635",
+          "#255d70",
+          "#101417"
+        ],
+        "accent": "#76cce8",
+        "secondary": "#f0c95c",
+        "priority": 69,
+        "tags": [
+          "maritime",
+          "water",
+          "civic",
+          "island"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "AX",
+          "countryName": "Åland Islands",
+          "localName": "Självständighetsdagen",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 342,
+        "holidayFamily": "independence-day",
+        "popularityTier": "common",
+        "scopeTier": "national"
+      },
+      {
+        "title": "Independence Day",
+        "caption": "Independence Day · Itsenäisyyspäivä",
+        "description": "独立日通常纪念国家取得主权或脱离殖民统治的历史时刻，常伴随旗帜、仪式和公共庆祝。",
+        "motif": "cityParade",
+        "gradient": [
+          "#101d34",
+          "#4a2432",
+          "#111316"
+        ],
+        "accent": "#78aee8",
+        "secondary": "#e85a63",
+        "priority": 69,
+        "tags": [
+          "civic",
+          "celebration",
+          "procession"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "FI",
+          "countryName": "Finland",
+          "localName": "Itsenäisyyspäivä",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 342,
+        "holidayFamily": "independence-day",
+        "popularityTier": "common",
+        "scopeTier": "national"
+      },
+      {
+        "title": "St. Nicholas",
+        "caption": "St. Nicholas · Italy",
+        "description": "意大利部分地方在圣尼古拉日纪念守护圣人，巴里等地尤其把圣人遗物、海港城市传统和礼仪相连。",
+        "motif": "wovenPattern",
+        "gradient": [
+          "#10251f",
+          "#4f2c31",
+          "#111515"
+        ],
+        "accent": "#70bf75",
+        "secondary": "#e65b5b",
+        "priority": 62,
+        "tags": [
+          "culture",
+          "civic"
+        ],
+        "source": {
+          "provider": "OpenHolidays",
+          "countryCode": "IT",
+          "countryName": "Italy",
+          "localName": "St. Nicholas",
+          "typeLabels": [
+            "公众节日",
+            "地方性"
+          ],
+          "nationwide": false,
+          "subdivisions": [
+            "PU-BA"
+          ]
+        },
+        "score": 198,
+        "holidayFamily": "municipal-local",
+        "popularityTier": "niche",
+        "scopeTier": "national"
+      },
+      {
+        "title": "Commemoration Day of Victims of Genocide Against the Latvian People By the Totalitarian Communist Regime",
+        "caption": "Commemoration Day of Victims of Genocide Against the Latvian People By the Totalitarian Communist Regime · Pret latviešu tautu vērstā totalitārā komunistiskā režīma genocīda upuru piemiņas diena",
+        "description": "Latvia以「Pret latviešu tautu vērstā totalitārā komunistiskā režīma genocīda upuru piemiņas diena」为名纪念这一天，通常与当地历史、传统或社区公共生活有关。",
+        "motif": "wovenPattern",
+        "gradient": [
+          "#171822",
+          "#4d3d32",
+          "#111314"
+        ],
+        "accent": "#d8b95b",
+        "secondary": "#78bde8",
+        "priority": 56,
+        "tags": [
+          "culture",
+          "civic"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "LV",
+          "countryName": "Latvia",
+          "localName": "Pret latviešu tautu vērstā totalitārā komunistiskā režīma genocīda upuru piemiņas diena",
+          "typeLabels": [
+            "纪念日"
+          ]
+        },
+        "score": 70,
+        "holidayFamily": "remembrance",
+        "popularityTier": "niche",
+        "scopeTier": "unknown"
+      }
+    ],
+    "2026-12-07": [
+      {
+        "title": "Monday following Constitution Day",
+        "caption": "Monday following Constitution Day · Spain",
+        "description": "西班牙部分地区的宪法日后星期一是围绕12月宪法日形成的地方休假安排，让公共纪念延伸为长周末。",
+        "motif": "cityParade",
+        "gradient": [
+          "#211619",
+          "#63362a",
+          "#111314"
+        ],
+        "accent": "#d8b95b",
+        "secondary": "#e65b5b",
+        "priority": 74,
+        "tags": [
+          "civic",
+          "celebration",
+          "procession"
+        ],
+        "source": {
+          "provider": "OpenHolidays",
+          "countryCode": "ES",
+          "countryName": "Spain",
+          "localName": "Monday following Constitution Day",
+          "typeLabels": [
+            "公众节日",
+            "地方性"
+          ],
+          "nationwide": false,
+          "subdivisions": [
+            "RI",
+            "ML",
+            "AR",
+            "MC",
+            "MD",
+            "CB"
+          ]
+        },
+        "score": 470,
+        "holidayFamily": "constitution-day",
+        "popularityTier": "common",
+        "scopeTier": "national"
+      },
+      {
+        "title": "St. Ambrose",
+        "caption": "St. Ambrose · Italy",
+        "description": "圣安波罗修日纪念米兰守护圣人 Ambrose，米兰常以宗教礼仪、市集和冬季城市活动迎接节日季。",
+        "motif": "petals",
+        "gradient": [
+          "#10251f",
+          "#4f2c31",
+          "#111515"
+        ],
+        "accent": "#70bf75",
+        "secondary": "#e65b5b",
+        "priority": 62,
+        "tags": [
+          "botanical",
+          "memorial"
+        ],
+        "source": {
+          "provider": "OpenHolidays",
+          "countryCode": "IT",
+          "countryName": "Italy",
+          "localName": "St. Ambrose",
+          "typeLabels": [
+            "公众节日",
+            "地方性"
+          ],
+          "nationwide": false,
+          "subdivisions": [
+            "LO-MI"
+          ]
+        },
+        "score": 198,
+        "holidayFamily": "municipal-local",
+        "popularityTier": "niche",
+        "scopeTier": "national"
+      }
+    ],
+    "2026-12-08": [
+      {
+        "title": "Constitution Day",
+        "caption": "Constitution Day · Northern Mariana Islands",
+        "description": "宪法日纪念宪法秩序或现代国家制度的重要节点，是公共生活中回顾法治与国家制度的日子。",
+        "motif": "maritimeFlags",
+        "gradient": [
+          "#0c2635",
+          "#255d70",
+          "#101417"
+        ],
+        "accent": "#76cce8",
+        "secondary": "#f0c95c",
+        "priority": 73,
+        "tags": [
+          "maritime",
+          "water",
+          "civic",
+          "island"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "MP",
+          "countryName": "Northern Mariana Islands",
+          "localName": "Constitution Day",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 422,
+        "holidayFamily": "constitution-day",
+        "popularityTier": "common",
+        "scopeTier": "national"
+      },
+      {
+        "title": "Immaculate Conception",
+        "caption": "Immaculate Conception · Immacolata Concezione",
+        "description": "圣母无染原罪节源自天主教传统，纪念圣母玛利亚的纯洁信仰，在许多国家是宗教假日。",
+        "motif": "stainedGlass",
+        "gradient": [
+          "#10251f",
+          "#4f2c31",
+          "#111515"
+        ],
+        "accent": "#70bf75",
+        "secondary": "#e65b5b",
+        "priority": 65,
+        "tags": [
+          "religious",
+          "heritage",
+          "light"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "IT",
+          "countryName": "Italy",
+          "localName": "Immacolata Concezione",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 240,
+        "holidayFamily": "religious-observance",
+        "popularityTier": "niche",
+        "scopeTier": "national"
+      },
+      {
+        "title": "Immaculate Conception",
+        "caption": "Immaculate Conception · Inmaculada Concepción",
+        "description": "圣母无染原罪节源自天主教传统，纪念圣母玛利亚的纯洁信仰，在许多国家是宗教假日。",
+        "motif": "stainedGlass",
+        "gradient": [
+          "#211619",
+          "#63362a",
+          "#111314"
+        ],
+        "accent": "#d8b95b",
+        "secondary": "#e65b5b",
+        "priority": 65,
+        "tags": [
+          "religious",
+          "heritage",
+          "light"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "ES",
+          "countryName": "Spain",
+          "localName": "Inmaculada Concepción",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 240,
+        "holidayFamily": "religious-observance",
+        "popularityTier": "niche",
+        "scopeTier": "national"
+      },
+      {
+        "title": "Battle Day",
+        "caption": "Battle Day · Falkland Islands",
+        "description": "Battle Day是Falkland Islands日历中的纪念日，通常承载当地历史、公共生活或季节性的休假安排。",
+        "motif": "maritimeFlags",
+        "gradient": [
+          "#0c2635",
+          "#255d70",
+          "#101417"
+        ],
+        "accent": "#76cce8",
+        "secondary": "#f0c95c",
+        "priority": 65,
+        "tags": [
+          "maritime",
+          "water",
+          "civic",
+          "island"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "FK",
+          "countryName": "Falkland Islands",
+          "localName": "Battle Day",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 230,
+        "holidayFamily": "national-civic-day",
+        "popularityTier": "niche",
+        "scopeTier": "national"
+      },
+      {
+        "title": "Saint Clement of Ohrid Day",
+        "caption": "Saint Clement of Ohrid Day · Св. Климент Охридски, Sv. Kliment Ohridski",
+        "description": "North Macedonia以「Св. Климент Охридски, Sv. Kliment Ohridski」为名纪念这一天，通常与当地历史、传统或社区公共生活有关。",
+        "motif": "stainedGlass",
+        "gradient": [
+          "#101a34",
+          "#4a2734",
+          "#111316"
+        ],
+        "accent": "#9fc8ff",
+        "secondary": "#e87a94",
+        "priority": 61,
+        "tags": [
+          "religious",
+          "heritage",
+          "light"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "MK",
+          "countryName": "North Macedonia",
+          "localName": "Св. Климент Охридски, Sv. Kliment Ohridski",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 150,
+        "holidayFamily": "saint-day",
+        "popularityTier": "niche",
+        "scopeTier": "national"
+      },
+      {
+        "title": "Mother's Day",
+        "caption": "Mother's Day · Día de las Madres",
+        "description": "巴拿马母亲节定在12月8日，与圣母无染原罪日相连，家庭聚会、鲜花和向母亲致意是常见主题。",
+        "motif": "petals",
+        "gradient": [
+          "#241525",
+          "#643044",
+          "#111214"
+        ],
+        "accent": "#e87a94",
+        "secondary": "#d7b56b",
+        "priority": 61,
+        "tags": [
+          "botanical",
+          "memorial"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "PA",
+          "countryName": "Panama",
+          "localName": "Día de las Madres",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 150,
+        "holidayFamily": "remembrance",
+        "popularityTier": "common",
+        "scopeTier": "national"
+      },
+      {
+        "title": "Youth Day",
+        "caption": "Youth Day · Albania",
+        "description": "青年日关注年轻人的公共参与、创造力和历史角色，在不同国家可能纪念本国青年运动或社会事件。",
+        "motif": "sportsMedals",
+        "gradient": [
+          "#101d34",
+          "#365a70",
+          "#101418"
+        ],
+        "accent": "#d8b95b",
+        "secondary": "#78bde8",
+        "priority": 64,
+        "tags": [
+          "sports",
+          "celebration",
+          "civic"
+        ],
+        "source": {
+          "provider": "OpenHolidays",
+          "countryCode": "AL",
+          "countryName": "Albania",
+          "localName": "Youth Day",
+          "typeLabels": [
+            "公众节日",
+            "全国性"
+          ],
+          "nationwide": true,
+          "subdivisions": []
+        },
+        "score": 215,
+        "holidayFamily": "national-civic-day",
+        "popularityTier": "niche",
+        "scopeTier": "national"
+      },
+      {
+        "title": "Immaculate Conception's Day",
+        "caption": "Immaculate Conception's Day · Monaco",
+        "description": "摩纳哥圣母无染原罪日源自天主教礼仪，纪念圣母玛利亚无原罪始胎，也进入冬季宗教节庆序列。",
+        "motif": "stainedGlass",
+        "gradient": [
+          "#101a34",
+          "#4a2734",
+          "#111316"
+        ],
+        "accent": "#9fc8ff",
+        "secondary": "#e87a94",
+        "priority": 64,
+        "tags": [
+          "religious",
+          "heritage",
+          "light"
+        ],
+        "source": {
+          "provider": "OpenHolidays",
+          "countryCode": "MC",
+          "countryName": "Monaco",
+          "localName": "Immaculate Conception's Day",
+          "typeLabels": [
+            "公众节日",
+            "全国性"
+          ],
+          "nationwide": true,
+          "subdivisions": []
+        },
+        "score": 215,
+        "holidayFamily": "religious-observance",
+        "popularityTier": "niche",
+        "scopeTier": "national"
+      }
+    ],
+    "2026-12-09": [
+      {
+        "title": "National Heroes' Day",
+        "caption": "National Heroes' Day · Antigua and Barbuda",
+        "description": "National Heroes' Day是Antigua and Barbuda日历中的纪念日，通常承载当地历史、公共生活或季节性的休假安排。",
+        "motif": "cityParade",
+        "gradient": [
+          "#101d34",
+          "#4a2432",
+          "#111316"
+        ],
+        "accent": "#78aee8",
+        "secondary": "#e85a63",
+        "priority": 73,
+        "tags": [
+          "civic",
+          "celebration",
+          "procession"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "AG",
+          "countryName": "Antigua and Barbuda",
+          "localName": "National Heroes' Day",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 422,
+        "holidayFamily": "heroes-day",
+        "popularityTier": "niche",
+        "scopeTier": "national"
+      },
+      {
+        "title": "Independence Day",
+        "caption": "Independence Day · Siku ya Uhuru",
+        "description": "独立日通常纪念国家取得主权或脱离殖民统治的历史时刻，常伴随旗帜、仪式和公共庆祝。",
+        "motif": "cityParade",
+        "gradient": [
+          "#101d34",
+          "#4a2432",
+          "#111316"
+        ],
+        "accent": "#78aee8",
+        "secondary": "#e85a63",
+        "priority": 69,
+        "tags": [
+          "civic",
+          "celebration",
+          "procession"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "TZ",
+          "countryName": "Tanzania",
+          "localName": "Siku ya Uhuru",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 342,
+        "holidayFamily": "independence-day",
+        "popularityTier": "common",
+        "scopeTier": "national"
+      },
+      {
+        "title": "Battle of Ayacucho",
+        "caption": "Battle of Ayacucho · Batalla de Ayacucho",
+        "description": "Peru以「Batalla de Ayacucho」为名纪念这一天，通常与当地历史、传统或社区公共生活有关。",
+        "motif": "wovenPattern",
+        "gradient": [
+          "#171822",
+          "#4d3d32",
+          "#111314"
+        ],
+        "accent": "#d8b95b",
+        "secondary": "#78bde8",
+        "priority": 61,
+        "tags": [
+          "culture",
+          "civic"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "PE",
+          "countryName": "Peru",
+          "localName": "Batalla de Ayacucho",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 150,
+        "holidayFamily": "national-civic-day",
+        "popularityTier": "niche",
+        "scopeTier": "national"
+      }
+    ],
+    "2026-12-10": [
+      {
+        "title": "Human Rights Day",
+        "caption": "Human Rights Day · 人权日",
+        "description": "联合国纪念日，关注人的尊严、自由与平等。",
+        "motif": "candle",
+        "gradient": [
+          "#101827",
+          "#37304d",
+          "#111214"
+        ],
+        "accent": "#f0c95c",
+        "secondary": "#f2f0d6",
+        "priority": 74,
+        "tags": [
+          "culture",
+          "international",
+          "civic",
+          "light"
+        ],
+        "source": {
+          "provider": "Curated Cultural Observances",
+          "countryCode": "INTL",
+          "countryName": "International",
+          "zhName": "国际",
+          "localName": "人权日",
+          "typeLabels": [
+            "文化日"
+          ]
+        },
+        "score": 625,
+        "holidayFamily": "rights-observance",
+        "popularityTier": "niche",
+        "scopeTier": "international"
+      },
+      {
+        "title": "Victory Day",
+        "caption": "Victory Day · Iraq",
+        "description": "Victory Day是Iraq日历中的纪念日，通常承载当地历史、公共生活或季节性的休假安排。",
+        "motif": "laurelTorch",
+        "gradient": [
+          "#151515",
+          "#55302d",
+          "#111111"
+        ],
+        "accent": "#d8b95b",
+        "secondary": "#d65345",
+        "priority": 65,
+        "tags": [
+          "civic",
+          "remembrance",
+          "light"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "IQ",
+          "countryName": "Iraq",
+          "localName": "Victory Day",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 230,
+        "holidayFamily": "remembrance",
+        "popularityTier": "niche",
+        "scopeTier": "national"
+      },
+      {
+        "title": "Human Rights and Peace Day",
+        "caption": "Human Rights and Peace Day · Kiribati",
+        "description": "Human Rights and Peace Day是Kiribati日历中的纪念日，通常承载当地历史、公共生活或季节性的休假安排。",
+        "motif": "doveGarland",
+        "gradient": [
+          "#101827",
+          "#2e3d51",
+          "#101316"
+        ],
+        "accent": "#f2f0d6",
+        "secondary": "#d8c070",
+        "priority": 65,
+        "tags": [
+          "remembrance",
+          "light",
+          "civic"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "KI",
+          "countryName": "Kiribati",
+          "localName": "Human Rights and Peace Day",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 230,
+        "holidayFamily": "rights-observance",
+        "popularityTier": "niche",
+        "scopeTier": "national"
+      },
+      {
+        "title": "Human Rights Day",
+        "caption": "Human Rights Day · Namibia",
+        "description": "人权日纪念人的尊严、自由与平等，在不同国家可能对应本国民主运动或联合国人权传统。",
+        "motif": "doveGarland",
+        "gradient": [
+          "#101827",
+          "#2e3d51",
+          "#101316"
+        ],
+        "accent": "#f2f0d6",
+        "secondary": "#d8c070",
+        "priority": 65,
+        "tags": [
+          "remembrance",
+          "light",
+          "civic"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "NA",
+          "countryName": "Namibia",
+          "localName": "Human Rights Day",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 230,
+        "holidayFamily": "rights-observance",
+        "popularityTier": "niche",
+        "scopeTier": "national"
+      }
+    ],
+    "2026-12-11": [
+      {
+        "title": "International Mountain Day",
+        "caption": "International Mountain Day · 国际山岳日",
+        "description": "联合国纪念日，关注山地生态、地方社区和高处风景中的生活。",
+        "motif": "mountainFlags",
+        "gradient": [
+          "#151b27",
+          "#4d2727",
+          "#111314"
+        ],
+        "accent": "#e65b5b",
+        "secondary": "#f0f0f2",
+        "priority": 68,
+        "tags": [
+          "culture",
+          "international",
+          "mountain"
+        ],
+        "source": {
+          "provider": "Curated Cultural Observances",
+          "countryCode": "INTL",
+          "countryName": "International",
+          "zhName": "国际",
+          "localName": "国际山岳日",
+          "typeLabels": [
+            "文化日"
+          ]
+        },
+        "score": 577,
+        "holidayFamily": "culture-observance",
+        "popularityTier": "observance",
+        "scopeTier": "international"
+      },
+      {
+        "title": "Proclamation of Independence Day",
+        "caption": "Proclamation of Independence Day · Burkina Faso",
+        "description": "Burkina Faso的独立纪念日，通常纪念国家取得主权或脱离殖民统治的历史时刻，常伴随旗帜、仪式和公共庆祝。",
+        "motif": "cityParade",
+        "gradient": [
+          "#101d34",
+          "#4a2432",
+          "#111316"
+        ],
+        "accent": "#78aee8",
+        "secondary": "#e85a63",
+        "priority": 73,
+        "tags": [
+          "civic",
+          "celebration",
+          "procession"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "BF",
+          "countryName": "Burkina Faso",
+          "localName": "Proclamation of Independence Day",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 422,
+        "holidayFamily": "independence-day",
+        "popularityTier": "common",
+        "scopeTier": "national"
+      },
+      {
+        "title": "Municipal holiday",
+        "caption": "Municipal holiday · Portugal",
+        "description": "葡萄牙市镇假日通常由各地自行纪念守护圣人、建城传统或地方历史，日期和习俗会随着城市而变化。",
+        "motif": "lotusMandala",
+        "gradient": [
+          "#171427",
+          "#4c3652",
+          "#111214"
+        ],
+        "accent": "#d6b6e8",
+        "secondary": "#87c9b7",
+        "priority": 58,
+        "tags": [
+          "religious",
+          "botanical",
+          "culture",
+          "heritage"
+        ],
+        "source": {
+          "provider": "OpenHolidays",
+          "countryCode": "PT",
+          "countryName": "Portugal",
+          "localName": "Municipal holiday",
+          "typeLabels": [
+            "可选假日",
+            "地方性"
+          ],
+          "nationwide": false,
+          "subdivisions": [
+            "FA-PO"
+          ]
+        },
+        "score": 136,
+        "holidayFamily": "municipal-local",
+        "popularityTier": "local",
+        "scopeTier": "local"
+      }
+    ],
+    "2026-12-12": [
+      {
+        "title": "Jamhuri Day",
+        "caption": "Jamhuri Day · Kenya",
+        "description": "肯尼亚 Jamhuri Day 纪念1963年独立和1964年成为共和国，是国家庆典、授勋和公共仪式的重要日子。",
+        "motif": "wovenPattern",
+        "gradient": [
+          "#171822",
+          "#4d3d32",
+          "#111314"
+        ],
+        "accent": "#d8b95b",
+        "secondary": "#78bde8",
+        "priority": 65,
+        "tags": [
+          "culture",
+          "civic"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "KE",
+          "countryName": "Kenya",
+          "localName": "Jamhuri Day",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 230,
+        "holidayFamily": "national-civic-day",
+        "popularityTier": "niche",
+        "scopeTier": "national"
+      }
+    ],
+    "2026-12-13": [
+      {
+        "title": "National day",
+        "caption": "National day · Saint Lucia",
+        "description": "国庆日通常纪念国家成立、独立或重要制度节点，是公共仪式、旗帜和国家身份表达的日子。",
+        "motif": "stainedGlass",
+        "gradient": [
+          "#101a34",
+          "#4a2734",
+          "#111316"
+        ],
+        "accent": "#9fc8ff",
+        "secondary": "#e87a94",
+        "priority": 73,
+        "tags": [
+          "religious",
+          "heritage",
+          "light",
+          "civic"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "LC",
+          "countryName": "Saint Lucia",
+          "localName": "National day",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 422,
+        "holidayFamily": "national-day",
+        "popularityTier": "common",
+        "scopeTier": "national"
+      },
+      {
+        "title": "​​​Republic Day",
+        "caption": "​​​Republic Day · Malta",
+        "description": "马耳他共和国日纪念1974年成为共和国，国家礼仪和纪念活动常围绕总统制度与现代国家身份展开。",
+        "motif": "cityParade",
+        "gradient": [
+          "#101d34",
+          "#4a2432",
+          "#111316"
+        ],
+        "accent": "#78aee8",
+        "secondary": "#e85a63",
+        "priority": 72,
+        "tags": [
+          "civic",
+          "celebration",
+          "procession"
+        ],
+        "source": {
+          "provider": "OpenHolidays",
+          "countryCode": "MT",
+          "countryName": "Malta",
+          "localName": "​​​Republic Day",
+          "typeLabels": [
+            "公众节日",
+            "全国性"
+          ],
+          "nationwide": true,
+          "subdivisions": []
+        },
+        "score": 407,
+        "holidayFamily": "republic-day",
+        "popularityTier": "common",
+        "scopeTier": "national"
+      },
+      {
+        "title": "Republic Day",
+        "caption": "Republic Day · Jum ir-Repubblika",
+        "description": "马耳他共和国日纪念1974年成为共和国，国家礼仪和纪念活动常围绕总统制度与现代国家身份展开。",
+        "motif": "cityParade",
+        "gradient": [
+          "#101d34",
+          "#4a2432",
+          "#111316"
+        ],
+        "accent": "#78aee8",
+        "secondary": "#e85a63",
+        "priority": 69,
+        "tags": [
+          "civic",
+          "celebration",
+          "procession"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "MT",
+          "countryName": "Malta",
+          "localName": "Jum ir-Repubblika",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 342,
+        "holidayFamily": "republic-day",
+        "popularityTier": "common",
+        "scopeTier": "national"
+      }
+    ],
+    "2026-12-16": [
+      {
+        "title": "National Day",
+        "caption": "National Day · اليوم الوطني",
+        "description": "国庆日通常纪念国家成立、独立或重要制度节点，是公共仪式、旗帜和国家身份表达的日子。",
+        "motif": "cityParade",
+        "gradient": [
+          "#101d34",
+          "#4a2432",
+          "#111316"
+        ],
+        "accent": "#78aee8",
+        "secondary": "#e85a63",
+        "priority": 69,
+        "tags": [
+          "civic",
+          "celebration",
+          "procession"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "BH",
+          "countryName": "Bahrain",
+          "localName": "اليوم الوطني",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 342,
+        "holidayFamily": "national-day",
+        "popularityTier": "common",
+        "scopeTier": "national"
+      },
+      {
+        "title": "Independence Day",
+        "caption": "Independence Day · Тәуелсіздік күні",
+        "description": "独立日通常纪念国家取得主权或脱离殖民统治的历史时刻，常伴随旗帜、仪式和公共庆祝。",
+        "motif": "cityParade",
+        "gradient": [
+          "#101d34",
+          "#4a2432",
+          "#111316"
+        ],
+        "accent": "#78aee8",
+        "secondary": "#e85a63",
+        "priority": 69,
+        "tags": [
+          "civic",
+          "celebration",
+          "procession"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "KZ",
+          "countryName": "Kazakhstan",
+          "localName": "Тәуелсіздік күні",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 342,
+        "holidayFamily": "independence-day",
+        "popularityTier": "common",
+        "scopeTier": "national"
+      },
+      {
+        "title": "Day of Reconciliation",
+        "caption": "Day of Reconciliation · South Africa",
+        "description": "和解日是南非纪念族群和解与民主转型的公共假日，强调历史反思、共同生活和社会团结。",
+        "motif": "doveGarland",
+        "gradient": [
+          "#10251f",
+          "#1f415a",
+          "#111515"
+        ],
+        "accent": "#77c98e",
+        "secondary": "#d8b95b",
+        "priority": 63,
+        "tags": [
+          "remembrance",
+          "light",
+          "civic"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "ZA",
+          "countryName": "South Africa",
+          "localName": "Day of Reconciliation",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 200,
+        "holidayFamily": "remembrance",
+        "popularityTier": "niche",
+        "scopeTier": "national"
+      },
+      {
+        "title": "Victory Day",
+        "caption": "Victory Day · বিজয় দিবস",
+        "description": "孟加拉国胜利日纪念1971年独立战争胜利，国旗、纪念碑献花和公共活动表达对解放历史的追忆。",
+        "motif": "laurelTorch",
+        "gradient": [
+          "#151515",
+          "#55302d",
+          "#111111"
+        ],
+        "accent": "#d8b95b",
+        "secondary": "#d65345",
+        "priority": 61,
+        "tags": [
+          "civic",
+          "remembrance",
+          "light"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "BD",
+          "countryName": "Bangladesh",
+          "localName": "বিজয় দিবস",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 150,
+        "holidayFamily": "remembrance",
+        "popularityTier": "niche",
+        "scopeTier": "national"
+      }
+    ],
+    "2026-12-17": [
+      {
+        "title": "National Day",
+        "caption": "National Day · اليوم الوطني",
+        "description": "国庆日通常纪念国家成立、独立或重要制度节点，是公共仪式、旗帜和国家身份表达的日子。",
+        "motif": "cityParade",
+        "gradient": [
+          "#101d34",
+          "#4a2432",
+          "#111316"
+        ],
+        "accent": "#78aee8",
+        "secondary": "#e85a63",
+        "priority": 69,
+        "tags": [
+          "civic",
+          "celebration",
+          "procession"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "BH",
+          "countryName": "Bahrain",
+          "localName": "اليوم الوطني",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 342,
+        "holidayFamily": "national-day",
+        "popularityTier": "common",
+        "scopeTier": "national"
+      },
+      {
+        "title": "Revolution Day",
+        "caption": "Revolution Day · عيد الثورة",
+        "description": "革命日纪念推动国家政治或社会变革的重要历史事件，常与国家身份和公共仪式相连。",
+        "motif": "wovenPattern",
+        "gradient": [
+          "#171822",
+          "#4d3d32",
+          "#111314"
+        ],
+        "accent": "#d8b95b",
+        "secondary": "#78bde8",
+        "priority": 61,
+        "tags": [
+          "culture",
+          "civic"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "TN",
+          "countryName": "Tunisia",
+          "localName": "عيد الثورة",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 150,
+        "holidayFamily": "revolution-day",
+        "popularityTier": "niche",
+        "scopeTier": "national"
+      }
+    ],
+    "2026-12-18": [
+      {
+        "title": "International Migrants Day",
+        "caption": "International Migrants Day · 国际移民日",
+        "description": "联合国设立的国际日，关注迁徙、家园与跨文化生活。",
+        "motif": "mountainFlags",
+        "gradient": [
+          "#111d34",
+          "#263e5b",
+          "#101316"
+        ],
+        "accent": "#78bde8",
+        "secondary": "#d8c070",
+        "priority": 66,
+        "tags": [
+          "culture",
+          "international",
+          "mountain"
+        ],
+        "source": {
+          "provider": "Curated Cultural Observances",
+          "countryCode": "INTL",
+          "countryName": "International",
+          "zhName": "国际",
+          "localName": "国际移民日",
+          "typeLabels": [
+            "文化日"
+          ]
+        },
+        "score": 561,
+        "holidayFamily": "culture-observance",
+        "popularityTier": "observance",
+        "scopeTier": "international"
+      },
+      {
+        "title": "Nigerien Republic Day",
+        "caption": "Nigerien Republic Day · Niger",
+        "description": "尼日尔共和国日纪念1958年成为法兰西共同体内自治共和国，是走向独立国家的重要制度节点。",
+        "motif": "cityParade",
+        "gradient": [
+          "#101d34",
+          "#4a2432",
+          "#111316"
+        ],
+        "accent": "#78aee8",
+        "secondary": "#e85a63",
+        "priority": 73,
+        "tags": [
+          "civic",
+          "celebration",
+          "procession"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "NE",
+          "countryName": "Niger",
+          "localName": "Nigerien Republic Day",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 422,
+        "holidayFamily": "republic-day",
+        "popularityTier": "common",
+        "scopeTier": "national"
+      }
+    ],
+    "2026-12-20": [
+      {
+        "title": "Abolition of slavery",
+        "caption": "Abolition of slavery · France",
+        "description": "法国部分海外地区的废奴纪念日回望奴隶制终结，也提醒人们殖民历史、自由和公民平等的意义。",
+        "motif": "wovenPattern",
+        "gradient": [
+          "#101d3f",
+          "#342742",
+          "#4c2734"
+        ],
+        "accent": "#6aa7ff",
+        "secondary": "#e85a63",
+        "priority": 65,
+        "tags": [
+          "culture",
+          "civic"
+        ],
+        "source": {
+          "provider": "OpenHolidays",
+          "countryCode": "FR",
+          "countryName": "France",
+          "localName": "Abolition of slavery",
+          "typeLabels": [
+            "公众节日",
+            "地方性"
+          ],
+          "nationwide": false,
+          "subdivisions": [
+            "RU"
+          ]
+        },
+        "score": 258,
+        "holidayFamily": "municipal-local",
+        "popularityTier": "niche",
+        "scopeTier": "national"
+      }
+    ],
+    "2026-12-21": [
+      {
+        "title": "National Heroes' Day",
+        "caption": "National Heroes' Day · Anguilla",
+        "description": "National Heroes' Day是Anguilla日历中的纪念日，通常承载当地历史、公共生活或季节性的休假安排。",
+        "motif": "cityParade",
+        "gradient": [
+          "#101d34",
+          "#4a2432",
+          "#111316"
+        ],
+        "accent": "#78aee8",
+        "secondary": "#e85a63",
+        "priority": 73,
+        "tags": [
+          "civic",
+          "celebration",
+          "procession"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "AI",
+          "countryName": "Anguilla",
+          "localName": "National Heroes' Day",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 422,
+        "holidayFamily": "heroes-day",
+        "popularityTier": "niche",
+        "scopeTier": "national"
+      },
+      {
+        "title": "National Day of Mourning",
+        "caption": "National Day of Mourning · Día de Duelo Nacional",
+        "description": "Panama的国家纪念日，通常用来纪念国家成立、宪法传统或重要历史节点，常有官方仪式和公共庆典。",
+        "motif": "cityParade",
+        "gradient": [
+          "#101d34",
+          "#4a2432",
+          "#111316"
+        ],
+        "accent": "#78aee8",
+        "secondary": "#e85a63",
+        "priority": 69,
+        "tags": [
+          "civic",
+          "celebration",
+          "procession"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "PA",
+          "countryName": "Panama",
+          "localName": "Día de Duelo Nacional",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 342,
+        "holidayFamily": "national-day",
+        "popularityTier": "common",
+        "scopeTier": "national"
+      },
+      {
+        "title": "São Tomé Day",
+        "caption": "São Tomé Day · Dia de São Tomé",
+        "description": "São Tomé and Príncipe以「Dia de São Tomé」为名纪念这一天，通常与当地历史、传统或社区公共生活有关。",
+        "motif": "wovenPattern",
+        "gradient": [
+          "#171822",
+          "#4d3d32",
+          "#111314"
+        ],
+        "accent": "#d8b95b",
+        "secondary": "#78bde8",
+        "priority": 61,
+        "tags": [
+          "culture",
+          "civic"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "ST",
+          "countryName": "São Tomé and Príncipe",
+          "localName": "Dia de São Tomé",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 150,
+        "holidayFamily": "national-civic-day",
+        "popularityTier": "niche",
+        "scopeTier": "national"
+      }
+    ],
+    "2026-12-22": [
+      {
+        "title": "Unity Day",
+        "caption": "Unity Day · Zimbabwe",
+        "description": "津巴布韦团结日纪念1987年 ZANU 与 ZAPU 达成 Unity Accord，象征结束内部冲突并强调民族和解。",
+        "motif": "cityParade",
+        "gradient": [
+          "#101d34",
+          "#4a2432",
+          "#111316"
+        ],
+        "accent": "#78aee8",
+        "secondary": "#e85a63",
+        "priority": 65,
+        "tags": [
+          "civic",
+          "celebration",
+          "procession"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "ZW",
+          "countryName": "Zimbabwe",
+          "localName": "Unity Day",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 230,
+        "holidayFamily": "unity-day",
+        "popularityTier": "common",
+        "scopeTier": "national"
+      }
+    ],
+    "2026-12-24": [
+      {
+        "title": "Constitution Day",
+        "caption": "Constitution Day · Micronesia",
+        "description": "宪法日纪念宪法秩序或现代国家制度的重要节点，是公共生活中回顾法治与国家制度的日子。",
+        "motif": "cityParade",
+        "gradient": [
+          "#101d34",
+          "#4a2432",
+          "#111316"
+        ],
+        "accent": "#78aee8",
+        "secondary": "#e85a63",
+        "priority": 70,
+        "tags": [
+          "civic",
+          "celebration",
+          "procession"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "FM",
+          "countryName": "Micronesia",
+          "localName": "Constitution Day",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 382,
+        "holidayFamily": "constitution-day",
+        "popularityTier": "common",
+        "scopeTier": "national"
+      },
+      {
+        "title": "Christmas Eve",
+        "caption": "Christmas Eve · Julafton",
+        "description": "平安夜是圣诞节前夜，许多国家会以家庭晚餐、教堂礼拜、礼物准备和冬夜灯饰迎接圣诞。",
+        "motif": "maritimeFlags",
+        "gradient": [
+          "#101827",
+          "#2d4436",
+          "#111314"
+        ],
+        "accent": "#d8c070",
+        "secondary": "#d65345",
+        "priority": 69,
+        "tags": [
+          "maritime",
+          "water",
+          "civic",
+          "island",
+          "celebration",
+          "sky",
+          "light"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "AX",
+          "countryName": "Åland Islands",
+          "localName": "Julafton",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 342,
+        "holidayFamily": "christmas",
+        "popularityTier": "major",
+        "scopeTier": "national"
+      },
+      {
+        "title": "Christmas Eve",
+        "caption": "Christmas Eve · Бъдни вечер",
+        "description": "平安夜是圣诞节前夜，许多国家会以家庭晚餐、教堂礼拜、礼物准备和冬夜灯饰迎接圣诞。",
+        "motif": "fireworks",
+        "gradient": [
+          "#101827",
+          "#2d4436",
+          "#111314"
+        ],
+        "accent": "#d8c070",
+        "secondary": "#d65345",
+        "priority": 69,
+        "tags": [
+          "sky",
+          "celebration",
+          "light"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "BG",
+          "countryName": "Bulgaria",
+          "localName": "Бъдни вечер",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 342,
+        "holidayFamily": "christmas",
+        "popularityTier": "major",
+        "scopeTier": "national"
+      },
+      {
+        "title": "Independence Day",
+        "caption": "Independence Day · عيد الاستقلال",
+        "description": "独立日通常纪念国家取得主权或脱离殖民统治的历史时刻，常伴随旗帜、仪式和公共庆祝。",
+        "motif": "cityParade",
+        "gradient": [
+          "#101d34",
+          "#4a2432",
+          "#111316"
+        ],
+        "accent": "#78aee8",
+        "secondary": "#e85a63",
+        "priority": 69,
+        "tags": [
+          "civic",
+          "celebration",
+          "procession"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "LY",
+          "countryName": "Libya",
+          "localName": "عيد الاستقلال",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 342,
+        "holidayFamily": "independence-day",
+        "popularityTier": "common",
+        "scopeTier": "national"
+      },
+      {
+        "title": "Christmas Eve",
+        "caption": "Christmas Eve · San Marino",
+        "description": "平安夜是圣诞节前夜，许多国家会以家庭晚餐、教堂礼拜、礼物准备和冬夜灯饰迎接圣诞。",
+        "motif": "fireworks",
+        "gradient": [
+          "#101827",
+          "#2d4436",
+          "#111314"
+        ],
+        "accent": "#d8c070",
+        "secondary": "#d65345",
+        "priority": 69,
+        "tags": [
+          "sky",
+          "celebration",
+          "light"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "SM",
+          "countryName": "San Marino",
+          "localName": "Christmas Eve",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 342,
+        "holidayFamily": "saint-day",
+        "popularityTier": "major",
+        "scopeTier": "national"
+      },
+      {
+        "title": "Christmas Eve",
+        "caption": "Christmas Eve · Παραμονή Χριστουγέννων",
+        "description": "平安夜是圣诞节前夜，许多国家会以家庭晚餐、教堂礼拜、礼物准备和冬夜灯饰迎接圣诞。",
+        "motif": "fireworks",
+        "gradient": [
+          "#101827",
+          "#2d4436",
+          "#111314"
+        ],
+        "accent": "#d8c070",
+        "secondary": "#d65345",
+        "priority": 69,
+        "tags": [
+          "sky",
+          "celebration",
+          "light"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "CY",
+          "countryName": "Cyprus",
+          "localName": "Παραμονή Χριστουγέννων",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 342,
+        "holidayFamily": "christmas",
+        "popularityTier": "major",
+        "scopeTier": "national"
+      },
+      {
+        "title": "Christmas Eve",
+        "caption": "Christmas Eve · Štědrý den",
+        "description": "平安夜是圣诞节前夜，许多国家会以家庭晚餐、教堂礼拜、礼物准备和冬夜灯饰迎接圣诞。",
+        "motif": "fireworks",
+        "gradient": [
+          "#101827",
+          "#2d4436",
+          "#111314"
+        ],
+        "accent": "#d8c070",
+        "secondary": "#d65345",
+        "priority": 69,
+        "tags": [
+          "sky",
+          "celebration",
+          "light"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "CZ",
+          "countryName": "Czechia",
+          "localName": "Štědrý den",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 342,
+        "holidayFamily": "christmas",
+        "popularityTier": "major",
+        "scopeTier": "national"
+      },
+      {
+        "title": "Christmas Eve",
+        "caption": "Christmas Eve · jõululaupäev",
+        "description": "平安夜是圣诞节前夜，许多国家会以家庭晚餐、教堂礼拜、礼物准备和冬夜灯饰迎接圣诞。",
+        "motif": "fireworks",
+        "gradient": [
+          "#101827",
+          "#2d4436",
+          "#111314"
+        ],
+        "accent": "#d8c070",
+        "secondary": "#d65345",
+        "priority": 69,
+        "tags": [
+          "sky",
+          "celebration",
+          "light"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "EE",
+          "countryName": "Estonia",
+          "localName": "jõululaupäev",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 342,
+        "holidayFamily": "christmas",
+        "popularityTier": "major",
+        "scopeTier": "national"
+      }
+    ],
+    "2026-12-25": [
+      {
+        "title": "Christmas Day",
+        "caption": "Christmas Day · United States",
+        "description": "圣诞节源自基督教传统，后来也成为许多地方的冬日团聚节日，常见象征包括灯饰、松枝、礼物和家庭餐桌。",
+        "motif": "fireworks",
+        "gradient": [
+          "#101827",
+          "#2d4436",
+          "#111314"
+        ],
+        "accent": "#d8c070",
+        "secondary": "#d65345",
+        "priority": 86,
+        "tags": [
+          "sky",
+          "celebration",
+          "light"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "US",
+          "countryName": "United States",
+          "localName": "Christmas Day",
+          "typeLabels": [
+            "公众节日",
+            "银行假日"
+          ]
+        },
+        "score": 732,
+        "holidayFamily": "christmas",
+        "popularityTier": "iconic",
+        "scopeTier": "national"
+      },
+      {
+        "title": "Christmas Day",
+        "caption": "Christmas Day · Singapore",
+        "description": "圣诞节源自基督教传统，后来也成为许多地方的冬日团聚节日，常见象征包括灯饰、松枝、礼物和家庭餐桌。",
+        "motif": "fireworks",
+        "gradient": [
+          "#101827",
+          "#2d4436",
+          "#111314"
+        ],
+        "accent": "#d8c070",
+        "secondary": "#d65345",
+        "priority": 81,
+        "tags": [
+          "sky",
+          "celebration",
+          "light"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "SG",
+          "countryName": "Singapore",
+          "localName": "Christmas Day",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 612,
+        "holidayFamily": "christmas",
+        "popularityTier": "iconic",
+        "scopeTier": "national"
+      },
+      {
+        "title": "Christmas Day",
+        "caption": "Christmas Day · France",
+        "description": "圣诞节源自基督教传统，后来也成为许多地方的冬日团聚节日，常见象征包括灯饰、松枝、礼物和家庭餐桌。",
+        "motif": "fireworks",
+        "gradient": [
+          "#101827",
+          "#2d4436",
+          "#111314"
+        ],
+        "accent": "#d8c070",
+        "secondary": "#d65345",
+        "priority": 78,
+        "tags": [
+          "sky",
+          "celebration",
+          "light"
+        ],
+        "source": {
+          "provider": "OpenHolidays",
+          "countryCode": "FR",
+          "countryName": "France",
+          "localName": "Christmas Day",
+          "typeLabels": [
+            "公众节日",
+            "全国性"
+          ],
+          "nationwide": true,
+          "subdivisions": []
+        },
+        "score": 557,
+        "holidayFamily": "christmas",
+        "popularityTier": "iconic",
+        "scopeTier": "national"
+      },
+      {
+        "title": "Christmas Day",
+        "caption": "Christmas Day · Saint Helena, Ascension and Tristan da Cunha",
+        "description": "圣诞节源自基督教传统，后来也成为许多地方的冬日团聚节日，常见象征包括灯饰、松枝、礼物和家庭餐桌。",
+        "motif": "stainedGlass",
+        "gradient": [
+          "#101827",
+          "#2d4436",
+          "#111314"
+        ],
+        "accent": "#d8c070",
+        "secondary": "#d65345",
+        "priority": 73,
+        "tags": [
+          "religious",
+          "heritage",
+          "light",
+          "celebration"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "SH",
+          "countryName": "Saint Helena, Ascension and Tristan da Cunha",
+          "localName": "Christmas Day",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 422,
+        "holidayFamily": "saint-day",
+        "popularityTier": "iconic",
+        "scopeTier": "national"
+      },
+      {
+        "title": "Christmas Day",
+        "caption": "Christmas Day · United Kingdom",
+        "description": "圣诞节源自基督教传统，后来也成为许多地方的冬日团聚节日，常见象征包括灯饰、松枝、礼物和家庭餐桌。",
+        "motif": "fireworks",
+        "gradient": [
+          "#101827",
+          "#2d4436",
+          "#111314"
+        ],
+        "accent": "#d8c070",
+        "secondary": "#d65345",
+        "priority": 78,
+        "tags": [
+          "sky",
+          "celebration",
+          "light"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "GB",
+          "countryName": "United Kingdom",
+          "localName": "Christmas Day",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 552,
+        "holidayFamily": "christmas",
+        "popularityTier": "iconic",
+        "scopeTier": "national"
+      },
+      {
+        "title": "Christmas Day",
+        "caption": "Christmas Day · Australia",
+        "description": "圣诞节源自基督教传统，后来也成为许多地方的冬日团聚节日，常见象征包括灯饰、松枝、礼物和家庭餐桌。",
+        "motif": "fireworks",
+        "gradient": [
+          "#101827",
+          "#2d4436",
+          "#111314"
+        ],
+        "accent": "#d8c070",
+        "secondary": "#d65345",
+        "priority": 78,
+        "tags": [
+          "sky",
+          "celebration",
+          "light"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "AU",
+          "countryName": "Australia",
+          "localName": "Christmas Day",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 542,
+        "holidayFamily": "christmas",
+        "popularityTier": "iconic",
+        "scopeTier": "national"
+      },
+      {
+        "title": "Christmas Day",
+        "caption": "Christmas Day · Canada",
+        "description": "圣诞节源自基督教传统，后来也成为许多地方的冬日团聚节日，常见象征包括灯饰、松枝、礼物和家庭餐桌。",
+        "motif": "fireworks",
+        "gradient": [
+          "#101827",
+          "#2d4436",
+          "#111314"
+        ],
+        "accent": "#d8c070",
+        "secondary": "#d65345",
+        "priority": 78,
+        "tags": [
+          "sky",
+          "celebration",
+          "light"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "CA",
+          "countryName": "Canada",
+          "localName": "Christmas Day",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 542,
+        "holidayFamily": "christmas",
+        "popularityTier": "iconic",
+        "scopeTier": "national"
+      },
+      {
+        "title": "Christmas Day",
+        "caption": "Christmas Day · Germany",
+        "description": "圣诞节源自基督教传统，后来也成为许多地方的冬日团聚节日，常见象征包括灯饰、松枝、礼物和家庭餐桌。",
+        "motif": "fireworks",
+        "gradient": [
+          "#101827",
+          "#2d4436",
+          "#111314"
+        ],
+        "accent": "#d8c070",
+        "secondary": "#d65345",
+        "priority": 77,
+        "tags": [
+          "sky",
+          "celebration",
+          "light"
+        ],
+        "source": {
+          "provider": "OpenHolidays",
+          "countryCode": "DE",
+          "countryName": "Germany",
+          "localName": "Christmas Day",
+          "typeLabels": [
+            "公众节日",
+            "全国性"
+          ],
+          "nationwide": true,
+          "subdivisions": []
+        },
+        "score": 517,
+        "holidayFamily": "christmas",
+        "popularityTier": "iconic",
+        "scopeTier": "national"
+      }
+    ],
+    "2026-12-26": [
+      {
+        "title": "2nd day of Christmas",
+        "caption": "2nd day of Christmas · France",
+        "description": "圣诞第二日延续圣诞节期的家庭探访、教堂礼仪和冬季休息，在欧洲多地也是公众假日。",
+        "motif": "fireworks",
+        "gradient": [
+          "#101827",
+          "#2d4436",
+          "#111314"
+        ],
+        "accent": "#d8c070",
+        "secondary": "#d65345",
+        "priority": 73,
+        "tags": [
+          "sky",
+          "celebration",
+          "light"
+        ],
+        "source": {
+          "provider": "OpenHolidays",
+          "countryCode": "FR",
+          "countryName": "France",
+          "localName": "2nd day of Christmas",
+          "typeLabels": [
+            "公众节日",
+            "地方性"
+          ],
+          "nationwide": false,
+          "subdivisions": [
+            "GE-BR",
+            "GE-HR",
+            "GE-MO"
+          ]
+        },
+        "score": 450,
+        "holidayFamily": "municipal-local",
+        "popularityTier": "major",
+        "scopeTier": "national"
+      },
+      {
+        "title": "2nd Day of Christmas",
+        "caption": "2nd Day of Christmas · Germany",
+        "description": "圣诞第二日延续圣诞节期的家庭探访、教堂礼仪和冬季休息，在欧洲多地也是公众假日。",
+        "motif": "fireworks",
+        "gradient": [
+          "#101827",
+          "#2d4436",
+          "#111314"
+        ],
+        "accent": "#d8c070",
+        "secondary": "#d65345",
+        "priority": 73,
+        "tags": [
+          "sky",
+          "celebration",
+          "light"
+        ],
+        "source": {
+          "provider": "OpenHolidays",
+          "countryCode": "DE",
+          "countryName": "Germany",
+          "localName": "2nd Day of Christmas",
+          "typeLabels": [
+            "公众节日",
+            "全国性"
+          ],
+          "nationwide": true,
+          "subdivisions": []
+        },
+        "score": 437,
+        "holidayFamily": "christmas",
+        "popularityTier": "major",
+        "scopeTier": "national"
+      },
+      {
+        "title": "Independence and Unity Day",
+        "caption": "Independence and Unity Day · Slovenia",
+        "description": "斯洛文尼亚独立与统一日纪念1990年独立公投结果公布，强调国家独立选择和社会共识。",
+        "motif": "cityParade",
+        "gradient": [
+          "#101d34",
+          "#4a2432",
+          "#111316"
+        ],
+        "accent": "#78aee8",
+        "secondary": "#e85a63",
+        "priority": 72,
+        "tags": [
+          "civic",
+          "celebration",
+          "procession"
+        ],
+        "source": {
+          "provider": "OpenHolidays",
+          "countryCode": "SI",
+          "countryName": "Slovenia",
+          "localName": "Independence and Unity Day",
+          "typeLabels": [
+            "公众节日",
+            "全国性"
+          ],
+          "nationwide": true,
+          "subdivisions": []
+        },
+        "score": 407,
+        "holidayFamily": "unity-day",
+        "popularityTier": "common",
+        "scopeTier": "national"
+      },
+      {
+        "title": "St. Stephen's Day",
+        "caption": "St. Stephen's Day · Second Day of Christmas",
+        "description": "圣斯德望日是圣诞节后的基督教纪念日，在欧洲多地也延续为家庭探访、休息和地方习俗的假日。",
+        "motif": "fireworks",
+        "gradient": [
+          "#101827",
+          "#2d4436",
+          "#111314"
+        ],
+        "accent": "#d8c070",
+        "secondary": "#d65345",
+        "priority": 69,
+        "tags": [
+          "sky",
+          "celebration",
+          "light"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "BQ",
+          "countryName": "Caribbean Netherlands",
+          "localName": "Second Day of Christmas",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 342,
+        "holidayFamily": "saint-day",
+        "popularityTier": "major",
+        "scopeTier": "national"
+      },
+      {
+        "title": "National Day of Thanksgiving",
+        "caption": "National Day of Thanksgiving · Solomon Islands",
+        "description": "Solomon Islands的国家纪念日，通常用来纪念国家成立、宪法传统或重要历史节点，常有官方仪式和公共庆典。",
+        "motif": "maritimeFlags",
+        "gradient": [
+          "#211916",
+          "#604026",
+          "#111314"
+        ],
+        "accent": "#d8a05f",
+        "secondary": "#9bb06d",
+        "priority": 69,
+        "tags": [
+          "maritime",
+          "water",
+          "civic",
+          "island",
+          "celebration"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "SB",
+          "countryName": "Solomon Islands",
+          "localName": "National Day of Thanksgiving",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 342,
+        "holidayFamily": "national-day",
+        "popularityTier": "major",
+        "scopeTier": "national"
+      },
+      {
+        "title": "New Year's Eve",
+        "caption": "New Year's Eve · Vatican City",
+        "description": "公历除夕是迎接新年的前夜，许多地方会以家庭聚会、倒数、烟火或宗教礼仪告别旧年。",
+        "motif": "fireworks",
+        "gradient": [
+          "#151a2d",
+          "#493456",
+          "#111316"
+        ],
+        "accent": "#d6c070",
+        "secondary": "#78b8e6",
+        "priority": 69,
+        "tags": [
+          "sky",
+          "celebration",
+          "light"
+        ],
+        "source": {
+          "provider": "OpenHolidays",
+          "countryCode": "VA",
+          "countryName": "Vatican City",
+          "localName": "New Year's Eve",
+          "typeLabels": [
+            "公众节日",
+            "全国性"
+          ],
+          "nationwide": true,
+          "subdivisions": []
+        },
+        "score": 327,
+        "holidayFamily": "new-year",
+        "popularityTier": "major",
+        "scopeTier": "national"
+      },
+      {
+        "title": "Boxing Day",
+        "caption": "Boxing Day · Barbados",
+        "description": "节礼日延续自英联邦传统，通常在圣诞节后一天，人们会继续休假、探亲、购物或观看体育赛事。",
+        "motif": "maritimeFlags",
+        "gradient": [
+          "#0c2635",
+          "#255d70",
+          "#101417"
+        ],
+        "accent": "#76cce8",
+        "secondary": "#f0c95c",
+        "priority": 65,
+        "tags": [
+          "maritime",
+          "water",
+          "civic",
+          "island"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "BB",
+          "countryName": "Barbados",
+          "localName": "Boxing Day",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 230,
+        "holidayFamily": "national-civic-day",
+        "popularityTier": "niche",
+        "scopeTier": "national"
+      },
+      {
+        "title": "Boxing Day",
+        "caption": "Boxing Day · Belize",
+        "description": "节礼日延续自英联邦传统，通常在圣诞节后一天，人们会继续休假、探亲、购物或观看体育赛事。",
+        "motif": "fireworks",
+        "gradient": [
+          "#101a34",
+          "#4a2734",
+          "#111316"
+        ],
+        "accent": "#6aa7ff",
+        "secondary": "#e85a63",
+        "priority": 65,
+        "tags": [
+          "sky",
+          "celebration",
+          "light"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "BZ",
+          "countryName": "Belize",
+          "localName": "Boxing Day",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 230,
+        "holidayFamily": "public-holiday",
+        "popularityTier": "niche",
+        "scopeTier": "national"
+      }
+    ],
+    "2026-12-27": [
+      {
+        "title": "Christmas Holiday",
+        "caption": "Christmas Holiday · Falkland Islands",
+        "description": "圣诞节源自基督教传统，后来也成为许多地方的冬日团聚节日，常见象征包括灯饰、松枝、礼物和家庭餐桌。",
+        "motif": "lotusMandala",
+        "gradient": [
+          "#101827",
+          "#2d4436",
+          "#111314"
+        ],
+        "accent": "#d8c070",
+        "secondary": "#d65345",
+        "priority": 73,
+        "tags": [
+          "religious",
+          "botanical",
+          "culture",
+          "heritage",
+          "celebration"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "FK",
+          "countryName": "Falkland Islands",
+          "localName": "Christmas Holiday",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 422,
+        "holidayFamily": "christmas",
+        "popularityTier": "major",
+        "scopeTier": "national"
+      },
+      {
+        "title": "Saint John the Evangelist",
+        "caption": "Saint John the Evangelist · Vatican City",
+        "description": "圣若望宗徒日纪念福音书传统中的约翰，在圣诞八日庆期内连接宗徒记忆和教会礼仪。",
+        "motif": "stainedGlass",
+        "gradient": [
+          "#101a34",
+          "#4a2734",
+          "#111316"
+        ],
+        "accent": "#9fc8ff",
+        "secondary": "#e87a94",
+        "priority": 61,
+        "tags": [
+          "religious",
+          "heritage",
+          "light"
+        ],
+        "source": {
+          "provider": "OpenHolidays",
+          "countryCode": "VA",
+          "countryName": "Vatican City",
+          "localName": "Saint John the Evangelist",
+          "typeLabels": [
+            "公众节日",
+            "全国性"
+          ],
+          "nationwide": true,
+          "subdivisions": []
+        },
+        "score": 135,
+        "holidayFamily": "saint-day",
+        "popularityTier": "niche",
+        "scopeTier": "national"
+      }
+    ],
+    "2026-12-28": [
+      {
+        "title": "St. Stephen's Day",
+        "caption": "St. Stephen's Day · Boxing Day",
+        "description": "节礼日延续自英联邦传统，通常在圣诞节后一天，人们会继续休假、探亲、购物或观看体育赛事。",
+        "motif": "fireworks",
+        "gradient": [
+          "#111b32",
+          "#482538",
+          "#111316"
+        ],
+        "accent": "#7faee8",
+        "secondary": "#e65b5b",
+        "priority": 70,
+        "tags": [
+          "sky",
+          "celebration",
+          "light"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "GB",
+          "countryName": "United Kingdom",
+          "localName": "Boxing Day",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 360,
+        "holidayFamily": "saint-day",
+        "popularityTier": "niche",
+        "scopeTier": "national"
+      },
+      {
+        "title": "St. Stephen's Day",
+        "caption": "St. Stephen's Day · Boxing Day",
+        "description": "节礼日延续自英联邦传统，通常在圣诞节后一天，人们会继续休假、探亲、购物或观看体育赛事。",
+        "motif": "fireworks",
+        "gradient": [
+          "#101d34",
+          "#263a54",
+          "#111316"
+        ],
+        "accent": "#78aee8",
+        "secondary": "#d8b95b",
+        "priority": 70,
+        "tags": [
+          "sky",
+          "celebration",
+          "light"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "AU",
+          "countryName": "Australia",
+          "localName": "Boxing Day",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 350,
+        "holidayFamily": "saint-day",
+        "popularityTier": "niche",
+        "scopeTier": "national"
+      },
+      {
+        "title": "Boxing Day",
+        "caption": "Boxing Day · New Zealand",
+        "description": "节礼日延续自英联邦传统，通常在圣诞节后一天，人们会继续休假、探亲、购物或观看体育赛事。",
+        "motif": "fireworks",
+        "gradient": [
+          "#101d34",
+          "#293f5d",
+          "#101316"
+        ],
+        "accent": "#78aee8",
+        "secondary": "#e85a63",
+        "priority": 67,
+        "tags": [
+          "sky",
+          "celebration",
+          "light"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "NZ",
+          "countryName": "New Zealand",
+          "localName": "Boxing Day",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 280,
+        "holidayFamily": "public-holiday",
+        "popularityTier": "niche",
+        "scopeTier": "national"
+      },
+      {
+        "title": "Christmas Day (Observed)",
+        "caption": "Christmas Day (Observed) · Bulgaria",
+        "description": "圣诞节源自基督教传统，后来也成为许多地方的冬日团聚节日，常见象征包括灯饰、松枝、礼物和家庭餐桌。",
+        "motif": "fireworks",
+        "gradient": [
+          "#101827",
+          "#2d4436",
+          "#111314"
+        ],
+        "accent": "#d8c070",
+        "secondary": "#d65345",
+        "priority": 63,
+        "tags": [
+          "sky",
+          "celebration",
+          "light"
+        ],
+        "source": {
+          "provider": "OpenHolidays",
+          "countryCode": "BG",
+          "countryName": "Bulgaria",
+          "localName": "Christmas Day (Observed)",
+          "typeLabels": [
+            "公众节日",
+            "全国性"
+          ],
+          "nationwide": true,
+          "subdivisions": []
+        },
+        "score": 199,
+        "holidayFamily": "christmas",
+        "popularityTier": "iconic",
+        "scopeTier": "national"
+      },
+      {
+        "title": "St. Stephen's Day",
+        "caption": "St. Stephen's Day · Boxing Day",
+        "description": "节礼日延续自英联邦传统，通常在圣诞节后一天，人们会继续休假、探亲、购物或观看体育赛事。",
+        "motif": "fireworks",
+        "gradient": [
+          "#101a34",
+          "#4a2734",
+          "#111316"
+        ],
+        "accent": "#6aa7ff",
+        "secondary": "#e85a63",
+        "priority": 65,
+        "tags": [
+          "sky",
+          "celebration",
+          "light"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "AI",
+          "countryName": "Anguilla",
+          "localName": "Boxing Day",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 230,
+        "holidayFamily": "saint-day",
+        "popularityTier": "niche",
+        "scopeTier": "national"
+      },
+      {
+        "title": "St. Stephen's Day",
+        "caption": "St. Stephen's Day · Boxing Day",
+        "description": "节礼日延续自英联邦传统，通常在圣诞节后一天，人们会继续休假、探亲、购物或观看体育赛事。",
+        "motif": "fireworks",
+        "gradient": [
+          "#101a34",
+          "#4a2734",
+          "#111316"
+        ],
+        "accent": "#6aa7ff",
+        "secondary": "#e85a63",
+        "priority": 65,
+        "tags": [
+          "sky",
+          "celebration",
+          "light"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "BM",
+          "countryName": "Bermuda",
+          "localName": "Boxing Day",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 230,
+        "holidayFamily": "saint-day",
+        "popularityTier": "niche",
+        "scopeTier": "national"
+      },
+      {
+        "title": "St. Stephen's Day",
+        "caption": "St. Stephen's Day · Boxing Day",
+        "description": "节礼日延续自英联邦传统，通常在圣诞节后一天，人们会继续休假、探亲、购物或观看体育赛事。",
+        "motif": "maritimeFlags",
+        "gradient": [
+          "#0c2635",
+          "#255d70",
+          "#101417"
+        ],
+        "accent": "#76cce8",
+        "secondary": "#f0c95c",
+        "priority": 65,
+        "tags": [
+          "maritime",
+          "water",
+          "civic",
+          "island"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "VG",
+          "countryName": "British Virgin Islands",
+          "localName": "Boxing Day",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 230,
+        "holidayFamily": "saint-day",
+        "popularityTier": "niche",
+        "scopeTier": "national"
+      },
+      {
+        "title": "Boxing Day",
+        "caption": "Boxing Day · St. Stephen's Day",
+        "description": "节礼日延续自英联邦传统，通常在圣诞节后一天，人们会继续休假、探亲、购物或观看体育赛事。",
+        "motif": "fireworks",
+        "gradient": [
+          "#101a34",
+          "#4a2734",
+          "#111316"
+        ],
+        "accent": "#6aa7ff",
+        "secondary": "#e85a63",
+        "priority": 65,
+        "tags": [
+          "sky",
+          "celebration",
+          "light"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "GG",
+          "countryName": "Guernsey",
+          "localName": "St. Stephen's Day",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 230,
+        "holidayFamily": "saint-day",
+        "popularityTier": "niche",
+        "scopeTier": "national"
+      }
+    ],
+    "2026-12-29": [
+      {
+        "title": "Independence Day",
+        "caption": "Independence Day · Тусгаар Тогтнолын Өдөр",
+        "description": "独立日通常纪念国家取得主权或脱离殖民统治的历史时刻，常伴随旗帜、仪式和公共庆祝。",
+        "motif": "cityParade",
+        "gradient": [
+          "#101d34",
+          "#4a2432",
+          "#111316"
+        ],
+        "accent": "#78aee8",
+        "secondary": "#e85a63",
+        "priority": 69,
+        "tags": [
+          "civic",
+          "celebration",
+          "procession"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "MN",
+          "countryName": "Mongolia",
+          "localName": "Тусгаар Тогтнолын Өдөр",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 342,
+        "holidayFamily": "independence-day",
+        "popularityTier": "common",
+        "scopeTier": "national"
+      },
+      {
+        "title": "Cambodia Peace Day",
+        "caption": "Cambodia Peace Day · ទិវាសន្តិភាពនៅកម្ពុជា",
+        "description": "Cambodia以「ទិវាសន្តិភាពនៅកម្ពុជា」为名纪念这一天，通常与当地历史、传统或社区公共生活有关。",
+        "motif": "doveGarland",
+        "gradient": [
+          "#101827",
+          "#2e3d51",
+          "#101316"
+        ],
+        "accent": "#f2f0d6",
+        "secondary": "#d8c070",
+        "priority": 61,
+        "tags": [
+          "remembrance",
+          "light",
+          "civic"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "KH",
+          "countryName": "Cambodia",
+          "localName": "ទិវាសន្តិភាពនៅកម្ពុជា",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 150,
+        "holidayFamily": "peace-observance",
+        "popularityTier": "niche",
+        "scopeTier": "national"
+      }
+    ],
+    "2026-12-30": [
+      {
+        "title": "Government Holiday",
+        "caption": "Government Holiday · Falkland Islands",
+        "description": "Government Holiday是Falkland Islands日历中的纪念日，通常承载当地历史、公共生活或季节性的休假安排。",
+        "motif": "lotusMandala",
+        "gradient": [
+          "#171427",
+          "#4c3652",
+          "#111214"
+        ],
+        "accent": "#d6b6e8",
+        "secondary": "#87c9b7",
+        "priority": 59,
+        "tags": [
+          "religious",
+          "botanical",
+          "culture",
+          "heritage"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "FK",
+          "countryName": "Falkland Islands",
+          "localName": "Government Holiday",
+          "typeLabels": [
+            "政府机关假日"
+          ]
+        },
+        "score": 150,
+        "holidayFamily": "religious-observance",
+        "popularityTier": "niche",
+        "scopeTier": "unknown"
+      },
+      {
+        "title": "Rizal Day",
+        "caption": "Rizal Day · Araw ng Kamatayan ni Dr. Jose Rizal",
+        "description": "菲律宾黎刹日纪念民族英雄 José Rizal 于1896年被处决，献花和纪念仪式常围绕独立思想展开。",
+        "motif": "wovenPattern",
+        "gradient": [
+          "#171822",
+          "#4d3d32",
+          "#111314"
+        ],
+        "accent": "#d8b95b",
+        "secondary": "#78bde8",
+        "priority": 61,
+        "tags": [
+          "culture",
+          "civic"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "PH",
+          "countryName": "Philippines",
+          "localName": "Araw ng Kamatayan ni Dr. Jose Rizal",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 150,
+        "holidayFamily": "national-civic-day",
+        "popularityTier": "niche",
+        "scopeTier": "national"
+      }
+    ],
+    "2026-12-31": [
+      {
+        "title": "Restoration of the Republic",
+        "caption": "Restoration of the Republic · Switzerland",
+        "description": "瑞士部分地方的共和国恢复日纪念地方政治制度恢复或自治传统，常以州和城市历史记忆为核心。",
+        "motif": "cityParade",
+        "gradient": [
+          "#151b27",
+          "#4d2727",
+          "#111314"
+        ],
+        "accent": "#e65b5b",
+        "secondary": "#f0f0f2",
+        "priority": 69,
+        "tags": [
+          "civic",
+          "celebration",
+          "procession"
+        ],
+        "source": {
+          "provider": "OpenHolidays",
+          "countryCode": "CH",
+          "countryName": "Switzerland",
+          "localName": "Restoration of the Republic",
+          "typeLabels": [
+            "公众节日",
+            "地方性"
+          ],
+          "nationwide": false,
+          "subdivisions": [
+            "GE"
+          ]
+        },
+        "score": 370,
+        "holidayFamily": "municipal-local",
+        "popularityTier": "niche",
+        "scopeTier": "national"
+      },
+      {
+        "title": "New Year's Eve",
+        "caption": "New Year's Eve · Ամանոր",
+        "description": "公历除夕是迎接新年的前夜，许多地方会以家庭聚会、倒数、烟火或宗教礼仪告别旧年。",
+        "motif": "fireworks",
+        "gradient": [
+          "#151a2d",
+          "#493456",
+          "#111316"
+        ],
+        "accent": "#d6c070",
+        "secondary": "#78b8e6",
+        "priority": 69,
+        "tags": [
+          "sky",
+          "celebration",
+          "light"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "AM",
+          "countryName": "Armenia",
+          "localName": "Ամանոր",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 342,
+        "holidayFamily": "new-year",
+        "popularityTier": "major",
+        "scopeTier": "national"
+      },
+      {
+        "title": "New Year's Eve",
+        "caption": "New Year's Eve · Oudejaarsavond",
+        "description": "公历除夕是迎接新年的前夜，许多地方会以家庭聚会、倒数、烟火或宗教礼仪告别旧年。",
+        "motif": "fireworks",
+        "gradient": [
+          "#151a2d",
+          "#493456",
+          "#111316"
+        ],
+        "accent": "#d6c070",
+        "secondary": "#78b8e6",
+        "priority": 69,
+        "tags": [
+          "sky",
+          "celebration",
+          "light"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "CW",
+          "countryName": "Curaçao",
+          "localName": "Oudejaarsavond",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 342,
+        "holidayFamily": "new-year",
+        "popularityTier": "major",
+        "scopeTier": "national"
+      },
+      {
+        "title": "New Year's Eve",
+        "caption": "New Year's Eve · San Marino",
+        "description": "公历除夕是迎接新年的前夜，许多地方会以家庭聚会、倒数、烟火或宗教礼仪告别旧年。",
+        "motif": "fireworks",
+        "gradient": [
+          "#151a2d",
+          "#493456",
+          "#111316"
+        ],
+        "accent": "#d6c070",
+        "secondary": "#78b8e6",
+        "priority": 69,
+        "tags": [
+          "sky",
+          "celebration",
+          "light"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "SM",
+          "countryName": "San Marino",
+          "localName": "New Year's Eve",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 342,
+        "holidayFamily": "saint-day",
+        "popularityTier": "major",
+        "scopeTier": "national"
+      },
+      {
+        "title": "Festival Day",
+        "caption": "Festival Day · Montserrat",
+        "description": "Festival Day是Montserrat日历中的纪念日，通常承载当地历史、公共生活或季节性的休假安排。",
+        "motif": "carnivalMasks",
+        "gradient": [
+          "#18142a",
+          "#5a2f4c",
+          "#111315"
+        ],
+        "accent": "#e87a94",
+        "secondary": "#78bde8",
+        "priority": 65,
+        "tags": [
+          "celebration",
+          "procession",
+          "folk",
+          "market"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "MS",
+          "countryName": "Montserrat",
+          "localName": "Festival Day",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 230,
+        "holidayFamily": "culture-observance",
+        "popularityTier": "niche",
+        "scopeTier": "national"
+      },
+      {
+        "title": "Restoration Day",
+        "caption": "Restoration Day · Restauration de la République",
+        "description": "复辟日通常纪念王权、国家制度或政治秩序恢复的历史节点，带有国家记忆和制度象征。",
+        "motif": "wovenPattern",
+        "gradient": [
+          "#151b27",
+          "#4d2727",
+          "#111314"
+        ],
+        "accent": "#e65b5b",
+        "secondary": "#f0f0f2",
+        "priority": 62,
+        "tags": [
+          "culture",
+          "civic"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "CH",
+          "countryName": "Switzerland",
+          "localName": "Restauration de la République",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 180,
+        "holidayFamily": "national-civic-day",
+        "popularityTier": "niche",
+        "scopeTier": "national"
+      },
+      {
+        "title": "Government Holiday",
+        "caption": "Government Holiday · Falkland Islands",
+        "description": "Government Holiday是Falkland Islands日历中的纪念日，通常承载当地历史、公共生活或季节性的休假安排。",
+        "motif": "lotusMandala",
+        "gradient": [
+          "#171427",
+          "#4c3652",
+          "#111214"
+        ],
+        "accent": "#d6b6e8",
+        "secondary": "#87c9b7",
+        "priority": 59,
+        "tags": [
+          "religious",
+          "botanical",
+          "culture",
+          "heritage"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "FK",
+          "countryName": "Falkland Islands",
+          "localName": "Government Holiday",
+          "typeLabels": [
+            "政府机关假日"
+          ]
+        },
+        "score": 150,
+        "holidayFamily": "religious-observance",
+        "popularityTier": "niche",
+        "scopeTier": "unknown"
+      },
+      {
+        "title": "New Year's Eve",
+        "caption": "New Year's Eve · Fin de año",
+        "description": "公历除夕是迎接新年的前夜，许多地方会以家庭聚会、倒数、烟火或宗教礼仪告别旧年。",
+        "motif": "fireworks",
+        "gradient": [
+          "#151a2d",
+          "#493456",
+          "#111316"
+        ],
+        "accent": "#d6c070",
+        "secondary": "#78b8e6",
+        "priority": 69,
+        "tags": [
+          "sky",
+          "celebration",
+          "light"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "SV",
+          "countryName": "El Salvador",
+          "localName": "Fin de año",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 342,
+        "holidayFamily": "new-year",
+        "popularityTier": "major",
+        "scopeTier": "national"
+      }
+    ],
+    "2027-01-01": [
+      {
+        "title": "New Year's Day",
+        "caption": "New Year's Day · 元旦",
+        "description": "公历新年的第一天，用烟火、倒数、团聚和休息开启新一年的日历。",
+        "motif": "fireworks",
+        "gradient": [
+          "#151a2d",
+          "#493456",
+          "#111316"
+        ],
+        "accent": "#d6c070",
+        "secondary": "#78b8e6",
+        "priority": 88,
+        "tags": [
+          "sky",
+          "celebration",
+          "light"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "CN",
+          "countryName": "China",
+          "localName": "元旦",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 792,
+        "holidayFamily": "new-year",
+        "popularityTier": "iconic",
+        "scopeTier": "national"
+      },
+      {
+        "title": "New Year's Day",
+        "caption": "New Year's Day · United States",
+        "description": "公历新年的第一天，用烟火、倒数、团聚和休息开启新一年的日历。",
+        "motif": "fireworks",
+        "gradient": [
+          "#151a2d",
+          "#493456",
+          "#111316"
+        ],
+        "accent": "#d6c070",
+        "secondary": "#78b8e6",
+        "priority": 86,
+        "tags": [
+          "sky",
+          "celebration",
+          "light"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "US",
+          "countryName": "United States",
+          "localName": "New Year's Day",
+          "typeLabels": [
+            "公众节日",
+            "银行假日"
+          ]
+        },
+        "score": 732,
+        "holidayFamily": "new-year",
+        "popularityTier": "iconic",
+        "scopeTier": "national"
+      },
+      {
+        "title": "New Year's Day",
+        "caption": "New Year's Day · Singapore",
+        "description": "公历新年的第一天，用烟火、倒数、团聚和休息开启新一年的日历。",
+        "motif": "fireworks",
+        "gradient": [
+          "#151a2d",
+          "#493456",
+          "#111316"
+        ],
+        "accent": "#d6c070",
+        "secondary": "#78b8e6",
+        "priority": 81,
+        "tags": [
+          "sky",
+          "celebration",
+          "light"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "SG",
+          "countryName": "Singapore",
+          "localName": "New Year's Day",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 612,
+        "holidayFamily": "new-year",
+        "popularityTier": "iconic",
+        "scopeTier": "national"
+      },
+      {
+        "title": "New Year's Day",
+        "caption": "New Year's Day · Saint Helena, Ascension and Tristan da Cunha",
+        "description": "公历新年的第一天，用烟火、倒数、团聚和休息开启新一年的日历。",
+        "motif": "stainedGlass",
+        "gradient": [
+          "#151a2d",
+          "#493456",
+          "#111316"
+        ],
+        "accent": "#d6c070",
+        "secondary": "#78b8e6",
+        "priority": 73,
+        "tags": [
+          "religious",
+          "heritage",
+          "light",
+          "celebration"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "SH",
+          "countryName": "Saint Helena, Ascension and Tristan da Cunha",
+          "localName": "New Year's Day",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 422,
+        "holidayFamily": "saint-day",
+        "popularityTier": "iconic",
+        "scopeTier": "national"
+      },
+      {
+        "title": "Independence Day",
+        "caption": "Independence Day · Sudan",
+        "description": "独立日通常纪念国家取得主权或脱离殖民统治的历史时刻，常伴随旗帜、仪式和公共庆祝。",
+        "motif": "cityParade",
+        "gradient": [
+          "#101d34",
+          "#4a2432",
+          "#111316"
+        ],
+        "accent": "#78aee8",
+        "secondary": "#e85a63",
+        "priority": 73,
+        "tags": [
+          "civic",
+          "celebration",
+          "procession"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "SD",
+          "countryName": "Sudan",
+          "localName": "Independence Day",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 422,
+        "holidayFamily": "independence-day",
+        "popularityTier": "common",
+        "scopeTier": "national"
+      },
+      {
+        "title": "Day of the Establishment of the Slovak Republic",
+        "caption": "Day of the Establishment of the Slovak Republic · Deň vzniku Slovenskej republiky",
+        "description": "the Establishment of the Slovak Republic日通常纪念地方身份、自治传统或区域历史，是当地公共生活与社区记忆的一部分。",
+        "motif": "cityParade",
+        "gradient": [
+          "#101d34",
+          "#4a2432",
+          "#111316"
+        ],
+        "accent": "#78aee8",
+        "secondary": "#e85a63",
+        "priority": 69,
+        "tags": [
+          "civic",
+          "celebration",
+          "procession"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "SK",
+          "countryName": "Slovakia",
+          "localName": "Deň vzniku Slovenskej republiky",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 342,
+        "holidayFamily": "republic-day",
+        "popularityTier": "common",
+        "scopeTier": "national"
+      },
+      {
+        "title": "Triumph of the Revolution",
+        "caption": "Triumph of the Revolution · Triunfo de la Revolución",
+        "description": "Cuba以「Triunfo de la Revolución」为名纪念这一天，通常与当地历史、传统或社区公共生活有关。",
+        "motif": "wovenPattern",
+        "gradient": [
+          "#171822",
+          "#4d3d32",
+          "#111314"
+        ],
+        "accent": "#d8b95b",
+        "secondary": "#78bde8",
+        "priority": 61,
+        "tags": [
+          "culture",
+          "civic"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "CU",
+          "countryName": "Cuba",
+          "localName": "Triunfo de la Revolución",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 150,
+        "holidayFamily": "revolution-day",
+        "popularityTier": "niche",
+        "scopeTier": "national"
+      },
+      {
+        "title": "Solemnity of Mary, Mother of God",
+        "caption": "Solemnity of Mary, Mother of God · Maria Santissima Madre di Dio",
+        "description": "Vatican City以「Maria Santissima Madre di Dio」为名纪念这一天，通常与当地历史、传统或社区公共生活有关。",
+        "motif": "petals",
+        "gradient": [
+          "#241525",
+          "#643044",
+          "#111214"
+        ],
+        "accent": "#e87a94",
+        "secondary": "#d7b56b",
+        "priority": 61,
+        "tags": [
+          "botanical",
+          "memorial"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "VA",
+          "countryName": "Vatican City",
+          "localName": "Maria Santissima Madre di Dio",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 150,
+        "holidayFamily": "remembrance",
+        "popularityTier": "niche",
+        "scopeTier": "national"
+      }
+    ],
+    "2027-01-02": [
+      {
+        "title": "New Year's Day",
+        "caption": "New Year's Day · Cook Islands",
+        "description": "公历新年的第一天，用烟火、倒数、团聚和休息开启新一年的日历。",
+        "motif": "maritimeFlags",
+        "gradient": [
+          "#151a2d",
+          "#493456",
+          "#111316"
+        ],
+        "accent": "#d6c070",
+        "secondary": "#78b8e6",
+        "priority": 73,
+        "tags": [
+          "maritime",
+          "water",
+          "civic",
+          "island",
+          "celebration"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "CK",
+          "countryName": "Cook Islands",
+          "localName": "New Year's Day",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 422,
+        "holidayFamily": "new-year",
+        "popularityTier": "iconic",
+        "scopeTier": "national"
+      },
+      {
+        "title": "New Year's Day",
+        "caption": "New Year's Day · Rwanda",
+        "description": "公历新年的第一天，用烟火、倒数、团聚和休息开启新一年的日历。",
+        "motif": "fireworks",
+        "gradient": [
+          "#151a2d",
+          "#493456",
+          "#111316"
+        ],
+        "accent": "#d6c070",
+        "secondary": "#78b8e6",
+        "priority": 73,
+        "tags": [
+          "sky",
+          "celebration",
+          "light"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "RW",
+          "countryName": "Rwanda",
+          "localName": "New Year's Day",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 422,
+        "holidayFamily": "new-year",
+        "popularityTier": "iconic",
+        "scopeTier": "national"
+      },
+      {
+        "title": "New Year's Day",
+        "caption": "New Year's Day · Samoa",
+        "description": "公历新年的第一天，用烟火、倒数、团聚和休息开启新一年的日历。",
+        "motif": "maritimeFlags",
+        "gradient": [
+          "#151a2d",
+          "#493456",
+          "#111316"
+        ],
+        "accent": "#d6c070",
+        "secondary": "#78b8e6",
+        "priority": 73,
+        "tags": [
+          "maritime",
+          "water",
+          "civic",
+          "island",
+          "celebration"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "WS",
+          "countryName": "Samoa",
+          "localName": "New Year's Day",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 422,
+        "holidayFamily": "new-year",
+        "popularityTier": "iconic",
+        "scopeTier": "national"
+      },
+      {
+        "title": "Berchtold's Day",
+        "caption": "Berchtold's Day · Switzerland",
+        "description": "Berchtold's Day是瑞士日历中的纪念日，通常承载当地历史、公共生活或季节性的休假安排。",
+        "motif": "wovenPattern",
+        "gradient": [
+          "#151b27",
+          "#4d2727",
+          "#111314"
+        ],
+        "accent": "#e65b5b",
+        "secondary": "#f0f0f2",
+        "priority": 65,
+        "tags": [
+          "culture",
+          "civic"
+        ],
+        "source": {
+          "provider": "OpenHolidays",
+          "countryCode": "CH",
+          "countryName": "Switzerland",
+          "localName": "Berchtold's Day",
+          "typeLabels": [
+            "公众节日",
+            "地方性"
+          ],
+          "nationwide": false,
+          "subdivisions": [
+            "LU",
+            "FR-LA-RI",
+            "VS",
+            "FR-LA-ME",
+            "AG-ZZ",
+            "AG-LB",
+            "SO",
+            "FR-LA-UL"
+          ]
+        },
+        "score": 258,
+        "holidayFamily": "municipal-local",
+        "popularityTier": "niche",
+        "scopeTier": "national"
+      },
+      {
+        "title": "2 January",
+        "caption": "2 January · United Kingdom",
+        "description": "1月2日延续新年假期的休息节奏，在部分英联邦地区作为跨年后的公共假日，方便人们继续团聚、旅行或调整作息。",
+        "motif": "wovenPattern",
+        "gradient": [
+          "#111b32",
+          "#482538",
+          "#111316"
+        ],
+        "accent": "#7faee8",
+        "secondary": "#e65b5b",
+        "priority": 64,
+        "tags": [
+          "culture",
+          "civic"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "GB",
+          "countryName": "United Kingdom",
+          "localName": "2 January",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 240,
+        "holidayFamily": "national-civic-day",
+        "popularityTier": "niche",
+        "scopeTier": "national"
+      },
+      {
+        "title": "Takai Commission Holiday",
+        "caption": "Takai Commission Holiday · Niue",
+        "description": "Takai Commission Holiday是Niue日历中的纪念日，通常承载当地历史、公共生活或季节性的休假安排。",
+        "motif": "lotusMandala",
+        "gradient": [
+          "#171427",
+          "#4c3652",
+          "#111214"
+        ],
+        "accent": "#d6b6e8",
+        "secondary": "#87c9b7",
+        "priority": 65,
+        "tags": [
+          "religious",
+          "botanical",
+          "culture",
+          "heritage"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "NU",
+          "countryName": "Niue",
+          "localName": "Takai Commission Holiday",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 230,
+        "holidayFamily": "religious-observance",
+        "popularityTier": "niche",
+        "scopeTier": "national"
+      },
+      {
+        "title": "Carnival Day",
+        "caption": "Carnival Day · Saint Kitts and Nevis",
+        "description": "Carnival Day是Saint Kitts and Nevis日历中的纪念日，通常承载当地历史、公共生活或季节性的休假安排。",
+        "motif": "stainedGlass",
+        "gradient": [
+          "#101a34",
+          "#4a2734",
+          "#111316"
+        ],
+        "accent": "#9fc8ff",
+        "secondary": "#e87a94",
+        "priority": 65,
+        "tags": [
+          "religious",
+          "heritage",
+          "light",
+          "procession"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "KN",
+          "countryName": "Saint Kitts and Nevis",
+          "localName": "Carnival Day",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 230,
+        "holidayFamily": "saint-day",
+        "popularityTier": "niche",
+        "scopeTier": "national"
+      },
+      {
+        "title": "Victory of Fidel Castro",
+        "caption": "Victory of Fidel Castro · Día de Victoria de las Fuerzas Armadas",
+        "description": "Cuba以「Día de Victoria de las Fuerzas Armadas」为名纪念这一天，通常与当地历史、传统或社区公共生活有关。",
+        "motif": "laurelTorch",
+        "gradient": [
+          "#151515",
+          "#55302d",
+          "#111111"
+        ],
+        "accent": "#d8b95b",
+        "secondary": "#d65345",
+        "priority": 61,
+        "tags": [
+          "civic",
+          "remembrance",
+          "light"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "CU",
+          "countryName": "Cuba",
+          "localName": "Día de Victoria de las Fuerzas Armadas",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 150,
+        "holidayFamily": "remembrance",
+        "popularityTier": "niche",
+        "scopeTier": "national"
+      }
+    ],
+    "2027-01-03": [
+      {
+        "title": "New Year holiday",
+        "caption": "New Year holiday · Новогодние каникулы",
+        "description": "新年假期延续公历新年的休息与庆祝，常用于家庭团聚、旅行和从岁末节奏过渡到新一年。",
+        "motif": "lotusMandala",
+        "gradient": [
+          "#171427",
+          "#4c3652",
+          "#111214"
+        ],
+        "accent": "#d6b6e8",
+        "secondary": "#87c9b7",
+        "priority": 69,
+        "tags": [
+          "religious",
+          "botanical",
+          "culture",
+          "heritage",
+          "celebration"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "RU",
+          "countryName": "Russia",
+          "localName": "Новогодние каникулы",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 342,
+        "holidayFamily": "new-year",
+        "popularityTier": "major",
+        "scopeTier": "national"
+      },
+      {
+        "title": "Revolution Day",
+        "caption": "Revolution Day · Burkina Faso",
+        "description": "革命日纪念推动国家政治或社会变革的重要历史事件，常与国家身份和公共仪式相连。",
+        "motif": "wovenPattern",
+        "gradient": [
+          "#171822",
+          "#4d3d32",
+          "#111314"
+        ],
+        "accent": "#d8b95b",
+        "secondary": "#78bde8",
+        "priority": 65,
+        "tags": [
+          "culture",
+          "civic"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "BF",
+          "countryName": "Burkina Faso",
+          "localName": "Revolution Day",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 230,
+        "holidayFamily": "revolution-day",
+        "popularityTier": "niche",
+        "scopeTier": "national"
+      }
+    ],
+    "2027-01-04": [
+      {
+        "title": "World Braille Day",
+        "caption": "World Braille Day · 世界盲文日",
+        "description": "联合国纪念日，关注盲文、无障碍阅读和信息平等。",
+        "motif": "starfield",
+        "gradient": [
+          "#101827",
+          "#2e3d51",
+          "#101316"
+        ],
+        "accent": "#d8c070",
+        "secondary": "#78bde8",
+        "priority": 66,
+        "tags": [
+          "culture",
+          "international",
+          "light"
+        ],
+        "source": {
+          "provider": "Curated Cultural Observances",
+          "countryCode": "INTL",
+          "countryName": "International",
+          "zhName": "国际",
+          "localName": "世界盲文日",
+          "typeLabels": [
+            "文化日"
+          ]
+        },
+        "score": 528,
+        "holidayFamily": "culture-observance",
+        "popularityTier": "observance",
+        "scopeTier": "international"
+      },
+      {
+        "title": "Day after New Year's Day",
+        "caption": "Day after New Year's Day · New Zealand",
+        "description": "元旦后假日延续新年休息，让人们在跨年之后继续团聚、旅行或从节庆节奏中缓慢回到日常。",
+        "motif": "fireworks",
+        "gradient": [
+          "#151a2d",
+          "#493456",
+          "#111316"
+        ],
+        "accent": "#d6c070",
+        "secondary": "#78b8e6",
+        "priority": 75,
+        "tags": [
+          "sky",
+          "celebration",
+          "light"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "NZ",
+          "countryName": "New Zealand",
+          "localName": "Day after New Year's Day",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 472,
+        "holidayFamily": "new-year",
+        "popularityTier": "iconic",
+        "scopeTier": "national"
+      },
+      {
+        "title": "New Year's Day Holiday",
+        "caption": "New Year's Day Holiday · Albania",
+        "description": "元旦补假通常在元旦附近安排，用来延续新年休假或补足周末重叠后的公众假期。",
+        "motif": "lotusMandala",
+        "gradient": [
+          "#151a2d",
+          "#493456",
+          "#111316"
+        ],
+        "accent": "#d6c070",
+        "secondary": "#78b8e6",
+        "priority": 72,
+        "tags": [
+          "religious",
+          "botanical",
+          "culture",
+          "heritage",
+          "celebration"
+        ],
+        "source": {
+          "provider": "OpenHolidays",
+          "countryCode": "AL",
+          "countryName": "Albania",
+          "localName": "New Year's Day Holiday",
+          "typeLabels": [
+            "公众节日",
+            "全国性"
+          ],
+          "nationwide": true,
+          "subdivisions": []
+        },
+        "score": 407,
+        "holidayFamily": "new-year",
+        "popularityTier": "iconic",
+        "scopeTier": "national"
+      },
+      {
+        "title": "Martyrs Day",
+        "caption": "Martyrs Day · DR Congo",
+        "description": "刚果民主共和国烈士日追忆争取国家自由和公共理想中牺牲的人，带有反殖民和国家记忆意味。",
+        "motif": "doveGarland",
+        "gradient": [
+          "#101827",
+          "#2e3d51",
+          "#101316"
+        ],
+        "accent": "#f2f0d6",
+        "secondary": "#d8c070",
+        "priority": 65,
+        "tags": [
+          "remembrance",
+          "light",
+          "civic"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "CD",
+          "countryName": "DR Congo",
+          "localName": "Martyrs Day",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 230,
+        "holidayFamily": "remembrance",
+        "popularityTier": "niche",
+        "scopeTier": "national"
+      },
+      {
+        "title": "New Year's Day",
+        "caption": "New Year's Day · Viti i Ri",
+        "description": "公历新年的第一天，用烟火、倒数、团聚和休息开启新一年的日历。",
+        "motif": "fireworks",
+        "gradient": [
+          "#151a2d",
+          "#493456",
+          "#111316"
+        ],
+        "accent": "#d6c070",
+        "secondary": "#78b8e6",
+        "priority": 69,
+        "tags": [
+          "sky",
+          "celebration",
+          "light"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "AL",
+          "countryName": "Albania",
+          "localName": "Viti i Ri",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 342,
+        "holidayFamily": "new-year",
+        "popularityTier": "iconic",
+        "scopeTier": "national"
+      },
+      {
+        "title": "New Year holiday",
+        "caption": "New Year holiday · Новогодние каникулы",
+        "description": "新年假期延续公历新年的休息与庆祝，常用于家庭团聚、旅行和从岁末节奏过渡到新一年。",
+        "motif": "lotusMandala",
+        "gradient": [
+          "#171427",
+          "#4c3652",
+          "#111214"
+        ],
+        "accent": "#d6b6e8",
+        "secondary": "#87c9b7",
+        "priority": 69,
+        "tags": [
+          "religious",
+          "botanical",
+          "culture",
+          "heritage",
+          "celebration"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "RU",
+          "countryName": "Russia",
+          "localName": "Новогодние каникулы",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 342,
+        "holidayFamily": "new-year",
+        "popularityTier": "major",
+        "scopeTier": "national"
+      }
+    ],
+    "2027-01-05": [
+      {
+        "title": "Christmas Day",
+        "caption": "Christmas Day · Սուրբ Ծնունդ",
+        "description": "圣诞节源自基督教传统，后来也成为许多地方的冬日团聚节日，常见象征包括灯饰、松枝、礼物和家庭餐桌。",
+        "motif": "fireworks",
+        "gradient": [
+          "#101827",
+          "#2d4436",
+          "#111314"
+        ],
+        "accent": "#d8c070",
+        "secondary": "#d65345",
+        "priority": 69,
+        "tags": [
+          "sky",
+          "celebration",
+          "light"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "AM",
+          "countryName": "Armenia",
+          "localName": "Սուրբ Ծնունդ",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 342,
+        "holidayFamily": "christmas",
+        "popularityTier": "iconic",
+        "scopeTier": "national"
+      },
+      {
+        "title": "New Year holiday",
+        "caption": "New Year holiday · Новогодние каникулы",
+        "description": "新年假期延续公历新年的休息与庆祝，常用于家庭团聚、旅行和从岁末节奏过渡到新一年。",
+        "motif": "lotusMandala",
+        "gradient": [
+          "#171427",
+          "#4c3652",
+          "#111214"
+        ],
+        "accent": "#d6b6e8",
+        "secondary": "#87c9b7",
+        "priority": 69,
+        "tags": [
+          "religious",
+          "botanical",
+          "culture",
+          "heritage",
+          "celebration"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "RU",
+          "countryName": "Russia",
+          "localName": "Новогодние каникулы",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 342,
+        "holidayFamily": "new-year",
+        "popularityTier": "major",
+        "scopeTier": "national"
+      }
+    ],
+    "2027-01-06": [
+      {
+        "title": "Christmas Day",
+        "caption": "Christmas Day · Սուրբ Ծնունդ",
+        "description": "圣诞节源自基督教传统，后来也成为许多地方的冬日团聚节日，常见象征包括灯饰、松枝、礼物和家庭餐桌。",
+        "motif": "fireworks",
+        "gradient": [
+          "#101827",
+          "#2d4436",
+          "#111314"
+        ],
+        "accent": "#d8c070",
+        "secondary": "#d65345",
+        "priority": 69,
+        "tags": [
+          "sky",
+          "celebration",
+          "light"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "AM",
+          "countryName": "Armenia",
+          "localName": "Սուրբ Ծնունդ",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 342,
+        "holidayFamily": "christmas",
+        "popularityTier": "iconic",
+        "scopeTier": "national"
+      },
+      {
+        "title": "New Year holiday",
+        "caption": "New Year holiday · Новогодние каникулы",
+        "description": "新年假期延续公历新年的休息与庆祝，常用于家庭团聚、旅行和从岁末节奏过渡到新一年。",
+        "motif": "lotusMandala",
+        "gradient": [
+          "#171427",
+          "#4c3652",
+          "#111214"
+        ],
+        "accent": "#d6b6e8",
+        "secondary": "#87c9b7",
+        "priority": 69,
+        "tags": [
+          "religious",
+          "botanical",
+          "culture",
+          "heritage",
+          "celebration"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "RU",
+          "countryName": "Russia",
+          "localName": "Новогодние каникулы",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 342,
+        "holidayFamily": "new-year",
+        "popularityTier": "major",
+        "scopeTier": "national"
+      },
+      {
+        "title": "Christmas Eve (Orthodox)",
+        "caption": "Christmas Eve (Orthodox) · Božić (za pravoslavce)",
+        "description": "东正教圣诞前夜按儒略历传统迎接圣诞，巴尔干等地常有家庭晚餐、橡木枝和教堂礼仪。",
+        "motif": "templeBells",
+        "gradient": [
+          "#101827",
+          "#2d4436",
+          "#111314"
+        ],
+        "accent": "#d8c070",
+        "secondary": "#d65345",
+        "priority": 67,
+        "tags": [
+          "religious",
+          "heritage",
+          "light",
+          "celebration",
+          "sky"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "BA",
+          "countryName": "Bosnia and Herzegovina",
+          "localName": "Božić (za pravoslavce)",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 302,
+        "holidayFamily": "christmas",
+        "popularityTier": "major",
+        "scopeTier": "national"
+      },
+      {
+        "title": "Epiphany",
+        "caption": "Epiphany · Epifania",
+        "description": "主显节源自基督教传统，纪念耶稣向世人显现，在许多地方也与三王来朝、游行和礼物习俗相连。",
+        "motif": "templeBells",
+        "gradient": [
+          "#10251f",
+          "#4f2c31",
+          "#111515"
+        ],
+        "accent": "#70bf75",
+        "secondary": "#e65b5b",
+        "priority": 65,
+        "tags": [
+          "religious",
+          "heritage",
+          "light"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "IT",
+          "countryName": "Italy",
+          "localName": "Epifania",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 240,
+        "holidayFamily": "religious-observance",
+        "popularityTier": "niche",
+        "scopeTier": "national"
+      },
+      {
+        "title": "Army Day",
+        "caption": "Army Day · Iraq",
+        "description": "Army Day是Iraq日历中的纪念日，通常承载当地历史、公共生活或季节性的休假安排。",
+        "motif": "wovenPattern",
+        "gradient": [
+          "#171822",
+          "#4d3d32",
+          "#111314"
+        ],
+        "accent": "#d8b95b",
+        "secondary": "#78bde8",
+        "priority": 65,
+        "tags": [
+          "culture",
+          "civic"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "IQ",
+          "countryName": "Iraq",
+          "localName": "Army Day",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 230,
+        "holidayFamily": "national-civic-day",
+        "popularityTier": "niche",
+        "scopeTier": "national"
+      },
+      {
+        "title": "Epiphany",
+        "caption": "Epiphany · San Marino",
+        "description": "主显节源自基督教传统，纪念耶稣向世人显现，在许多地方也与三王来朝、游行和礼物习俗相连。",
+        "motif": "templeBells",
+        "gradient": [
+          "#171822",
+          "#4d3d32",
+          "#111314"
+        ],
+        "accent": "#d8b95b",
+        "secondary": "#78bde8",
+        "priority": 61,
+        "tags": [
+          "religious",
+          "heritage",
+          "light"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "SM",
+          "countryName": "San Marino",
+          "localName": "Epiphany",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 150,
+        "holidayFamily": "saint-day",
+        "popularityTier": "niche",
+        "scopeTier": "national"
+      },
+      {
+        "title": "Orthodox Christmas Eve",
+        "caption": "Orthodox Christmas Eve · Badnji dan",
+        "description": "东正教圣诞前夜按儒略历传统迎接圣诞，巴尔干等地常有家庭晚餐、橡木枝和教堂礼仪。",
+        "motif": "templeBells",
+        "gradient": [
+          "#101827",
+          "#2d4436",
+          "#111314"
+        ],
+        "accent": "#d8c070",
+        "secondary": "#d65345",
+        "priority": 64,
+        "tags": [
+          "religious",
+          "heritage",
+          "light",
+          "celebration",
+          "sky"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "ME",
+          "countryName": "Montenegro",
+          "localName": "Badnji dan",
+          "typeLabels": [
+            "可选假日"
+          ]
+        },
+        "score": 262,
+        "holidayFamily": "christmas",
+        "popularityTier": "major",
+        "scopeTier": "unknown"
+      },
+      {
+        "title": "Epiphany",
+        "caption": "Epiphany · Día de Reyes / Epifanía del Señor",
+        "description": "主显节源自基督教传统，纪念耶稣向世人显现，在许多地方也与三王来朝、游行和礼物习俗相连。",
+        "motif": "templeBells",
+        "gradient": [
+          "#211619",
+          "#63362a",
+          "#111314"
+        ],
+        "accent": "#d8b95b",
+        "secondary": "#e65b5b",
+        "priority": 65,
+        "tags": [
+          "religious",
+          "heritage",
+          "light"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "ES",
+          "countryName": "Spain",
+          "localName": "Día de Reyes / Epifanía del Señor",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 240,
+        "holidayFamily": "religious-observance",
+        "popularityTier": "niche",
+        "scopeTier": "national"
+      }
+    ],
+    "2027-01-07": [
+      {
+        "title": "Constitution Day",
+        "caption": "Constitution Day · Ghana",
+        "description": "宪法日纪念宪法秩序或现代国家制度的重要节点，是公共生活中回顾法治与国家制度的日子。",
+        "motif": "cityParade",
+        "gradient": [
+          "#101d34",
+          "#4a2432",
+          "#111316"
+        ],
+        "accent": "#78aee8",
+        "secondary": "#e85a63",
+        "priority": 73,
+        "tags": [
+          "civic",
+          "celebration",
+          "procession"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "GH",
+          "countryName": "Ghana",
+          "localName": "Constitution Day",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 422,
+        "holidayFamily": "constitution-day",
+        "popularityTier": "common",
+        "scopeTier": "national"
+      },
+      {
+        "title": "Christmas Day (Orthodox)",
+        "caption": "Christmas Day (Orthodox) · Каляды праваслаўныя",
+        "description": "东正教圣诞节按儒略历传统在1月庆祝，礼拜、家庭餐桌和圣歌把冬季节期延续到新年之后。",
+        "motif": "templeBells",
+        "gradient": [
+          "#101827",
+          "#2d4436",
+          "#111314"
+        ],
+        "accent": "#d8c070",
+        "secondary": "#d65345",
+        "priority": 69,
+        "tags": [
+          "religious",
+          "heritage",
+          "light",
+          "celebration"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "BY",
+          "countryName": "Belarus",
+          "localName": "Каляды праваслаўныя",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 342,
+        "holidayFamily": "christmas",
+        "popularityTier": "iconic",
+        "scopeTier": "national"
+      },
+      {
+        "title": "Christmas Day (Orthodox)",
+        "caption": "Christmas Day (Orthodox) · عيد الميلاد المجيد",
+        "description": "东正教圣诞节按儒略历传统在1月庆祝，礼拜、家庭餐桌和圣歌把冬季节期延续到新年之后。",
+        "motif": "templeBells",
+        "gradient": [
+          "#101827",
+          "#2d4436",
+          "#111314"
+        ],
+        "accent": "#d8c070",
+        "secondary": "#d65345",
+        "priority": 69,
+        "tags": [
+          "religious",
+          "heritage",
+          "light",
+          "celebration"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "EG",
+          "countryName": "Egypt",
+          "localName": "عيد الميلاد المجيد",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 342,
+        "holidayFamily": "christmas",
+        "popularityTier": "iconic",
+        "scopeTier": "national"
+      },
+      {
+        "title": "Saint John the Baptist Day",
+        "caption": "Saint John the Baptist Day · Romania",
+        "description": "Saint John the Baptist Day是Romania日历中的纪念日，通常承载当地历史、公共生活或季节性的休假安排。",
+        "motif": "stainedGlass",
+        "gradient": [
+          "#101a34",
+          "#4a2734",
+          "#111316"
+        ],
+        "accent": "#9fc8ff",
+        "secondary": "#e87a94",
+        "priority": 64,
+        "tags": [
+          "religious",
+          "heritage",
+          "light"
+        ],
+        "source": {
+          "provider": "OpenHolidays",
+          "countryCode": "RO",
+          "countryName": "Romania",
+          "localName": "Saint John the Baptist Day",
+          "typeLabels": [
+            "公众节日",
+            "全国性"
+          ],
+          "nationwide": true,
+          "subdivisions": []
+        },
+        "score": 215,
+        "holidayFamily": "saint-day",
+        "popularityTier": "niche",
+        "scopeTier": "national"
+      },
+      {
+        "title": "Victory over Genocide Day",
+        "caption": "Victory over Genocide Day · ទិវាជ័យជម្នះលើរបបប្រល័យពូជសាសន៍",
+        "description": "Cambodia以「ទិវាជ័យជម្នះលើរបបប្រល័យពូជសាសន៍」为名纪念这一天，通常与当地历史、传统或社区公共生活有关。",
+        "motif": "laurelTorch",
+        "gradient": [
+          "#151515",
+          "#55302d",
+          "#111111"
+        ],
+        "accent": "#d8b95b",
+        "secondary": "#d65345",
+        "priority": 61,
+        "tags": [
+          "civic",
+          "remembrance",
+          "light"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "KH",
+          "countryName": "Cambodia",
+          "localName": "ទិវាជ័យជម្នះលើរបបប្រល័យពូជសាសន៍",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 150,
+        "holidayFamily": "remembrance",
+        "popularityTier": "niche",
+        "scopeTier": "national"
+      },
+      {
+        "title": "Orthodox Christmas",
+        "caption": "Orthodox Christmas · Lidet ልደት",
+        "description": "圣诞节源自基督教传统，后来也成为许多地方的冬日团聚节日，常见象征包括灯饰、松枝、礼物和家庭餐桌。",
+        "motif": "templeBells",
+        "gradient": [
+          "#101827",
+          "#2d4436",
+          "#111314"
+        ],
+        "accent": "#d8c070",
+        "secondary": "#d65345",
+        "priority": 69,
+        "tags": [
+          "religious",
+          "heritage",
+          "light",
+          "celebration"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "ER",
+          "countryName": "Eritrea",
+          "localName": "Lidet ልደት",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 342,
+        "holidayFamily": "christmas",
+        "popularityTier": "major",
+        "scopeTier": "national"
+      },
+      {
+        "title": "Christmas Day (Orthodox)",
+        "caption": "Christmas Day (Orthodox) · ልደተ-ለእግዚእነ/ ገና",
+        "description": "东正教圣诞节按儒略历传统在1月庆祝，礼拜、家庭餐桌和圣歌把冬季节期延续到新年之后。",
+        "motif": "templeBells",
+        "gradient": [
+          "#101827",
+          "#2d4436",
+          "#111314"
+        ],
+        "accent": "#d8c070",
+        "secondary": "#d65345",
+        "priority": 69,
+        "tags": [
+          "religious",
+          "heritage",
+          "light",
+          "celebration"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "ET",
+          "countryName": "Ethiopia",
+          "localName": "ልደተ-ለእግዚእነ/ ገና",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 342,
+        "holidayFamily": "christmas",
+        "popularityTier": "iconic",
+        "scopeTier": "national"
+      },
+      {
+        "title": "Christmas Day (Orthodox)",
+        "caption": "Christmas Day (Orthodox) · ქრისტეშობა",
+        "description": "东正教圣诞节按儒略历传统在1月庆祝，礼拜、家庭餐桌和圣歌把冬季节期延续到新年之后。",
+        "motif": "templeBells",
+        "gradient": [
+          "#101827",
+          "#2d4436",
+          "#111314"
+        ],
+        "accent": "#d8c070",
+        "secondary": "#d65345",
+        "priority": 69,
+        "tags": [
+          "religious",
+          "heritage",
+          "light",
+          "celebration"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "GE",
+          "countryName": "Georgia",
+          "localName": "ქრისტეშობა",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 342,
+        "holidayFamily": "christmas",
+        "popularityTier": "iconic",
+        "scopeTier": "national"
+      }
+    ],
+    "2027-01-08": [
+      {
+        "title": "Christmas Day (Orthodox)",
+        "caption": "Christmas Day (Orthodox) · Craciun pe stil Vechi (Orthodox Christmas)",
+        "description": "东正教圣诞节按儒略历传统在1月庆祝，礼拜、家庭餐桌和圣歌把冬季节期延续到新年之后。",
+        "motif": "templeBells",
+        "gradient": [
+          "#101827",
+          "#2d4436",
+          "#111314"
+        ],
+        "accent": "#d8c070",
+        "secondary": "#d65345",
+        "priority": 69,
+        "tags": [
+          "religious",
+          "heritage",
+          "light",
+          "celebration"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "MD",
+          "countryName": "Moldova",
+          "localName": "Craciun pe stil Vechi (Orthodox Christmas)",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 342,
+        "holidayFamily": "christmas",
+        "popularityTier": "iconic",
+        "scopeTier": "national"
+      },
+      {
+        "title": "Birth of Jesus Christ (Christmas in the old style)",
+        "caption": "Birth of Jesus Christ (Christmas in the old style) · Moldova",
+        "description": "东正教圣诞节按儒略历传统在1月庆祝，礼拜、家庭餐桌和圣歌把冬季节期延续到新年之后。",
+        "motif": "fireworks",
+        "gradient": [
+          "#101827",
+          "#2d4436",
+          "#111314"
+        ],
+        "accent": "#d8c070",
+        "secondary": "#d65345",
+        "priority": 69,
+        "tags": [
+          "sky",
+          "celebration",
+          "light"
+        ],
+        "source": {
+          "provider": "OpenHolidays",
+          "countryCode": "MD",
+          "countryName": "Moldova",
+          "localName": "Birth of Jesus Christ (Christmas in the old style)",
+          "typeLabels": [
+            "公众节日",
+            "全国性"
+          ],
+          "nationwide": true,
+          "subdivisions": []
+        },
+        "score": 327,
+        "holidayFamily": "christmas",
+        "popularityTier": "major",
+        "scopeTier": "national"
+      },
+      {
+        "title": "Christmas Day (Orthodox)",
+        "caption": "Christmas Day (Orthodox) · Božić",
+        "description": "东正教圣诞节按儒略历传统在1月庆祝，礼拜、家庭餐桌和圣歌把冬季节期延续到新年之后。",
+        "motif": "templeBells",
+        "gradient": [
+          "#101827",
+          "#2d4436",
+          "#111314"
+        ],
+        "accent": "#d8c070",
+        "secondary": "#d65345",
+        "priority": 64,
+        "tags": [
+          "religious",
+          "heritage",
+          "light",
+          "celebration"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "ME",
+          "countryName": "Montenegro",
+          "localName": "Božić",
+          "typeLabels": [
+            "可选假日"
+          ]
+        },
+        "score": 262,
+        "holidayFamily": "christmas",
+        "popularityTier": "iconic",
+        "scopeTier": "unknown"
+      }
+    ],
+    "2027-01-09": [
+      {
+        "title": "Martyrs' Day",
+        "caption": "Martyrs' Day · Día de los Mártires",
+        "description": "巴拿马烈士日纪念1964年运河区旗帜冲突中的遇难者，是国家主权和反殖民记忆中的重要日子。",
+        "motif": "doveGarland",
+        "gradient": [
+          "#101827",
+          "#2e3d51",
+          "#101316"
+        ],
+        "accent": "#f2f0d6",
+        "secondary": "#d8c070",
+        "priority": 61,
+        "tags": [
+          "remembrance",
+          "light",
+          "civic"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "PA",
+          "countryName": "Panama",
+          "localName": "Día de los Mártires",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 150,
+        "holidayFamily": "remembrance",
+        "popularityTier": "niche",
+        "scopeTier": "national"
+      }
+    ],
+    "2027-01-10": [
+      {
+        "title": "Traditional Day",
+        "caption": "Traditional Day · Benin",
+        "description": "贝宁传统日庆祝伏都等本土信仰和祖灵传统，仪式、舞蹈和祭礼展现当地宗教文化的公共地位。",
+        "motif": "folkEmbroidery",
+        "gradient": [
+          "#171822",
+          "#4d2f32",
+          "#111314"
+        ],
+        "accent": "#d8b95b",
+        "secondary": "#e65b5b",
+        "priority": 65,
+        "tags": [
+          "folk",
+          "heritage",
+          "culture"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "BJ",
+          "countryName": "Benin",
+          "localName": "Traditional Day",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 230,
+        "holidayFamily": "culture-observance",
+        "popularityTier": "niche",
+        "scopeTier": "national"
+      }
+    ],
+    "2027-01-11": [
+      {
+        "title": "Constitution Day",
+        "caption": "Constitution Day · Micronesia",
+        "description": "宪法日纪念宪法秩序或现代国家制度的重要节点，是公共生活中回顾法治与国家制度的日子。",
+        "motif": "cityParade",
+        "gradient": [
+          "#101d34",
+          "#4a2432",
+          "#111316"
+        ],
+        "accent": "#78aee8",
+        "secondary": "#e85a63",
+        "priority": 70,
+        "tags": [
+          "civic",
+          "celebration",
+          "procession"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "FM",
+          "countryName": "Micronesia",
+          "localName": "Constitution Day",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 382,
+        "holidayFamily": "constitution-day",
+        "popularityTier": "common",
+        "scopeTier": "national"
+      },
+      {
+        "title": "Coming of Age Day",
+        "caption": "Coming of Age Day · 成人の日",
+        "description": "成人日是日本祝贺年轻人进入成年阶段的节日，许多地方会举行仪式，年轻人常穿着礼服或和服参加庆祝。",
+        "motif": "sunRibbons",
+        "gradient": [
+          "#171318",
+          "#4b1f2a",
+          "#111214"
+        ],
+        "accent": "#f2eee6",
+        "secondary": "#d94a4d",
+        "priority": 71,
+        "tags": [
+          "sun",
+          "celebration"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "JP",
+          "countryName": "Japan",
+          "localName": "成人の日",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 380,
+        "holidayFamily": "public-holiday",
+        "popularityTier": "niche",
+        "scopeTier": "national"
+      },
+      {
+        "title": "Proclamation of Independence",
+        "caption": "Proclamation of Independence · Takdim watikat al-istiqlal",
+        "description": "摩洛哥独立宣言纪念日回望1944年民族主义者提交独立宣言的历史，是现代独立运动的重要节点。",
+        "motif": "cityParade",
+        "gradient": [
+          "#101d34",
+          "#4a2432",
+          "#111316"
+        ],
+        "accent": "#78aee8",
+        "secondary": "#e85a63",
+        "priority": 69,
+        "tags": [
+          "civic",
+          "celebration",
+          "procession"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "MA",
+          "countryName": "Morocco",
+          "localName": "Takdim watikat al-istiqlal",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 342,
+        "holidayFamily": "national-civic-day",
+        "popularityTier": "niche",
+        "scopeTier": "national"
+      },
+      {
+        "title": "Epiphany",
+        "caption": "Epiphany · Día de los Reyes Magos",
+        "description": "主显节源自基督教传统，纪念耶稣向世人显现，在许多地方也与三王来朝、游行和礼物习俗相连。",
+        "motif": "templeBells",
+        "gradient": [
+          "#171822",
+          "#4d3d32",
+          "#111314"
+        ],
+        "accent": "#d8b95b",
+        "secondary": "#78bde8",
+        "priority": 61,
+        "tags": [
+          "religious",
+          "heritage",
+          "light"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "CO",
+          "countryName": "Colombia",
+          "localName": "Día de los Reyes Magos",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 150,
+        "holidayFamily": "religious-observance",
+        "popularityTier": "niche",
+        "scopeTier": "national"
+      },
+      {
+        "title": "Municipal holiday",
+        "caption": "Municipal holiday · Portugal",
+        "description": "葡萄牙市镇假日通常由各地自行纪念守护圣人、建城传统或地方历史，日期和习俗会随着城市而变化。",
+        "motif": "lotusMandala",
+        "gradient": [
+          "#171427",
+          "#4c3652",
+          "#111214"
+        ],
+        "accent": "#d6b6e8",
+        "secondary": "#87c9b7",
+        "priority": 58,
+        "tags": [
+          "religious",
+          "botanical",
+          "culture",
+          "heritage"
+        ],
+        "source": {
+          "provider": "OpenHolidays",
+          "countryCode": "PT",
+          "countryName": "Portugal",
+          "localName": "Municipal holiday",
+          "typeLabels": [
+            "可选假日",
+            "地方性"
+          ],
+          "nationwide": false,
+          "subdivisions": [
+            "LE-OB"
+          ]
+        },
+        "score": 136,
+        "holidayFamily": "municipal-local",
+        "popularityTier": "local",
+        "scopeTier": "local"
+      },
+      {
+        "title": "Majority Rule Day",
+        "caption": "Majority Rule Day · Bahamas",
+        "description": "巴哈马多数统治日纪念1967年多数黑人政府上台，被视为政治平等和通往独立的重要转折。",
+        "motif": "wovenPattern",
+        "gradient": [
+          "#171822",
+          "#4d3d32",
+          "#111314"
+        ],
+        "accent": "#d8b95b",
+        "secondary": "#78bde8",
+        "priority": 65,
+        "tags": [
+          "culture",
+          "civic"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "BS",
+          "countryName": "Bahamas",
+          "localName": "Majority Rule Day",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 230,
+        "holidayFamily": "national-civic-day",
+        "popularityTier": "niche",
+        "scopeTier": "national"
+      },
+      {
+        "title": "Birthday of Eugenio María de Hostos",
+        "caption": "Birthday of Eugenio María de Hostos · Natalicio de Eugenio María de Hostos",
+        "description": "这一天纪念波多黎各教育家、思想家 Eugenio María de Hostos，他倡导教育、反殖民和加勒比公共理想。",
+        "motif": "wovenPattern",
+        "gradient": [
+          "#171822",
+          "#4d3d32",
+          "#111314"
+        ],
+        "accent": "#d8b95b",
+        "secondary": "#78bde8",
+        "priority": 61,
+        "tags": [
+          "culture",
+          "civic"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "PR",
+          "countryName": "Puerto Rico",
+          "localName": "Natalicio de Eugenio María de Hostos",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 150,
+        "holidayFamily": "national-civic-day",
+        "popularityTier": "niche",
+        "scopeTier": "national"
+      }
+    ],
+    "2027-01-12": [
+      {
+        "title": "Amazigh New Year",
+        "caption": "Amazigh New Year · Algeria",
+        "description": "新年假日标志公历年份开始，人们常用倒数、烟火、聚会和休息迎接新的日历周期。",
+        "motif": "fireworks",
+        "gradient": [
+          "#101a34",
+          "#4a2734",
+          "#111316"
+        ],
+        "accent": "#6aa7ff",
+        "secondary": "#e85a63",
+        "priority": 69,
+        "tags": [
+          "sky",
+          "celebration",
+          "light"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "DZ",
+          "countryName": "Algeria",
+          "localName": "Amazigh New Year",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 342,
+        "holidayFamily": "new-year",
+        "popularityTier": "major",
+        "scopeTier": "national"
+      },
+      {
+        "title": "Zanzibar Revolution Day",
+        "caption": "Zanzibar Revolution Day · Sikukuu ya Mapinduzi ya Zanzibar",
+        "description": "Tanzania以「Sikukuu ya Mapinduzi ya Zanzibar」为名纪念这一天，通常与当地历史、传统或社区公共生活有关。",
+        "motif": "wovenPattern",
+        "gradient": [
+          "#171822",
+          "#4d3d32",
+          "#111314"
+        ],
+        "accent": "#d8b95b",
+        "secondary": "#78bde8",
+        "priority": 61,
+        "tags": [
+          "culture",
+          "civic"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "TZ",
+          "countryName": "Tanzania",
+          "localName": "Sikukuu ya Mapinduzi ya Zanzibar",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 150,
+        "holidayFamily": "revolution-day",
+        "popularityTier": "niche",
+        "scopeTier": "national"
+      }
+    ],
+    "2027-01-13": [
+      {
+        "title": "Liberation Day",
+        "caption": "Liberation Day · Togo",
+        "description": "解放日通常纪念战争结束、占领结束或国家重新获得自由的历史时刻，常带有追思和庆祝双重意味。",
+        "motif": "laurelTorch",
+        "gradient": [
+          "#151515",
+          "#55302d",
+          "#111111"
+        ],
+        "accent": "#d8b95b",
+        "secondary": "#d65345",
+        "priority": 65,
+        "tags": [
+          "civic",
+          "remembrance",
+          "light"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "TG",
+          "countryName": "Togo",
+          "localName": "Liberation Day",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 230,
+        "holidayFamily": "remembrance",
+        "popularityTier": "niche",
+        "scopeTier": "national"
+      },
+      {
+        "title": "Democracy Day",
+        "caption": "Democracy Day · Dia da Democracia",
+        "description": "Cape Verde以「Dia da Democracia」为名纪念这一天，通常与当地历史、传统或社区公共生活有关。",
+        "motif": "maritimeFlags",
+        "gradient": [
+          "#0c2635",
+          "#255d70",
+          "#101417"
+        ],
+        "accent": "#76cce8",
+        "secondary": "#f0c95c",
+        "priority": 61,
+        "tags": [
+          "maritime",
+          "water",
+          "civic",
+          "island"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "CV",
+          "countryName": "Cape Verde",
+          "localName": "Dia da Democracia",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 150,
+        "holidayFamily": "national-civic-day",
+        "popularityTier": "niche",
+        "scopeTier": "national"
+      },
+      {
+        "title": "Municipal holiday",
+        "caption": "Municipal holiday · Portugal",
+        "description": "葡萄牙市镇假日通常由各地自行纪念守护圣人、建城传统或地方历史，日期和习俗会随着城市而变化。",
+        "motif": "lotusMandala",
+        "gradient": [
+          "#171427",
+          "#4c3652",
+          "#111214"
+        ],
+        "accent": "#d6b6e8",
+        "secondary": "#87c9b7",
+        "priority": 58,
+        "tags": [
+          "religious",
+          "botanical",
+          "culture",
+          "heritage"
+        ],
+        "source": {
+          "provider": "OpenHolidays",
+          "countryCode": "PT",
+          "countryName": "Portugal",
+          "localName": "Municipal holiday",
+          "typeLabels": [
+            "可选假日",
+            "地方性"
+          ],
+          "nationwide": false,
+          "subdivisions": [
+            "VR-SM",
+            "CO-VP",
+            "EV-VA",
+            "LI-CD"
+          ]
+        },
+        "score": 136,
+        "holidayFamily": "municipal-local",
+        "popularityTier": "local",
+        "scopeTier": "local"
+      }
+    ],
+    "2027-01-14": [
+      {
+        "title": "Amazigh New Year",
+        "caption": "Amazigh New Year · Id Yennayer",
+        "description": "阿马齐格新年 Yennayer 标记北非柏柏尔历的新年，家庭餐食、谷物和土地祝福常带有农业季节意味。",
+        "motif": "fireworks",
+        "gradient": [
+          "#101a34",
+          "#4a2734",
+          "#111316"
+        ],
+        "accent": "#6aa7ff",
+        "secondary": "#e85a63",
+        "priority": 69,
+        "tags": [
+          "sky",
+          "celebration",
+          "light"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "MA",
+          "countryName": "Morocco",
+          "localName": "Id Yennayer",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 342,
+        "holidayFamily": "new-year",
+        "popularityTier": "major",
+        "scopeTier": "national"
+      },
+      {
+        "title": "Municipal holiday",
+        "caption": "Municipal holiday · Portugal",
+        "description": "葡萄牙市镇假日通常由各地自行纪念守护圣人、建城传统或地方历史，日期和习俗会随着城市而变化。",
+        "motif": "lotusMandala",
+        "gradient": [
+          "#171427",
+          "#4c3652",
+          "#111214"
+        ],
+        "accent": "#d6b6e8",
+        "secondary": "#87c9b7",
+        "priority": 58,
+        "tags": [
+          "religious",
+          "botanical",
+          "culture",
+          "heritage"
+        ],
+        "source": {
+          "provider": "OpenHolidays",
+          "countryCode": "PT",
+          "countryName": "Portugal",
+          "localName": "Municipal holiday",
+          "typeLabels": [
+            "可选假日",
+            "地方性"
+          ],
+          "nationwide": false,
+          "subdivisions": [
+            "PA-EL"
+          ]
+        },
+        "score": 136,
+        "holidayFamily": "municipal-local",
+        "popularityTier": "local",
+        "scopeTier": "local"
+      },
+      {
+        "title": "Feast of the Divina Pastora",
+        "caption": "Feast of the Divina Pastora · Día de la Divina Pastora",
+        "description": "委内瑞拉 Divina Pastora 节以拉腊州巴基西梅托的大型圣母游行为核心，是当地最盛大的天主教敬礼之一。",
+        "motif": "wovenPattern",
+        "gradient": [
+          "#171822",
+          "#4d3d32",
+          "#111314"
+        ],
+        "accent": "#d8b95b",
+        "secondary": "#78bde8",
+        "priority": 56,
+        "tags": [
+          "culture",
+          "civic"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "VE",
+          "countryName": "Venezuela",
+          "localName": "Día de la Divina Pastora",
+          "typeLabels": [
+            "纪念日"
+          ]
+        },
+        "score": 70,
+        "holidayFamily": "remembrance",
+        "popularityTier": "niche",
+        "scopeTier": "unknown"
+      }
+    ],
+    "2027-01-15": [
+      {
+        "title": "George Price Day",
+        "caption": "George Price Day · Belize",
+        "description": "伯利兹 George Price Day 纪念独立运动领袖和首任总理 George Cadle Price，他常被称为国家之父。",
+        "motif": "wovenPattern",
+        "gradient": [
+          "#171822",
+          "#4d3d32",
+          "#111314"
+        ],
+        "accent": "#d8b95b",
+        "secondary": "#78bde8",
+        "priority": 65,
+        "tags": [
+          "culture",
+          "civic"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "BZ",
+          "countryName": "Belize",
+          "localName": "George Price Day",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 230,
+        "holidayFamily": "national-civic-day",
+        "popularityTier": "niche",
+        "scopeTier": "national"
+      },
+      {
+        "title": "John Chilembwe Day",
+        "caption": "John Chilembwe Day · Malawi",
+        "description": "John Chilembwe Day是Malawi日历中的纪念日，通常承载当地历史、公共生活或季节性的休假安排。",
+        "motif": "wovenPattern",
+        "gradient": [
+          "#171822",
+          "#4d3d32",
+          "#111314"
+        ],
+        "accent": "#d8b95b",
+        "secondary": "#78bde8",
+        "priority": 65,
+        "tags": [
+          "culture",
+          "civic"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "MW",
+          "countryName": "Malawi",
+          "localName": "John Chilembwe Day",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 230,
+        "holidayFamily": "national-civic-day",
+        "popularityTier": "niche",
+        "scopeTier": "national"
+      },
+      {
+        "title": "St Amaro's Day",
+        "caption": "St Amaro's Day · Portugal",
+        "description": "葡萄牙部分地方在圣阿马罗日举行守护圣人礼仪和社区活动，常与冬季市镇传统相连。",
+        "motif": "wovenPattern",
+        "gradient": [
+          "#171822",
+          "#4d3d32",
+          "#111314"
+        ],
+        "accent": "#d8b95b",
+        "secondary": "#78bde8",
+        "priority": 58,
+        "tags": [
+          "culture",
+          "civic"
+        ],
+        "source": {
+          "provider": "OpenHolidays",
+          "countryCode": "PT",
+          "countryName": "Portugal",
+          "localName": "St Amaro's Day",
+          "typeLabels": [
+            "可选假日",
+            "地方性"
+          ],
+          "nationwide": false,
+          "subdivisions": [
+            "MA-SC"
+          ]
+        },
+        "score": 136,
+        "holidayFamily": "municipal-local",
+        "popularityTier": "local",
+        "scopeTier": "local"
+      },
+      {
+        "title": "Teacher's Day",
+        "caption": "Teacher's Day · Día del Maestro",
+        "description": "委内瑞拉教师节纪念教育工作者和公共教育传统，学校活动常围绕感谢教师和知识传递展开。",
+        "motif": "bookPress",
+        "gradient": [
+          "#171822",
+          "#4d3d32",
+          "#111314"
+        ],
+        "accent": "#d8b95b",
+        "secondary": "#f2f0d6",
+        "priority": 56,
+        "tags": [
+          "literature",
+          "culture",
+          "heritage"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "VE",
+          "countryName": "Venezuela",
+          "localName": "Día del Maestro",
+          "typeLabels": [
+            "纪念日"
+          ]
+        },
+        "score": 70,
+        "holidayFamily": "remembrance",
+        "popularityTier": "niche",
+        "scopeTier": "unknown"
+      }
+    ],
+    "2027-01-16": [
+      {
+        "title": "Laurent-Désiré Kabila Assassination",
+        "caption": "Laurent-Désiré Kabila Assassination · DR Congo",
+        "description": "刚果民主共和国这一天纪念前总统 Laurent-Désiré Kabila 遇刺，公共记忆里连着战争、政权更替和国家政治史。",
+        "motif": "wovenPattern",
+        "gradient": [
+          "#171822",
+          "#4d3d32",
+          "#111314"
+        ],
+        "accent": "#d8b95b",
+        "secondary": "#78bde8",
+        "priority": 61,
+        "tags": [
+          "culture",
+          "civic"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "CD",
+          "countryName": "DR Congo",
+          "localName": "Laurent-Désiré Kabila Assassination",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 150,
+        "holidayFamily": "national-civic-day",
+        "popularityTier": "niche",
+        "scopeTier": "national"
+      }
+    ],
+    "2027-01-17": [
+      {
+        "title": "St Anthony's Day",
+        "caption": "St Anthony's Day · Switzerland",
+        "description": "瑞士部分地方的圣安东尼日纪念旷野圣安东尼，冬季礼仪中常带有守护牲畜和乡村传统的意味。",
+        "motif": "wovenPattern",
+        "gradient": [
+          "#151b27",
+          "#4d2727",
+          "#111314"
+        ],
+        "accent": "#e65b5b",
+        "secondary": "#f0f0f2",
+        "priority": 65,
+        "tags": [
+          "culture",
+          "civic"
+        ],
+        "source": {
+          "provider": "OpenHolidays",
+          "countryCode": "CH",
+          "countryName": "Switzerland",
+          "localName": "St Anthony's Day",
+          "typeLabels": [
+            "公众节日",
+            "地方性"
+          ],
+          "nationwide": false,
+          "subdivisions": [
+            "SO-TH-AD",
+            "SZ-SZ-RT"
+          ]
+        },
+        "score": 258,
+        "holidayFamily": "municipal-local",
+        "popularityTier": "niche",
+        "scopeTier": "national"
+      },
+      {
+        "title": "World Religion Day",
+        "caption": "World Religion Day · Suriname",
+        "description": "苏里南世界宗教日强调多宗教社会中的理解与共处，也呼应当地印度教、伊斯兰教、基督教等多元传统。",
+        "motif": "wovenPattern",
+        "gradient": [
+          "#171822",
+          "#4d3d32",
+          "#111314"
+        ],
+        "accent": "#d8b95b",
+        "secondary": "#78bde8",
+        "priority": 65,
+        "tags": [
+          "culture",
+          "civic"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "SR",
+          "countryName": "Suriname",
+          "localName": "World Religion Day",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 230,
+        "holidayFamily": "international-observance",
+        "popularityTier": "observance",
+        "scopeTier": "national"
+      },
+      {
+        "title": "Patrice Lumumba Assassination",
+        "caption": "Patrice Lumumba Assassination · DR Congo",
+        "description": "这一天纪念刚果独立领袖 Patrice Lumumba 遇害，他在非洲反殖民和国家主权记忆中具有象征地位。",
+        "motif": "wovenPattern",
+        "gradient": [
+          "#171822",
+          "#4d3d32",
+          "#111314"
+        ],
+        "accent": "#d8b95b",
+        "secondary": "#78bde8",
+        "priority": 61,
+        "tags": [
+          "culture",
+          "civic"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "CD",
+          "countryName": "DR Congo",
+          "localName": "Patrice Lumumba Assassination",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 150,
+        "holidayFamily": "national-civic-day",
+        "popularityTier": "niche",
+        "scopeTier": "national"
+      }
+    ],
+    "2027-01-18": [
+      {
+        "title": "Martin Luther King, Jr. Day",
+        "caption": "Martin Luther King, Jr. Day · United States",
+        "description": "马丁·路德·金纪念日纪念美国民权运动领袖，强调平等、非暴力、公共服务和社会正义。",
+        "motif": "paperCut",
+        "gradient": [
+          "#101a34",
+          "#4a2432",
+          "#111316"
+        ],
+        "accent": "#6aa7ff",
+        "secondary": "#e85a63",
+        "priority": 78,
+        "tags": [
+          "civic",
+          "celebration",
+          "culture"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "US",
+          "countryName": "United States",
+          "localName": "Martin Luther King, Jr. Day",
+          "typeLabels": [
+            "公众节日",
+            "银行假日"
+          ]
+        },
+        "score": 540,
+        "holidayFamily": "national-civic-day",
+        "popularityTier": "niche",
+        "scopeTier": "national"
+      },
+      {
+        "title": "Martin Luther King Jr. Day",
+        "caption": "Martin Luther King Jr. Day · Northern Mariana Islands",
+        "description": "Martin Luther King Jr. Day是Northern Mariana Islands日历中的纪念日，通常承载当地历史、公共生活或季节性的休假安排。",
+        "motif": "maritimeFlags",
+        "gradient": [
+          "#0c2635",
+          "#255d70",
+          "#101417"
+        ],
+        "accent": "#76cce8",
+        "secondary": "#f0c95c",
+        "priority": 65,
+        "tags": [
+          "maritime",
+          "water",
+          "civic",
+          "island"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "MP",
+          "countryName": "Northern Mariana Islands",
+          "localName": "Martin Luther King Jr. Day",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 230,
+        "holidayFamily": "national-civic-day",
+        "popularityTier": "niche",
+        "scopeTier": "national"
+      },
+      {
+        "title": "Martin Luther King, Jr. Day",
+        "caption": "Martin Luther King, Jr. Day · United States Virgin Islands",
+        "description": "马丁·路德·金纪念日纪念美国民权运动领袖，强调平等、非暴力和社会正义。",
+        "motif": "maritimeFlags",
+        "gradient": [
+          "#0c2635",
+          "#255d70",
+          "#101417"
+        ],
+        "accent": "#76cce8",
+        "secondary": "#f0c95c",
+        "priority": 65,
+        "tags": [
+          "maritime",
+          "water",
+          "civic",
+          "island"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "VI",
+          "countryName": "United States Virgin Islands",
+          "localName": "Martin Luther King, Jr. Day",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 230,
+        "holidayFamily": "national-civic-day",
+        "popularityTier": "niche",
+        "scopeTier": "national"
+      },
+      {
+        "title": "Martin Luther King, Jr. Day",
+        "caption": "Martin Luther King, Jr. Day · Natalicio de Martin Luther King, Jr.",
+        "description": "波多黎各的马丁·路德·金纪念日沿用美国联邦民权纪念传统，强调非暴力、平等和公共服务。",
+        "motif": "wovenPattern",
+        "gradient": [
+          "#171822",
+          "#4d3d32",
+          "#111314"
+        ],
+        "accent": "#d8b95b",
+        "secondary": "#78bde8",
+        "priority": 61,
+        "tags": [
+          "culture",
+          "civic"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "PR",
+          "countryName": "Puerto Rico",
+          "localName": "Natalicio de Martin Luther King, Jr.",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 150,
+        "holidayFamily": "national-civic-day",
+        "popularityTier": "niche",
+        "scopeTier": "national"
+      }
+    ],
+    "2027-01-19": [
+      {
+        "title": "Orthodox Epiphany",
+        "caption": "Orthodox Epiphany · Timket ጥምቀት",
+        "description": "Eritrea以「Timket ጥምቀት」为名纪念这一天，通常与当地历史、传统或社区公共生活有关。",
+        "motif": "templeBells",
+        "gradient": [
+          "#171822",
+          "#4d3d32",
+          "#111314"
+        ],
+        "accent": "#d8b95b",
+        "secondary": "#78bde8",
+        "priority": 61,
+        "tags": [
+          "religious",
+          "heritage",
+          "light"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "ER",
+          "countryName": "Eritrea",
+          "localName": "Timket ጥምቀት",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 150,
+        "holidayFamily": "religious-observance",
+        "popularityTier": "niche",
+        "scopeTier": "national"
+      },
+      {
+        "title": "Epiphany (Orthodox)",
+        "caption": "Epiphany (Orthodox) · ጥምቀት",
+        "description": "Ethiopia以「ጥምቀት」为名纪念这一天，通常与当地历史、传统或社区公共生活有关。",
+        "motif": "templeBells",
+        "gradient": [
+          "#171822",
+          "#4d3d32",
+          "#111314"
+        ],
+        "accent": "#d8b95b",
+        "secondary": "#78bde8",
+        "priority": 61,
+        "tags": [
+          "religious",
+          "heritage",
+          "light"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "ET",
+          "countryName": "Ethiopia",
+          "localName": "ጥምቀት",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 150,
+        "holidayFamily": "religious-observance",
+        "popularityTier": "niche",
+        "scopeTier": "national"
+      },
+      {
+        "title": "Epiphany (Orthodox)",
+        "caption": "Epiphany (Orthodox) · ნათლისღება",
+        "description": "格鲁吉亚东正教主显节纪念基督受洗，祝圣水礼仪和教堂活动是这一天的重要传统。",
+        "motif": "templeBells",
+        "gradient": [
+          "#171822",
+          "#4d3d32",
+          "#111314"
+        ],
+        "accent": "#d8b95b",
+        "secondary": "#78bde8",
+        "priority": 61,
+        "tags": [
+          "religious",
+          "heritage",
+          "light"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "GE",
+          "countryName": "Georgia",
+          "localName": "ნათლისღება",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 150,
+        "holidayFamily": "religious-observance",
+        "popularityTier": "niche",
+        "scopeTier": "national"
+      }
+    ],
+    "2027-01-20": [
+      {
+        "title": "National Heroes' Day",
+        "caption": "National Heroes' Day · Guinea-Bissau",
+        "description": "National Heroes' Day是Guinea-Bissau日历中的纪念日，通常承载当地历史、公共生活或季节性的休假安排。",
+        "motif": "cityParade",
+        "gradient": [
+          "#101d34",
+          "#4a2432",
+          "#111316"
+        ],
+        "accent": "#78aee8",
+        "secondary": "#e85a63",
+        "priority": 73,
+        "tags": [
+          "civic",
+          "celebration",
+          "procession"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "GW",
+          "countryName": "Guinea-Bissau",
+          "localName": "National Heroes' Day",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 422,
+        "holidayFamily": "heroes-day",
+        "popularityTier": "niche",
+        "scopeTier": "national"
+      },
+      {
+        "title": "Armed Forces Day",
+        "caption": "Armed Forces Day · Mali",
+        "description": "Armed Forces Day是Mali日历中的纪念日，通常承载当地历史、公共生活或季节性的休假安排。",
+        "motif": "wovenPattern",
+        "gradient": [
+          "#171822",
+          "#4d3d32",
+          "#111314"
+        ],
+        "accent": "#d8b95b",
+        "secondary": "#78bde8",
+        "priority": 65,
+        "tags": [
+          "culture",
+          "civic"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "ML",
+          "countryName": "Mali",
+          "localName": "Armed Forces Day",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 230,
+        "holidayFamily": "national-civic-day",
+        "popularityTier": "niche",
+        "scopeTier": "national"
+      },
+      {
+        "title": "Heroes' Day",
+        "caption": "Heroes' Day · Dia da Heróis Nacional",
+        "description": "Cape Verde以「Dia da Heróis Nacional」为名纪念这一天，通常与当地历史、传统或社区公共生活有关。",
+        "motif": "maritimeFlags",
+        "gradient": [
+          "#0c2635",
+          "#255d70",
+          "#101417"
+        ],
+        "accent": "#76cce8",
+        "secondary": "#f0c95c",
+        "priority": 61,
+        "tags": [
+          "maritime",
+          "water",
+          "civic",
+          "island"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "CV",
+          "countryName": "Cape Verde",
+          "localName": "Dia da Heróis Nacional",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 150,
+        "holidayFamily": "heroes-day",
+        "popularityTier": "niche",
+        "scopeTier": "national"
+      },
+      {
+        "title": "Municipal holiday",
+        "caption": "Municipal holiday · Portugal",
+        "description": "葡萄牙市镇假日通常由各地自行纪念守护圣人、建城传统或地方历史，日期和习俗会随着城市而变化。",
+        "motif": "lotusMandala",
+        "gradient": [
+          "#171427",
+          "#4c3652",
+          "#111214"
+        ],
+        "accent": "#d6b6e8",
+        "secondary": "#87c9b7",
+        "priority": 58,
+        "tags": [
+          "religious",
+          "botanical",
+          "culture",
+          "heritage"
+        ],
+        "source": {
+          "provider": "OpenHolidays",
+          "countryCode": "PT",
+          "countryName": "Portugal",
+          "localName": "Municipal holiday",
+          "typeLabels": [
+            "可选假日",
+            "地方性"
+          ],
+          "nationwide": false,
+          "subdivisions": [
+            "AV-SM"
+          ]
+        },
+        "score": 136,
+        "holidayFamily": "municipal-local",
+        "popularityTier": "local",
+        "scopeTier": "local"
+      },
+      {
+        "title": "Commemoration Day of Defenders of the Barricades in 1991",
+        "caption": "Commemoration Day of Defenders of the Barricades in 1991 · 1991. gada barikāžu aizstāvju atceres diena",
+        "description": "Latvia以「1991. gada barikāžu aizstāvju atceres diena」为名纪念这一天，通常与当地历史、传统或社区公共生活有关。",
+        "motif": "wovenPattern",
+        "gradient": [
+          "#171822",
+          "#4d3d32",
+          "#111314"
+        ],
+        "accent": "#d8b95b",
+        "secondary": "#78bde8",
+        "priority": 56,
+        "tags": [
+          "culture",
+          "civic"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "LV",
+          "countryName": "Latvia",
+          "localName": "1991. gada barikāžu aizstāvju atceres diena",
+          "typeLabels": [
+            "纪念日"
+          ]
+        },
+        "score": 70,
+        "holidayFamily": "remembrance",
+        "popularityTier": "niche",
+        "scopeTier": "unknown"
+      }
+    ],
+    "2027-01-21": [
+      {
+        "title": "Meinrad Day",
+        "caption": "Meinrad Day · Switzerland",
+        "description": "瑞士 Meinrad Day 纪念与艾因西德伦修道传统相关的隐修圣人 Meinrad，带有朝圣和修道院记忆。",
+        "motif": "wovenPattern",
+        "gradient": [
+          "#151b27",
+          "#4d2727",
+          "#111314"
+        ],
+        "accent": "#e65b5b",
+        "secondary": "#f0f0f2",
+        "priority": 65,
+        "tags": [
+          "culture",
+          "civic"
+        ],
+        "source": {
+          "provider": "OpenHolidays",
+          "countryCode": "CH",
+          "countryName": "Switzerland",
+          "localName": "Meinrad Day",
+          "typeLabels": [
+            "公众节日",
+            "地方性"
+          ],
+          "nationwide": false,
+          "subdivisions": [
+            "SZ-ES"
+          ]
+        },
+        "score": 258,
+        "holidayFamily": "municipal-local",
+        "popularityTier": "niche",
+        "scopeTier": "national"
+      },
+      {
+        "title": "Errol Barrow Day",
+        "caption": "Errol Barrow Day · Barbados",
+        "description": "巴巴多斯 Errol Barrow Day 纪念独立时期总理 Errol Barrow，他被视为现代巴巴多斯国家建设的重要人物。",
+        "motif": "maritimeFlags",
+        "gradient": [
+          "#0c2635",
+          "#255d70",
+          "#101417"
+        ],
+        "accent": "#76cce8",
+        "secondary": "#f0c95c",
+        "priority": 65,
+        "tags": [
+          "maritime",
+          "water",
+          "civic",
+          "island"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "BB",
+          "countryName": "Barbados",
+          "localName": "Errol Barrow Day",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 230,
+        "holidayFamily": "national-civic-day",
+        "popularityTier": "niche",
+        "scopeTier": "national"
+      },
+      {
+        "title": "Our Lady of Altagracia",
+        "caption": "Our Lady of Altagracia · Día de Nuestra Señora de la Altagracia",
+        "description": "多米尼加阿尔塔格拉西亚圣母日纪念国家守护圣母，许多信众会前往伊圭圣殿朝圣和祈祷。",
+        "motif": "cityParade",
+        "gradient": [
+          "#101d34",
+          "#4a2432",
+          "#111316"
+        ],
+        "accent": "#78aee8",
+        "secondary": "#e85a63",
+        "priority": 61,
+        "tags": [
+          "civic",
+          "celebration",
+          "procession"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "DO",
+          "countryName": "Dominican Republic",
+          "localName": "Día de Nuestra Señora de la Altagracia",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 150,
+        "holidayFamily": "national-civic-day",
+        "popularityTier": "niche",
+        "scopeTier": "national"
+      }
+    ],
+    "2027-01-22": [
+      {
+        "title": "St Vincent's Day",
+        "caption": "St Vincent's Day · Portugal",
+        "description": "葡萄牙部分地方的圣文森特日纪念里斯本守护圣人，礼仪、地方市集和城市传统常在冬季展开。",
+        "motif": "wovenPattern",
+        "gradient": [
+          "#171822",
+          "#4d3d32",
+          "#111314"
+        ],
+        "accent": "#d8b95b",
+        "secondary": "#78bde8",
+        "priority": 58,
+        "tags": [
+          "culture",
+          "civic"
+        ],
+        "source": {
+          "provider": "OpenHolidays",
+          "countryCode": "PT",
+          "countryName": "Portugal",
+          "localName": "St Vincent's Day",
+          "typeLabels": [
+            "可选假日",
+            "地方性"
+          ],
+          "nationwide": false,
+          "subdivisions": [
+            "MA-SV",
+            "FA-VB"
+          ]
+        },
+        "score": 136,
+        "holidayFamily": "municipal-local",
+        "popularityTier": "local",
+        "scopeTier": "local"
+      }
+    ],
+    "2027-01-23": [
+      {
+        "title": "Bounty Day",
+        "caption": "Bounty Day · Pitcairn Islands",
+        "description": "Bounty Day是Pitcairn Islands日历中的纪念日，通常承载当地历史、公共生活或季节性的休假安排。",
+        "motif": "maritimeFlags",
+        "gradient": [
+          "#0c2635",
+          "#255d70",
+          "#101417"
+        ],
+        "accent": "#76cce8",
+        "secondary": "#f0c95c",
+        "priority": 65,
+        "tags": [
+          "maritime",
+          "water",
+          "civic",
+          "island"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "PN",
+          "countryName": "Pitcairn Islands",
+          "localName": "Bounty Day",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 230,
+        "holidayFamily": "national-civic-day",
+        "popularityTier": "niche",
+        "scopeTier": "national"
+      }
+    ],
+    "2027-01-24": [
+      {
+        "title": "International Day of Education",
+        "caption": "International Day of Education · 国际教育日",
+        "description": "联合国设立的国际日，关注学习、知识与人的发展。",
+        "motif": "starfield",
+        "gradient": [
+          "#111d34",
+          "#263e5b",
+          "#101316"
+        ],
+        "accent": "#78bde8",
+        "secondary": "#d8c070",
+        "priority": 66,
+        "tags": [
+          "culture",
+          "international",
+          "light"
+        ],
+        "source": {
+          "provider": "Curated Cultural Observances",
+          "countryCode": "INTL",
+          "countryName": "International",
+          "zhName": "国际",
+          "localName": "国际教育日",
+          "typeLabels": [
+            "文化日"
+          ]
+        },
+        "score": 528,
+        "holidayFamily": "culture-observance",
+        "popularityTier": "common",
+        "scopeTier": "international"
+      },
+      {
+        "title": "Union Day/Small Union",
+        "caption": "Union Day/Small Union · Unirea Principatelor Române/Mica Unire",
+        "description": "罗马尼亚小统一日纪念1859年摩尔达维亚和瓦拉几亚在同一君主下联合，是现代罗马尼亚形成的重要一步。",
+        "motif": "wovenPattern",
+        "gradient": [
+          "#171822",
+          "#4d3d32",
+          "#111314"
+        ],
+        "accent": "#d8b95b",
+        "secondary": "#78bde8",
+        "priority": 61,
+        "tags": [
+          "culture",
+          "civic"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "RO",
+          "countryName": "Romania",
+          "localName": "Unirea Principatelor Române/Mica Unire",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 150,
+        "holidayFamily": "national-civic-day",
+        "popularityTier": "niche",
+        "scopeTier": "national"
+      },
+      {
+        "title": "Day of the Unification of the Romanian Principalities",
+        "caption": "Day of the Unification of the Romanian Principalities · Romania",
+        "description": "罗马尼亚小统一日纪念1859年摩尔达维亚和瓦拉几亚在同一君主下联合，是现代罗马尼亚形成的重要一步。",
+        "motif": "wovenPattern",
+        "gradient": [
+          "#171822",
+          "#4d3d32",
+          "#111314"
+        ],
+        "accent": "#d8b95b",
+        "secondary": "#78bde8",
+        "priority": 61,
+        "tags": [
+          "culture",
+          "civic"
+        ],
+        "source": {
+          "provider": "OpenHolidays",
+          "countryCode": "RO",
+          "countryName": "Romania",
+          "localName": "Day of the Unification of the Romanian Principalities",
+          "typeLabels": [
+            "公众节日",
+            "全国性"
+          ],
+          "nationwide": true,
+          "subdivisions": []
+        },
+        "score": 135,
+        "holidayFamily": "national-civic-day",
+        "popularityTier": "niche",
+        "scopeTier": "national"
+      }
+    ],
+    "2027-01-25": [
+      {
+        "title": "National Heroes Day",
+        "caption": "National Heroes Day · Cayman Islands",
+        "description": "National Heroes Day是Cayman Islands日历中的纪念日，通常承载当地历史、公共生活或季节性的休假安排。",
+        "motif": "maritimeFlags",
+        "gradient": [
+          "#0c2635",
+          "#255d70",
+          "#101417"
+        ],
+        "accent": "#76cce8",
+        "secondary": "#f0c95c",
+        "priority": 73,
+        "tags": [
+          "maritime",
+          "water",
+          "civic",
+          "island"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "KY",
+          "countryName": "Cayman Islands",
+          "localName": "National Heroes Day",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 422,
+        "holidayFamily": "heroes-day",
+        "popularityTier": "niche",
+        "scopeTier": "national"
+      },
+      {
+        "title": "Revolution Day 2011 / National Police Day",
+        "caption": "Revolution Day 2011 / National Police Day · عيد الثورة 25 يناير",
+        "description": "埃及这一天同时关联1952年伊斯梅利亚警察抵抗记忆和2011年1月25日革命，政治含义浓重。",
+        "motif": "cityParade",
+        "gradient": [
+          "#101d34",
+          "#4a2432",
+          "#111316"
+        ],
+        "accent": "#78aee8",
+        "secondary": "#e85a63",
+        "priority": 69,
+        "tags": [
+          "civic",
+          "celebration",
+          "procession"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "EG",
+          "countryName": "Egypt",
+          "localName": "عيد الثورة 25 يناير",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 342,
+        "holidayFamily": "revolution-day",
+        "popularityTier": "niche",
+        "scopeTier": "national"
+      },
+      {
+        "title": "Wellington Anniversary Day",
+        "caption": "Wellington Anniversary Day · New Zealand",
+        "description": "惠灵顿周年纪念日是新西兰地方假日，纪念地区历史、港口城市传统和社区生活。",
+        "motif": "wovenPattern",
+        "gradient": [
+          "#101d34",
+          "#293f5d",
+          "#101316"
+        ],
+        "accent": "#78aee8",
+        "secondary": "#e85a63",
+        "priority": 64,
+        "tags": [
+          "culture",
+          "civic"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "NZ",
+          "countryName": "New Zealand",
+          "localName": "Wellington Anniversary Day",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 240,
+        "holidayFamily": "national-civic-day",
+        "popularityTier": "niche",
+        "scopeTier": "national"
+      },
+      {
+        "title": "Betico Croes Day",
+        "caption": "Betico Croes Day · Dag van Betico Croes",
+        "description": "Aruba以「Dag van Betico Croes」为名纪念这一天，通常与当地历史、传统或社区公共生活有关。",
+        "motif": "wovenPattern",
+        "gradient": [
+          "#171822",
+          "#4d3d32",
+          "#111314"
+        ],
+        "accent": "#d8b95b",
+        "secondary": "#78bde8",
+        "priority": 61,
+        "tags": [
+          "culture",
+          "civic"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "AW",
+          "countryName": "Aruba",
+          "localName": "Dag van Betico Croes",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 150,
+        "holidayFamily": "national-civic-day",
+        "popularityTier": "niche",
+        "scopeTier": "national"
+      }
+    ],
+    "2027-01-26": [
+      {
+        "title": "Australia Day",
+        "caption": "Australia Day · Australia",
+        "description": "澳大利亚日是澳大利亚的国家纪念日，现代公共生活中既有庆祝国家身份的活动，也伴随关于历史记忆和原住民处境的讨论。",
+        "motif": "wovenPattern",
+        "gradient": [
+          "#101d34",
+          "#263a54",
+          "#111316"
+        ],
+        "accent": "#78aee8",
+        "secondary": "#d8b95b",
+        "priority": 70,
+        "tags": [
+          "culture",
+          "civic"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "AU",
+          "countryName": "Australia",
+          "localName": "Australia Day",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 350,
+        "holidayFamily": "national-civic-day",
+        "popularityTier": "niche",
+        "scopeTier": "national"
+      },
+      {
+        "title": "Day of the International (de jure) Recognition of the Republic of Latvia",
+        "caption": "Day of the International (de jure) Recognition of the Republic of Latvia · Latvijas Republikas starptautiskās (de jure) atzīšanas diena",
+        "description": "the International (de jure) Recognition of the Republic of Latvia日通常纪念地方身份、自治传统或区域历史，是当地公共生活与社区记忆的一部分。",
+        "motif": "cityParade",
+        "gradient": [
+          "#101d34",
+          "#4a2432",
+          "#111316"
+        ],
+        "accent": "#78aee8",
+        "secondary": "#e85a63",
+        "priority": 64,
+        "tags": [
+          "civic",
+          "celebration",
+          "procession",
+          "sky",
+          "light"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "LV",
+          "countryName": "Latvia",
+          "localName": "Latvijas Republikas starptautiskās (de jure) atzīšanas diena",
+          "typeLabels": [
+            "纪念日"
+          ]
+        },
+        "score": 262,
+        "holidayFamily": "remembrance",
+        "popularityTier": "observance",
+        "scopeTier": "unknown"
+      },
+      {
+        "title": "Australia Day",
+        "caption": "Australia Day · Christmas Island",
+        "description": "澳大利亚日是澳大利亚的国家纪念日，现代公共生活中既有庆祝国家身份的活动，也伴随关于历史记忆和原住民处境的讨论。",
+        "motif": "maritimeFlags",
+        "gradient": [
+          "#0c2635",
+          "#255d70",
+          "#101417"
+        ],
+        "accent": "#76cce8",
+        "secondary": "#f0c95c",
+        "priority": 65,
+        "tags": [
+          "maritime",
+          "water",
+          "civic",
+          "island"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "CX",
+          "countryName": "Christmas Island",
+          "localName": "Australia Day",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 230,
+        "holidayFamily": "christmas",
+        "popularityTier": "major",
+        "scopeTier": "national"
+      },
+      {
+        "title": "Australia Day",
+        "caption": "Australia Day · Norfolk Island",
+        "description": "澳大利亚日是澳大利亚的国家纪念日，现代公共生活中既有庆祝国家身份的活动，也伴随关于历史记忆和原住民处境的讨论。",
+        "motif": "folkEmbroidery",
+        "gradient": [
+          "#171822",
+          "#4d2f32",
+          "#111314"
+        ],
+        "accent": "#d8b95b",
+        "secondary": "#e65b5b",
+        "priority": 65,
+        "tags": [
+          "folk",
+          "heritage",
+          "culture"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "NF",
+          "countryName": "Norfolk Island",
+          "localName": "Australia Day",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 230,
+        "holidayFamily": "culture-observance",
+        "popularityTier": "niche",
+        "scopeTier": "national"
+      },
+      {
+        "title": "Australia Day",
+        "caption": "Australia Day · Cocos (Keeling) Islands",
+        "description": "澳大利亚日是澳大利亚的国家纪念日，现代公共生活中既有庆祝国家身份的活动，也伴随关于历史记忆和原住民处境的讨论。",
+        "motif": "maritimeFlags",
+        "gradient": [
+          "#0c2635",
+          "#255d70",
+          "#101417"
+        ],
+        "accent": "#76cce8",
+        "secondary": "#f0c95c",
+        "priority": 65,
+        "tags": [
+          "maritime",
+          "water",
+          "civic",
+          "island"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "CC",
+          "countryName": "Cocos (Keeling) Islands",
+          "localName": "Australia Day",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 230,
+        "holidayFamily": "national-civic-day",
+        "popularityTier": "niche",
+        "scopeTier": "national"
+      },
+      {
+        "title": "Liberation Day",
+        "caption": "Liberation Day · Uganda",
+        "description": "乌干达解放日纪念1986年全国抵抗运动取得政权的历史节点，官方仪式常围绕国家重建叙事展开。",
+        "motif": "laurelTorch",
+        "gradient": [
+          "#151515",
+          "#55302d",
+          "#111111"
+        ],
+        "accent": "#d8b95b",
+        "secondary": "#d65345",
+        "priority": 65,
+        "tags": [
+          "civic",
+          "remembrance",
+          "light"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "UG",
+          "countryName": "Uganda",
+          "localName": "Liberation Day",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 230,
+        "holidayFamily": "remembrance",
+        "popularityTier": "niche",
+        "scopeTier": "national"
+      },
+      {
+        "title": "Duarte's Birthday",
+        "caption": "Duarte's Birthday · Día del Natalicio de Juan Pablo Duarte",
+        "description": "多米尼加 Duarte's Birthday 纪念独立运动奠基者 Juan Pablo Duarte，是国家身份和独立思想教育中的重要日子。",
+        "motif": "cityParade",
+        "gradient": [
+          "#101d34",
+          "#4a2432",
+          "#111316"
+        ],
+        "accent": "#78aee8",
+        "secondary": "#e85a63",
+        "priority": 61,
+        "tags": [
+          "civic",
+          "celebration",
+          "procession"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "DO",
+          "countryName": "Dominican Republic",
+          "localName": "Día del Natalicio de Juan Pablo Duarte",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 150,
+        "holidayFamily": "national-civic-day",
+        "popularityTier": "niche",
+        "scopeTier": "national"
+      }
+    ],
+    "2027-01-27": [
+      {
+        "title": "International Holocaust Remembrance Day",
+        "caption": "International Holocaust Remembrance Day · 国际大屠杀纪念日",
+        "description": "联合国纪念日，追思大屠杀受害者，并提醒人们警惕仇恨与暴力。",
+        "motif": "candle",
+        "gradient": [
+          "#101827",
+          "#37304d",
+          "#111214"
+        ],
+        "accent": "#f0c95c",
+        "secondary": "#f2f0d6",
+        "priority": 76,
+        "tags": [
+          "culture",
+          "international",
+          "memorial",
+          "light"
+        ],
+        "source": {
+          "provider": "Curated Cultural Observances",
+          "countryCode": "INTL",
+          "countryName": "International",
+          "zhName": "国际",
+          "localName": "国际大屠杀纪念日",
+          "typeLabels": [
+            "文化日"
+          ]
+        },
+        "score": 608,
+        "holidayFamily": "culture-observance",
+        "popularityTier": "observance",
+        "scopeTier": "international"
+      },
+      {
+        "title": "Saint Dévote's Day",
+        "caption": "Saint Dévote's Day · Monaco",
+        "description": "摩纳哥圣德沃塔日纪念国家守护圣人，港口小船焚烧仪式、弥撒和王室参与让节日极具地方辨识度。",
+        "motif": "stainedGlass",
+        "gradient": [
+          "#101a34",
+          "#4a2734",
+          "#111316"
+        ],
+        "accent": "#9fc8ff",
+        "secondary": "#e87a94",
+        "priority": 64,
+        "tags": [
+          "religious",
+          "heritage",
+          "light"
+        ],
+        "source": {
+          "provider": "OpenHolidays",
+          "countryCode": "MC",
+          "countryName": "Monaco",
+          "localName": "Saint Dévote's Day",
+          "typeLabels": [
+            "公众节日",
+            "全国性"
+          ],
+          "nationwide": true,
+          "subdivisions": []
+        },
+        "score": 215,
+        "holidayFamily": "saint-day",
+        "popularityTier": "niche",
+        "scopeTier": "national"
+      },
+      {
+        "title": "Saint Devota's Day",
+        "caption": "Saint Devota's Day · La Sainte Dévote",
+        "description": "摩纳哥圣德沃塔日纪念国家守护圣人，港口小船焚烧仪式、弥撒和王室参与让节日极具地方辨识度。",
+        "motif": "stainedGlass",
+        "gradient": [
+          "#101a34",
+          "#4a2734",
+          "#111316"
+        ],
+        "accent": "#9fc8ff",
+        "secondary": "#e87a94",
+        "priority": 61,
+        "tags": [
+          "religious",
+          "heritage",
+          "light"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "MC",
+          "countryName": "Monaco",
+          "localName": "La Sainte Dévote",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 150,
+        "holidayFamily": "saint-day",
+        "popularityTier": "niche",
+        "scopeTier": "national"
+      }
+    ],
+    "2027-01-28": [
+      {
+        "title": "Data Privacy Day",
+        "caption": "Data Privacy Day · 数据隐私日",
+        "description": "关注个人数据、数字权利和网络生活边界的国际倡议日。",
+        "motif": "wovenPattern",
+        "gradient": [
+          "#101b33",
+          "#2e4770",
+          "#101316"
+        ],
+        "accent": "#9fc8ff",
+        "secondary": "#e6c86f",
+        "priority": 62,
+        "tags": [
+          "culture",
+          "international",
+          "civic"
+        ],
+        "source": {
+          "provider": "Curated Cultural Observances",
+          "countryCode": "INTL",
+          "countryName": "International",
+          "zhName": "国际",
+          "localName": "数据隐私日",
+          "typeLabels": [
+            "文化日"
+          ]
+        },
+        "score": 496,
+        "holidayFamily": "culture-observance",
+        "popularityTier": "niche",
+        "scopeTier": "international"
+      },
+      {
+        "title": "Buckley's Uprising Day",
+        "caption": "Buckley's Uprising Day · Saint Kitts and Nevis",
+        "description": "Buckley's Uprising Day是Saint Kitts and Nevis日历中的纪念日，通常承载当地历史、公共生活或季节性的休假安排。",
+        "motif": "stainedGlass",
+        "gradient": [
+          "#101a34",
+          "#4a2734",
+          "#111316"
+        ],
+        "accent": "#9fc8ff",
+        "secondary": "#e87a94",
+        "priority": 65,
+        "tags": [
+          "religious",
+          "heritage",
+          "light"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "KN",
+          "countryName": "Saint Kitts and Nevis",
+          "localName": "Buckley's Uprising Day",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 230,
+        "holidayFamily": "saint-day",
+        "popularityTier": "niche",
+        "scopeTier": "national"
+      },
+      {
+        "title": "Army Day",
+        "caption": "Army Day · Բանակի օր",
+        "description": "亚美尼亚军队日纪念现代亚美尼亚武装力量建立，常以官方致敬和军队仪式表达国家安全记忆。",
+        "motif": "wovenPattern",
+        "gradient": [
+          "#171822",
+          "#4d3d32",
+          "#111314"
+        ],
+        "accent": "#d8b95b",
+        "secondary": "#78bde8",
+        "priority": 61,
+        "tags": [
+          "culture",
+          "civic"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "AM",
+          "countryName": "Armenia",
+          "localName": "Բանակի օր",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 150,
+        "holidayFamily": "national-civic-day",
+        "popularityTier": "niche",
+        "scopeTier": "national"
+      }
+    ],
+    "2027-01-31": [
+      {
+        "title": "Independence Day",
+        "caption": "Independence Day · Nauru",
+        "description": "独立日通常纪念国家取得主权或脱离殖民统治的历史时刻，常伴随旗帜、仪式和公共庆祝。",
+        "motif": "cityParade",
+        "gradient": [
+          "#101d34",
+          "#4a2432",
+          "#111316"
+        ],
+        "accent": "#78aee8",
+        "secondary": "#e85a63",
+        "priority": 73,
+        "tags": [
+          "civic",
+          "celebration",
+          "procession"
+        ],
+        "source": {
+          "provider": "Nager.Date",
+          "countryCode": "NR",
+          "countryName": "Nauru",
+          "localName": "Independence Day",
+          "typeLabels": [
+            "公众节日"
+          ]
+        },
+        "score": 422,
+        "holidayFamily": "independence-day",
+        "popularityTier": "common",
         "scopeTier": "national"
       }
     ]

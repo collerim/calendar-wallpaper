@@ -1574,7 +1574,7 @@ globalThis.YearCalendarHolidayContent = {
       zhTitle: "澳大利亚日",
       type: "国家纪念日",
       description: "澳大利亚日是澳大利亚的国家纪念日，现代公共生活中既有庆祝国家身份的活动，也伴随关于历史记忆和原住民处境的讨论。",
-      keys: ["AU|Australia Day", "Australia Day"]
+      keys: ["AU|Australia Day", "CX|Australia Day", "NF|Australia Day", "CC|Australia Day", "Australia Day"]
     },
     {
       title: "Autumnal Equinox Day",
@@ -1945,7 +1945,7 @@ globalThis.YearCalendarHolidayContent = {
       zhTitle: "圣贝希托尔德日",
       type: "新年延续假日",
       description: "圣贝希托尔德日是瑞士部分地区的新年后假日，人们常用它继续探亲、聚会和冬季休息。",
-      keys: ["CH|St. Berchtold's Day", "St. Berchtold's Day", "Berchtold's Day"]
+      keys: ["CH|St. Berchtold's Day", "CH|Berchtold's Day", "St. Berchtold's Day", "Berchtold's Day"]
     },
     {
       title: "St. Francis of Assisi's Day",
@@ -3310,7 +3310,7 @@ globalThis.YearCalendarHolidayContent = {
       zhTitle: "阿马齐格新年",
       type: "文化新年",
       description: "阿马齐格新年 Yennayer 标记北非柏柏尔历的新年，家庭餐食、谷物和土地祝福常带有农业季节意味。",
-      keys: ["MA|Amazigh New Year", "MA|Id Yennayer"]
+      keys: ["MA|Amazigh New Year", "MA|Id Yennayer", "DZ|Amazigh New Year"]
     },
     {
       title: "Feast of the Divina Pastora",
@@ -6013,6 +6013,356 @@ globalThis.YearCalendarHolidayContent = {
       type: "公众节日",
       description: "自由与民主日是乍得纪念国家制度、共同体身份或重要历史转折的日子，常伴随官方仪式、旗帜和公共活动。",
       keys: ["TD|Freedom and Democracy Day"]
+    },
+    {
+      title: "Election Day",
+      zhTitle: "选举日",
+      type: "民主纪念日",
+      description: "南非选举日是为地方选举设立的全国公共假日，用来保障登记选民有时间投票、选出地方代表并参与公共服务。",
+      keys: ["ZA|Election Day"]
+    },
+    {
+      title: "Consolidation of the Separation Day",
+      zhTitle: "分离巩固日",
+      type: "国家纪念日",
+      description: "巴拿马分离巩固日纪念1903年脱离哥伦比亚之后巩固分离的日子，尤其记得科隆民众的作用，公共日历中也与科隆日相连。",
+      keys: ["PA|Consolidation of the Separation Day", "PA|Consolidación de la Separación de Panamá de Colombia"]
+    },
+    {
+      title: "Gospel Day",
+      zhTitle: "福音日",
+      type: "宗教节日",
+      description: "马绍尔群岛福音日纪念基督教与早期传教士抵达群岛，通常落在十二月的第一个星期五，人们以礼拜和家庭聚餐标记。",
+      keys: ["MH|Gospel Day"]
+    },
+    {
+      title: "Saba Day",
+      zhTitle: "萨巴日",
+      type: "地方纪念日",
+      description: "萨巴日是荷属加勒比萨巴岛的地方公共假日，也常被称为旗帜日，用来庆祝岛屿身份、旗帜和社区生活。",
+      keys: ["BQ|Saba Day"]
+    },
+    {
+      title: "Anniversary of the Coronation of H.M. King George Tubou I",
+      zhTitle: "乔治·图普一世加冕纪念日",
+      type: "国家纪念日",
+      description: "这一天纪念汤加国王乔治·图普一世于1845年12月4日加冕，也回望现代汤加王国形成的历史节点。",
+      keys: ["TO|Anniversary of the Coronation of H.M. King George Tubou I"]
+    },
+    {
+      title: "Police Day",
+      zhTitle: "警察日",
+      type: "纪念日",
+      description: "拉脱维亚警察日纪念1918年12月5日国家警察队伍的建立，通常以官方仪式感谢治安与公共服务人员。",
+      keys: ["LV|Police Day", "LV|Policijas darbinieku diena"]
+    },
+    {
+      title: "Commemoration Day of Victims of Genocide Against the Latvian People By the Totalitarian Communist Regime",
+      zhTitle: "共产主义政权种族灭绝受害者纪念日",
+      type: "纪念日",
+      description: "拉脱维亚在十二月的第一个星期日记念1937年至1938年大清洗中遭极权共产主义政权迫害和杀害的拉脱维亚人。",
+      keys: ["LV|Commemoration Day of Victims of Genocide Against the Latvian People By the Totalitarian Communist Regime", "LV|Pret latviešu tautu vērstā totalitārā komunistiskā režīma genocīda upuru piemiņas diena"]
+    },
+    {
+      title: "Battle Day",
+      zhTitle: "福克兰海战日",
+      type: "历史纪念日",
+      description: "福克兰群岛战役日纪念1914年12月8日的福克兰群岛海战，英国舰队在第一次世界大战中击败德国分舰队。",
+      keys: ["FK|Battle Day"]
+    },
+    {
+      title: "Saint Clement of Ohrid Day",
+      zhTitle: "奥赫里德的圣克莱门特日",
+      type: "宗教纪念日",
+      description: "奥赫里德的圣克莱门特是西里尔和美多德的弟子，也是奥赫里德文学学派的奠基者，被北马其顿尊为重要守护圣人。",
+      keys: ["MK|Saint Clement of Ohrid Day", "MK|Св. Климент Охридски", "MK|Sv. Kliment Ohridski"]
+    },
+    {
+      title: "National Heroes' Day",
+      zhTitle: "国家英雄日",
+      type: "国家纪念日",
+      description: "安提瓜和巴布达国家英雄日设在12月9日，纪念包括首任总理维尔·康沃尔·伯德爵士在内的国家英雄，这一天原先称为维·西·伯德日。",
+      keys: ["AG|National Heroes' Day"]
+    },
+    {
+      title: "Battle of Ayacucho",
+      zhTitle: "阿亚库乔战役日",
+      type: "历史纪念日",
+      description: "阿亚库乔战役日纪念1824年12月9日决定秘鲁独立战争结局的战役，苏克雷率领的爱国军在此击败西班牙保王军。",
+      keys: ["PE|Battle of Ayacucho", "PE|Batalla de Ayacucho"]
+    },
+    {
+      title: "Victory Day",
+      zhTitle: "胜利日",
+      type: "国家纪念日",
+      description: "伊拉克胜利日纪念2017年12月击败伊斯兰国武装并收复失地，12月10日被定为每年标记这一胜利的公共假日。",
+      keys: ["IQ|Victory Day"]
+    },
+    {
+      title: "Human Rights and Peace Day",
+      zhTitle: "人权与和平日",
+      type: "纪念日",
+      description: "基里巴斯人权与和平日对应12月10日的国际人权日，在地方公共日历中把人的尊严与和平共处放在一起纪念。",
+      keys: ["KI|Human Rights and Peace Day"]
+    },
+    {
+      title: "Proclamation of Independence Day",
+      zhTitle: "共和国宣告日",
+      type: "国家纪念日",
+      description: "布基纳法索这一天纪念1958年12月11日上沃尔特共和国宣告成立；国家完全独立则在1960年8月5日。",
+      keys: ["BF|Proclamation of Independence Day"]
+    },
+    {
+      title: "National Heroes' Day",
+      zhTitle: "国家英雄日",
+      type: "国家纪念日",
+      description: "安圭拉国家英雄日纪念对本岛公共生活有重要贡献的英雄与巾帼，通常安排在12月19日前后，并以官方仪式和社区活动表达敬意。",
+      keys: ["AI|National Heroes' Day"]
+    },
+    {
+      title: "National Day of Mourning",
+      zhTitle: "全国哀悼日",
+      type: "纪念日",
+      description: "巴拿马全国哀悼日纪念1989年12月20日入侵中的死难者，国旗降半旗，公共生活以追思和肃穆为主。",
+      keys: ["PA|National Day of Mourning", "PA|Día de Duelo Nacional"]
+    },
+    {
+      title: "São Tomé Day",
+      zhTitle: "圣多美日",
+      type: "宗教与地方纪念日",
+      description: "圣多美日纪念使徒圣多马，岛名也来自圣多马瞻礼，是圣多美和普林西比的公共假日。",
+      keys: ["ST|São Tomé Day", "ST|Dia de São Tomé"]
+    },
+    {
+      title: "National Day of Thanksgiving",
+      zhTitle: "全国感恩日",
+      type: "公众节日",
+      description: "所罗门群岛全国感恩日设在圣诞节次日，延续年末团聚，也以感恩和社区礼拜标记公共生活。",
+      keys: ["SB|National Day of Thanksgiving"]
+    },
+    {
+      title: "Christmas Holiday",
+      zhTitle: "圣诞节假期",
+      type: "宗教节日",
+      description: "福克兰群岛圣诞节假期是紧随圣诞节的额外公共假日，让岛民继续家庭团聚和年末休息。",
+      keys: ["FK|Christmas Holiday"]
+    },
+    {
+      title: "Christmas Day (Observed)",
+      zhTitle: "圣诞节补假",
+      type: "宗教节日",
+      description: "保加利亚圣诞节补假出现在圣诞假期恰逢周末时，把12月24日至26日的公共假日顺延到下一个工作日。",
+      keys: ["BG|Christmas Day (Observed)"]
+    },
+    {
+      title: "Cambodia Peace Day",
+      zhTitle: "柬埔寨和平日",
+      type: "国家纪念日",
+      description: "柬埔寨和平日纪念1998年12月29日内战结束、最后的红色高棉武装放下武器，公共纪念强调和平与国家重建。",
+      keys: ["KH|Cambodia Peace Day", "KH|ទិវាសន្តិភាពនៅកម្ពុជា"]
+    },
+    {
+      title: "Government Holiday",
+      zhTitle: "政府假日",
+      type: "公众节日",
+      description: "福克兰群岛政府假日安排在圣诞与新年之间，政府机关休息，用来衔接年末假期。",
+      keys: ["FK|Government Holiday"]
+    },
+    {
+      title: "Festival Day",
+      zhTitle: "节日日",
+      type: "文化节庆日",
+      description: "蒙特塞拉特节日日属于年末圣诞嘉年华周期，常以音乐、游行、服饰和社区庆典收束这一季。",
+      keys: ["MS|Festival Day"]
+    },
+    {
+      title: "Day of the Establishment of the Slovak Republic",
+      zhTitle: "斯洛伐克共和国成立日",
+      type: "国家纪念日",
+      description: "斯洛伐克共和国成立日纪念1993年1月1日和平分离后独立国家的建立，是现代斯洛伐克的国庆节点。",
+      keys: ["SK|Day of the Establishment of the Slovak Republic", "SK|Deň vzniku Slovenskej republiky"]
+    },
+    {
+      title: "Triumph of the Revolution",
+      zhTitle: "革命胜利日",
+      type: "国家纪念日",
+      description: "古巴革命胜利日纪念1959年1月1日巴蒂斯塔政权结束、革命力量取得政权，是古巴政治日历的开端。",
+      keys: ["CU|Triumph of the Revolution", "CU|Triunfo de la Revolución"]
+    },
+    {
+      title: "Solemnity of Mary, Mother of God",
+      zhTitle: "天主之母节",
+      type: "宗教节日",
+      description: "天主之母节是1月1日的天主教庆节，纪念玛利亚为天主之母，梵蒂冈以弥撒和宗教礼仪标记这一天。",
+      keys: ["VA|Solemnity of Mary, Mother of God", "VA|Maria Santissima Madre di Dio"]
+    },
+    {
+      title: "Takai Commission Holiday",
+      zhTitle: "塔凯节假日",
+      type: "文化节庆日",
+      description: "纽埃塔凯节在1月2日，岛民装饰车辆环岛巡游、走访村落并分发糖果，政府机关也在这一天休息。",
+      keys: ["NU|Takai Commission Holiday"]
+    },
+    {
+      title: "Carnival Day",
+      zhTitle: "狂欢节日",
+      type: "文化节庆日",
+      description: "圣基茨和尼维斯狂欢节日设在1月2日，延续新年前后的音乐、游行和街头庆典。",
+      keys: ["KN|Carnival Day"]
+    },
+    {
+      title: "Victory of Fidel Castro",
+      zhTitle: "菲德尔·卡斯特罗胜利日",
+      type: "国家纪念日",
+      description: "这一天纪念1959年1月革命武装进入哈瓦那，古巴当地也称之为武装力量胜利日。",
+      keys: ["CU|Victory of Fidel Castro", "CU|Día de Victoria de las Fuerzas Armadas"]
+    },
+    {
+      title: "Army Day",
+      zhTitle: "建军日",
+      type: "国家纪念日",
+      description: "伊拉克建军日纪念1921年1月6日伊拉克军队成立，通常以阅兵和官方仪式向军人致敬。",
+      keys: ["IQ|Army Day"]
+    },
+    {
+      title: "Saint John the Baptist Day",
+      zhTitle: "施洗约翰日",
+      type: "宗教节日",
+      description: "罗马尼亚在东正教圣诞节次日纪念施洗约翰，教堂礼拜和以约翰为名的人的命名日是这一天的常见习俗。",
+      keys: ["RO|Saint John the Baptist Day"]
+    },
+    {
+      title: "Victory over Genocide Day",
+      zhTitle: "战胜种族灭绝日",
+      type: "历史纪念日",
+      description: "柬埔寨战胜种族灭绝日纪念1979年1月7日推翻红色高棉政权，公共纪念追思受害者并标记这一历史转折。",
+      keys: ["KH|Victory over Genocide Day", "KH|ទិវាជ័យជម្នះលើរបបប្រល័យពូជសាសន៍"]
+    },
+    {
+      title: "Orthodox Christmas",
+      zhTitle: "东正教圣诞节",
+      type: "宗教节日",
+      description: "厄立特里亚东正教圣诞节在1月7日，当地称为 Lidet，以礼拜、家庭聚餐和社区庆祝标记基督降生。",
+      keys: ["ER|Orthodox Christmas", "ER|Lidet ልደት"]
+    },
+    {
+      title: "Zanzibar Revolution Day",
+      zhTitle: "桑给巴尔革命日",
+      type: "国家纪念日",
+      description: "桑给巴尔革命日纪念1964年1月12日革命。这一事件改变了桑给巴尔的政治秩序，并导向后来与坦噶尼喀联合。",
+      keys: ["TZ|Zanzibar Revolution Day", "TZ|Sikukuu ya Mapinduzi ya Zanzibar"]
+    },
+    {
+      title: "Democracy Day",
+      zhTitle: "民主日",
+      type: "民主纪念日",
+      description: "佛得角民主日纪念1991年1月13日首次多党选举，标记该国从一党制走向多党民主的转折。",
+      keys: ["CV|Democracy Day", "CV|Dia da Democracia"]
+    },
+    {
+      title: "John Chilembwe Day",
+      zhTitle: "约翰·奇伦布韦日",
+      type: "历史人物纪念日",
+      description: "马拉维奇伦布韦日纪念浸信会牧师约翰·奇伦布韦领导的1915年反殖民起义，他也是该国的民族英雄。",
+      keys: ["MW|John Chilembwe Day"]
+    },
+    {
+      title: "Martin Luther King Jr. Day",
+      zhTitle: "马丁·路德·金纪念日",
+      type: "民权纪念日",
+      description: "北马里亚纳群岛和美属维尔京群岛在一月第三个星期一纪念马丁·路德·金，沿用美国联邦民权传统，强调平等、非暴力和公共服务。",
+      keys: ["MP|Martin Luther King Jr. Day", "VI|Martin Luther King, Jr. Day"]
+    },
+    {
+      title: "Orthodox Epiphany",
+      zhTitle: "东正教主显节",
+      type: "宗教节日",
+      description: "厄立特里亚东正教主显节称为 Timket，在1月19日以洗礼礼仪、游行和圣水纪念耶稣受洗。",
+      keys: ["ER|Orthodox Epiphany", "ER|Timket ጥምቀት"]
+    },
+    {
+      title: "Epiphany (Orthodox)",
+      zhTitle: "东正教主显节",
+      type: "宗教节日",
+      description: "埃塞俄比亚东正教主显节称为 Timket，在1月19日以复现约柜、游行和洗礼池仪式纪念耶稣受洗。",
+      keys: ["ET|Epiphany (Orthodox)", "ET|ጥምቀት"]
+    },
+    {
+      title: "National Heroes' Day",
+      zhTitle: "国家英雄日",
+      type: "国家纪念日",
+      description: "几内亚比绍国家英雄日纪念1973年1月20日遇害的独立运动领袖阿米尔卡·卡布拉尔，也追思争取独立的一代人。",
+      keys: ["GW|National Heroes' Day"]
+    },
+    {
+      title: "Armed Forces Day",
+      zhTitle: "武装部队日",
+      type: "国家纪念日",
+      description: "马里武装部队日纪念国家军队和国防公共服务，通常以阅兵和官方仪式标记。",
+      keys: ["ML|Armed Forces Day"]
+    },
+    {
+      title: "Heroes' Day",
+      zhTitle: "英雄日",
+      type: "国家纪念日",
+      description: "佛得角英雄日纪念1973年1月20日遇害的阿米尔卡·卡布拉尔，以及为独立而牺牲的民族英雄。",
+      keys: ["CV|Heroes' Day", "CV|Dia da Heróis Nacional"]
+    },
+    {
+      title: "Commemoration Day of Defenders of the Barricades in 1991",
+      zhTitle: "1991年街垒保卫者纪念日",
+      type: "纪念日",
+      description: "拉脱维亚在1月20日记念1991年里加街垒中保卫独立机构的人。当天苏联特种部队袭击内务部，数人遇难。",
+      keys: ["LV|Commemoration Day of Defenders of the Barricades in 1991", "LV|1991. gada barikāžu aizstāvju atceres diena"]
+    },
+    {
+      title: "Bounty Day",
+      zhTitle: "邦蒂日",
+      type: "历史纪念日",
+      description: "皮特凯恩群岛邦蒂日纪念1790年1月23日邦蒂号叛变者烧毁船只、定居这座岛屿的日子。",
+      keys: ["PN|Bounty Day"]
+    },
+    {
+      title: "National Heroes Day",
+      zhTitle: "国家英雄日",
+      type: "国家纪念日",
+      description: "开曼群岛国家英雄日通常安排在一月的星期一，纪念对本岛公共生活有重要贡献的人物。",
+      keys: ["KY|National Heroes Day"]
+    },
+    {
+      title: "Betico Croes Day",
+      zhTitle: "贝蒂科·克罗斯日",
+      type: "历史人物纪念日",
+      description: "阿鲁巴贝蒂科·克罗斯日纪念推动阿鲁巴单独地位的政治领袖希尔贝托·贝蒂科·克罗斯，日期是他的生日1月25日。",
+      keys: ["AW|Betico Croes Day", "AW|Dag van Betico Croes"]
+    },
+    {
+      title: "Day of the International (de jure) Recognition of the Republic of Latvia",
+      zhTitle: "拉脱维亚国际法理承认日",
+      type: "国家纪念日",
+      description: "这一天纪念1921年1月26日协约国最高委员会在法理上承认拉脱维亚共和国，确认其作为国际法主体的地位。",
+      keys: ["LV|Day of the International (de jure) Recognition of the Republic of Latvia", "LV|Latvijas Republikas starptautiskās (de jure) atzīšanas diena"]
+    },
+    {
+      title: "Buckley's Uprising Day",
+      zhTitle: "巴克利起义日",
+      type: "历史纪念日",
+      description: "圣基茨和尼维斯巴克利起义日纪念1935年1月蔗田工人在巴克利庄园发起的劳工抗争，是当地工人运动的重要记忆。",
+      keys: ["KN|Buckley's Uprising Day"]
+    },
+    {
+      title: "Liberation Day",
+      zhTitle: "解放日",
+      type: "国家纪念日",
+      description: "多哥解放日是1月13日的公共假日，纪念1963年1月13日的政治转折，这一日期后来被定为国家解放纪念日。",
+      keys: ["TG|Liberation Day"]
+    },
+    {
+      title: "National Heroes' Day",
+      zhTitle: "国家英雄日",
+      type: "国家纪念日",
+      description: "卢旺达国家英雄日在2月1日纪念为国家付出重要贡献的英雄，公共仪式常回顾保卫国家与共同生活的记忆。",
+      keys: ["RW|National Heroes' Day"]
     }
   ]
 };
