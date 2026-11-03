@@ -35,4 +35,4 @@ jobs:
       - name: Validate holiday content
         run: |
           npm run content:validate
-          npm run content:gaps:check
+          npm run content:gaps

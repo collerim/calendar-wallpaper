@@ -86,7 +86,7 @@ function drawThemeCaption(ctx, theme, x, y) {
   drawFittedText(ctx, title, x, y - 6, 980, titleSize, 25);
 
   ctx.fillStyle = "rgba(215,215,219,0.66)";
-  drawFittedText(ctx, theme.description, x, y + 39, 1040, 23, 17);
+  drawFittedText(ctx, theme.description || providerHolidayName(theme), x, y + 39, 1040, 23, 17);
   ctx.restore();
 }
 
@@ -116,7 +116,7 @@ function countryFlagEmoji(countryCode = "") {
 }
 
 function themeDisplayTitle(theme) {
-  const content = holidayContentFor(theme.title, theme.source || {});
+  const content = safeHolidayContent(theme);
 
   if (theme.source?.countryCode === "CN") {
     const localName = theme.source.localName && theme.source.localName !== theme.title ? theme.source.localName : "";
@@ -127,7 +127,23 @@ function themeDisplayTitle(theme) {
 
   if (hasTag(theme, "month-mood")) return seasonalDisplayTitle(theme);
   if (content?.title) return content.title;
-  return theme.title;
+  return providerHolidayName(theme);
+}
+
+function safeHolidayContent(theme) {
+  try {
+    if (typeof holidayContentFor !== "function") return null;
+    return holidayContentFor(theme?.title, theme?.source || {});
+  } catch {
+    return null;
+  }
+}
+
+function providerHolidayName(theme) {
+  const title = typeof theme?.title === "string" ? theme.title.trim() : "";
+  const localName = typeof theme?.source?.localName === "string" ? theme.source.localName.trim() : "";
+  if (localName && localName !== title) return localName;
+  return title || localName;
 }
 
 function seasonalDisplayTitle(theme) {
@@ -147,13 +163,15 @@ function drawCaptionRule(ctx, theme, x, y) {
 }
 
 function drawFittedText(ctx, text, x, y, maxWidth, startSize, minSize) {
+  const value = text == null ? "" : String(text);
+  if (!value) return;
   let size = startSize;
   do {
     ctx.font = `${size}px ${FONT_STACK}`;
-    if (ctx.measureText(text).width <= maxWidth || size <= minSize) break;
+    if (ctx.measureText(value).width <= maxWidth || size <= minSize) break;
     size -= 1;
   } while (size > minSize);
-  ctx.fillText(text, x, y);
+  ctx.fillText(value, x, y);
 }
 
 function hexToRgba(hex, alpha) {
