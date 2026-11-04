@@ -1,39 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-03T22:15:13.899Z",
+  "updatedAt": "2026-11-04T22:05:44.336Z",
   "days": {
-    "2026-09-20": {
-      "title": "Federal Day of Thanksgiving",
-      "motif": "crescentLantern",
-      "gradient": [
-        "#1f1c18",
-        "#63462b",
-        "#131514"
-      ],
-      "accent": "#c49559",
-      "secondary": "#92a565",
-      "holidayFamily": "remembrance",
-      "popularityTier": "major",
-      "scopeTier": "unknown",
-      "tags": [
-        "islamic",
-        "religious",
-        "light",
-        "sky",
-        "celebration",
-        "harvest",
-        "botanical"
-      ],
-      "source": {
-        "provider": "Nager.Date",
-        "countryCode": "CH",
-        "countryName": "Switzerland",
-        "typeLabels": [
-          "纪念日"
-        ],
-        "subdivisions": []
-      }
-    },
     "2026-09-21": {
       "title": "International Day of Peace",
       "motif": "candle",
@@ -1580,6 +1548,34 @@
         "provider": "Nager.Date",
         "countryCode": "CA",
         "countryName": "Canada",
+        "typeLabels": [
+          "公众节日"
+        ],
+        "subdivisions": []
+      }
+    },
+    "2026-11-12": {
+      "title": "Maore Day",
+      "motif": "wovenPattern",
+      "gradient": [
+        "#1b1a29",
+        "#564539",
+        "#141519"
+      ],
+      "accent": "#c8ab5b",
+      "secondary": "#73b1dc",
+      "holidayFamily": "national-civic-day",
+      "popularityTier": "niche",
+      "scopeTier": "national",
+      "tags": [
+        "culture",
+        "civic",
+        "celebration"
+      ],
+      "source": {
+        "provider": "Nager.Date",
+        "countryCode": "KM",
+        "countryName": "Comoros",
         "typeLabels": [
           "公众节日"
         ],

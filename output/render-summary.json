@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-03T22:15:13.902Z",
-  "baseDate": "2026-11-04",
-  "ensuredThrough": "2026-11-11",
+  "generatedAt": "2026-11-04T22:05:44.339Z",
+  "baseDate": "2026-11-05",
+  "ensuredThrough": "2026-11-12",
   "today": "output/today.png",
   "devices": [
     {
@@ -137,23 +137,6 @@
   ],
   "generated": [
     {
-      "date": "2026-11-04",
-      "output": "output/2026/2026.11/2026.11.04.png",
-      "selectedTheme": "Constitution Day",
-      "selectedMotif": "maritimeFlags",
-      "selectedScoreBreakdown": {
-        "basePriority": 73,
-        "popularity": 26,
-        "jitter": 5.182,
-        "motifPenalty": 0,
-        "culturalPenalty": 42,
-        "holidayFamilyPenalty": 0,
-        "colorPenalty": 39,
-        "finalScore": 23.182
-      },
-      "discardedCount": 5
-    },
-    {
       "date": "2026-11-05",
       "output": "output/2026/2026.11/2026.11.05.png",
       "selectedTheme": "Thanksgiving Day",
@@ -271,6 +254,23 @@
         "finalScore": 7.278
       },
       "discardedCount": 8
+    },
+    {
+      "date": "2026-11-12",
+      "output": "output/2026/2026.11/2026.11.12.png",
+      "selectedTheme": "Maore Day",
+      "selectedMotif": "wovenPattern",
+      "selectedScoreBreakdown": {
+        "basePriority": 65,
+        "popularity": 14,
+        "jitter": 2.643,
+        "motifPenalty": 0,
+        "culturalPenalty": 42,
+        "holidayFamilyPenalty": 5,
+        "colorPenalty": 42,
+        "finalScore": -7.357
+      },
+      "discardedCount": 1
     }
   ],
   "skipped": []
