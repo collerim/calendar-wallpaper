@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-04T22:05:44.339Z",
-  "baseDate": "2026-11-05",
-  "ensuredThrough": "2026-11-12",
+  "generatedAt": "2026-11-05T21:50:21.328Z",
+  "baseDate": "2026-11-06",
+  "ensuredThrough": "2026-11-13",
   "today": "output/today.png",
   "devices": [
     {
@@ -137,23 +137,6 @@
   ],
   "generated": [
     {
-      "date": "2026-11-05",
-      "output": "output/2026/2026.11/2026.11.05.png",
-      "selectedTheme": "Thanksgiving Day",
-      "selectedMotif": "harvestSheaves",
-      "selectedScoreBreakdown": {
-        "basePriority": 73,
-        "popularity": 34,
-        "jitter": 5.316,
-        "motifPenalty": 0,
-        "culturalPenalty": 42,
-        "holidayFamilyPenalty": 0,
-        "colorPenalty": 12,
-        "finalScore": 58.316
-      },
-      "discardedCount": 1
-    },
-    {
       "date": "2026-11-06",
       "output": "output/2026/2026.11/2026.11.06.png",
       "selectedTheme": "Green March",
@@ -271,6 +254,23 @@
         "finalScore": -7.357
       },
       "discardedCount": 1
+    },
+    {
+      "date": "2026-11-13",
+      "output": "output/2026/2026.11/2026.11.13.png",
+      "selectedTheme": "World Kindness Day",
+      "selectedMotif": "petals",
+      "selectedScoreBreakdown": {
+        "basePriority": 66,
+        "popularity": 14,
+        "jitter": 3.703,
+        "motifPenalty": 0,
+        "culturalPenalty": 42,
+        "holidayFamilyPenalty": 0,
+        "colorPenalty": 42,
+        "finalScore": -0.297
+      },
+      "discardedCount": 2
     }
   ],
   "skipped": []
