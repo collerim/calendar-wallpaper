@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-10T00:01:48.103Z",
-  "baseDate": "2026-11-10",
-  "ensuredThrough": "2026-11-17",
+  "generatedAt": "2026-11-10T21:43:30.045Z",
+  "baseDate": "2026-11-11",
+  "ensuredThrough": "2026-11-18",
   "today": "output/today.png",
   "devices": [
     {
@@ -137,23 +137,6 @@
   ],
   "generated": [
     {
-      "date": "2026-11-10",
-      "output": "output/2026/2026.11/2026.11.10.png",
-      "selectedTheme": "World Science Day for Peace and Development",
-      "selectedMotif": "cosmicObservatory",
-      "selectedScoreBreakdown": {
-        "basePriority": 68,
-        "popularity": 14,
-        "jitter": 0.793,
-        "motifPenalty": 0,
-        "culturalPenalty": 42,
-        "holidayFamilyPenalty": 0,
-        "colorPenalty": 42,
-        "finalScore": -1.207
-      },
-      "discardedCount": 2
-    },
-    {
       "date": "2026-11-11",
       "output": "output/2026/2026.11/2026.11.11.png",
       "selectedTheme": "Remembrance Day",
@@ -271,6 +254,23 @@
         "finalScore": -10.613
       },
       "discardedCount": 4
+    },
+    {
+      "date": "2026-11-18",
+      "output": "output/2026/2026.11/2026.11.18.png",
+      "selectedTheme": "Independence Day",
+      "selectedMotif": "crescentLantern",
+      "selectedScoreBreakdown": {
+        "basePriority": 69,
+        "popularity": 34,
+        "jitter": 5.205,
+        "motifPenalty": 0,
+        "culturalPenalty": 42,
+        "holidayFamilyPenalty": 0,
+        "colorPenalty": 28,
+        "finalScore": 38.205
+      },
+      "discardedCount": 5
     }
   ],
   "skipped": []
