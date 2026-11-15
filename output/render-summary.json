@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-14T20:31:40.205Z",
-  "baseDate": "2026-11-15",
-  "ensuredThrough": "2026-11-22",
+  "generatedAt": "2026-11-15T20:56:59.138Z",
+  "baseDate": "2026-11-16",
+  "ensuredThrough": "2026-11-23",
   "today": "output/today.png",
   "devices": [
     {
@@ -137,23 +137,6 @@
   ],
   "generated": [
     {
-      "date": "2026-11-15",
-      "output": "output/2026/2026.11/2026.11.15.png",
-      "selectedTheme": "Republic Proclamation Day",
-      "selectedMotif": "cityParade",
-      "selectedScoreBreakdown": {
-        "basePriority": 71,
-        "popularity": 14,
-        "jitter": 0.175,
-        "motifPenalty": 5,
-        "culturalPenalty": 32,
-        "holidayFamilyPenalty": 14,
-        "colorPenalty": 7,
-        "finalScore": 27.175
-      },
-      "discardedCount": 2
-    },
-    {
       "date": "2026-11-16",
       "output": "output/2026/2026.11/2026.11.16.png",
       "selectedTheme": "International Day for Tolerance",
@@ -271,6 +254,23 @@
         "finalScore": -8.087
       },
       "discardedCount": 10
+    },
+    {
+      "date": "2026-11-23",
+      "output": "output/2026/2026.11/2026.11.23.png",
+      "selectedTheme": "Labour Thanksgiving Day",
+      "selectedMotif": "paperCut",
+      "selectedScoreBreakdown": {
+        "basePriority": 79,
+        "popularity": 36,
+        "jitter": 5.812,
+        "motifPenalty": 0,
+        "culturalPenalty": 42,
+        "holidayFamilyPenalty": 14,
+        "colorPenalty": 11,
+        "finalScore": 53.812
+      },
+      "discardedCount": 7
     }
   ],
   "skipped": []
