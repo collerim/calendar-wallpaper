@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-21T21:31:19.392Z",
-  "baseDate": "2026-11-22",
-  "ensuredThrough": "2026-11-29",
+  "generatedAt": "2026-11-22T21:38:12.115Z",
+  "baseDate": "2026-11-23",
+  "ensuredThrough": "2026-11-30",
   "today": "output/today.png",
   "devices": [
     {
@@ -137,23 +137,6 @@
   ],
   "generated": [
     {
-      "date": "2026-11-22",
-      "output": "output/2026/2026.11/2026.11.22.png",
-      "selectedTheme": "十一月流光",
-      "selectedMotif": "aurora",
-      "selectedScoreBreakdown": {
-        "basePriority": 28.5,
-        "popularity": 0,
-        "jitter": 5.413,
-        "motifPenalty": 0,
-        "culturalPenalty": 0,
-        "holidayFamilyPenalty": 0,
-        "colorPenalty": 42,
-        "finalScore": -8.087
-      },
-      "discardedCount": 10
-    },
-    {
       "date": "2026-11-23",
       "output": "output/2026/2026.11/2026.11.23.png",
       "selectedTheme": "Labour Thanksgiving Day",
@@ -271,6 +254,23 @@
         "finalScore": 16.982
       },
       "discardedCount": 1
+    },
+    {
+      "date": "2026-11-30",
+      "output": "output/2026/2026.11/2026.11.30.png",
+      "selectedTheme": "Independence Day",
+      "selectedMotif": "maritimeFlags",
+      "selectedScoreBreakdown": {
+        "basePriority": 73,
+        "popularity": 26,
+        "jitter": 4.674,
+        "motifPenalty": 0,
+        "culturalPenalty": 42,
+        "holidayFamilyPenalty": 6,
+        "colorPenalty": 39,
+        "finalScore": 16.674
+      },
+      "discardedCount": 7
     }
   ],
   "skipped": []
